@@ -1,0 +1,501 @@
+id,text,label
+0,How far is it from Denver to Aspen ?,NaN
+1,What county is Modesto ,NaN
+2,Who was Galileo ?,NaN
+3,What is an atom ?,NaN
+4,When did Hawaii become a state ?,NaN
+5,How tall is the Sears Building ?,NaN
+6,George Bush purchased a small interest in which baseball team ?,NaN
+7,What is Australia 's national flower ?,NaN
+8,Why does the moon turn orange ?,NaN
+9,What is autism ?,NaN
+10,What city had a world fair in 1900 ?,NaN
+11,What person 's head is on a dime ?,NaN
+12,What is the average weight of a Yellow Labrador ?,NaN
+13,Who was the first man to fly across the Pacific Ocean ?,NaN
+14,When did Idaho become a state ?,NaN
+15,What is the life expectancy for crickets ?,NaN
+16,What metal has the highest melting point ?,NaN
+17,Who developed the vaccination against polio ?,NaN
+18,What is epilepsy ?,NaN
+19,What year did the Titanic sink ?,NaN
+20,Who was the first American to walk in space ?,NaN
+21,What is a biosphere ?,NaN
+22,What river in the US is known as the Big Muddy ?,NaN
+23,What is bipolar disorder ?,NaN
+24,What is cholesterol ?,NaN
+25,Who developed the Macintosh computer ?,NaN
+26,What is caffeine ?,NaN
+27,What imaginary line is halfway between the North and South Poles ?,NaN
+28,Where is John Wayne airport ?,NaN
+29,What hemisphere is the Philippines in ?,NaN
+30,What is the average speed of the horses at the Kentucky Derby ?,NaN
+31,Where are the Rocky Mountains ?,NaN
+32,What are invertebrates ?,NaN
+33,What is the temperature at the center of the earth ?,NaN
+34,When did John F. Kennedy get elected as President ?,NaN
+35,How old was Elvis Presley when he died ?,NaN
+36,Where is the Orinoco River ?,NaN
+37,How far is the service line from the net in tennis ?,NaN
+38,How much fiber should you have per day ?,NaN
+39,How many Great Lakes are there ?,NaN
+40,Material called linen is made from what plant ?,NaN
+41,What is Teflon ?,NaN
+42,What is amitriptyline ?,NaN
+43,What is a shaman ?,NaN
+44,What is the proper name for a female walrus ?,NaN
+45,What is a group of turkeys called ?,NaN
+46,How long did Rip Van Winkle sleep ?,NaN
+47,What are triglycerides ?,NaN
+48,How many liters in a gallon ?,NaN
+49,What is the name of the chocolate company in San Francisco ?,NaN
+50,What are amphibians ?,NaN
+51,Who discovered x-rays ?,NaN
+52,Which comedian 's signature line is `` Can we talk '' ?,NaN
+53,What is fibromyalgia ?,NaN
+54,What is done with worn or outdated flags ?,NaN
+55,What does cc in engines mean ?,NaN
+56,When did Elvis Presley die ?,NaN
+57,What is the capital of Yugoslavia ?,NaN
+58,Where is Milan ?,NaN
+59,What is the speed hummingbirds fly ?,NaN
+60,What is the oldest city in the United States ?,NaN
+61,What was W.C. Fields ' real name ?,NaN
+62,What river flows between Fargo ,NaN
+63,What do bats eat ?,NaN
+64,What state did the Battle of Bighorn take place in ?,NaN
+65,Who was Abraham Lincoln ?,NaN
+66,What do you call a newborn kangaroo ?,NaN
+67,What are spider veins ?,NaN
+68,What day and month did John Lennon die ?,NaN
+69,What strait separates North America from Asia ?,NaN
+70,What is the population of Seattle ?,NaN
+71,How much was a ticket for the Titanic ?,NaN
+72,What is the largest city in the world ?,NaN
+73,What American composer wrote the music for `` West Side Story '' ?,NaN
+74,Where is the Mall of the America ?,NaN
+75,What is the pH scale ?,NaN
+76,What type of currency is used in Australia ?,NaN
+77,How tall is the Gateway Arch in St. Louis ,NaN
+78,How much does the human adult female brain weigh ?,NaN
+79,Who was the first governor of Alaska ?,NaN
+80,What is a prism ?,NaN
+81,When was the first liver transplant ?,NaN
+82,Who was elected president of South Africa in 1994 ?,NaN
+83,What is the population of China ?,NaN
+84,When was Rosa Parks born ?,NaN
+85,Why is a ladybug helpful ?,NaN
+86,What is amoxicillin ?,NaN
+87,Who was the first female United States Representative ?,NaN
+88,What are xerophytes ?,NaN
+89,What country did Ponce de Leon come from ?,NaN
+90,The U.S. Department of Treasury first issued paper currency for the U.S. during which war ?,NaN
+91,What is desktop publishing ?,NaN
+92,What is the temperature of the sun 's surface ?,NaN
+93,What year did Canada join the United Nations ?,NaN
+94,What is the oldest university in the US ?,NaN
+95,Where is Prince Edward Island ?,NaN
+96,Mercury ,NaN
+97,What is cryogenics ?,NaN
+98,What are coral reefs ?,NaN
+99,What is the longest major league baseball-winning streak ?,NaN
+100,What is neurology ?,NaN
+101,Who invented the calculator ?,NaN
+102,How do you measure earthquakes ?,NaN
+103,Who is Duke Ellington ?,NaN
+104,What county is Phoenix ,NaN
+105,What is a micron ?,NaN
+106,The sun 's core ,NaN
+107,What is the Ohio state bird ?,NaN
+108,When were William Shakespeare 's twins born ?,NaN
+109,What is the highest dam in the U.S. ?,NaN
+110,What color is a poison arrow frog ?,NaN
+111,What is acupuncture ?,NaN
+112,What is the length of the coastline of the state of Alaska ?,NaN
+113,What is the name of Neil Armstrong 's wife ?,NaN
+114,What is Hawaii 's state flower ?,NaN
+115,Who won Ms. American in 1989 ?,NaN
+116,When did the Hindenberg crash ?,NaN
+117,What mineral helps prevent osteoporosis ?,NaN
+118,What was the last year that the Chicago Cubs won the World Series ?,NaN
+119,Where is Perth ?,NaN
+120,What year did WWII begin ?,NaN
+121,What is the diameter of a golf ball ?,NaN
+122,What is an eclipse ?,NaN
+123,Who discovered America ?,NaN
+124,What is the earth 's diameter ?,NaN
+125,Which president was unmarried ?,NaN
+126,How wide is the Milky Way galaxy ?,NaN
+127,During which season do most thunderstorms occur ?,NaN
+128,What is Wimbledon ?,NaN
+129,What is the gestation period for a cat ?,NaN
+130,How far is a nautical mile ?,NaN
+131,Who was the abolitionist who led the raid on Harper 's Ferry in 1859 ?,NaN
+132,What does target heart rate mean ?,NaN
+133,What was the first satellite to go into space ?,NaN
+134,What is foreclosure ?,NaN
+135,What is the major fault line near Kentucky ?,NaN
+136,Where is the Holland Tunnel ?,NaN
+137,Who wrote the hymn `` Amazing Grace '' ?,NaN
+138,What position did Willie Davis play in baseball ?,NaN
+139,What are platelets ?,NaN
+140,What is severance pay ?,NaN
+141,What is the name of Roy Roger 's dog ?,NaN
+142,Where are the National Archives ?,NaN
+143,What is a baby turkey called ?,NaN
+144,What is poliomyelitis ?,NaN
+145,What is the longest bone in the human body ?,NaN
+146,Who is a German philosopher ?,NaN
+147,What were Christopher Columbus ' three ships ?,NaN
+148,What does Phi Beta Kappa mean ?,NaN
+149,What is nicotine ?,NaN
+150,What is another name for vitamin B1 ?,NaN
+151,Who discovered radium ?,NaN
+152,What are sunspots ?,NaN
+153,When was Algeria colonized ?,NaN
+154,What baseball team was the first to make numbers part of their uniform ?,NaN
+155,What continent is Egypt on ?,NaN
+156,What is the capital of Mongolia ?,NaN
+157,What is nanotechnology ?,NaN
+158,In the late 1700 's British convicts were used to populate which colony ?,NaN
+159,What state is the geographic center of the lower 48 states ?,NaN
+160,What is an obtuse angle ?,NaN
+161,What are polymers ?,NaN
+162,When is hurricane season in the Caribbean ?,NaN
+163,Where is the volcano Mauna Loa ?,NaN
+164,What is another astronomic term for the Northern Lights ?,NaN
+165,What peninsula is Spain part of ?,NaN
+166,When was Lyndon B. Johnson born ?,NaN
+167,What is acetaminophen ?,NaN
+168,What state has the least amount of rain per year ?,NaN
+169,Who founded American Red Cross ?,NaN
+170,What year did the Milwaukee Braves become the Atlanta Braves ?,NaN
+171,How fast is alcohol absorbed ?,NaN
+172,When is the summer solstice ?,NaN
+173,What is supernova ?,NaN
+174,Where is the Shawnee National Forest ?,NaN
+175,What U.S. state 's motto is `` Live free or Die '' ?,NaN
+176,Where is the Lourve ?,NaN
+177,When was the first stamp issued ?,NaN
+178,What primary colors do you mix to make orange ?,NaN
+179,How far is Pluto from the sun ?,NaN
+180,What body of water are the Canary Islands in ?,NaN
+181,What is neuropathy ?,NaN
+182,Where is the Euphrates River ?,NaN
+183,What is cryptography ?,NaN
+184,What is natural gas composed of ?,NaN
+185,Who is the Prime Minister of Canada ?,NaN
+186,What French ruler was defeated at the battle of Waterloo ?,NaN
+187,What is leukemia ?,NaN
+188,Where did Howard Hughes die ?,NaN
+189,What is the birthstone for June ?,NaN
+190,What is the sales tax in Minnesota ?,NaN
+191,What is the distance in miles from the earth to the sun ?,NaN
+192,What is the average life span for a chicken ?,NaN
+193,When was the first Wal-Mart store opened ?,NaN
+194,What is relative humidity ?,NaN
+195,What city has the zip code of 35824 ?,NaN
+196,What currency is used in Algeria ?,NaN
+197,Who invented the hula hoop ?,NaN
+198,What was the most popular toy in 1957 ?,NaN
+199,What is pastrami made of ?,NaN
+200,What is the name of the satellite that the Soviet Union sent into space in 1957 ?,NaN
+201,What city 's newspaper is called `` The Enquirer '' ?,NaN
+202,Who invented the slinky ?,NaN
+203,What are the animals that don 't have backbones called ?,NaN
+204,What is the melting point of copper ?,NaN
+205,Where is the volcano Olympus Mons located ?,NaN
+206,Who was the 23rd president of the United States ?,NaN
+207,What is the average body temperature ?,NaN
+208,What does a defibrillator do ?,NaN
+209,What is the effect of acid rain ?,NaN
+210,What year did the United States abolish the draft ?,NaN
+211,How fast is the speed of light ?,NaN
+212,What province is Montreal in ?,NaN
+213,What New York City structure is also known as the Twin Towers ?,NaN
+214,What is fungus ?,NaN
+215,What is the most frequently spoken language in the Netherlands ?,NaN
+216,What is sodium chloride ?,NaN
+217,What are the spots on dominoes called ?,NaN
+218,How many pounds in a ton ?,NaN
+219,What is influenza ?,NaN
+220,What is ozone depletion ?,NaN
+221,What year was the Mona Lisa painted ?,NaN
+222,What does `` Sitting Shiva '' mean ?,NaN
+223,What is the electrical output in Madrid ,NaN
+224,Which mountain range in North America stretches from Maine to Georgia ?,NaN
+225,What is plastic made of ?,NaN
+226,What is the population of Nigeria ?,NaN
+227,What does your spleen do ?,NaN
+228,Where is the Grand Canyon ?,NaN
+229,Who invented the telephone ?,NaN
+230,What year did the U.S. buy Alaska ?,NaN
+231,What is the name of the leader of Ireland ?,NaN
+232,What is phenylalanine ?,NaN
+233,How many gallons of water are there in a cubic foot ?,NaN
+234,What are the two houses of the Legislative branch ?,NaN
+235,What is sonar ?,NaN
+236,In Poland ,NaN
+237,What is phosphorus ?,NaN
+238,What is the location of the Sea of Tranquility ?,NaN
+239,How fast is sound ?,NaN
+240,What French province is cognac produced in ?,NaN
+241,What is Valentine 's Day ?,NaN
+242,What causes gray hair ?,NaN
+243,What is hypertension ?,NaN
+244,What is bandwidth ?,NaN
+245,What is the longest suspension bridge in the U.S. ?,NaN
+246,What is a parasite ?,NaN
+247,What is home equity ?,NaN
+248,What do meteorologists do ?,NaN
+249,What is the criterion for being legally blind ?,NaN
+250,Who is the tallest man in the world ?,NaN
+251,What are the twin cities ?,NaN
+252,What did Edward Binney and Howard Smith invent in 1903 ?,NaN
+253,What is the statue of liberty made of ?,NaN
+254,What is pilates ?,NaN
+255,What planet is known as the `` red '' planet ?,NaN
+256,What is the depth of the Nile river ?,NaN
+257,What is the colorful Korean traditional dress called ?,NaN
+258,What is Mardi Gras ?,NaN
+259,Mexican pesos are worth what in U.S. dollars ?,NaN
+260,Who was the first African American to play for the Brooklyn Dodgers ?,NaN
+261,Who was the first Prime Minister of Canada ?,NaN
+262,How many Admirals are there in the U.S. Navy ?,NaN
+263,What instrument did Glenn Miller play ?,NaN
+264,How old was Joan of Arc when she died ?,NaN
+265,What does the word fortnight mean ?,NaN
+266,What is dianetics ?,NaN
+267,What is the capital of Ethiopia ?,NaN
+268,For how long is an elephant pregnant ?,NaN
+269,How did Janice Joplin die ?,NaN
+270,What is the primary language in Iceland ?,NaN
+271,What is the difference between AM radio stations and FM radio stations ?,NaN
+272,What is osteoporosis ?,NaN
+273,Who was the first woman governor in the U.S. ?,NaN
+274,What is peyote ?,NaN
+275,What is the esophagus used for ?,NaN
+276,What is viscosity ?,NaN
+277,What year did Oklahoma become a state ?,NaN
+278,What is the abbreviation for Texas ?,NaN
+279,What is a mirror made out of ?,NaN
+280,Where on the body is a mortarboard worn ?,NaN
+281,What was J.F.K. 's wife 's name ?,NaN
+282,What does I.V. stand for ?,NaN
+283,What is the chunnel ?,NaN
+284,Where is Hitler buried ?,NaN
+285,What are antacids ?,NaN
+286,What is pulmonary fibrosis ?,NaN
+287,What are Quaaludes ?,NaN
+288,What is naproxen ?,NaN
+289,What is strep throat ?,NaN
+290,What is the largest city in the U.S. ?,NaN
+291,What is foot and mouth disease ?,NaN
+292,What is the life expectancy of a dollar bill ?,NaN
+293,What do you call a professional map drawer ?,NaN
+294,What are Aborigines ?,NaN
+295,What is hybridization ?,NaN
+296,What color is indigo ?,NaN
+297,How old do you have to be in order to rent a car in Italy ?,NaN
+298,What does a barometer measure ?,NaN
+299,What color is a giraffe 's tongue ?,NaN
+300,What does USPS stand for ?,NaN
+301,What year did the NFL go on strike ?,NaN
+302,What is solar wind ?,NaN
+303,What date did Neil Armstrong land on the moon ?,NaN
+304,When was Hiroshima bombed ?,NaN
+305,Where is the Savannah River ?,NaN
+306,Who was the first woman killed in the Vietnam War ?,NaN
+307,What planet has the strongest magnetic field of all the planets ?,NaN
+308,Who is the governor of Alaska ?,NaN
+309,What year did Mussolini seize power in Italy ?,NaN
+310,What is the capital of Persia ?,NaN
+311,Where is the Eiffel Tower ?,NaN
+312,How many hearts does an octopus have ?,NaN
+313,What is pneumonia ?,NaN
+314,What is the deepest lake in the US ?,NaN
+315,What is a fuel cell ?,NaN
+316,Who was the first U.S. president to appear on TV ?,NaN
+317,Where is the Little League Museum ?,NaN
+318,What are the two types of twins ?,NaN
+319,What is the brightest star ?,NaN
+320,What is diabetes ?,NaN
+321,When was President Kennedy shot ?,NaN
+322,What is TMJ ?,NaN
+323,What color is yak milk ?,NaN
+324,What date was Dwight D. Eisenhower born ?,NaN
+325,What does the technical term ISDN mean ?,NaN
+326,Why is the sun yellow ?,NaN
+327,What is the conversion rate between dollars and pounds ?,NaN
+328,When was Abraham Lincoln born ?,NaN
+329,What is the Milky Way ?,NaN
+330,What is mold ?,NaN
+331,What year was Mozart born ?,NaN
+332,What is a group of frogs called ?,NaN
+333,What is the name of William Penn 's ship ?,NaN
+334,What is the melting point of gold ?,NaN
+335,What is the street address of the White House ?,NaN
+336,What is semolina ?,NaN
+337,What fruit is Melba sauce made from ?,NaN
+338,What is Ursa Major ?,NaN
+339,What is the percentage of water content in the human body ?,NaN
+340,How much does water weigh ?,NaN
+341,What was President Lyndon Johnson 's reform program called ?,NaN
+342,What is the murder rate in Windsor ,NaN
+343,Who is the only president to serve 2 non-consecutive terms ?,NaN
+344,What is the population of Australia ?,NaN
+345,Who painted the ceiling of the Sistine Chapel ?,NaN
+346,Name a stimulant .,NaN
+347,What is the effect of volcanoes on the climate ?,NaN
+348,What year did the Andy Griffith show begin ?,NaN
+349,What is acid rain ?,NaN
+350,What is the date of Mexico 's independence ?,NaN
+351,What is the location of Lake Champlain ?,NaN
+352,What is the Illinois state flower ?,NaN
+353,What is Maryland 's state bird ?,NaN
+354,What is quicksilver ?,NaN
+355,Who wrote `` The Divine Comedy '' ?,NaN
+356,What is the speed of light ?,NaN
+357,What is the width of a football field ?,NaN
+358,Why in tennis are zero points called love ?,NaN
+359,What kind of dog was Toto in the Wizard of Oz ?,NaN
+360,What is a thyroid ?,NaN
+361,What does ciao mean ?,NaN
+362,What is the only artery that carries blue blood from the heart to the lungs ?,NaN
+363,How often does Old Faithful erupt at Yellowstone National Park ?,NaN
+364,What is acetic acid ?,NaN
+365,What is the elevation of St. Louis ,NaN
+366,What color does litmus paper turn when it comes into contact with a strong acid ?,NaN
+367,What are the colors of the German flag ?,NaN
+368,What is the Moulin Rouge ?,NaN
+369,What soviet seaport is on the Black Sea ?,NaN
+370,What is the atomic weight of silver ?,NaN
+371,What currency do they use in Brazil ?,NaN
+372,What are pathogens ?,NaN
+373,What is mad cow disease ?,NaN
+374,Name a food high in zinc .,NaN
+375,When did North Carolina enter the union ?,NaN
+376,Where do apple snails live ?,NaN
+377,What are ethics ?,NaN
+378,What does CPR stand for ?,NaN
+379,What is an annuity ?,NaN
+380,Who killed John F. Kennedy ?,NaN
+381,Who was the first vice president of the U.S. ?,NaN
+382,What birthstone is turquoise ?,NaN
+383,Who was the first US President to ride in an automobile to his inauguration ?,NaN
+384,How old was the youngest president of the United States ?,NaN
+385,When was Ulysses S. Grant born ?,NaN
+386,What is Muscular Dystrophy ?,NaN
+387,Who lived in the Neuschwanstein castle ?,NaN
+388,What is propylene glycol ?,NaN
+389,What is a panic disorder ?,NaN
+390,Who invented the instant Polaroid camera ?,NaN
+391,What is a carcinogen ?,NaN
+392,What is a baby lion called ?,NaN
+393,What is the world 's population ?,NaN
+394,What is nepotism ?,NaN
+395,What is die-casting ?,NaN
+396,What is myopia ?,NaN
+397,What is the sales tax rate in New York ?,NaN
+398,Developing nations comprise what percentage of the world 's population ?,NaN
+399,What is the fourth highest mountain in the world ?,NaN
+400,What is Shakespeare 's nickname ?,NaN
+401,What is the heaviest naturally occurring element ?,NaN
+402,When is Father 's Day ?,NaN
+403,What does the acronym NASA stand for ?,NaN
+404,How long is the Columbia River in miles ?,NaN
+405,What city 's newspaper is called `` The Star '' ?,NaN
+406,What is carbon dioxide ?,NaN
+407,Where is the Mason/Dixon line ?,NaN
+408,When was the Boston tea party ?,NaN
+409,What is metabolism ?,NaN
+410,Which U.S.A. president appeared on `` Laugh-In '' ?,NaN
+411,What are cigarettes made of ?,NaN
+412,What is the capital of Zimbabwe ?,NaN
+413,What does NASA stand for ?,NaN
+414,What is the state flower of Michigan ?,NaN
+415,What are semiconductors ?,NaN
+416,What is nuclear power ?,NaN
+417,What is a tsunami ?,NaN
+418,Who is the congressman from state of Texas on the armed forces committee ?,NaN
+419,Who was president in 1913 ?,NaN
+420,When was the first kidney transplant ?,NaN
+421,What are Canada 's two territories ?,NaN
+422,What was the name of the plane Lindbergh flew solo across the Atlantic ?,NaN
+423,What is genocide ?,NaN
+424,What continent is Argentina on ?,NaN
+425,What monastery was raided by Vikings in the late eighth century ?,NaN
+426,What is an earthquake ?,NaN
+427,Where is the tallest roller coaster located ?,NaN
+428,What are enzymes ?,NaN
+429,Who discovered oxygen ?,NaN
+430,What is bangers and mash ?,NaN
+431,What is the name given to the Tiger at Louisiana State University ?,NaN
+432,Where are the British crown jewels kept ?,NaN
+433,Who was the first person to reach the North Pole ?,NaN
+434,What is an ulcer ?,NaN
+435,What is vertigo ?,NaN
+436,What is the spirometer test ?,NaN
+437,When is the official first day of summer ?,NaN
+438,What does the abbreviation SOS mean ?,NaN
+439,What is the smallest bird in Britain ?,NaN
+440,Who invented Trivial Pursuit ?,NaN
+441,What gasses are in the troposphere ?,NaN
+442,Which country has the most water pollution ?,NaN
+443,What is the scientific name for elephant ?,NaN
+444,Who is the actress known for her role in the movie `` Gypsy '' ?,NaN
+445,What breed of hunting dog did the Beverly Hillbillies own ?,NaN
+446,What is the rainiest place on Earth ?,NaN
+447,Who was the first African American to win the Nobel Prize in literature ?,NaN
+448,When is St. Patrick 's Day ?,NaN
+449,What was FDR 's dog 's name ?,NaN
+450,What colors need to be mixed to get the color pink ?,NaN
+451,What is the most popular sport in Japan ?,NaN
+452,What is the active ingredient in baking soda ?,NaN
+453,When was Thomas Jefferson born ?,NaN
+454,How cold should a refrigerator be ?,NaN
+455,When was the telephone invented ?,NaN
+456,What is the most common eye color ?,NaN
+457,Where was the first golf course in the United States ?,NaN
+458,What is schizophrenia ?,NaN
+459,What is angiotensin ?,NaN
+460,What did Jesse Jackson organize ?,NaN
+461,What is New York 's state bird ?,NaN
+462,What is the National Park in Utah ?,NaN
+463,What is Susan B. Anthony 's birthday ?,NaN
+464,In which state would you find the Catskill Mountains ?,NaN
+465,What do you call a word that is spelled the same backwards and forwards ?,NaN
+466,What are pediatricians ?,NaN
+467,What chain store is headquartered in Bentonville ,NaN
+468,What are solar cells ?,NaN
+469,What is compounded interest ?,NaN
+470,What are capers ?,NaN
+471,What is an antigen ?,NaN
+472,What currency does Luxembourg use ?,NaN
+473,What is the population of Venezuela ?,NaN
+474,What type of polymer is used for bulletproof vests ?,NaN
+475,What currency does Argentina use ?,NaN
+476,What is a thermometer ?,NaN
+477,What Canadian city has the largest population ?,NaN
+478,What color are crickets ?,NaN
+479,Which country gave New York the Statue of Liberty ?,NaN
+480,What was the name of the first U.S. satellite sent into space ?,NaN
+481,What precious stone is a form of pure carbon ?,NaN
+482,What kind of gas is in a fluorescent bulb ?,NaN
+483,What is rheumatoid arthritis ?,NaN
+484,What river runs through Rowe ,NaN
+485,What is cerebral palsy ?,NaN
+486,What city is also known as `` The Gateway to the West '' ?,NaN
+487,How far away is the moon ?,NaN
+488,What is the source of natural gas ?,NaN
+489,In what spacecraft did U.S. astronaut Alan Shepard make his historic 1961 flight ?,NaN
+490,What is pectin ?,NaN
+491,What is bio-diversity ?,NaN
+492,What 's the easiest way to remove wallpaper ?,NaN
+493,What year did the Titanic start on its journey ?,NaN
+494,How much of an apple is water ?,NaN
+495,Who was the 22nd President of the US ?,NaN
+496,What is the money they use in Zambia ?,NaN
+497,How many feet in a mile ?,NaN
+498,What is the birthstone of October ?,NaN
+499,What is e-coli ?,NaN
