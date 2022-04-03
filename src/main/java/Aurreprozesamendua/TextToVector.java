@@ -1,10 +1,12 @@
 package Aurreprozesamendua;
 
 import weka.core.Instances;
+import weka.core.Utils;
 import weka.core.converters.ArffSaver;
 import weka.core.converters.ConverterUtils.DataSource;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.FixedDictionaryStringToWordVector;
+import weka.filters.unsupervised.attribute.NominalToString;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 import weka.filters.unsupervised.instance.Randomize;
 import weka.filters.unsupervised.instance.RemovePercentage;
@@ -27,7 +29,8 @@ public class TextToVector {
 
         DataSource source = new DataSource(args[0]);
         Instances dataRaw = source.getDataSet();
-        System.out.println("\n\nImported data:\n\n" + dataRaw);
+        //System.out.println("\n\nImported data:\n\n" + dataRaw);
+        dataRaw.renameAttribute(dataRaw.numAttributes() - 1, "etiqueta");
         ArrayList<Instances> datuakRAW = holdOut(dataRaw);
         System.out.println("Distantzia: "+ datuakRAW.size());
 
@@ -39,19 +42,27 @@ public class TextToVector {
         System.out.println("Num instantziak trainRAW: "+ trainRAW.numInstances());
         System.out.println("Num instantziak devRAW: "+ devRAW.numInstances());
 
+        File hiztegia = new File(args[1]);
+
         // ** StopWords ** //
         // https://weka.sourceforge.io/doc.dev/weka/core/Stopwords.html
 
-        File hiztegia = new File(args[1]);
 
+
+        // NominalToString
+
+        NominalToString filterToString = new NominalToString();
+        filterToString.setInputFormat(trainRAW);
+        filterToString.setOptions(Utils.splitOptions("-C 2"));
+        trainRAW = Filter.useFilter(trainRAW, filterToString);
+        System.out.println("\n\nFiltered data:\n\n" + trainRAW);
 
         // String2Word vector filtroa sortu
-        String[] options = new String[1];
-        options[0] = "-R <1,9,10>";
+
+//        String[] options = new String[1];
+//        options[0] = "-R <1,9,10>";
 
         StringToWordVector filter = new StringToWordVector(); // RAW-tik bektore formatura
-        System.out.println(filter.listOptions().asIterator().next().toString());
-
         filter.setInputFormat(trainRAW);
         filter.setLowerCaseTokens(true);
         filter.setDictionaryFileToSaveTo(hiztegia);
