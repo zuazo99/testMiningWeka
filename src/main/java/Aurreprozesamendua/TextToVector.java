@@ -36,27 +36,28 @@ public class TextToVector {
             System.out.println("\tjava -jar TextToVector.jar <train.arff> <outputPath hiztegia.txt> <outputPath BOW.arff> <outputPath devRAW.arff>");
 
         }else{
+
             String arffFile = args[0];
             String dictionary = args[1];
             String bowArff = args[2];
             String devRAWFile = args[3];
 
-
-
-            DataSource source = new DataSource(args[0]);
+            // 1. Datuak kargatu(dataRAW)
+            DataSource source = new DataSource(arffFile);
             Instances dataRaw = source.getDataSet();
 
             // Atributuaren izena aldatu behar dugu, StringToWordVector egiterako orduan arazoak ez izateko.
             dataRaw.renameAttribute(dataRaw.numAttributes() - 1, "etiqueta");
             dataRaw.setClassIndex(dataRaw.numAttributes() - 1);
 
-            ArrayList<Instances> datuakRAW = holdOut(dataRaw);
-            System.out.println("Distantzia: "+ datuakRAW.size());
 
+            // Hemen holOut egiten dugu trainRAW eta devRAW lortzeko.
+            ArrayList<Instances> datuakRAW = holdOut(dataRaw);
             Instances trainRAW = datuakRAW.get(0);
             Instances devRAW = datuakRAW.get(1);
-
             trainRAW.setClassIndex(trainRAW.numAttributes() - 1);
+
+
             System.out.println("Atributu kopurua: "+ trainRAW.numAttributes());
             System.out.println("Num instantziak trainRAW: "+ trainRAW.numInstances());
             System.out.println("Num instantziak devRAW: "+ devRAW.numInstances());
@@ -65,7 +66,6 @@ public class TextToVector {
 
             // ** StopWords ** //
             // https://weka.sourceforge.io/doc.dev/weka/core/Stopwords.html
-
 
         /*
             String2Word vector filtroa sortu
@@ -78,29 +78,22 @@ public class TextToVector {
             Instances trainBOW = Filter.useFilter(trainRAW, filter);
             System.out.println("\n\nFiltered data:\n\n" + trainBOW);
 
+            //TrainRAW.arff save
 
             //TrainBOW.arff save
-            ArffSaver s = new ArffSaver();
-            s.setInstances(trainBOW);
-            s.setFile(new File(args[2]));
-            s.writeBatch();
-
+            datuakGorde(bowArff, trainBOW);
             // devRAW.arff save
-            ArffSaver saver = new ArffSaver();
-            saver.setInstances(devRAW);
-            saver.setFile(new File(args[3]));
-            saver.writeBatch();
-
-//        FixedDictionaryStringToWordVector filterDictionary = new FixedDictionaryStringToWordVector();
-//        filterDictionary.setOutputWordCounts(false);
-//        filterDictionary.setLowerCaseTokens(true);
-//        filterDictionary.setInputFormat(trainBOW);
-//        filterDictionary.setDictionaryFile(hiztegia);
-//
-//        Instances devBOW = Filter.useFilter(devRAW, filterDictionary);
+            datuakGorde(devRAWFile, devRAW);
         }
 
 
+    }
+
+    private static void datuakGorde(String path, Instances data) throws IOException {
+        ArffSaver s = new ArffSaver();
+        s.setInstances(data);
+        s.setFile(new File(path));
+        s.writeBatch();
     }
 
 
