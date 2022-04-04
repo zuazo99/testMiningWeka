@@ -3,6 +3,8 @@ package Aurreprozesamendua;
 import weka.core.Instances;
 import weka.core.converters.ArffSaver;
 import weka.core.converters.CSVLoader;
+import weka.filters.Filter;
+import weka.filters.unsupervised.attribute.Remove;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -66,6 +68,18 @@ public class getARFF {
                 System.out.println(" Errorea: Sarrerako .csv fitxategiaren helbidea ez da zuzena");;
             }
                 Instances data = loader.getDataSet();
+
+
+            // 3. Atributuak egokitu
+
+            // 3.1 Lehenengo atributua, 'id', ez da beharrezkoa, ondorioz ezabatu egingo da Remove filtroa erabilita.
+
+                Remove remove = new Remove();
+                remove.setAttributeIndices("1"); //1.posizioko atributua ezabatu nahi da.
+                remove.setInputFormat(data);
+                remove.setInvertSelection(false); // Zehaztutako atributua nahi da, eta besteak mantendu.
+                data = Filter.useFilter(data, remove);
+                System.out.println("\n\nFiltered data:\n\n" + data);
 
 
                 // save ARFF
