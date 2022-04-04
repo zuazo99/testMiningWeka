@@ -25,64 +25,71 @@ public class TextToVector {
             args[0] --> train.arff
             args[1] --> hiztegia.txt
             args[2] --> TrainBOW.arff
+            args[3] --> devRAW.arff
          */
 
-        DataSource source = new DataSource(args[0]);
-        Instances dataRaw = source.getDataSet();
-        //System.out.println("\n\nImported data:\n\n" + dataRaw);
-        dataRaw.renameAttribute(dataRaw.numAttributes() - 1, "etiqueta");
-        ArrayList<Instances> datuakRAW = holdOut(dataRaw);
-        System.out.println("Distantzia: "+ datuakRAW.size());
+        if (args.length !=4) {
+            System.out.println("Programaren helburua: ");
+            System.out.println("Aurrebaldintza");
+            System.out.println("\t1- Lehenengo parametro bezala .arff fitxategia");
+            System.out.println("\nErabilera adibidea komando lerroa-n");
+            System.out.println("\tjava -jar TextToVector.jar <train.arff> <outputPath hiztegia.txt> <outputPath BOW.arff> <outputPath devRAW.arff>");
 
-        Instances trainRAW = datuakRAW.get(0);
-        Instances devRAW = datuakRAW.get(1);
-
-        trainRAW.setClassIndex(trainRAW.numAttributes() - 1);
-        System.out.println("Atributu kopurua: "+ trainRAW.numAttributes());
-        System.out.println("Num instantziak trainRAW: "+ trainRAW.numInstances());
-        System.out.println("Num instantziak devRAW: "+ devRAW.numInstances());
-
-        File hiztegia = new File(args[1]);
-
-        // ** StopWords ** //
-        // https://weka.sourceforge.io/doc.dev/weka/core/Stopwords.html
+        }else{
+            String arffFile = args[0];
+            String dictionary = args[1];
+            String bowArff = args[2];
+            String devRAWFile = args[3];
 
 
 
-        /*
-            NominalToString
-            Atributu nominala String-era pasatu
-         */
+            DataSource source = new DataSource(args[0]);
+            Instances dataRaw = source.getDataSet();
 
-        NominalToString filterToString = new NominalToString();
-        filterToString.setInputFormat(trainRAW);
-        filterToString.setOptions(Utils.splitOptions("-C 2"));
-        trainRAW = Filter.useFilter(trainRAW, filterToString);
-        System.out.println("\n\nFiltered data:\n\n" + trainRAW);
+            // Atributuaren izena aldatu behar dugu, StringToWordVector egiterako orduan arazoak ez izateko.
+            dataRaw.renameAttribute(dataRaw.numAttributes() - 1, "etiqueta");
+            dataRaw.setClassIndex(dataRaw.numAttributes() - 1);
+
+            ArrayList<Instances> datuakRAW = holdOut(dataRaw);
+            System.out.println("Distantzia: "+ datuakRAW.size());
+
+            Instances trainRAW = datuakRAW.get(0);
+            Instances devRAW = datuakRAW.get(1);
+
+            trainRAW.setClassIndex(trainRAW.numAttributes() - 1);
+            System.out.println("Atributu kopurua: "+ trainRAW.numAttributes());
+            System.out.println("Num instantziak trainRAW: "+ trainRAW.numInstances());
+            System.out.println("Num instantziak devRAW: "+ devRAW.numInstances());
+
+            File hiztegia = new File(dictionary);
+
+            // ** StopWords ** //
+            // https://weka.sourceforge.io/doc.dev/weka/core/Stopwords.html
+
 
         /*
             String2Word vector filtroa sortu
          */
 
-        StringToWordVector filter = new StringToWordVector(); // RAW-tik bektore formatura
-        filter.setInputFormat(trainRAW);
-        filter.setLowerCaseTokens(true);
-        filter.setDictionaryFileToSaveTo(hiztegia);
-        Instances trainBOW = Filter.useFilter(trainRAW, filter);
-        System.out.println("\n\nFiltered data:\n\n" + trainBOW);
+            StringToWordVector filter = new StringToWordVector(); // RAW-tik bektore formatura
+            filter.setInputFormat(trainRAW);
+            filter.setLowerCaseTokens(true);
+            filter.setDictionaryFileToSaveTo(hiztegia);
+            Instances trainBOW = Filter.useFilter(trainRAW, filter);
+            System.out.println("\n\nFiltered data:\n\n" + trainBOW);
 
 
-        //TrainBOW.arff save
-        ArffSaver s = new ArffSaver();
-        s.setInstances(trainBOW);
-        s.setFile(new File(args[2]));
-        s.writeBatch();
+            //TrainBOW.arff save
+            ArffSaver s = new ArffSaver();
+            s.setInstances(trainBOW);
+            s.setFile(new File(args[2]));
+            s.writeBatch();
 
-        // devRAW.arff save
-        ArffSaver saver = new ArffSaver();
-        saver.setInstances(devRAW);
-        saver.setFile(new File(args[3]));
-        saver.writeBatch();
+            // devRAW.arff save
+            ArffSaver saver = new ArffSaver();
+            saver.setInstances(devRAW);
+            saver.setFile(new File(args[3]));
+            saver.writeBatch();
 
 //        FixedDictionaryStringToWordVector filterDictionary = new FixedDictionaryStringToWordVector();
 //        filterDictionary.setOutputWordCounts(false);
@@ -91,6 +98,9 @@ public class TextToVector {
 //        filterDictionary.setDictionaryFile(hiztegia);
 //
 //        Instances devBOW = Filter.useFilter(devRAW, filterDictionary);
+        }
+
+
     }
 
 

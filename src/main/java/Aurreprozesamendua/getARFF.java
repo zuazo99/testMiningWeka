@@ -1,9 +1,11 @@
 package Aurreprozesamendua;
 
 import weka.core.Instances;
+import weka.core.Utils;
 import weka.core.converters.ArffSaver;
 import weka.core.converters.CSVLoader;
 import weka.filters.Filter;
+import weka.filters.unsupervised.attribute.NominalToString;
 import weka.filters.unsupervised.attribute.Remove;
 
 import java.io.*;
@@ -79,8 +81,24 @@ public class getARFF {
                 remove.setInputFormat(data);
                 remove.setInvertSelection(false); // Zehaztutako atributua nahi da, eta besteak mantendu.
                 data = Filter.useFilter(data, remove);
+                //System.out.println("\n\nFiltered data:\n\n" + data);
+
+            /*
+             3.2. 'text' atributua Nominal bezala kargatzen denez, String motara bihurtu behar dugu horretarako
+             NominalToString filtroa erabilita.
+             NominalToString
+            Atributu nominala String-era pasatu
+             */
+
+                NominalToString filterToString = new NominalToString();
+                filterToString.setInputFormat(data);
+                filterToString.setOptions(Utils.splitOptions("-C 1"));
+                data = Filter.useFilter(data, filterToString);
+
+                data.setClassIndex(data.numAttributes() - 1);
                 System.out.println("\n\nFiltered data:\n\n" + data);
 
+            // 4. fitxategia ARFF formatuan gorde
 
                 // save ARFF
                 ArffSaver saver = new ArffSaver();
@@ -103,7 +121,7 @@ public class getARFF {
 
         while ((line = br.readLine()) != null) {
             // line = line.replace(subString, "");
-            line = line.replaceAll("[`'?]", "");
+            line = line.replaceAll("[`'?.]", "");
             pw.println(line);
         }
         br.close();
