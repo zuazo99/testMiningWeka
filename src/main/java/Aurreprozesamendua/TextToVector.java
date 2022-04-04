@@ -49,7 +49,10 @@ public class TextToVector {
 
 
 
-        // NominalToString
+        /*
+            NominalToString
+            Atributu nominala String-era pasatu
+         */
 
         NominalToString filterToString = new NominalToString();
         filterToString.setInputFormat(trainRAW);
@@ -57,10 +60,9 @@ public class TextToVector {
         trainRAW = Filter.useFilter(trainRAW, filterToString);
         System.out.println("\n\nFiltered data:\n\n" + trainRAW);
 
-        // String2Word vector filtroa sortu
-
-//        String[] options = new String[1];
-//        options[0] = "-R <1,9,10>";
+        /*
+            String2Word vector filtroa sortu
+         */
 
         StringToWordVector filter = new StringToWordVector(); // RAW-tik bektore formatura
         filter.setInputFormat(trainRAW);
@@ -75,6 +77,12 @@ public class TextToVector {
         s.setInstances(trainBOW);
         s.setFile(new File(args[2]));
         s.writeBatch();
+
+        // devRAW.arff save
+        ArffSaver saver = new ArffSaver();
+        saver.setInstances(devRAW);
+        saver.setFile(new File(args[3]));
+        saver.writeBatch();
 
 //        FixedDictionaryStringToWordVector filterDictionary = new FixedDictionaryStringToWordVector();
 //        filterDictionary.setOutputWordCounts(false);
