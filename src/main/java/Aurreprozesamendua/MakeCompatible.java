@@ -43,7 +43,6 @@ public class MakeCompatible {
 
             // 3. Hiztegia kargatu --> Dev-ean sartu egingo dugu FixedDictionaryStringToWordVector
 
-
             FixedDictionaryStringToWordVector filterDictionary = new FixedDictionaryStringToWordVector();
             filterDictionary.setDictionaryFile(new File(dictionary));
             filterDictionary.setOutputWordCounts(false);

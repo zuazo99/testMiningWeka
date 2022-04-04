@@ -9,9 +9,6 @@ import weka.filters.unsupervised.attribute.NominalToString;
 import weka.filters.unsupervised.attribute.Remove;
 
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
 
 public class getARFF {
@@ -74,21 +71,20 @@ public class getARFF {
 
             // 3. Atributuak egokitu
 
-            // 3.1 Lehenengo atributua, 'id', ez da beharrezkoa, ondorioz ezabatu egingo da Remove filtroa erabilita.
+                // 3.1 Lehenengo atributua, 'id', ez da beharrezkoa, ondorioz ezabatu egingo da Remove filtroa erabilita.
 
                 Remove remove = new Remove();
                 remove.setAttributeIndices("1"); //1.posizioko atributua ezabatu nahi da.
                 remove.setInputFormat(data);
                 remove.setInvertSelection(false); // Zehaztutako atributua nahi da, eta besteak mantendu.
                 data = Filter.useFilter(data, remove);
-                //System.out.println("\n\nFiltered data:\n\n" + data);
 
-            /*
-             3.2. 'text' atributua Nominal bezala kargatzen denez, String motara bihurtu behar dugu horretarako
-             NominalToString filtroa erabilita.
-             NominalToString
-            Atributu nominala String-era pasatu
-             */
+                /*
+                 3.2. 'text' atributua Nominal bezala kargatzen denez, String motara bihurtu behar dugu horretarako
+                 NominalToString filtroa erabilita.
+                 NominalToString
+                Atributu nominala String-era pasatu
+                 */
 
                 NominalToString filterToString = new NominalToString();
                 filterToString.setInputFormat(data);
@@ -100,7 +96,6 @@ public class getARFF {
 
             // 4. fitxategia ARFF formatuan gorde
 
-                // save ARFF
                 ArffSaver saver = new ArffSaver();
                 saver.setInstances(data);
                 saver.setFile(new File(args[1]));
@@ -108,9 +103,6 @@ public class getARFF {
 
 
     }
-
-
-
 
     // Karaktere itsusiak garbitzeko metodoa.
 

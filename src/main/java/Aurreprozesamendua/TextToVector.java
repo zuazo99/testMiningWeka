@@ -70,7 +70,6 @@ public class TextToVector {
         /*
             String2Word vector filtroa sortu
          */
-
             StringToWordVector filter = new StringToWordVector(); // RAW-tik bektore formatura
             filter.setInputFormat(trainRAW);
             filter.setLowerCaseTokens(true);
