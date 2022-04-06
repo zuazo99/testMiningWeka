@@ -5,6 +5,9 @@ import weka.classifiers.Evaluation;
 import weka.classifiers.trees.RandomForest;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
+import weka.filters.Filter;
+import weka.filters.unsupervised.instance.Randomize;
+import weka.filters.unsupervised.instance.RemovePercentage;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -74,8 +77,37 @@ public class ParametroEkorketa {
                         for (int ni = 1; ni < 50; ni += 5) {
                             long konbinazioHasieraDenbora = System.nanoTime();
                             randomF.setNumIterations(ni);
-                            Evaluation evaluator = new Evaluation(data);
-                            evaluator.crossValidateModel(randomF, data, 10, new Random(1));
+
+                            Randomize filterRandomize = new Randomize();
+                            filterRandomize.setInputFormat(data);
+                            Instances randomData = Filter.useFilter(data, filterRandomize);
+
+                            RemovePercentage filterTrain = new RemovePercentage();
+                            filterTrain.setInvertSelection(false);
+                            filterTrain.setPercentage(30);
+                            filterTrain.setInputFormat(data);
+                            Instances train = Filter.useFilter(randomData, filterTrain);
+
+                            RemovePercentage filterTest = new RemovePercentage();
+                            filterTest.setInvertSelection(true);
+                            filterTest.setPercentage(70);
+                            filterTest.setInputFormat(data);
+                            Instances test = Filter.useFilter(randomData, filterTest);
+                            test.setClassIndex(test.numAttributes() - 1);
+
+                            randomF= new RandomForest();
+                            randomF.setNumExecutionSlots(Runtime.getRuntime().availableProcessors());
+                            randomF.setNumFeatures(200);
+                            randomF.setNumIterations(26);
+                            randomF.setBagSizePercent(16);
+                            randomF.setMaxDepth(50);
+                            randomF.buildClassifier(train);
+
+
+                            //Ebaluazioa egin
+                            Evaluation evaluator = new Evaluation(train);
+                            evaluator.evaluateModel(randomF, test);
+
                             long konbinazioAmaieraDenbora = System.nanoTime();
                             double denbora = ((double) konbinazioAmaieraDenbora - konbinazioHasieraDenbora) / 1000000000;
                             System.out.println();
@@ -104,8 +136,6 @@ public class ParametroEkorketa {
 
                     }
                 }
-
-
             }
             long stopTime = System.nanoTime();
             bw.write("\n Balio hoberenak: \n");

@@ -83,9 +83,7 @@ public class AtributuHautapena {
             arffSaver.setDestination(new File("AtributuHautapena_" + args[2].toString()));
             arffSaver.setFile(new File("AtributuHautapena_" + args[2].toString()));
             arffSaver.writeBatch();
-
         }
-
     }
 
 
