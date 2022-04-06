@@ -18,9 +18,21 @@ public class GetJ48Model {
     public static void main(String[] args) throws Exception {
 
         if(args.length != 3) {
-            System.out.println("Ez duzu arguments atala behar bezala bete!");
+            System.out.println("Programaren helburua:");
+            System.out.println("\tBaseline sortu J48 erabiliz, lor daitekeen kalitatearen behe bornea ezartzeko");
+            System.out.println("\nAurrebaldintzak:");
+            System.out.println("\t1- Lehenengo parametro bezala train.arff fitxategia");
+            System.out.println("\t2- Bigarren parametro bezala eredu iragarlearen .model fitxategia gordetzeko path-a.");
+            System.out.println("\t3- Hirugarren parametro bezala kalitatearen estimazioa gordetzeko .txt fitxategiaren path-a");
+            System.out.println("\nPost Baldintzak:");
+            System.out.println("\t1- Bigarren parametroan adierazitako path-an sortutako .model fitxategia gordeko da.");
+            System.out.println("\t2- Hirugarren parametroan adierazitako path-an sortutako .txt fitxategia gordeko da.");
+            System.out.println("\nArgumentuen zerrenda eta deskribapena:");
+            System.out.println("\t1- Sarrerako train.arff fitxategiaren helbidea");
+            System.out.println("\t2- Irteerako eredu iragarlearen .model fitxategiaren helbidea");
+            System.out.println("\t3- Irteerako .txt fitxategiaren helbidea");
             System.out.println("Erabilera:");
-            System.out.println("java -jar GetJ48Model.jar train.arff modeloa.model emaitzak.txt ");
+            System.out.println("java -jar GetJ48Model.jar train.arff modeloa.model kalitatearenestimazioa.txt ");
         }
         else{
             DataSource source=null;

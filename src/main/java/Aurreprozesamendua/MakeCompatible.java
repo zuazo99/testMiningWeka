@@ -32,7 +32,6 @@ public class MakeCompatible {
 
             trainBOW.setClassIndex(trainBOW.numAttributes() - 1);
             devRAW.setClassIndex(devRAW.numAttributes() - 1);
-
             // 2. Atributuak reordenatu, klasea amaieran agertu dadin, horretarako reorder filtroa erabiliko dugu
 
 //            Reorder  reorder = new Reorder();

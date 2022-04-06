@@ -1,23 +1,19 @@
 package Aurreprozesamendua;
 
 import weka.core.Instances;
-import weka.core.Utils;
 import weka.core.converters.ArffSaver;
 import weka.core.converters.ConverterUtils.DataSource;
 import weka.filters.Filter;
-import weka.filters.unsupervised.attribute.FixedDictionaryStringToWordVector;
-import weka.filters.unsupervised.attribute.NominalToString;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 import weka.filters.unsupervised.instance.Randomize;
 import weka.filters.unsupervised.instance.RemovePercentage;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.ArrayList;
 
 
-public class TextToVector {
+public class Arff2bow {
 
     public static void main(String[] args) throws Exception {
 
@@ -28,19 +24,25 @@ public class TextToVector {
             args[3] --> devRAW.arff
          */
 
-        if (args.length !=4) {
+        if (args.length !=5) {
             System.out.println("Programaren helburua: ");
-            System.out.println("Aurrebaldintza");
+            System.out.println("\tParametro bezala pasatzen diogun .arff fitxategiaren atributu espazioa errepresentazioa bektorial batera aldatu (BOW edo TF.IDF)");
+            System.out.println("Aurrebaldintzak:");
             System.out.println("\t1- Lehenengo parametro bezala .arff fitxategia");
+            System.out.println("\t2- Zein errepresentazioa bektoriala nahi den BOW edo TF.IDF");
+            System.out.println("\t3- Sortutako hiztegia.txt non gordeko den path-a");
+            System.out.println("\t4- Laugarren parametro bezala Sparse edo Non-Sparse emaitza fitxategi bezala nahi dugun.");
+            System.out.println("\t5- Sortutako .arff fitxategiaren patha-a");
             System.out.println("\nErabilera adibidea komando lerroa-n");
-            System.out.println("\tjava -jar TextToVector.jar <train.arff> <outputPath hiztegia.txt> <outputPath BOW.arff> <outputPath devRAW.arff>");
+            System.out.println("\tjava -jar TextToVector.jar <train.arff> 1 <outputPath hiztegia.txt> yes <outputPath BOW.arff>");
 
         }else{
 
             String arffFile = args[0];
-            String dictionary = args[1];
-            String bowArff = args[2];
-            String devRAWFile = args[3];
+            String bektorea = args[1];
+            String dictionary = args[2];
+            String bowArff = args[4];
+            String devRAWFile = "./Datuak/devRAW.arff";
 
             // 1. Datuak kargatu(dataRAW)
             DataSource source = new DataSource(arffFile);
