@@ -21,13 +21,14 @@ public class GetJ48Model {
 
     public static void main(String[] args) throws Exception {
 
-        if(args.length != 3) {
+        if(args.length != 4) {
             System.out.println("Programaren helburua:");
             System.out.println("\tBaseline sortu J48 erabiliz, lor daitekeen kalitatearen behe bornea ezartzeko");
             System.out.println("\nAurrebaldintzak:");
             System.out.println("\t1- Lehenengo parametro bezala train.arff fitxategia");
-            System.out.println("\t2- Bigarren parametro bezala eredu iragarlearen .model fitxategia gordetzeko path-a.");
-            System.out.println("\t3- Hirugarren parametro bezala kalitatearen estimazioa gordetzeko .txt fitxategiaren path-a");
+            System.out.println("\t2- Bigarren parametro bezala test.arff fitxategia");
+            System.out.println("\t3- Bigarren parametro bezala eredu iragarlearen .model fitxategia gordetzeko path-a.");
+            System.out.println("\t4- Hirugarren parametro bezala kalitatearen estimazioa gordetzeko .txt fitxategiaren path-a");
             System.out.println("\nPost Baldintzak:");
             System.out.println("\t1- Bigarren parametroan adierazitako path-an sortutako .model fitxategia gordeko da.");
             System.out.println("\t2- Hirugarren parametroan adierazitako path-an sortutako .txt fitxategia gordeko da.");
@@ -35,8 +36,8 @@ public class GetJ48Model {
             System.out.println("\t1- Sarrerako train.arff fitxategiaren helbidea");
             System.out.println("\t2- Irteerako eredu iragarlearen .model fitxategiaren helbidea");
             System.out.println("\t3- Irteerako .txt fitxategiaren helbidea");
-            System.out.println("Erabilera:");
-            System.out.println("java -jar GetJ48Model.jar train.arff modeloa.model kalitatearenestimazioa.txt ");
+            System.out.println("\nErabilera:");
+            System.out.println("java -jar GetJ48Model.jar train.arff test.arff modeloa.model kalitatearenestimazioa.txt ");
         }
         else{
             DataSource source=null;
@@ -46,32 +47,37 @@ public class GetJ48Model {
                 System.out.println("train multzoa sortzeko sartu duzun arff-aren helbidea okerra da.");
             }
 
-            Instances train= source.getDataSet();
+            Instances train = source.getDataSet();
             train.setClassIndex(train.numAttributes()-1);
 
+            DataSource source1 = new DataSource(args[1]);
+
+            Instances test = source1.getDataSet();
+
+            test.setClassIndex(test.numAttributes() - 1);
             //##########################################################
 
-           //  NumericToBinary
-            NumericToBinary filterToBinary = new NumericToBinary();
-            filterToBinary.setAttributeIndices("last");
-            filterToBinary.setInvertSelection(true);
-            filterToBinary.setInputFormat(train);
-
-            Instances binary = Filter.useFilter(train, filterToBinary);
-
-            RenameAttribute filterRename = new RenameAttribute();
-            filterRename.setFind("_binarized");
-            filterRename.setReplace("");
-            filterRename.setReplaceAll(true);
-            filterRename.setInputFormat(binary);
-            filterRename.setAttributeIndices("first-last");
-
-            Instances binaryRename = Filter.useFilter(binary, filterRename);
-
-            ArffSaver s = new ArffSaver();
-            s.setInstances(binaryRename);
-            s.setFile(new File("./Datuak/binary"));
-            s.writeBatch();
+//           //  NumericToBinary
+//            NumericToBinary filterToBinary = new NumericToBinary();
+//            filterToBinary.setAttributeIndices("last");
+//            filterToBinary.setInvertSelection(true);
+//            filterToBinary.setInputFormat(train);
+//
+//            Instances binary = Filter.useFilter(train, filterToBinary);
+//
+//            RenameAttribute filterRename = new RenameAttribute();
+//            filterRename.setFind("_binarized");
+//            filterRename.setReplace("");
+//            filterRename.setReplaceAll(true);
+//            filterRename.setInputFormat(binary);
+//            filterRename.setAttributeIndices("first-last");
+//
+//            Instances binaryRename = Filter.useFilter(binary, filterRename);
+//
+//            ArffSaver s = new ArffSaver();
+//            s.setInstances(binaryRename);
+//            s.setFile(new File("./Datuak/binary"));
+//            s.writeBatch();
 
 
 
@@ -79,10 +85,10 @@ public class GetJ48Model {
             model.buildClassifier(train);
             //##########################################################
 
-            weka.core.SerializationHelper.write(args[1], model);
+            weka.core.SerializationHelper.write(args[2], model);
 
 
-            FileWriter fw = new FileWriter(args[2]);
+            FileWriter fw = new FileWriter(args[3]);
 
 
             //1- Ebaluazioa normala
@@ -113,7 +119,7 @@ public class GetJ48Model {
 
 
             //3-HOLD OUT
-            Evaluation evaluatorSplit = new Evaluation(train);
+                Evaluation evaluatorSplit = new Evaluation(train);
 
 
                 //##########################################################
@@ -121,7 +127,7 @@ public class GetJ48Model {
                 model.buildClassifier(train);
                 //##########################################################
                 //evaluation
-                evaluatorSplit.evaluateModel(model, test1);
+                evaluatorSplit.evaluateModel(model, test);
 
 
             //Fitxategian gorde kalitatearen estimazioa

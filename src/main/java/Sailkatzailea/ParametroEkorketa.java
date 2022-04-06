@@ -8,6 +8,7 @@ import weka.core.converters.ConverterUtils.DataSource;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
+import java.io.PrintWriter;
 import java.text.DecimalFormat;
 import java.util.Random;
 
@@ -16,31 +17,48 @@ public class ParametroEkorketa {
 
     public static void main(String[] args) throws Exception {
         if (args.length != 2) {
-            System.out.println("Ez duzu arguments atala behar bezala bete!");
+            System.out.println("Programaren helburua:");
             System.out.println("Erabilera:");
             System.out.println("java -jar ParametroEkorketa.jar train.arff emaitzak.txt ");
+
+
         } else {
+
+
             long startTime = System.nanoTime();
+
+            // 1. Entrenamendurako datuak kargatu
             DataSource dataSource = new DataSource(args[0]);
             Instances data = dataSource.getDataSet();
             data.setClassIndex(data.numAttributes() - 1);
-            int klaseMinoMaiz = Integer.MAX_VALUE;
-            int klaseMino = 0;
-            int unekoKlase = 0;
-            for (int i : data.attributeStats(data.classIndex()).nominalCounts) {
-                if (i < klaseMinoMaiz) {
-                    klaseMino = unekoKlase;
-                    klaseMinoMaiz = i;
+
+
+            // 2. Klase minoritarioa lortu
+            int min = Integer.MAX_VALUE;
+            int minClassIndex = 0;
+            for (int i = 0; i < data.numClasses(); i++) {
+                int x = data.attributeStats(data.classIndex()).nominalCounts[i];
+                System.out.println(data.attribute(data.classIndex()).value(i) + "-->"
+                        + x + " instantzia kopurua" );
+
+                if(x < min){
+                    min = x;
+                    minClassIndex = i;
                 }
-                unekoKlase -= -1;
             }
 
+            System.out.println("Klase minoritario: " + data.attribute(data.classIndex()).value(minClassIndex));
             double max = 0.0;
             double maxTime = Double.MAX_VALUE;
+
+            FileWriter file = new FileWriter(args[1]);
+            PrintWriter pw = new PrintWriter(file);
             BufferedWriter bw = new BufferedWriter(new FileWriter(args[1]));
             bw.newLine();
             bw.write("bagSizePercent maxDepth numFeatures numIterations FMEASURE DENBORA");
             System.out.println("bagSizePercent maxDepth numFeatures numIterations \t\tFMEASURE \t DENBORA(s)");
+
+
             RandomForest randomF = new RandomForest();
             randomF.setNumExecutionSlots(Runtime.getRuntime().availableProcessors());
             int maxBSPB = 0;
@@ -61,18 +79,18 @@ public class ParametroEkorketa {
                             long konbinazioAmaieraDenbora = System.nanoTime();
                             double denbora = ((double) konbinazioAmaieraDenbora - konbinazioHasieraDenbora) / 1000000000;
                             System.out.println();
-                            System.out.format("%10s \t %10s \t%10s \t%10s %20s \t%10s", bspb, md, nf, ni, evaluator.fMeasure(klaseMino), denbora);
-                            if (evaluator.fMeasure(klaseMino) > max) { //si la puntuacion es mejor, pasa a ser el mejor
+                            System.out.format("%10s \t %10s \t%10s \t%10s %20s \t%10s", bspb, md, nf, ni, evaluator.fMeasure(minClassIndex), denbora);
+                            if (evaluator.fMeasure(minClassIndex) > max) { //si la puntuacion es mejor, pasa a ser el mejor
 
-                                max = evaluator.fMeasure(klaseMino);
+                                max = evaluator.fMeasure(minClassIndex);
                                 maxTime = denbora;
                                 maxBSPB = bspb;
                                 maxMD = md;
                                 maxNF = nf;
                                 maxNI = ni;
 
-                            } else if (evaluator.fMeasure(klaseMino) == max && denbora < maxTime) { //si la puntuacion es igual, y el tiempo menor, pasa a ser el mejor
-                                max = evaluator.fMeasure(klaseMino);
+                            } else if (evaluator.fMeasure(minClassIndex) == max && denbora < maxTime) { //si la puntuacion es igual, y el tiempo menor, pasa a ser el mejor
+                                max = evaluator.fMeasure(minClassIndex);
                                 maxTime = denbora;
                                 maxBSPB = bspb;
                                 maxMD = md;
@@ -80,7 +98,7 @@ public class ParametroEkorketa {
                                 maxNI = ni;
                             }
                             bw.newLine();
-                            bw.write("\t" + bspb + "\t \t" + md + "\t \t " + nf + "\t  " + ni + "\t   " + evaluator.fMeasure(klaseMino) + "\t " + denbora);
+                            bw.write("\t" + bspb + "\t \t" + md + "\t \t " + nf + "\t  " + ni + "\t   " + evaluator.fMeasure(minClassIndex) + "\t " + denbora);
 
                         }
 
