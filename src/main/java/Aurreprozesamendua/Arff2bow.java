@@ -7,6 +7,7 @@ import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.StringToWordVector;
 import weka.filters.unsupervised.instance.Randomize;
 import weka.filters.unsupervised.instance.RemovePercentage;
+import weka.filters.unsupervised.instance.SparseToNonSparse;
 
 import java.io.File;
 import java.io.IOException;
@@ -36,11 +37,12 @@ public class Arff2bow {
             System.out.println("\nErabilera adibidea komando lerroa-n");
             System.out.println("\tjava -jar TextToVector.jar <train.arff> 1 <outputPath hiztegia.txt> yes <outputPath BOW.arff>");
 
-        }else{
+        }else {
 
             String arffFile = args[0];
             String bektorea = args[1];
             String dictionary = args[2];
+            String sparse = args[3];
             String bowArff = args[4];
             String devRAWFile = "./Datuak/devRAW.arff";
 
@@ -53,16 +55,16 @@ public class Arff2bow {
             dataRaw.setClassIndex(dataRaw.numAttributes() - 1);
 
 
-            // Hemen holOut egiten dugu trainRAW eta devRAW lortzeko.
+            // 2. Hemen holOut egiten dugu trainRAW eta devRAW lortzeko.
             ArrayList<Instances> datuakRAW = holdOut(dataRaw);
             Instances trainRAW = datuakRAW.get(0);
             Instances devRAW = datuakRAW.get(1);
             trainRAW.setClassIndex(trainRAW.numAttributes() - 1);
 
 
-            System.out.println("Atributu kopurua: "+ trainRAW.numAttributes());
-            System.out.println("Num instantziak trainRAW: "+ trainRAW.numInstances());
-            System.out.println("Num instantziak devRAW: "+ devRAW.numInstances());
+            System.out.println("Atributu kopurua: " + trainRAW.numAttributes());
+            System.out.println("Num instantziak trainRAW: " + trainRAW.numInstances());
+            System.out.println("Num instantziak devRAW: " + devRAW.numInstances());
 
             File hiztegia = new File(dictionary);
 
@@ -70,23 +72,51 @@ public class Arff2bow {
             // https://weka.sourceforge.io/doc.dev/weka/core/Stopwords.html
 
         /*
+            3. BOW edo TF.IDF
             String2Word vector filtroa sortu
          */
-            StringToWordVector filter = new StringToWordVector(); // RAW-tik bektore formatura
-            filter.setInputFormat(trainRAW);
-            filter.setLowerCaseTokens(true);
-            filter.setTFTransform(false);
-            filter.setIDFTransform(false);
-            filter.setDictionaryFileToSaveTo(hiztegia);
-            Instances trainBOW = Filter.useFilter(trainRAW, filter);
-            System.out.println("\n\nFiltered data:\n\n" + trainBOW);
+
+
+            Instances trainBOW = null;
+            if (bektorea.equals("0")) {
+                // BOW
+                trainBOW = stringtowordvector(trainRAW, true, hiztegia);
+            } else if (bektorea.equals("1")) {
+                // Tf.IDF
+                trainBOW = stringtowordvector(trainRAW, false, hiztegia);
+            } else {
+                System.out.println("Errorea: Bigarren parametroa ez da zuzena");
+            }
+
+            /*
+               4. Sparse edo NonSparse - 'Dispertsioa / Ez-Dispertsioa'
+             */
+
+            if (sparse.equals("yes")){ //Sparse
+                // Defektuz horrela gordetzen da
+                //TrainBOW.arff save
+                datuakGorde(bowArff, trainBOW);
+            }else if (sparse.equals("no")){ //NonSparse
+                trainBOW = nonSparse(trainBOW);
+                datuakGorde(bowArff, trainBOW);
+            }
+
+
+
+//            StringToWordVector filter = new StringToWordVector(); // RAW-tik bektore formatura
+//            filter.setInputFormat(trainRAW);
+//            filter.setLowerCaseTokens(true);
+//            filter.setTFTransform(false);
+//            filter.setIDFTransform(false);
+//            filter.setDictionaryFileToSaveTo(hiztegia);
+//            Instances trainBOW = Filter.useFilter(trainRAW, filter);
+//            System.out.println("\n\nFiltered data:\n\n" + trainBOW);
 
             //TrainRAW.arff save
 
-            //TrainBOW.arff save
-            datuakGorde(bowArff, trainBOW);
             // devRAW.arff save
             datuakGorde(devRAWFile, devRAW);
+
         }
 
 
@@ -99,6 +129,36 @@ public class Arff2bow {
         s.writeBatch();
     }
 
+
+    private static Instances stringtowordvector(Instances data, boolean bool, File hiztegia) throws Exception{
+            StringToWordVector filter = new StringToWordVector(); // RAW-tik bektore formatura
+
+            if (bool){ //BOW
+
+            }else{ //TF.IDF
+
+            }
+                filter.setInputFormat(data);
+                filter.setLowerCaseTokens(true); // Letra larria nahiz xehea baliokidetu
+                filter.setTFTransform(bool); //bool --> TRUE - Term Frequency kontuan hartu nahi dugu.
+                filter.setIDFTransform(bool); //bool --> TRUE - TFIDF kontuan hartu nahi dugu.
+                filter.setDictionaryFileToSaveTo(hiztegia);
+
+
+                Instances trainBOW = Filter.useFilter(data, filter);
+                trainBOW.setClassIndex(0);
+                System.out.println("\n\nFiltered data:\n\n" + trainBOW);
+
+                return data;
+    }
+
+    private static Instances nonSparse(Instances data) throws Exception{
+        // nonSparsera pasatzeko
+        SparseToNonSparse filterNonSparse = new SparseToNonSparse();
+        filterNonSparse.setInputFormat(data);
+        Instances nonSparseData = Filter.useFilter(data,filterNonSparse);
+        return nonSparseData;
+    }
 
     private static ArrayList<Instances> holdOut(Instances data) throws Exception{
 
