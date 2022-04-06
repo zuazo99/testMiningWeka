@@ -56,9 +56,13 @@ public class ParametroEkorketa {
 
             FileWriter file = new FileWriter(args[1]);
             PrintWriter pw = new PrintWriter(file);
-            BufferedWriter bw = new BufferedWriter(new FileWriter(args[1]));
-            bw.newLine();
-            bw.write("bagSizePercent maxDepth numFeatures numIterations FMEASURE DENBORA");
+
+            pw.println();
+            pw.println("RandomForest Parametro Ekorketa:");
+            pw.println("Ekortuko ditugun parametroak:");
+            pw.println("bagSizePercent maxDepth numFeatures numIterations FMEASURE DENBORA");
+            pw.println("Ebaluzio metrika: Klase minoritarioa fMeasure");
+            pw.println();
             System.out.println("bagSizePercent maxDepth numFeatures numIterations \t\tFMEASURE \t DENBORA(s)");
 
 
@@ -77,36 +81,33 @@ public class ParametroEkorketa {
                         for (int ni = 1; ni < 50; ni += 5) {
                             long konbinazioHasieraDenbora = System.nanoTime();
                             randomF.setNumIterations(ni);
+                //-----------------------HOLD-OUT--------------------------------------------//
 
+                            // Randomize aplikatu
                             Randomize filterRandomize = new Randomize();
                             filterRandomize.setInputFormat(data);
                             Instances randomData = Filter.useFilter(data, filterRandomize);
-
+                            // Train multzoak lortu
                             RemovePercentage filterTrain = new RemovePercentage();
                             filterTrain.setInvertSelection(false);
                             filterTrain.setPercentage(30);
                             filterTrain.setInputFormat(data);
                             Instances train = Filter.useFilter(randomData, filterTrain);
 
+                            //Test multzoa lortu
                             RemovePercentage filterTest = new RemovePercentage();
                             filterTest.setInvertSelection(true);
-                            filterTest.setPercentage(70);
+                            filterTest.setPercentage(30);
                             filterTest.setInputFormat(data);
                             Instances test = Filter.useFilter(randomData, filterTest);
                             test.setClassIndex(test.numAttributes() - 1);
-
-                            randomF= new RandomForest();
-                            randomF.setNumExecutionSlots(Runtime.getRuntime().availableProcessors());
-                            randomF.setNumFeatures(200);
-                            randomF.setNumIterations(26);
-                            randomF.setBagSizePercent(16);
-                            randomF.setMaxDepth(50);
-                            randomF.buildClassifier(train);
-
+                            // Sailkatzailea entrenatu
+                                randomF.buildClassifier(train);
 
                             //Ebaluazioa egin
                             Evaluation evaluator = new Evaluation(train);
                             evaluator.evaluateModel(randomF, test);
+                            System.out.println(evaluator.toSummaryString("\n=== Results ===\n",false));
 
                             long konbinazioAmaieraDenbora = System.nanoTime();
                             double denbora = ((double) konbinazioAmaieraDenbora - konbinazioHasieraDenbora) / 1000000000;
@@ -129,8 +130,8 @@ public class ParametroEkorketa {
                                 maxNF = nf;
                                 maxNI = ni;
                             }
-                            bw.newLine();
-                            bw.write("\t" + bspb + "\t \t" + md + "\t \t " + nf + "\t  " + ni + "\t   " + evaluator.fMeasure(minClassIndex) + "\t " + denbora);
+                            pw.println();
+                            pw.println("\t" + bspb + "\t \t" + md + "\t \t " + nf + "\t  " + ni + "\t   " + evaluator.fMeasure(minClassIndex) + "\t " + denbora);
 
                         }
 
@@ -138,15 +139,16 @@ public class ParametroEkorketa {
                 }
             }
             long stopTime = System.nanoTime();
-            bw.write("\n Balio hoberenak: \n");
-            bw.write("BSPB = " + maxBSPB + " MD = " + maxMD + " NF = " + maxNF + " NI = " + maxNI + " hurrengo puntuazioarekin " + max + " eta " + maxTime + " segundu behar izan ditu\n");
-            bw.write("Exekuzio denbora: " + ((double) stopTime - startTime) / 1000000000 + " segundu");
+            pw.println("\n Balio hoberenak: \n");
+            pw.println("BSPB = " + maxBSPB + " MD = " + maxMD + " NF = " + maxNF + " NI = " + maxNI + " hurrengo puntuazioarekin " + max + " eta " + maxTime + " segundu behar izan ditu\n");
+            pw.println("Exekuzio denbora: " + ((double) stopTime - startTime) / 1000000000 + " segundu");
             System.out.println("Exekuzio denbora: " + ((double) stopTime - startTime) / 1000000000);
-            bw.flush();
-            bw.close();
+            pw.flush();
+            pw.close();
 
 
         }
     }
+
 
 }
