@@ -73,6 +73,8 @@ public class TextToVector {
             StringToWordVector filter = new StringToWordVector(); // RAW-tik bektore formatura
             filter.setInputFormat(trainRAW);
             filter.setLowerCaseTokens(true);
+            filter.setTFTransform(false);
+            filter.setIDFTransform(false);
             filter.setDictionaryFileToSaveTo(hiztegia);
             Instances trainBOW = Filter.useFilter(trainRAW, filter);
             System.out.println("\n\nFiltered data:\n\n" + trainBOW);

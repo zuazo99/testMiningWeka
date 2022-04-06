@@ -83,12 +83,12 @@ public class getARFF {
                  3.2. 'text' atributua Nominal bezala kargatzen denez, String motara bihurtu behar dugu horretarako
                  NominalToString filtroa erabilita.
                  NominalToString
-                Atributu nominala String-era pasatu
+                 Atributu nominala String-era pasatu
                  */
 
                 NominalToString filterToString = new NominalToString();
                 filterToString.setInputFormat(data);
-                filterToString.setOptions(Utils.splitOptions("-C 1"));
+                filterToString.setOptions(Utils.splitOptions("-C 1")); // 1. posizion dago 'text' atributua
                 data = Filter.useFilter(data, filterToString);
 
                 data.setClassIndex(data.numAttributes() - 1);
