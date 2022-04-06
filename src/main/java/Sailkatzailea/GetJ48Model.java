@@ -46,6 +46,9 @@ public class GetJ48Model {
             train.setClassIndex(train.numAttributes()-1);
 
             //##########################################################
+
+            //
+
             J48 model = new J48();
             model.buildClassifier(train);
             //##########################################################

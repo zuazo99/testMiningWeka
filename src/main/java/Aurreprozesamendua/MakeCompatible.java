@@ -31,7 +31,7 @@ public class MakeCompatible {
             Instances trainBOW = datuakKargatu(trainBOWfile);
 
             trainBOW.setClassIndex(trainBOW.numAttributes() - 1);
-            devRAW.setClassIndex(devRAW.numAttributes() - 1);
+            devRAW.setClassIndex(0);
             // 2. Atributuak reordenatu, klasea amaieran agertu dadin, horretarako reorder filtroa erabiliko dugu
 
 //            Reorder  reorder = new Reorder();
@@ -46,8 +46,7 @@ public class MakeCompatible {
             filterDictionary.setDictionaryFile(new File(dictionary));
             filterDictionary.setOutputWordCounts(false);
             filterDictionary.setLowerCaseTokens(true);
-            filterDictionary.setInputFormat(trainBOW);
-           // filterDictionary.setOptions(Utils.splitOptions("-R first-last, -dictionary "+dictionary+", -L"));
+            filterDictionary.setInputFormat(devRAW);
 
             Instances devBOW = Filter.useFilter(devRAW, filterDictionary);
             datuakGorde(devBOWfile, devBOW);
@@ -61,7 +60,13 @@ public class MakeCompatible {
         return data;
     }
 
-    private static void datuakGorde(String path, Instances data) throws IOException {
+    private static void datuakGorde(String path, Instances data) throws Exception {
+
+        Reorder reorder = new Reorder();
+        reorder.setAttributeIndices("2-last,1");
+        reorder.setInputFormat(data);
+        data = Filter.useFilter(data, reorder);
+
         ArffSaver s = new ArffSaver();
         s.setInstances(data);
         s.setFile(new File(path));

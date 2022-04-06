@@ -1,1642 +1,1642 @@
-@relation train_Egokituta-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.NominalToString-C1-weka.filters.unsupervised.instance.Randomize-S1-weka.filters.unsupervised.instance.RemovePercentage-P30.0
+@relation 'train_Egokituta-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.NominalToString-C1-weka.filters.unsupervised.instance.Randomize-S1-weka.filters.unsupervised.instance.RemovePercentage-P30.0-weka.filters.unsupervised.attribute.Reorder-R2-last,1'
 
-@attribute text string
 @attribute etiqueta {DESC,ENTY,ABBR,HUM,NUM,LOC}
+@attribute text string
 
 @data
-'What are some colorful flowers that will bloom in the fall in New England ',ENTY
-'Who is the most sexy celebrity ',HUM
-'What chocolate company gives you a one-pound kiss ',HUM
-'What Nevil Shute novel is about the doomed survivors of a nuclear war ',ENTY
-'What do West Indian steel bands use as instruments ',ENTY
-'How do you find the area of a circle ',DESC
-'What does a man suffering from diphallic terata have ',ENTY
-'Which major diamond producer is based in South Africa ',HUM
-'How many cables support the main span of the Golden Gate Bridge ',NUM
-'What date is Richard Nixon s birthday ',NUM
-'What does Nicholas Cage do for a living ',HUM
-'What former African leader held his country s boxing title for nine years ',HUM
-'Why do girls have to wear training bras ',DESC
-'Where is the Isle of Man ',LOC
-'What was the U.S. highway death toll in 1969 ',NUM
-'How many islands does Fiji have ',NUM
-'What does an average daycare provider get paid in New England ',NUM
-'Why do nt you guys have some sort of contest where you ask a question and whoever finds the answers wins a prize ',DESC
-'How do microwaves work ',DESC
-'What is a nanometer ',DESC
-'What game is fatal to anybody over 21 ',ENTY
-'What made the Finger Lakes in western New York state ',DESC
-'What is an arab strap ',DESC
-'What color eyes are most sensitive to light ',ENTY
-'How do anti-locking brakes work ',DESC
-'What is the oldest website on the Internet ',LOC
-'What do river otters eat ',ENTY
-'What was the name of the Crimean meeting of Roosevelt ',ENTY
-'Who was the first Holy Roman Emperor ',HUM
-'What did the crocodile swallow in Peter Pan ',ENTY
-'What month s third weekend is the Monterey Jazz Festival held on ',NUM
-'Who lives at 39 Stone Canyon Way ',HUM
-'What do you need to do to marry someone in jail ',DESC
-'Who was considered to be the father of psychology ',HUM
-'What buxom blonde appeared on the cover of more than 5 magazines ',HUM
-'What incident caused the canning of a summit conference between Eisenhower and Khrushchev ',DESC
-'Who was the first Taiwanese President ',HUM
-'Who owns CNN ',HUM
-'How many degrees cooler is the inside of a cucumber than the air outside ',NUM
-'What is the name of the game that Garry Kasparov plays ',ENTY
-'How many milligrams are in a gram ',NUM
-'What kind of nuts are used in marzipan ',ENTY
-'What is a fear of sinning ',ENTY
-'How many major Nazi leaders went on trial after the war at Nuremberg ',NUM
-'What is paracetamol ',DESC
-'What Asian country once thrilled to the sport of cricket fighting ',LOC
-'What is the difference between a board of directors and an advisory board ',DESC
-'What is the difference between molecules and compounds ',DESC
-'Who portrayed Dracula in Hammer Studios  films ',HUM
-'What was the first English play written exclusively for children ',ENTY
-'What is the belt of low pressure around the equator called ',ENTY
-'What are the seven wonders of the world ',ENTY
-'What tale has the moral :  He who wants everything gets nothing  ',ENTY
-'What company produces Spumante ',HUM
-'Where is Los Vegas ',LOC
-'What are the largest deserts in the world ',LOC
-'What is a fear of color ',ENTY
-'What is different about the red and black fox ',DESC
-'What is the Order of the Arrow in Boy Scouts ',DESC
-'What are faults in the earth s crust ',DESC
-'What seven digits follow the area code in the number for long distance information ',NUM
-'Where did the energy for the Big Bang come from ',DESC
-'What s the percentage of children aged two through eleven who watch  The Simpsons  ',NUM
-'What is the difference between a fruit and a vegetable ',DESC
-'What are the names of Jacques Cousteau s two sons ',HUM
-'What country will hit the year 2 first ',LOC
-'What was the claim to fame of Explorer I ',DESC
-'Jackson Pollock is of what nationality ',LOC
-'What personality traits are Capricorns said to have ',DESC
-'What s the last line of Dickens s A Christmas Carol ',DESC
-'Who developed the first polio vaccine ',HUM
-'What was the former residence of Scottish kings in Edinburgh ',LOC
-'How did the months of the year get there name ',DESC
-'What is the present Pope named ',HUM
-'What is a Guild ',DESC
-'What is the music used in the new VW Beetle commercial where the car spins and changes colors ',ENTY
-'What Peruvian city is home to the mummified body of Francisco Pizarro ',LOC
-'Which company that manufactures video-game hardware sells the  super system  ',HUM
-'How long would it take to get from Earth to Mars ',NUM
-'What do the figures represent on the Easter Island ',DESC
-'What are the most albums sold by one artist or band ',ENTY
-'Who manufactures the software ',HUM
-'How many people die from tuberculosis each year ',NUM
-'Where can I read about Abraham Lincoln ',LOC
-'What country offered Albert Einstein its presidency in 1952 ',LOC
-'What will the weather be today ',DESC
-'How many presidents have died on the 4th of July ',NUM
-'Why do magnets attract ',DESC
-'To what does Microsoft s Windows 3 owe its success ',ENTY
-'What s a male  cuckquean  ',DESC
-'What was the species of Winnie the Pooh ',ENTY
-'Where on the Internet can I get information about the Fifth Amendment on the American Bill of Rights ',LOC
-'What is the name of the Michelangelo painting that shows two hands with fingers touching ',ENTY
-'What room did W.C. Fields keep his library in ',LOC
-'What are bottle caps with presidents  pictures inside worth ',NUM
-'What is the weakest bone in the body ',ENTY
-'What musical instrument did Prewitt play in James Jones s From Here to Eternity ',ENTY
-'Where can I find info on research being done on oilseeds thru genetics ',LOC
-'What TV character sired a horse named Thunder ',HUM
-'What year did Hitler die ',NUM
-'What does an ashen-faced eidologist search out the existence of ',ENTY
-'What was Mao s second name ',HUM
-'Who asked you to do the Loco-Motion with her in 1962 ',HUM
-'How many people live in the Falklands ',NUM
-'Where are diamonds mined ',LOC
-'What is the origin of blue for boys and pink for girls ',DESC
-'What is a fear of being alone ',ENTY
-'What makes salt ',DESC
-'What movie tour of the Roman empire features the admonition :  Row well and live  ',ENTY
-'What are the languages spoken by the natives in Afghanistan ',ENTY
-'How do you determine if a computer monitor has an SVGA adapter ',DESC
-'What is Rona Barrett s married name ',HUM
-'What island has a park called The Battery at is southern tip ',LOC
-'What American League baseball team s worst finish between 1926 and 1964 was fourth ',HUM
-'How do you stop junk snail mail ',DESC
-'What is the distinction of Erle Stanley Gardner s The Case of the Terrified Typist ',DESC
-'What actor learned to play the saxophone and speak Russian for a role in a movie ',HUM
-'In what year did Thatcher become prime minister ',NUM
-'What good are mosquitoes ',DESC
-'In what state was the first co-educational college established',LOC
-'Which police department made the all-time biggest cocaine bust in Ventura County ',HUM
-'What cigarette company urged us ',HUM
-'Which came first ',ENTY
-'How many Grammys did Michael Jackson win in 1983 ',NUM
-'What kind of books does Fodor s publish ',ENTY
-'What Colorado city owns its own glacier ',LOC
-'How do boats float ',DESC
-'What field sport did dentist William Beers promote and write a standard book of rules for ',ENTY
-'How big is the Chappellet vineyard ',NUM
-'What Japanese electronics company was named for a coastal city northeast of Tokyo ',HUM
-'What does  intractable plantar keratoma  mean ',DESC
-'What famed tennis tournament s men s singles title was Fred Perry the last Englishman to win ',ENTY
-'What is the electronic device used to produce visual displays corresponding to electric signals ',ENTY
-'Who invented basketball ',HUM
-'What credit card features a centurion on its face ',ENTY
-'What is the correct way to mount a roll of toilet paper ',ENTY
-'Who was the first black woman to star in the Folies Bergeres ',HUM
-'When will the millennium officially begin ',NUM
-'In Waugh s  A Handful of Dust ',DESC
-'What beer tells us ',ENTY
-'Who was the inventor of the stove ',HUM
-'What s the name of the star of the cooking show ',HUM
-'What does BUD stand for ',ABBR
-'What time does Wee Willie Winkie run through the town ',NUM
-'How do you get dates with the  Hooters  girls ',DESC
-'Where did Bill Gates go to college ',LOC
-'Who is the worst US President ever ',HUM
-'How many species of sharks are there ',NUM
-'Name the scar-faced bounty hunter of The Old West .',HUM
-'Who wrote  The Pit and the Pendulum  ',HUM
-'When was the last major eruption of Mount St. Helens ',NUM
-'Who is the monarch of the United Kingdom ',HUM
-'What is deconstructionism ',DESC
-'How is bubble wrap made ',DESC
-'What are some ways to help someone with Chicken Pox ',ENTY
-'What state did Helen Keller call home ',LOC
-'What is a camel hair brush actually made out of ',ENTY
-'Why do eyes sometimes look red in photographs ',DESC
-'How is plastic made ',DESC
-'What is the name of the firm that makes Spumante ',HUM
-'How many penny-farthings are there on a Trivial Pursuit game board ',NUM
-'Why doesn t www.answers.com have any answers to my questions ',DESC
-'What city did the Mormons establish as their headquarters in 1847 ',LOC
-'How can I get some free technical information on Electric Vehicle ',DESC
-'What is Srpska Krajina ',DESC
-'Name an American made motorcycle .',ENTY
-'Who was The Pride of the Yankees ',HUM
-'What is the celtic symbol for  life  ',ENTY
-'What do you do when your mouse is nt working as fast as it s supposed to ',DESC
-'What state is John F. Kennedy buried in ',LOC
-'Who were the five Marx brothers ',HUM
-'What Asian leader was known as The Little Brown Saint ',HUM
-'What is D.B. Cooper known for ',DESC
-'What is a fear of money ',ENTY
-'What 2th-century fictional character attends Pencey Prep School ',HUM
-'What is Olestra ',DESC
-'Who came up with the name ',HUM
-'What is dextropropoxyphen napsylate ',DESC
-'When did the Berlin Wall go up ',NUM
-'How many questions are on this thing ',NUM
-'What famous singing cowboy owns the California Angels baseball team ',HUM
-'What is the history of Valentine s Day cards ',DESC
-'What is the definition of  chancery  file in real estate ',DESC
-'What kind of mammal is a colt ',ENTY
-'What according to the Kinsey Institute ',DESC
-'How can you prevent it ',DESC
-'How many acres in a mile ',NUM
-'What qualifications are there for individuals donating blood ',DESC
-'What type of betting is used in horse racing ',ENTY
-'Who s won the most Oscars for costume design ',HUM
-'What country does Ileana Cotrubas come from ',LOC
-'When was the Battle of Hastings ',NUM
-'What causes pneumonia ',DESC
-'Where do the adventures of  The Swiss Family Robinson  take place ',LOC
-'What country has the most coastline ',LOC
-'Who says ',HUM
-'Who invented the fountain ',HUM
-'What is the difference between terry cloth and French terry ',DESC
-'What are the diseases that can be cured by black cumin ',ENTY
-'What household facility contains a float ball ',ENTY
-'What is the salary of a U.S. Representative ',NUM
-'How many horses are there on a polo team ',NUM
-'What are snowballs to a hot-rodder ',DESC
-'What was the Long March in China ',DESC
-'What is the name of the disease that actress Hunter Tylo s baby girl has ',ENTY
-'What have you not let a tennis ball do if you volley ',DESC
-'Who is the Pope ',HUM
-'How can I trace my family roots ',DESC
-'Who are the top ten richest people in the world ',HUM
-'Who is Colin Powell ',HUM
-'What was the alternate to VHS ',ENTY
-'What North American city boasts the biggest Polish population ',LOC
-'Where are the Austerlitz and Victor Hugo subway stops ',LOC
-'The film  Jaws  was made in what year ',NUM
-'What U.S. state comes last in an alphabetical list ',LOC
-'What company uses the unfamiliar faces of its celebrity spokespeople to promote the use of its product ',HUM
-'What does NN O  mean when used as a prefix in Irish surnames ',ABBR
-'What future deer hunter portrayed Annie Hall s neurotic brother ',HUM
-'How many people die of tuberculosis yearly ',NUM
-'Why was Curious George curious ',DESC
-'What was the name of the U.S. s first manned space program ',ENTY
-'What are Maid-Rites ',DESC
-'What causes the redness in your cheeks when you blush ',DESC
-'How far can a man travel in outer space ',NUM
-'What country has the highest per capita consumption of cheese ',LOC
-'What does each of the utilities cost in Monopoly ',NUM
-'Who portrayed Fatman in the television show ',HUM
-'What blood sport features a movement called a veronica ',ENTY
-'Who is Langston Hughes ',HUM
-'What Cherokee Indian gave his name to a tree ',HUM
-'What is the chemical composition of a Barbie ',ENTY
-'What was the only country in the Western Hemisphere to join the Russian-led boycott of the 1984 Summer Olympics ',LOC
-'What is infomatics ',DESC
-'What is the average cost for four years of medical school ',NUM
-'Name Li l Abner s favorite Indian drink .',ENTY
-'What Erica Jong novel deals with Isadora Wing s fear ',ENTY
-'What holidays or observances are celebrated in Italy ',ENTY
-'How many people did Randy Steven Craft murder ',NUM
-'Who was Gerald Ford s vice president ',HUM
-'How many years of schooling after highschool does it take to become a neurosurgeon ',NUM
-'Who produces Spumante ',HUM
-'What Triple Crown-winning horse took the 1973 Belmont Stakes by 31 lengths ',ENTY
-'What product does  Mrs. Olsen  promote ',ENTY
-'What country in 1998 had the most suicides regardless of population size ',LOC
-'When was the bar-code invented ',NUM
-'How far is London UK from California ',NUM
-'In which state are the Mark Twain National Forests ',LOC
-'How many home runs did Lou Gehrig have during his career ',NUM
-'What color is an Arctic fox in winter ',ENTY
-'How many of them are in sub-Saharan Africa ',NUM
-'Where did Dylan Thomas die ',LOC
-'What was the target rate for M3 growth in 1992 ',NUM
-'What does the word camaro mean ',DESC
-'What is the fastest growing state in the U.S.A. in 1998 ',LOC
-'What is the abbreviated expression for the National Bureau of Investigation ',ABBR
-'Who wrote the poem that starts  I love your lips when they re wet with wine and red with a warm desire  ',HUM
-'What author did photographer Yousuf Karsh call  the shiest man I ever met  ',HUM
-'What multitalented Academy-award-winning director failed a college course in motion-picture production ',HUM
-'What is  Last Chance for Animals  ',DESC
-'What percentage of the body is muscle ',NUM
-'Why do we ask for the  check  and not the bill at a restaurant ',DESC
-'What are the 7 principles of learning from the Institute for Research on Learning ',ENTY
-'When were camcorders introduced in Malaysia ',NUM
-'How do you clean an LCD monitor screen ',DESC
-'How many real fruit juices are there in a can of Hawaiian Punch ',NUM
-'What film did Lee Marvin win the 1965 best actor Oscar for ',ENTY
-'Who was the Russian ambassador to Hungary during the 1956 uprising ',HUM
-'What is the protection rate of using condoms ',NUM
-'What company named one of its pens  The Banana  ',HUM
-'When was the Brandenburg Gate in Berlin built ',NUM
-'What musical instrument did Sherlock Holmes play ',ENTY
-'How do I register a trade name in North Carolina ',DESC
-'What is a gandy dancer ',DESC
-'What product did William Horlick discover and produce ',ENTY
-'Which is the best opening move in chess ',ENTY
-'What part did Benjamin Franklin play in the development of the newspaper in America ',HUM
-'What are the requirements for becoming a citizen of Australia ',DESC
-'What invention does the principle of conservation of energy make impossible ',ENTY
-'What famous events have happened on March 27 ',ENTY
-'Who did Sonny Liston succeed as world heavyweight boxing champion ',HUM
-'What is damage to business and government caused by bureaucracy ',ENTY
-'Which Japanese car maker had its biggest percentage of sale in the domestic market ',HUM
-'What is the  coppertop  battery ',DESC
-'What s the most common street name in America ',LOC
-'What TV talk-show host lends his name to a line of men s clothing ',HUM
-'What President hit the jogging paths to enhance his athletic image and ',HUM
-'What does the Statue of Liberty wear on her feet ',ENTY
-'How do I contact answers.com ',DESC
-'What are the ingredients of Coca-Cola ',ENTY
-'What song did Patti Page set people dancing to in 1950 ',ENTY
-'Who replies  I know  to Princess Leia s confession  I love you  in The Empire Strikes Back ',HUM
-'What are the names of Jack s original roommates on Three s Company ',HUM
-'Why do you say  God bless you  when people sneeze ',DESC
-'What s the supreme policy-making bureau of the Soviet Communist Party ',HUM
-'How many verses are in the Bible ',NUM
-'What college did Dikembe Mutombo play basketball for ',HUM
-'Who was Lacan ',HUM
-'Who won the Battle of Gettysburg ',HUM
-'How many shillings more than 2 were there in a guinea ',NUM
-'What relative of Leo Tolstoy translated War and Peace eight times ',HUM
-'What does a dipsomaniac crave ',ENTY
-'What constellation is known as The Water Bearer ',LOC
-'Who lives at 24 Sussex Drive ',HUM
-'What crooner joined The Andrews Sisters for Pistol Packin Mama ',HUM
-'What are the limits to  self-defense  ',DESC
-'What Batman character tools around on a Batcycle ',HUM
-'About how many soldiers died in World War II ',NUM
-'What are the names of the different toes ',ENTY
-'What part of Britain comprises the Highlands ',LOC
-'Who is the Greek God of the Sea ',HUM
-'How can I get started in writing for television ',DESC
-'What is deadrise ',DESC
-'What state is known as the Hawkeye State ',LOC
-'What was the first Lifesaver flavor ',ENTY
-'Who created the monster in Mary Shelley s novel Frankenstein ',HUM
-'Whom does Uncle Duke s girl friend ',HUM
-'Why is the universe flat ',DESC
-'What book is the follow-up to Future Shock ',ENTY
-'How many miles of veins are in the circulatory system ',NUM
-'What country did King Gustav V reign over from 197 to 195 ',LOC
-'What is office automation ',DESC
-'What animal migrates the farthest ',ENTY
-'How many inches over six feet is the Venus de Milo ',NUM
-'What contemptible scoundrel stole the cork from my lunch ',HUM
-'What is the meaning of caliente ',DESC
-'Which U.S. President is buried in Washington ',HUM
-'What city does McCarren Airport serve ',LOC
-'What is color ',DESC
-'What is a fear of everything ',ENTY
-'How do you say  eat the day  in Latin ',ENTY
-'The major league baseball team in Pittsburgh is called what ',HUM
-'What causes headaches ',DESC
-'What s the official language of Algeria ',ENTY
-'Where can I find scientific data ',LOC
-'What was known as the Spice Island ',LOC
-'What are the signs of a country going into a recession ',ENTY
-'What s the most powerful country in the world ',LOC
-'What is a pig in a poke ',DESC
-'How can I find a list of celebrities  real names ',DESC
-'What country was Sir Edmund Hillary born in ',LOC
-'In what year did Ireland elect its first woman president ',NUM
-'When did CNN begin broadcasting ',NUM
-'How far away is the moon ',NUM
-'What actor and World War II airman had a $5 ',HUM
-'How can I get my product licensed by the NBA ',DESC
-'How many web servers are there ',NUM
-'What does storm wave mean in Japanese ',DESC
-'Who was the inventor of silly putty ',HUM
-'What is the name of the planet that the Ewoks live on ',LOC
-'How do I tie a tie ',DESC
-'What is the abbreviation for Original Equipment Manufacturer ',ABBR
-'What is a fear of black people ',ENTY
-'What is the definition of low island ',DESC
-'What is a Chinese  spouting  bowl ',DESC
-'What Argentine boxer was shot dead outside a Nevada brothel in May ',HUM
-'Who is Prince Naseem Hamed ',HUM
-'Who is the prophet of the religion of Islam ',HUM
-'How many dots make up the symbol for  because  ',NUM
-'What baseball player was known as Charley Hustle ',HUM
-'Who led the Normans to victory in the Battle of Hastings ',HUM
-'Who wrote The Collector ',HUM
-'What radio ',HUM
-'Who said :  What contemptible scoundrel stole the cork from my lunch  ',HUM
-'What is lung cancer ',DESC
-'What soft drink would provide me with the biggest intake of caffeine ',ENTY
-'How much iron is in your body ',NUM
-'What are the first six words of Dickens s A Tale of Two Cities ',ENTY
-'What were the causes of the Civil War ',DESC
-'Who turned all he touched to gold ',HUM
-'How has TV affected our society ',DESC
-'What is the name of the planet that the Ewoks live on ',LOC
-'Jude Law was in what movie ',ENTY
-'What are  inkhorn terms  ',DESC
-'What is the recomended age to switch a child from a crib to a bed ',NUM
-'What British prime minister and U.S. president were seventh cousins once-removed ',HUM
-'When is Dick Clark s birthday ',NUM
-'Which thrilled taste buds first - Snickers or 3 Musketeers ',ENTY
-'Where can I get cotton textiles importer details ',LOC
-'What film canine is buried in Pere-Lachaise cemetery in Paris ',ENTY
-'What are the Poconos ',DESC
-'Who was with Patricia Hearst the night she was kidnaped ',HUM
-'How much does one ton of cement cost ',NUM
-'How many oceans are there and name them ',NUM
-'How tall was the animated Frankenstein',NUM
-'What is a meerkat ',DESC
-'What book did Aaron Hass write ',ENTY
-'When was Beethoven born ',NUM
-'What river runs through Colorado ',LOC
-'Whose funeral train traveled from Washington D.C. to Springfield ',HUM
-'What country was the setting of You Only Live Twice ',LOC
-'Where is Romania located ',LOC
-'What was Joe Namath s first contract worth ',NUM
-'What Shakespearean play featured Shylock ',ENTY
-'When was the first stained glass window made ',NUM
-'Stuart Hamblen is considered to be the first singing cowboy of which medium ',ENTY
-'What does Larry King do for a living ',HUM
-'What are the chemicals used in glowsticks ',ENTY
-'What does the name  Anthony  mean ',DESC
-'Name one of the major gods of Hinduism .',HUM
-'What was spawned the term  MiG Alley  ',ENTY
-'What 1966 boob tube bomb took astronauts back to prehistoric times ',ENTY
-'What is the origin of U.S. Army sergeant s stripes ',DESC
-'What one of the Backstreet Boys are single ',HUM
-'What does Esa-Pekka Salonen look like ',DESC
-'What hair color can I use to just cover a little gray ',ENTY
-'What stereo manufacturer is  Slightly ahead of its time  ',HUM
-'Who advised listeners to  see the U.S.A. in your Chevrolet  ',HUM
-'When did President Kennedy ',NUM
-'How high is the city of Denver ',NUM
-'What does the word affiant mean ',DESC
-'How old was Stevie Wonder when he signed with Motown Records ',NUM
-'Who is the nebbish that is Marvel s official mascot ',HUM
-'What is one of the languages spoken by the Sioux called ',ENTY
-'What hockey team did Wayne Gretzky play for ',HUM
-'Who released the Internet worm in the late 1980s ',HUM
-'What company sells the most greeting cards ',HUM
-'What is the difference between a generator and an alternator ',DESC
-'What commodity s shortage was the largest single factor in keeping North American cars off the roads during World War II ',ENTY
-'What events happened January 26 ',ENTY
-'What did the Congress of Vienna establish ',ENTY
-'How do you handle a hungry man ',DESC
-'The Iraqis launched their attack on Kuwait on what day ',NUM
-'Who invented the game bowling ',HUM
-'Who sued the Dannon yougurt company for using a character named Ron Raider for promotion ',HUM
-'What seven digits follow the area code in the number for long distance information ',NUM
-'Who created Maudie Frickett ',HUM
-'What is the best-selling television soundtrack of all time ',ENTY
-'What President had never held an elected office until he was elected to the White House ',HUM
-'How do you dunk ',DESC
-'What s another word that means  knows all  ',ENTY
-'What two cities usually mark the extremes of English Channel swims ',LOC
-'What country did the Allies invade in World War II s Operation Avalanche ',LOC
-'How many fiddlers did Old King Cole have ',NUM
-'How many tiles did the Space Shuttle Columbia lose on its second flight ',NUM
-'Who is Luke Skywalker s father ',HUM
-'What continent s name appears on the upper left corner of a Budweiser label ',LOC
-'What mayor made so many TV appearances he was asked to join AFTRA in 1984 ',HUM
-'How did names come about ',DESC
-'How long does it take to travel from Tokyo to Niigata ',NUM
-'What are dinosaur droppings called ',ENTY
-'What did Walter Huston remove to perform in the movie The Treasure of the Sierra Madre ',ENTY
-'What is the name of the vaccine for chicken pox ',ENTY
-'About how many Americans are still unaccounted for from the Vietnam war ',NUM
-'What bay divides Maryland s Eastern and Western Shores ',LOC
-'What Lewis Carroll book introduced Humpty Dumpty to the world ',ENTY
-'What is the origin of  Beauty is in the eye of the beholder  ',DESC
-'When did communist control end in Hungary ',NUM
-'How many elephants are left on earth ',NUM
-'What 1915 film was the first to gross $5 million ',ENTY
-'How do you use  farther  as opposed to  further  ',DESC
-'How many South American countries have the letter Z in their names ',NUM
-'What eastern state sprouted the first commercial nuclear power plant in the U.S. ',LOC
-'How many times has Harold Stassen announced a drive for the White House ',NUM
-'What are all the different types of pizza ',ENTY
-'What is Occam s Razor ',DESC
-'What was Suzy Parker doing to earn $1 ',DESC
-'Which of the following did not receive a 1983  Outstanding Mother Award  from the National Mother s Day Committee ',HUM
-'What age is Benny Carter ',NUM
-'What was the killer whale who died at Sea World of a fungal infection named ',ENTY
-'Who killed Lee Harvey Oswald ',HUM
-'What is a fear of hell ',ENTY
-'What is osmosis ',DESC
-'What happened to Phillip Taylor Kramer ',DESC
-'What are the words to the cd Eminem s ',DESC
-'Who is the  Queen Mother  ',HUM
-'Who is King in Alley Oop s home of Moo ',HUM
-'How did water appear on the earth ',DESC
-'What kind of guitar did Jimi Hendrix play ',ENTY
-'What are the 7 articles of the constitution ',ENTY
-'What color was the hundred billionth crayon made by Crayola ',ENTY
-'At Christmas time ',ENTY
-'What actress s autobiography is titled Shelley : Also Known as Shirley ',HUM
-'What is the difference between college and graduate school ',DESC
-'What is New England s highest mountain ',LOC
-'Who portrayed portly criminologist Carl Hyatt on Checkmate ',HUM
-'What Russian seaport has a name meaning  Lord of the East  ',LOC
-'How many events make up the decathlon ',NUM
-'Who served as inspiration for the schoolteacher portrayed by Robin Williams in  Dead Poets Society  ',HUM
-'How many Jews were executed in concentration camps during WWII ',NUM
-'How many calories are in a tomato ',NUM
-'Where was Poe born ',LOC
-'What causes tuberculosis ',DESC
-'What is the Pennsylvania state income tax rate ',NUM
-'Who created Dennis the Menace ',HUM
-'What were the first three cities to have a population of more than a million ',LOC
-'What city is sometimes called Gotham ',LOC
-'What are the most common elements in the Earth s crust ',ENTY
-'What does the word  opera  mean ',DESC
-'Who lived on the shores of the Gitchee Gumee River ',HUM
-'What did the ancients call the four great elements ',ENTY
-'What U.S. city is The Queen of the Pacific ',LOC
-'How many teaspoons make up a tablespoon ',NUM
-'Where is Procter & Gamble based in the U.S. ',LOC
-'What is a swatch ',DESC
-'Name the 5 words that use all of the letters in the alphabet ',ENTY
-'What country received all the Nobel Prizes awarded in 1976 ',LOC
-'Where can I find the schematics to the windshield wiper mechanism ',LOC
-'What kind of creatures are black ',ENTY
-'Where can an individual get a contact lens tested that burned the entire surface of eye when new ',LOC
-'How much did the Iran-Contra investigation cost ',NUM
-'Why are eggs supposed to be stored small end down ',DESC
-'What is a fear of sourness ',ENTY
-'Where can I find up-to-date coastal ocean surface temperature information ',LOC
-'What do you get by adding Lactobacillus bulgaricus to milk ',ENTY
-'Whose singing voice was dubbed in for Natalie Wood in West Side Story and Audrey Hepburn in My Fair Lady ',HUM
-'How did Bob Marley die ',DESC
-'Who killed JFK ',HUM
-'What soap was touted as being  for people who like people  ',ENTY
-'How old is Britney Spears ',NUM
-'What Apollo 11 astronaut minded the store while Armstrong and Aldrin made history ',HUM
-'Where is Windsor Castle ',LOC
-'Who was the only president to serve two nonconsecutive terms ',HUM
-'What singer s hit song inspired the Dolly Parton Stallone movie Rhinestone ',HUM
-'What is Linux ',DESC
-'Where do the Grimace and Mayor McCheese live ',LOC
-'What s the difference between sleet and freezing rain ',DESC
-'When was the Berlin Wall erected ',NUM
-'What animals can live the longest without food ',ENTY
-'What s the score of a forfeited baseball game ',NUM
-'Who were the Yankee s frequent enemies ',HUM
-'What vehicles are raced in the Tour de France ',ENTY
-'What is the root of all evil ',DESC
-'What was the reason for the partition of the Anglican and Vatican churches ',DESC
-'What do the letters ZIP stand for in the phrase  ZIP code  ',ABBR
-'What did Tristan come back as ',ENTY
-'Who did the Seven Mules block for ',HUM
-'Which is a real berry : blackberry ',ENTY
-'How many corners does a spritsail have ',NUM
-'Where is Natchitoches ',LOC
-'What kind of education do I need to become a flight attendant ',ENTY
-'What are some important events of the 1830 s ',ENTY
-'What are all the rivers in Europe ',LOC
-'When did beethoven die ',NUM
-'What occupation has the highest divorce rate ',HUM
-'What s the second-most-used vowel in English ',ENTY
-'What golfer has been called Ohio Fats and Blobbo ',HUM
-'What is a transistor ',DESC
-'Name a country that is developing a magnetic levitation railway system ',LOC
-'When was the first steel mill in the United States built ',NUM
-'Which mayonnaise refers to itself as  real  mayonnaise ',ENTY
-'How was Lawrence',DESC
-'In which sport is there a  scrum  ',ENTY
-'When was Dubai s first concrete house built ',NUM
-'What is the softest part of the body ',ENTY
-'Who made a boat out of gopher wood ',HUM
-'What year did the United States pass the Copyright law ',NUM
-'Why is hockey so violent ',DESC
-'In what area of the world was the Six Day War fought ',LOC
-'What U.S. President was the first to breed mules ',HUM
-'How does blood clot ',DESC
-'Who was the prophet of the Muslim people ',HUM
-'How hot does the inside of an active volcano get ',NUM
-'What is a urologist ',DESC
-'What is a Jellicle Cat ',DESC
-'Who is the prophet that is most connected to the Dead Sea ',HUM
-'Who portrayed Carl Bernstein in All the President s Men ',HUM
-'What New England state carries the telephone area code 27 ',LOC
-'What landmark Italian restaurant can be found at 239 West 48th Street ',LOC
-'Who was named Admiral of the Ocean Seas and Viceroy and Governor General of all the islands he might discover ',HUM
-'What is the Scotch  for people who know the difference  ',ENTY
-'Who was chairman of the Senate select committee that tried to get to the bottom of Watergate ',HUM
-'What animal has the best hearing ',ENTY
-'What prison is found in Ossining ',LOC
-'What woman pitcher has struck out Ted Williams and Hank Aaron ',HUM
-'What is a fear of ruin ',ENTY
-'Who owns the St. Louis Rams ',HUM
-'What film dramatized the Scopes monkey trial ',ENTY
-'Name the two mystical ravens Odin has at his command .',ENTY
-'How many URL extensions are there  and what are they ',NUM
-'What police force did Mack Sennett create ',HUM
-'Where can I find lyrics for R&B ',LOC
-'Why is Jane Goodall famous ',DESC
-'How many objects orbit the Earth ',NUM
-'How long does a dog sleep ',NUM
-'What prompted the co-pilot of the Enola Gay to enter only  My God  in his log ',DESC
-'How many people in the USA say their number one source of information is the newspaper ',NUM
-'What suburban housewife and mother of three wrote The Feminine Mystique ',HUM
-'What deck of cards includes the Wheel of Fortune ',ENTY
-'How much waste does an average dairy cow produce in a day ',NUM
-'What powdered soft drink mix went into space ',ENTY
-'How tall is the giraffe ',NUM
-'What is the Islamic equivalent of the Red Cross ',ENTY
-'Hitler came to power in Germany in what year ',NUM
-'Name the lawyer for Randy Craft .',HUM
-'Approximately how many students are enrolled at the University of Massachusetts ',NUM
-'Which way do you turn your Bic to increase the flame - clockwise or counterclockwise ',LOC
-'What onetime member of Ronald Reagan s cabinet called federal policy toward Indians  an example of the failure of socialism  ',HUM
-'What sports magazine has the largest circulation ',ENTY
-'What Leon Uris novel dealt with the Russian capture of Berlin ',ENTY
-'What is the date of Bastille Day ',NUM
-'Approximately how much does a teaspoon of matter weigh in a black hole ',NUM
-'Who was the first governor of West Virginia ',HUM
-'What are the lyrics to  Smelly Cat  ',DESC
-'Who did Arthur H. Bremer try to assassinate on May 15 ',HUM
-'What is the origin of the rock band Led Zeppelin s name ',DESC
-'What is the name of the gulf between Sweden and Finland ',LOC
-'What is the mean income of the top 10\% ',NUM
-'Who was Jinnah ',HUM
-'What new year is celebrated on February 16th ',ENTY
-'What s a  Drinker respirator  better known as ',ENTY
-'What does God create in the first sentence of the Bible ',ENTY
-'What do insects do through their spiracles ',DESC
-'What comedian was born Allen Stewart Konigsberg ',HUM
-'Who discovered imaginary numbers ',HUM
-'In which Kevin Costner movie did Sioux Indians play a role ',ENTY
-'How many cullions does a male have ',NUM
-'What is the origin of head lice ',DESC
-'What country has the most time zones ',LOC
-'Where is Ocho Rios ',LOC
-'What is the abbreviation of General Motors ',ABBR
-'What s the staff of life mentioned in the Lord s Prayer ',DESC
-'How many thousands of students attend the University of Massachusetts ',NUM
-'What actress holds the record for the most appearances on the cover of Life ',HUM
-'What famous model was married to Billy Joel ',HUM
-'What desert has the highest sand dunes ',LOC
-'What is the origin of the word  sideburns  ',DESC
-'What actor came to dinner in Guess Who s Coming to Dinner ',HUM
-'What is  the only cigarette made with no leftovers  ',DESC
-'How many flavors of ice cream does Howard Johnson s have ',NUM
-'Who s the twin brother of the Greek goddess Artemis ',HUM
-'What is a fear of cholera ',ENTY
-'How many games are played in a five-team round-robin tournament ',NUM
-'What magazine gives us the cream ',ENTY
-'What is a fear of sleep ',ENTY
-'Who was Scrooge s dead partner in Dickens s A Christmas Carol ',HUM
-'When did the vesuvius last erupt ',NUM
-'Where was Pythagoras born ',LOC
-'What fruit does the ficus produce ',ENTY
-'What caused an adjournment of the 25th anniversary session of the United Nations General Assembly ',DESC
-'Who invented the process to make condensed milk ',HUM
-'What are the 7 Wonders of the World ',ENTY
-'What s the tallest building in New York City ',LOC
-'Who declared :  I am down on whores and I shan t stop ripping them  ',HUM
-'What is the definition of cecum ',DESC
-'What s the official animal of Canada ',ENTY
-'What is pasta ',DESC
-'What is the Islamic counterpart to the Red Cross ',ENTY
-'Where did Indian Pudding come from ',DESC
-'How can I get someone s email address ',DESC
-'What Russian seaport has a name meaning  Lord of the East  ',LOC
-'What line of candy products included Super Skrunch and Peanut Butter Oompas ',ENTY
-'What U.S. state boasts Stone Mountain ',LOC
-'What is a fear of machinery ',ENTY
-'Who did Bobby Fischer beat to win the world chess championship ',HUM
-'Which is heavier - cream or milk ',ENTY
-'How many CDs has Garth Brooks sold ',NUM
-'Who is the man behind the pig-the man who pulls the strings and speaks for Miss Piggy ',HUM
-'What information can you tell me about actor James Cromwell ',HUM
-'What was the number of assassinations and attempts to assassinate in the U.S. since 1865 ',NUM
-'Where is there information on the novel  El Cid  ',LOC
-'Why do people shake hands to show friendliness ',DESC
-'What was an  Asiento  ',DESC
-'Who built the first pyramid ',HUM
-'What is  flintknapping  ',DESC
-'What does the word LASER mean ',ABBR
-'Where was the largest concentration camp in World War II ',LOC
-'What is the date of Boxing Day ',NUM
-'In Dana s  Two Years Before the Mast ',HUM
-'Name the highest mountain .',LOC
-'What college football team did Knute Rockne build into a power ',HUM
-'What chapter of Gone with the Wind has Rhett Butler leaving Scarlett O Hara ',NUM
-'What is Compaq s mission statement ',DESC
-'When was Babe Ruth born ',NUM
-'Who was President of Costa Rica in 1994 ',HUM
-'How did the bikini bathing suite get its name ',DESC
-'What was the first town to be chartered in Vermont ',LOC
-'In what Olympic Games did Nadia Comaneci become popular ',ENTY
-'How hot should the oven be when baking Peachy Oat Muffins ',NUM
-'What is a philanthropist ',DESC
-'What country has been called The Queen of the Antilles ',LOC
-'What is the fear of frogs ',ENTY
-'What constellation represents a hunter with club and shield ',LOC
-'What sign is The Water Carrier the zodiacal symbol for ',ENTY
-'How many three-letter permutations can be made from the four letters : c ',NUM
-'What language is mostly spoken in Brazil ',ENTY
-'How long is human gestation ',NUM
-'What is a bourdon tube ',DESC
-'How do I sing like Elvis Presley ',DESC
-'What were popular songs and types of songs in the 1920s ',ENTY
-'What is commonly considered the fifth sense ',DESC
-'How many cards are dealt to each player in Gin Rummy ',NUM
-'How do you make dumplings ',DESC
-'Why do roosters sing at five o clock in the morning ',DESC
-'The italian artist ',NUM
-'What incident of 1933 did the German Nazis use to justify emergency decrees ',ENTY
-'What is the brand name of a chemical used to control ripening ',ENTY
-'What monarch signed the Magna Carta ',HUM
-'How do you make a paintball ',DESC
-'What are the major differences in the Catholic and Methodist religions ',DESC
-'What cancer is commonly associated with AIDS ',ENTY
-'What is the definition of a cascade ',DESC
-'Who declared :  I think I ll go out and milk the elk  ',HUM
-'Who was Whitcomb Judson ',HUM
-'What kind of company is 7-Eleven ',HUM
-'How many miles are there between Tel Aviv ',NUM
-'Shea and Gould closed their Los Angeles office for what reason ',DESC
-'What did the Confederate Constitution say about slavery ',DESC
-'What is a fear of touching ',ENTY
-'Who invented silly putty ',HUM
-'How does it make its colors ',DESC
-'What is the exchange rate between England and the U.S. ',NUM
-'Who was the lyricist and who was the composer between Gilbert and Sullivan ',HUM
-'How do ants have sex ',DESC
-'In what U.S. state was the first woman governor elected ',LOC
-'Who is Mia Farrow s mother ',HUM
-'Whom did Friz Freleng add to the Warner Bros. cartoon ranks ',HUM
-'What is  the soft drink for adults  ',ENTY
-'What South American city has the world s highest commercial landing field ',LOC
-'How can I find online spelling ',DESC
-'What was the name given the 6 ',HUM
-'What is the acreage of the Chappellet vineyard ',NUM
-'What anesthetic did Queen Victoria allow to be used for the birth of her seventh child ',ENTY
-'How do you write MLA style bibliographies for an Internet source ',DESC
-'How old was George Washington when he died ',NUM
-'What software offers inventors use of CAD-like design ',ENTY
-'What magazine paid Ernest Hemingway $15 a word to write a bullfighting article ',ENTY
-'What is the Kashmir issue ',DESC
-'The corpus callosum is in what part of the body ',ENTY
-'How long does a fly live ',NUM
-'What is hebephrenia ',DESC
-'Where are all European and American eels born ',LOC
-'How big is a normal size penis for a 15-year-old ',NUM
-'Where did the term  86ed  come from ',DESC
-'What professional cricketer s son wrote The War of the Worlds in 1898 ',HUM
-'Who was Red Grange ',HUM
-'What is leukemia ',DESC
-'Where did bocci originate ',LOC
-'What are the four largest mountain ranges in the continental United States ',LOC
-'What poet wrote :  ... I have promises to keep ',HUM
-'What two presidents of the U.S. published books of poetry ',HUM
-'What star-faring race brought about the Inhumans on Marvel s Earth ',ENTY
-'What is the tallest building in Japan ',LOC
-'What are some translations of the phrase  Thank-you  ',ENTY
-'How much do drugs to treat tuberculosis cost ',NUM
-'Where is Mozambique located ',LOC
-'What European country boasts the city of Furth ',LOC
-'Who was the architect of Central Park ',HUM
-'What effect does friction have on perpetual motion ',DESC
-'What s the largest U.S. agricultural crop by weight ',ENTY
-'Which Ventura County police department seized the largest cocaine shipment in it s history ',HUM
-'What famed London criminal court was once a feudal castle ',LOC
-'What operating system do IBM-compatible machines use ',ENTY
-'What is yohimbine ',DESC
-'What s a male witch called ',ENTY
-'When was John D. Rockefeller born ',NUM
-'What are the seven deadly sins ',DESC
-'What must be exceeded to produce a sonic boom ',ENTY
-'What 1953 film won Frank Sinatra a best supporting actor Oscar ',ENTY
-'What country is the origin of the band the Creeps ',LOC
-'What is June s birthstone ',DESC
-'Where can I get information and statistics on countries and nations ',LOC
-'What American actress was the first to be called a  vamp  ',HUM
-'How much would a black-and-white 1-cent stamp be worth ',NUM
-'What s the abbreviation for trinitrotoluene ',ABBR
-'How many people was Randy Craft convicted of murdering ',NUM
-'Who was the first woman in space ',HUM
-'What is idealab ! ',DESC
-'Why did several San Diego schools remove apples from students menus ',DESC
-'What do the letters D.C. stand for in Washington ',ABBR
-'Who played the title role in My Favorite Martian ',HUM
-'How many calories are there in a Big Mac ',NUM
-'What is a Mexican hairless ',DESC
-'What year was the setting for American Graffiti ',NUM
-'What three European countries begin with the letter A ',LOC
-'Where are good science sites on the Internet ',LOC
-'What Asian spiritual and political leader was married at the age of 13 ',HUM
-'What s the second-highest mountain in the world ',LOC
-'What is the English meaning of caliente ',DESC
-'What well-known music personality is the father of an adopted son named Hans Christian Henderson ',HUM
-'Who portrayed The Cowardly Lion in The Wizard of Oz ',HUM
-'What TV show premiered on January 15 ',ENTY
-'What does the Georgetown  Hoya  mean ',DESC
-'What is the name of the company that manufactures the  American Girl  doll collection ',HUM
-'Why are there 12 people on a jury in criminal cases ',DESC
-'How do you get rid on woodpeckers ',DESC
-'What is a First World country ',DESC
-'How many different types of skunks are there ',NUM
-'What is a golf ball made of ',ENTY
-'What London street is the home of British journalism ',LOC
-'What is the per-capita income of Colombia ',NUM
-'Who invented the toothbrush ',HUM
-'What does an emperor do ',DESC
-'In what deodorant commercial did tenants have adjoining medicine cabinets ',ENTY
-'What drink is formed of tequila ',ENTY
-'What s the name of Tom Sawyer s aunt with whom he lives ',HUM
-'How does lightning travel ',DESC
-'What color is the lipstick on Boy George s wax lips at London s Madame Tussaud s ',ENTY
-'What was the name of  The Muppets  creator ',HUM
-'What nationality is Gorbachev ',LOC
-'How much Coca Cola is drunk in one day in the world ',NUM
-'How do you ask questions ',DESC
-'What kind of organization is  Last Chance for Animals  ',HUM
-'What is the nickname for the state of Mississippi ',LOC
-'What does  antidisestablishmentarianism  mean ',DESC
-'How do you say I love you in Spanish ',ENTY
-'How many bytes are in a terabyte ',NUM
-'What is the Golden Rule ',DESC
-'How do I find out what cities are in a certain area code ',DESC
-'Who has more DNA - a man or a woman ',HUM
-'Who played the father on  Charles in Charge  ',HUM
-'Who first broke the sound barrier ',HUM
-'What is the current population for these countries : France ',NUM
-'What is a common anti-AIDS drug ',ENTY
-'What is dry ice ',DESC
-'What is white chocolate ',DESC
-'What molecules include fluorine ',ENTY
-'What was the name of Sergeant Preston of the Yukon s lead dog ',ENTY
-'What kind of greeting is appropriate to send on Yom Kippur ',DESC
-'What happens when lightning strikes a body of water ',DESC
-'What are liver enzymes ',DESC
-'Which of these are authors ',HUM
-'What is the organizational structure of the New Delhi Indira Gandhi airport ',ENTY
-'What was George Washington afraid of ',ENTY
-'What was the name of the flight that Fawaz Younis hijacked ',ENTY
-'What other name were the  Little Rascals  known as ',ENTY
-'What National Basketball Association superstar told his story in Giant Steps ',HUM
-'How many e-commerce companies are started every day ',NUM
-'How long has L.L. Cool J. been married ',NUM
-'What is Jell-O made from ',ENTY
-'What exactly ',DESC
-'What state in the U.S. has the most blacks ',LOC
-'What international organization was founded by Clara Barton ',HUM
-'What does A&W of root beer fame stand for ',ABBR
-'What was the name of the Titanic s captain ',HUM
-'Where did the world come from ',LOC
-'What kind of puzzle first appeared in the U.S. in the New York World on December 21 ',ENTY
-'What ocean liner burned and sank in Hong Kong harbor ',ENTY
-'Who is Shirley MacLaine ',HUM
-'How can I find out what year a Beanie Baby was introduced ',DESC
-'What is the world population as of today ',NUM
-'What s the colored part of the eye called ',ENTY
-'What can communications satellites offer yachts ',ENTY
-'What does a heliologist study ',ENTY
-'How much did the minimum wage amount to in 1991 ',NUM
-'What does ribavirin consist of ',ENTY
-'What meat complemented sweet potatoes and peas in the first TV dinner ',ENTY
-'What gender is not allowed to vote in Kuwait ',ENTY
-'How many people hike ',NUM
-'What comedienne calls her sister-in-law Captain Bligh and her mother-in-law Moby Dick ',HUM
-'What is AFS ',ABBR
-'What did people use to freshen their breath before toothpaste ',ENTY
-'Where is former Pro wrestler Johnny  Rubber Man  Walker ',LOC
-'What are the benefits of a rowing machine ',DESC
-'What was the name of the ball game played by the mayans ',ENTY
-'What civil war was fought between 1936 and 1939 ',ENTY
-'What country are you visiting if you land at President Duvalier Airport ',LOC
-'Who was the first person inducted into the U.S. Swimming Hall of Fame ',HUM
-'What international amateur sports spectacle was first telecast in 1956 ',ENTY
-'The operating system that runs on IBM-compatible machines is called what ',ENTY
-'Why are there letters on the telephone  Why are there no Q or Z ',DESC
-'What do you call a book of quotes ',ENTY
-'What was John F. Kennedy s 1960 campaign song ',ENTY
-'How did Socrates die ',DESC
-'Name the ship Beany and Cecil sailed .',ENTY
-'What shampoo prevents eczema ',ENTY
-'What is  the computer for the rest of us  ',DESC
-'What was Nine Tailors ',DESC
-'How do you buy stocks ',DESC
-'How long was the OJ Simpson trial ',NUM
-'Who danced into stardom with Fred Astaire in 1941 s You ll Never Get Rich ',HUM
-'What film marked Robert Redford s directorial debut ',ENTY
-'Who won the 1967 Academy Award for Best Actor ',HUM
-'Where is the massive North Korean nuclear complex located ',LOC
-'What was  America s recessed-filter cigarette  ',ENTY
-'How much did the first Barbie doll sell for in 1959 ',NUM
-'What is a leaky heart valve ',DESC
-'How do I stop background noise in a car stereo ',DESC
-'What do you call a section of your finger from one joint to another ',ENTY
-'What do Christian Scientists believe in ',DESC
-'Where s the 19th hole on a golf course ',LOC
-'What is goulash ',DESC
-'What drug is often used to treat AIDS patients ',ENTY
-'What was the 1940 annual salary for a boilermaker ',NUM
-'What is the largest lake in North America ',LOC
-'How many member states are in the UN ',NUM
-'Who s the only president buried in Washington',HUM
-'Where is the Bulls basketball team based ',LOC
-'Who is the famous sister of actress Olivia De Havilland ',HUM
-'What is the recommended daily requirement for folic acid for pregnant women ',DESC
-'What s the distinction of U.S. Supreme Court Justice Thurgood Marshall ',DESC
-'Where can one find Rider College ',LOC
-'Who wrote the Bible ',HUM
-'How do they raise the cranes when building high-rise buildings ',DESC
-'What day of the week was July 13 ',NUM
-'How do you recognize anorexia ',DESC
-'What are the living conditions in Cuba ',DESC
-'What is the name of the American who was captured when his plane went down over Syrian-held Lebanon ',HUM
-'Which organization is the Security Council a part of ',HUM
-'Where is the Valley of the Kings ',LOC
-'What food did Marco Polo introduce into Italy from the court of Kubla Khan ',ENTY
-'What is the name of the planet that the Ewoks live on ',LOC
-'What country buys 25 percent of the world s tea exports ',LOC
-'What does a pedometer measure ',ENTY
-'Where can I find full written draft of CTBT ',LOC
-'What was the V-8 Juice slogan :  the tastebud  ',DESC
-'How do I know someone is truly in love with me ',DESC
-'What kind of sport is often associated with hooligans ',ENTY
-'What is a movie that Kevin Costner made about Sioux Indians ',ENTY
-'What ocean did the Titanic sink in ',LOC
-'What were the trials called which followed World War II ',ENTY
-'Who is Samuel F. Pickering ',HUM
-'What is the largest island in the Mediterranean Sea ',LOC
-'What film ends with the line :  This is Mrs. Norman Maine  ',ENTY
-'Who sought to create The Great Society ',HUM
-'What state produces the best lobster to eat ',LOC
-'What is a fear of jealousy ',ENTY
-'How many lawyers are there in the state of New Jersey ',NUM
-'Why do we call someone  honey  ',DESC
-'How many dollars a day did Arthur Frommer say you could get by on in Europe in 1968 ',NUM
-'How does ultraviolet light damage the DNA of skin cells ',DESC
-'What s the nickname of oddsmaker Jimmy Snyder ',HUM
-'When was Florida admitted into the Union ',NUM
-'What does SHIELD stand for ',ABBR
-'What are the top 10 colleges in the United States in the field of engineering ',HUM
-'What is the name of a book written by Aaron Hass ',ENTY
-'Who was Israel s first prime minister ',HUM
-'Where can I buy a hat like the kind Jay Kay from Jamiroquai wears ',LOC
-'What kind of business is 7-Eleven ',HUM
-'Where was Christopher Columbus born ',LOC
-'What is  snoogans  ',DESC
-'What is the mission of Nike ',ENTY
-'Who banned Peter Rose from baseball for betting on games ',HUM
-'How does the Nintendo  Zapper  work ',DESC
-'What are the top boy names in the U.S. ',HUM
-'What lake is the source of the White Nile ',LOC
-'What is limbo ',DESC
-'What s the most commonly-spoken language in Belgium ',ENTY
-'What was the name of the peace agreement imposed on Germany after World War I ',ENTY
-'How much did Mercury spend on advertising in 1993 ',NUM
-'What is the purpose of the SysRq key on my computer keyboard ',DESC
-'What is a fear of trees ',ENTY
-'How can I register my website in Yahoo for free ',DESC
-'Name the country which Honecker lived in .',LOC
-'What college enlivens Hanover ',HUM
-'Who was credited with saying :  I never met a man I did nt like  ',HUM
-'What English physician was born on January 18 ',HUM
-'What disease did August von Wassermann develop a specific test for in 196 ',ENTY
-'Name Dick Tracy s two children .',HUM
-'What do bee hives do in cranberry bogs ',DESC
-'In what year did Hitler gain power of Germany ',NUM
-'How do I know how much money to save for retirement ',DESC
-'What s the geographic term for the submerged fringe of a continent ',ENTY
-'What is the real name of disc jockey  Wolfman Jack  ',HUM
-'How many pairs of legs does a lobster have ',NUM
-'How can you be happy ',DESC
-'What country is proud to claim Volcano National Park ',LOC
-'Who invented the vacuum cleaner ',HUM
-'What does an average daycare provider get paid in New England ',NUM
-'What is in baby powder and baby lotion that makes it smell the way it does ',DESC
-'Where is Kings Canyon ',LOC
-'What is an auto-commentary ',DESC
-'What does a tarantula eat ',ENTY
-'What Civil War general wreaked havoc on the south by marching through Georgia on his way to the sea ',HUM
-'How tall was the animated King Kong ',NUM
-'What is the starting salary of a radiographer ',NUM
-'What fool is not so wise To lose an oath to win a paradise ',HUM
-'What football coach s story was told in the movie Run to Daylight ',HUM
-'Whose image is alleged to be on The Shroud of Turin ',HUM
-'What weapon is the mythological character Apollo most proficient with ',ENTY
-'Where can I learn about Samuel Gompers ',LOC
-'How many small businesses are there in the United States ',NUM
-'When did Iraqi troops invade Kuwait ',NUM
-'What is the origin and the meaning of the name ',DESC
-'How many children under 18 are victims of some sort of Physical Abuse each year ',NUM
-'What were the three prophecies the witches make to Macbeth ',DESC
-'What s the name of Jacques Cousteau s research ship ',ENTY
-'Who made Stonehenge ',HUM
-'What s the difference between TFT and dual-scan display ',DESC
-'What two South American countries do nt border Brazil ',LOC
-'How many people own pets ',NUM
-'What is the name of the 1919 occurrence in which British troops killed over 3 unarmed Indian protestors ',ENTY
-'Where are there aborigines ',LOC
-'What was the education system in the 1960 s ',ENTY
-'What Mary Tyler Moore Show regular came into the world as Tadeus Wladyslaw Konopka ',ENTY
-'What organization did Mr. Waverly assign agents for ',HUM
-'What is a fear of punishment ',ENTY
-'How many points are there on a Backgammon board ',NUM
-'When was the first railroad from the east coast to the west coast completed ',NUM
-'Who is Pia Zadora s millionaire husband and mentor ',HUM
-'What California bay s largest island is Angel Island ',LOC
-'What John Steinbeck novel portrays the Joad family ',ENTY
-'What is the price for AAA s liability auto insurance ',NUM
-'What function does homeostasis have on the existence of an organism ',DESC
-'Who were the only two bald U.S. Presidents ',HUM
-'When was the Hoover Dam constructed ',NUM
-'What explorer was nicknamed Iberia s Pilot ',HUM
-'In what year did the US Marine Corps adopt the motto  Semper Fidelis  ',NUM
-'What city was John F. Kennedy nominated for president in ',LOC
-'What actor married John F. Kennedy s sister ',HUM
-'How did P.T. Barnum bill the diminutive Charles S. Stratton ',DESC
-'What does the Greek word polis mean ',DESC
-'What is hyperopia ',DESC
-'Which city in China has the largest number of foreign financial companies ',LOC
-'What s the rathaus in Frankfurt ',DESC
-'Name the Ranger who was always after Yogi Bear .',HUM
-'What comic strip sometimes features a mailman named Beasley ',ENTY
-'What is the origin of the term soda jerk ',DESC
-'What is ethology ',DESC
-'What Russian composer s Prelude in C Sharp Minor brought him fame and fortune ',HUM
-'Which oil company almost picked a word that meant  stalled car  in Japanese as its new international name ',HUM
-'What meter was invented by C.C. Magee in 1935 ',ENTY
-'How much was the minimum wage in 1991 ',NUM
-'Who was Secretary of State during the Nixon administration ',HUM
-'The Shea & Gould law firm had an office in L.A. for how many years ',NUM
-'Whose autobiography is titled Yes I Can ',HUM
-'Who was Sherlock Holmes s archenemy ',HUM
-'What does the channel ESPN stand for ',ABBR
-'How many disks does each player have in a four-handed game of Crokinole ',NUM
-'What is the economic impact of unemployment on the economy ',DESC
-'What presidential press secretary dismissed Watergate as a third-rate burglary attempt ',HUM
-'Which team won the Super Bowl in 1968 ',HUM
-'When was the Triangle Shirtwaist fire ',NUM
-'What is predicted to topple over between 2010 and 2020 ',ENTY
-'What is the difference between the anus and the rectum ',DESC
-'Which country is known as  Big Bear  ',LOC
-'What does verdandi mean ',DESC
-'What product features a frog that says  dig em  ',ENTY
-'What California bridge was Don Brown the first to cross ',LOC
-'In what city is the US Declaration of Independence located ',LOC
-'What did Mighty Mouse always sing as he went into action ',DESC
-'How many feet long is a baseball pitcher s rubber ',NUM
-'What city is terrorized by Dracula in The Night Stalker ',LOC
-'What were first used by John L. Sullivan and James J. Corbett in 1892 ',ENTY
-'Which breakfast cereal brought you  the best each morning  ',ENTY
-'Where do the Blackhawks maintain their operations ',LOC
-'Which of the Seven Dwarfs comes first alphabetically ',HUM
-'What former major-league left-handed baseball pitcher was known as  Space Man  ',HUM
-'What is Columbia Tristar s phone number ',NUM
-'What is the average age of a member of the team that worked on the Manhatten Project ',NUM
-'How do you write a book report ',DESC
-'How can I find out my biorhythm ',DESC
-'What is the largest city on the Great Lakes ',LOC
-'Why is the grass green ',DESC
-'Why are the U.S. presidential elections held in November ',DESC
-'What father and son won the Medal of Honor ',HUM
-'What famed wall supports the Badaling turret ',LOC
-'How can I get a CCT diagram ',DESC
-'What is 55 times sweeter than cane sugar ',ENTY
-'How many hands does Bjorn Borg use when hitting his forehand ',NUM
-'What state has the longest Great Lakes shoreline ',LOC
-'Who shot Lee Harvey Oswald ',HUM
-'How many small businesses are there in the U.S .',NUM
-'What sport features snatches and clean jerks ',ENTY
-'Who was the 16th President of the United States ',HUM
-'How do they type Chinese characters on a keyboard ',DESC
-'What was the date of Iraq s invasion of Kuwait ',NUM
-'Which company created the Internet browser Mosaic ',HUM
-'How does a scientific calculator work ',DESC
-'What President lived at 219 North Delaware Street ',HUM
-'What is the size of Argentina ',NUM
-'What boxer s life story is titled Raging Bull ',HUM
-'What s the proud claim to fame of the young women who formed Kappa Alpha Theta ',DESC
-'What California desert is dubbed High Desert ',LOC
-'When do you plant winter wheat ',NUM
-'Who was Maria Theresa ',HUM
-'How long does it take for your blood to make one complete trip through the body ',NUM
-'What country are Godiva chocolates from ',LOC
-'Why did the world enter a global depression in 1929 ',DESC
-'What does the technique called  cold fusion  produce ',ENTY
-'How do plants make food ',DESC
-'What will a kid eat the middle of ',ENTY
-'What was the name of the television show ',ENTY
-'How many millimeters are in a mile ',NUM
-'What colors is magenta made of ',ENTY
-'What is e-commerce ',DESC
-'What was the name of the famous battle between Texas and Mexico ',ENTY
-'Where can I find a list of  classic  books 5th and 6th graders should read ',LOC
-'What s the name of the tiger that advertises for Frosted Flakes cereal ',ENTY
-'What is a fear of thunder ',ENTY
-'What constitutes an adult ',ENTY
-'Who has won the most Super Bowls ',HUM
-'How many people lived in Nebraska in the mid 1900s ',NUM
-'What is the snowiest city in the U.S. ',LOC
-'What is witch hazel ',DESC
-'Who thought he d never see a poem lovely as a tree ',HUM
-'What is a dental root canal ',DESC
-'Who is Peter Weir ',HUM
-'Who took the toys donated for the Doodyville Orphans  Fund and kept them for himself ',HUM
-'What was the infamous pseudonym of Peter Sutcliffe ',HUM
-'How many Stradivarius violins were ever made ',NUM
-'What is the name given to the Islamic counterpart of the Red Cross ',ENTY
-'What two New York Yankee pitchers swapped wives and families ',HUM
-'What is the difference between a preface and a foreword ',DESC
-'When does menstruation begin ',NUM
-'What island group is Guadalcanal a part of ',LOC
-'What kind of creatures are the Canary Islands named for ',ENTY
-'What kind of dog is Scooby Doo ',ENTY
-'Where is Glasgow ',LOC
-'What color is  ash  ',ENTY
-'Who was the actor who played Sam in the movie Casablanca ',HUM
-'What terrorist group was headed by Donald DeFreeze ',HUM
-'Name the fast food chain with the golden arches .',HUM
-'What day is known as the  national day of prayer  ',NUM
-'Who were the Picts ',HUM
-'What is idealab ! ',DESC
-'Who headed Hitler s infamous Gestapo ',HUM
-'What does hazmat stand for ',DESC
-'What is the second hardest substance ',ENTY
-'What plant is rum made from ',ENTY
-'What were the achievements of Richard Nixon ',ENTY
-'What nuclear process takes place in an H-bomb ',DESC
-'What product did Robert Conrad dare people to knock off his shoulder ',ENTY
-'What 1920s cowboy star rode Tony the Wonder Horse ',HUM
-'Who portrayed Etta Place ',HUM
-'What task does the Bouvier breed of dog perform ',HUM
-'Who took over as conductor of the Boston Pops after Arthur Fiedler s long reign ',HUM
-'Madonna advertises for what soft drink ',ENTY
-'What is a biologist ',DESC
-'How many bottles of wine were prisoners in the Bastille allowed per day ',NUM
-'What was the name of Captain Bligh s ship ',ENTY
-'What phone number can I call to have a tree planted ',NUM
-'What is Maurizio Pellegrin s age ',NUM
-'What is the use of a 24-hour clock instead of a 12-hour clock ',DESC
-'Where are zebras most likely found ',LOC
-'Where is the biggest bell ',LOC
-'What is the formula to calculate pi ',ENTY
-'What was the name of the lawyer who represented Randy Craft ',HUM
-'How many people are there in the world ',NUM
-'When was the Big Thompson flood ',NUM
-'What country did the Mau Mau Uprising take place in ',LOC
-'What barroom judge called himself The Law West of the Pecos ',HUM
-'In what year did the Bounty mutiny happen ',NUM
-'What war was fought by the Spanish as far as the Philippines ',ENTY
-'What famous meat company went out of business because it became known that the underworld had been selling them kangaroo meat ',HUM
-'What product  doubles your pleasure ',ENTY
-'What is the origin of the midwest slang ',DESC
-'What NFL team did Vince Lombardi end his coaching career with ',HUM
-'What are the Benelux countries ',LOC
-'What scale measures earthquakes ',ENTY
-'What city is served by Tempelhol Airport ',LOC
-'Who played the original Charlie s Angels ',HUM
-'What is the federal minimum wage ',NUM
-'How many dots make up the symbol for  because  ',NUM
-'What was the backup singing group for Roy Rogers ',HUM
-'Why does it say on children s cough syrup not to drive while using this medication ',DESC
-'What are some fun things to do in Cozumel ',DESC
-'Why can t you taste anything when you have a cold ',DESC
-'What s the world s most common compound ',ENTY
-'When did Rococo painting and architecture flourish ',NUM
-'What s the capital of Iowa ',LOC
-'Where can I find a review of Nightmare on Elm Street in a film journal ',LOC
-'Who is the French literary charcter who is chiefly famous for his enormous nose ',HUM
-'What is saltpeter ',DESC
-'How do you calculate the change in enthalpy of a chemical reaction ',DESC
-'What disease does Katharine Hepburn have that makes her voice shake ',ENTY
-'What U.S. state has the most blondes ',LOC
-'What New England state covers 5.9 square miles ',LOC
-'What South Korean city is served by Kimpo International Airport ',LOC
-'What are names of two old men who appear in the serial tv Muppets Show ',HUM
-'What was the Bridge of San Luis Rey made of ',ENTY
-'What is the state nickname of Mississippi ',LOC
-'How much of the silver production is manufactured by independent silversmiths ',NUM
-'What is the temperature for cooking ',NUM
-'Where is Burma ',LOC
-'Where is the largest dam in the world ',LOC
-'What is a fear of food ',ENTY
-'Where did Luther display his  Ninety-Five Theses  ',LOC
-'What were the names of the three ships used by Columbus ',ENTY
-'How do they find or choose witnesses to an execution ',DESC
-'What apostle is Taylor Caldwell s Great Lion of God ',HUM
-'How many quarts of whole milk is needed to make one pound of butter ',NUM
-'What month did the Edmund Fitzgerald sink ',NUM
-'How many stations do you shoot from in the basketball game  Around the World  ',NUM
-'What was originally defined as one 1-millionth of the distance from the equator to the Pole ',ENTY
-'What country surrounds San Marino ',LOC
-'In what high-risk business venture did Jimmy the Greek bet and lose ',HUM
-'What were the first frozen foods ',ENTY
-'What British TV series inspired All in the Family ',ENTY
-'What does an echidna look like ',DESC
-'What was the player s name who played nose tackle for the Eagles in Super Bowl XV ',HUM
-'What college did Joe Namath play football for ',HUM
-'What time of day did Emperor Hirohito die ',NUM
-'How is the election of a new Pope announced to the world ',DESC
-'What U.S. state has the second-longest coastline ',LOC
-'What was the worst hurricane ',ENTY
-'What are the rites accompanying the circumcision of a newly born-child in Judaism called ',ENTY
-'Who portrayed W.C. Fields in the film W.C. Fields and Me ',HUM
-'Where did the Japanese Imperial Forces surrender to end WWII ',LOC
-'What does VCR stand for ',ABBR
-'What year was the Avery Dennison company founded ',NUM
-'In Kafka s Metamorphosis ',ENTY
-'How do you find oxidation numbers ',DESC
-'What title did Shevardnadze have during the Soviet era ',HUM
-'What city has the two steepest streets in the U.S. ',LOC
-'How much folic acid should an expectant mother get daily ',NUM
-'What was the name of Darth Vader s son ',HUM
-'How many points is a disk in the center hole worth in Crokinole ',NUM
-'What is Greek pita ',DESC
-'What general direction does the journey in Around the World in 80 Days proceed in ',LOC
-'What is the most famous German word in the English language ',ENTY
-'Who invented Astroturf ',HUM
-'What is the movie Jonathan Livingstone Seagull ',ENTY
-'How many blacks served in the Vietnam War',NUM
-'How can I find out my Moon sign ',DESC
-'What is the largest office block in the world ',LOC
-'Where can I buy movies on videotape online ',LOC
-'On what continent is Mozambique ',LOC
-'What was Darth Vader s son named ',HUM
-'Saddam Hussein was compared to whom by President Bush ',HUM
-'What river flows past the Temple of Karnak ',LOC
-'What country s capital is Tirana ',LOC
-'How many people have died of tuberculosis ',NUM
-'What is the smallest thing seen under the most powerful microscope ',ENTY
-'What was Hitler s favorite movie ',ENTY
-'Where does the weird shape of the dinner fish knife originate from ',LOC
-'What is the difference between optical and digital video ',DESC
-'How did former WWF wrestler Rick Rude die ',DESC
-'Mississippi is nicknamed what ',ENTY
-'How many astronauts manned each Project Mercury flight ',NUM
-'What s the American dollar equivalent for 8 pounds in the U.K. ',NUM
-'What is the name of actor Rex Harrison s son ',HUM
-'What baseball player was walked the most times ',HUM
-'How do hermit crabs reproduce ',DESC
-'In what year did Joe DiMaggio compile his 56-game hitting streak ',NUM
-'What radio station did Paul Harvey work for ',HUM
-'Who discovered electricity ',HUM
-'Who was the oldest U.S. president ',HUM
-'What is the population of Kansas ',NUM
-'What is Australia Day ',DESC
-'Why did the chicken cross the road ',DESC
-'What is the latitude and longitude of El Paso ',NUM
-'What TV detective did Craig Stevens play ',HUM
-'What was the name of the horse that fell on Queen Elizabeth ',ENTY
-'What program do I need to run a .tbk file ',ENTY
-'Where did Honecker rule ',LOC
-'What is the most efficient way to start a barbeque ',ENTY
-'What South African producer had a 1988 profit of $836 million ',HUM
-'Who was the first X-Man to die in battle ',HUM
-'How many people die from snakebite poisoning in the U.S. per year ',NUM
-'What company was the original sponsor of TV s Superman ',HUM
-'What was the Chivington Massacre ',DESC
-'What playing card symbolizes death ',ENTY
-'Who was the first English circumnavigator of the globe ',HUM
-'Which mammal lives ',ENTY
-'What number is at 12 o clock on a dartboard ',NUM
-'Which infectious disease is the world s deadliest ',ENTY
-'What does INRI stand for when used on Jesus  cross ',ABBR
-'What two major world religions began in India ',ENTY
-'What interesting method was used to run the credits in the early Popeye cartoons ',ENTY
-'What country are you in if you woo in the Wu dialect ',LOC
-'When did Aldous Huxley write ',NUM
-'Who was Ezra Taft Benson ',HUM
-'What layer of the atmosphere contains most of the ozone layer ',ENTY
-'What is a fear of passing high objects ',ENTY
-'What is the population of Mexico ',NUM
-'How wide is the Atlantic Ocean ',NUM
-'What soft drink not only has its own video game ',ENTY
-'What strait links the Mediterranean Sea and the Atlantic Ocean ',LOC
-'What is the meaning of the name Kathryn ',DESC
-'What does the E stand for in the equation E=mc2 ',ABBR
-'What canal does the Thatcher Ferry Bridge span ',LOC
-'How does light travel through the void of space if there is no medium for it to  wave  or  pulse  .',DESC
-'How did Rocky Marciano die ',DESC
-'How is water treated to make it safe to drink ',DESC
-'What was Einstein s IQ ',NUM
-'How many liberty bells have there been ',NUM
-'What actor s autobiography is titled All My Yesterdays ',HUM
-'What city has the world s longest subway system ',LOC
-'What was the outcome of the 1945 Yalta Conference ',DESC
-'What U.S. President showed a fondness for munching on bee pollen bars ',HUM
-'What are the different types of plastic ',ENTY
-'What is Sinn Fein ',DESC
-'What is the best brand for a laptop computer ',ENTY
-'How long is the world s largest ship ',NUM
-'What TV show did John Sebastian sing the theme for ',ENTY
-'Who portrayed the title character in the film The Day of the Jackal ',HUM
-'How can I find online spelling ',DESC
-'What was the name of Humphrey Bogart s club in Casablanca ',HUM
-'Who did Napolean defeat at Jena and Auerstadt ',HUM
-'How does the tail affect the flight of a kite ',DESC
-'Who wrote  Hamlet  ',HUM
-'What is an annotated bibliography ',DESC
-'What animal causes the biggest threat to humans ',ENTY
-'Where does Barney Rubble go to work after he drops Fred off in the  Flintstones  cartoon series ',LOC
-'Where does the tennis star Stefan Edberg come from ',LOC
-'What comedian created a punch-drunk pugilist named Cauliflower McPugg ',HUM
-'How do movie blues screens work ',DESC
-'What four-legged creature did a Cornell University study say would make man s best companion in space ',ENTY
-'What is the Jewish bible called ',ENTY
-'What is the busiest air travel season ',NUM
-'What s the mystery of the Bermuda Triangle ',DESC
-'What President served for five years ',HUM
-'What Polynesian people inhabit New Zealand ',HUM
-'What is the difference between a bachelor and a 1 bedroom apartment ',DESC
-'Who is the President of Pergament ',HUM
-'What President dispatched a cruiser to carry Charles Lindbergh home after his epic flight ',HUM
-'What country contains the highest point in South America ',LOC
-'What is a fear of disease ',ENTY
-'What is a caldera ',DESC
-'Where did Wile E. Coyote always get his devices ',LOC
-'What astronomer-architect designed the present St. Paul s Cathedral in London ',HUM
-'What is a fear of parasites ',ENTY
-'What s the highest-ranking suit in bridge ',ENTY
-'What is the meaning of Jesus ',DESC
-'What card game can feature dealer s choice ',ENTY
-'What Broadway musical featured the song ',ENTY
-'Who was the first person to study the stars ',HUM
-'What TV sitcom character had the maiden name Ethel Potter ',HUM
-'Who made the rotary engine automobile ',HUM
-'What country is the largest diamond producer ',LOC
-'What English word contains the most letters ',ENTY
-'How much stronger is the new vitreous carbon material invented by the Tokyo Institute of Technology compared with the material made from cellulose ',NUM
-'How many types of lemurs are there ',NUM
-'What World War I battle saw 6 ',ENTY
-'What is the oldest website on the Internet ',LOC
-'Name a technique widely used to detect birth defects ',ENTY
-'What jockey won 17 Triple Crown races ',HUM
-'What crop failure caused the Irish Famine ',ENTY
-'What is the origin of the word assassinate ',DESC
-'The Olympic Games in which year allowed Nadia Comaneci to become popular ',NUM
-'What color flies closest to the staff on Belgium s flag ',ENTY
-'What is the rarest coin ',ENTY
-'What actor ',HUM
-'How much pizza do Americans eat in a day ',NUM
-'For what disease is the drug Sinemet used as a treatment ',ENTY
-'Where does the U.S. rank among world countries in area ',NUM
-'When does the average teenager first have intercourse ',NUM
-'The lawyer who represented Randy Craft ',HUM
-'Who is the leading competitor of Trans Union Company ',HUM
-'What company is the largest Japanese ship builder ',HUM
-'How is Answers.com funded ',DESC
-'What is the population of the largest Chilean city',NUM
-'What brand of jeans did Calvin Klein admit in a 1984 interview he felt more comfortable wearing ',ENTY
-'Who was the first elected mayor of Washington ',HUM
-'Which member of Charlie s Angels sang vocals for Josie and the Pussycats ',HUM
-'What is the zodiac sign for August 14 ',ENTY
-'What are binomial coefficients ',DESC
-'What songs were popular in 1948 ',ENTY
-'How much caffeine is in a 16 oz cup of coffee ',NUM
-'How do storms form ',DESC
-'What U.S. city was named for St. Francis of Assisi ',LOC
-'What is a courier ',DESC
-'Who is Edmund Kemper ',HUM
-'What city or state do the most gay men live in ',LOC
-'What is a phalanx ',DESC
-'What Texas city got its name from the Spanish for  yellow  ',LOC
-'What are the three most populated countries in the world ',LOC
-'How can someone become a federal agent ',DESC
-'How many people in the world speak French ',NUM
-'How many continents are there ',NUM
-'How many American soldiers are stationed in South Korea ',NUM
-'What is the name of the song that Dracula plays on the organ ',ENTY
-'How many miles is it to Ohio from North Carolina ',NUM
-'Who won World War II ',HUM
-'Why were people recruited for the Vietnam War ',DESC
-'How many pins are used in skittles ',NUM
-'What body of water does the Yukon River empty into ',LOC
-'What are the five most expensive cities in the world ',LOC
-'What Robert Louis Stevenson novel was inspired by Deacon William Brodie ',ENTY
-'What did a 16th-century Aztec athlete get for putting a rubber ball through a ring ',ENTY
-'What does seccession mean ',DESC
-'How many endangered species are there in the world ',NUM
-'What was American folk hero John Chapman s nickname ',HUM
-'What is the proof that houseplants metabolize carcinogens ',DESC
-'Why are electric cars less efficient in the northeast than in California ',DESC
-'What South American country won its first World Cup soccer title in 1978 ',LOC
-'What is Nero Wolfe s favorite drink during office hours ',ENTY
-'Who makes chicken  finger lickin  good ',HUM
-'How do birds find their way back to the same place every year ',DESC
-'Which city has the oldest relationship as a sisterðcity with Los Angeles ',LOC
-'What country is the worlds leading supplier of cannabis ',LOC
-'How do I love thee ',DESC
-'Who was Lauren Bacall s first husband ',HUM
-'What English word has the most letters ',ENTY
-'What university football team did O.J. Simpson take to the Rose Bowl ',HUM
-'Who was the president of Vichy France ',HUM
-'Name a Gaelic language .',ENTY
-'What was the largest city in the world to declare martial law in 1989 ',LOC
-'What first name was Nipsy Russell given at birth ',HUM
-'What two body parts grow all your life ',ENTY
-'Name the Four Horsemen of the Apocalypse .',HUM
-'Who was the 15th century fire-and-brimstone monk who gained control of Florence but ended burnt at the stake ',HUM
-'What five-time winner of the Kentucky Derby lost his first 25 races ',ENTY
-'What was the sequel to The Pink Panther ',ENTY
-'What is the procedure called for drilling a hole in your skull to acheive a higher consciousness ',ENTY
-'What household products are there for adult acne ',ENTY
-'Who won the 1968 California Democratic primary ',HUM
-'Where did he get the title ',LOC
-'How many species of the Great White shark are there ',NUM
-'What causes rust ',DESC
-'What does Lloyd s Lutine Bell announce ',DESC
-'Name the designer of the shoe that spawned millions of plastic imitations ',HUM
-'What is graduate school ',DESC
-'What does the Peugeot company manufacture ',ENTY
-'What is a fear of water ',ENTY
-'Where does the Santa Fe Trail begin and end ',LOC
-'What was the name of the computer in  2001 : A Space Odyssey  ',ENTY
-'How many seats does the Batmobile sport ',NUM
-'Who is the prime minister of Australia ',HUM
-'What Pope inaugurated Vatican International Radio ',HUM
-'Where do I find information for foreclosure properties on the Internet ',LOC
-'Where did the real St. Nicholas live ',LOC
-'The Orange Bowl is located in what city ',LOC
-'Who was Jane Goodall ',HUM
-'How many freckles does Howdy Doody have on his face ',NUM
-'Where was  I have fallen ',LOC
-'What chapter of the Bible has the most verses ',NUM
-'What term means a sexual attraction between a male and a female ',ENTY
-'How many people live in Chile ',NUM
-'What does caliente translate to in English ',ENTY
-'What is the country of origin for the name Thomas ',LOC
-'What Don McLean song laments the day Buddy Holly died ',ENTY
-'How much did a knight s armor weigh ',NUM
-'How many copies of an album must be sold for it to be a gold album ',NUM
-'What is the origin of  barbeque  ',DESC
-'What does the abbreviation AIDS stand for ',ABBR
-'What is Jane Goodall known for ',DESC
-'What two European countries are joined by the Gran San Bernardo Pass ',LOC
-'What is meant by blood SED rate ',DESC
-'What is porphyria ',DESC
-'Name the U.S. Senate majority leader and the Speaker of the House .',HUM
-'How many equal sides are there on a scalene triangle ',NUM
-'How old is the sun ',NUM
-'To get the most caffeine ',ENTY
-'What Dickens novel has David carrying the message  Barkis is willin  to Peggy ',ENTY
-'How does an ion drive work ',DESC
-'How can I get someone s phone number if I only have their screen name ',DESC
-'What does an edentulous smile lack ',ENTY
-'What is fiber in food ',DESC
-'What soft drink tells us to  Go Hawaiian  ',ENTY
-'What airport is on the Piccadilly subway line ',LOC
-'What is the city in which Maurizio Pellegrin lives called ',LOC
-'What name does the world know Renaissance artist Kyriakos Theotokopoulos by ',HUM
-'Where did Dikembe Mutombo go to college ',LOC
-'What do peacocks mate with ',ENTY
-'What is proposition 98 about ',DESC
-'When was the San Francisco fire ',NUM
-'How long does it take for Spider-Man s web to evaporate ',NUM
-'What are the largest breweries in the world ',LOC
-'Who is the creator of  The Muppets  ',HUM
-'What are the shortest and the longest songs ever produced ',ENTY
-'What are the largest libraries in the US ',LOC
-'What is a turnkey contract ',DESC
-'What Nazi leader killed himself in jail just before he was to be executed as a war criminal ',HUM
-'What is the weight of air ',NUM
-'Who created private detective Philip Marlowe ',HUM
-'What is her husband s name ',HUM
-'What is cache memory ',DESC
-'Who else was considered for the role of Luke Skywalker when George Lucas was casting for Star Wars ',HUM
-'How many times a day should you take a prescription marked  q.i.d .  ',NUM
-'From what cause does tuberculosis stem ',DESC
-'What is the population of Ohio ',NUM
-'What does Robin Williams do ',HUM
-'How big is a baby bald eagle ',NUM
-'What colors make up a rainbow ',ENTY
-'What is  the airline built for professional travelers  ',HUM
-'What is the origin of the Christmas tree ',DESC
-'What Aesop s fable has the moral :  The race is not always to the swift. Slow and steady is bound to win  ',ENTY
-'Who played for the Chicago Bears ',HUM
-'Of children between the ages of two and eleven ',NUM
-'What mythical figure carries an hourglass and a scythe ',HUM
-'Who is Zebulon Pike ',HUM
-'What color is most often used to symbolize truth ',ENTY
-'Which Bloom County resident wreaks havoc with a computer ',HUM
-'Name the vessel used by the Atari Force in the DC comics .',ENTY
-'Ray Charles is best known for playing what instrument ',ENTY
-'Who made the most appearances in the center square on Hollywood Squares ',HUM
-'What are the four railways in Monopoly ',HUM
-'What happened in dogtown in 1899 to make that year remembered ',DESC
-'What was the name of that popular song the Creeps sang ',ENTY
-'What was the average life expectancy during the Stone Age ',NUM
-'What is the difference between Neoclassical art and Romanticism art ',DESC
-'Who is the youngest of the Beatles ',HUM
-'How much do tuberculosis combatting drugs cost ',NUM
-'Name the operating system that runs on IBM-compatible machines .',ENTY
-'What TV series changed the names to protect the innocent ',ENTY
-'Where s the Petrified Forest ',LOC
-'McCarren Airport is located in what city ',LOC
-'What countries have the largest areas of forest ',LOC
-'What was the food of the Greek gods called ',ENTY
-'Who told all in Ball Four ',HUM
-'What is software piracy ',DESC
-'What doctor is synonymous with footwear and foot care ',HUM
-'What time of year is air travel the heaviest ',NUM
-'What U.S. state includes the San Juan Islands ',LOC
-'What year is etched on the Gold Medal of Excellence from the Paris Exposition depicted on a can of Campbell s tomato soup ',NUM
-'Who played Humpty Dumpty in the 1933 film Alice in Wonderland ',HUM
-'What was the name of the first Watergate special prosecutor ',HUM
-'How many four star generals were there and who are they ',NUM
-'When was the USSR dissolved ',NUM
-'Who was the 3rd president of the United States ',HUM
-'What country in Latin America is the largest one ',LOC
-'How many types of cheese are there in France ',NUM
-'What longtime game show host dropped dead while jogging in Central Park in 1984 ',HUM
-'Where can one find information on religion and health ',LOC
-'How does marijuana lead to other drugs ',DESC
-'Who was the king who was forced to agree to the Magna Carta ',HUM
-'What terror of the sea did Johnny Horton sing about ',ENTY
-'Where are the Union Stockyards ',LOC
-'How do I impress a guy ',DESC
-'What island is home to statues called Mauis ',LOC
-'What Scottish poet penned To a Mouse and To a Louse ',HUM
-'Who was the king who signed the Magna Carta ',HUM
-'Who is the Voyager project manager ',HUM
-'How do I find a city if I have the area code ',DESC
-'What is the Amish religion ',DESC
-'What must a Las Vegas blackjack dealer do when he reaches 16 ',DESC
-'What Morris West novel deals with Russian bishop who becomes Pope ',ENTY
-'How many people were executed for Abraham Lincoln s assassination ',NUM
-'What is Shalom ',DESC
-'What game is Garry Kasparov really good at ',ENTY
-'How many colonies did Germany get to keep after World War I ',NUM
-'What comedian was The Perfect Fool ',HUM
-'What sea is Bombay on ',LOC
-'In what state was there an 11 million gallon oil spill ',LOC
-'Who tramped through Florida looking for the Fountain of Youth ',HUM
-'How do you box train a cat ',DESC
-'How is the element strontium purified ',DESC
-'What dog was dubbed The Mortgage Lifter ',ENTY
-'What is a synonym for aspartame ',ENTY
-'What is the term for the side of the mountain that faces the prevailing winds ',ENTY
-'What does Robert mean ',DESC
-'How is Easter Sunday s date determined ',DESC
-'Where could I go to take a ride on a steam locomotive ',LOC
-'When did Mount St. Helen last have a major eruption ',NUM
-'What does the word terrorism mean ',DESC
-'What are the Twin Cities ',DESC
-'Name the Islamic counterpart to the Red Cross .',ENTY
-'Who said :  Old soldiers never die ; they just fade away  ',HUM
-'What Irwin Allen bomb has Richard Widmark saying he ll be  the first officer in history to get his butt kicked by a mess of bugs !  ',ENTY
-'What is the largest shopping mall in the world ',LOC
-'What are the different approaches of systems analysis ',ENTY
-'What is Martin Luther King Jr. s real birthday ',NUM
-'What is the lens behind the iris in the eye called ',ENTY
-'Where can I find information on the Narragansett Indians and other tribes in Rhode Island ',LOC
-'What is the current unemployment rate in the U.S. ',NUM
-'What is the Milky Way ',DESC
-'How many islands make up Antigua ',NUM
-'What is the name for clouds that produce rain ',ENTY
-'What were the five opening words on Ben Casey ',ENTY
-'What author was appointed U.S. ambassador to Spain in 1842 ',HUM
-'What was the nickname of German flying ace Manfred von Richthofen ',HUM
-'What director made one silent and one sound version of The Ten Commandments ',HUM
-'Name the two actress daughters of John Mills .',HUM
-'What is Dick Clark s date of birth ',NUM
-'What s the highest possible bid in Contract Bridge ',ENTY
-'What color are tennis balls ',ENTY
-'Who died 1 feet from where John F. Kennedy did ',HUM
-'Who claimed to be the world s most perfectly-developed man ',HUM
-'Where can I get U.S. economic statistics ',LOC
-'What country was A Terrible Beauty to Leon Uris ',LOC
-'How often are quadruplets born ',NUM
-'What is the historical relationship of Catholic Church and bingo ',DESC
-'What shrubs can be planted that will be safe from deer ',ENTY
-'What causes an earthquake ',DESC
-'What was the rallying cry of the early American revolutionaries ',DESC
-'What is object-oriented design ',DESC
-'What was the name of the 1899 policy forced on China by which all nations had equal trading rights ',ENTY
-'Who created the character of Scrooge ',HUM
-'What was the verdict in the trial of Lizzie Borden ',DESC
-'Where is the actress ',LOC
-'What started in 1849 when gold was discovered at Sutter s Mill ',ENTY
-'What s the abbreviation for limited partnership ',ABBR
-'Who wrote  Dubliners  ',HUM
-'Who was America s first Public Enemy No. 1 ',HUM
-'What well-known actor is the father of star Alan Alda ',HUM
-'Why are the ears your center of balance ',DESC
-'Who wrote The Secret Life of Walter Mitty ',HUM
-'What does gringo mean ',DESC
-'What international sport was originally called hurley ',ENTY
-'What are the top ten all-time money making NFL teams ',HUM
-'What is the largest snake in the world ',ENTY
-'What excuse did the NATO people give for hitting the Chinese embassy ',DESC
-'Who is the founder of Scientology ',HUM
-'What s the American dollar equivalent for 8 pounds in the U.K. ',NUM
-'What is the chance of conceiving quadruplets ',NUM
-'What s Japan s largest car manufacturer ',HUM
-'Why is it called  hamburger  if there is no ham in it ',DESC
-'What is the legal blood alcohol limit for the state of California ',ENTY
-'How can a foreigner get a U.S. Social Security card ',DESC
-'How many holes are there in a tenpin bowling ball ',NUM
-'What is the literal meaning of  D-DAY  ',DESC
-'What Dynasty star made her 2th Century-Fox debut in The Virgin Queen ',HUM
-'What is The Gay Science ',DESC
-'When was the first American encyclopedia published ',NUM
-'Name a French fascist party .',HUM
-'CNN is owned by whom ',HUM
-'What kind of wine is Spumante ',ENTY
-'Who used to make cars with rotary engines ',HUM
-'How do you get to the top of the Eiffel Tower ',DESC
-'What Vladimir Nabokov novel features Professor Humbert in love with a 12-year-old girl ',ENTY
-'What did Jimmy Stewart invent ',ENTY
-'What book is subtitled The Preservation of Favoured Races in the Struggle for Life ',ENTY
-'What Scandinavian country covers 173 ',LOC
-'Who s played the most games for the New York Yankees ',HUM
-'What country did the ancient Romans refer to as Hibernia ',LOC
-'What London museum features a Chamber of Horrors ',LOC
-'What century does Captain Video live in ',NUM
-'What is Dick Clark s birthday ',NUM
-'Who played the title role in I Was a Teenage Werewolf ',HUM
-'What does the double-O indicate in 007 ',DESC
-'How can I find a phone number of someone if I only know their email address ',DESC
-'What was Einstein s IQ ',NUM
-'Who was the tallest U.S. president ',HUM
-'Who were John F. Kennedy s dogs ',ENTY
-'Where did King Francis I hang the  Mona Lisa  when he owned it ',LOC
-'What town was the setting for The Music Man ',LOC
-'What did Abolitionists try to end ',ENTY
-'Who said  What contemptible scoundrel stole the cork from my lunch  ',HUM
-'How do you find out what is allowed to claim as a contibution for income tax purposes ',DESC
-'What was Jimmy Durante s theme song ',ENTY
-'What is the origin of U.S. Army sergeant s stripes ',DESC
-'When was Dick Clark born ',NUM
-'What are the words to the song sung by  Banana in Pajamas  ',DESC
-'How many layers of yellow paint is a Faber Mongol pencil lucky enough to be sprayed with ',NUM
-'What TV character said ;  One of these days ',HUM
-'What is the fastest commercial automobile that can be bought in the US ',ENTY
-'What is an example of an actual case of using the Fourteenth Amendment ',DESC
-'Who founded the modern theory of probability ',HUM
-'Who is William Wordsworth ',HUM
-'Who is Johnny Carson ',HUM
-'Who owns the rights on a TV program ',HUM
-'Which college did Dikembe Mutombo attend ',HUM
-'Name the blind sculptress in love with the Fantastic Four s Thing .',HUM
-'Why do rooftops give off steam after a big rainstorm ',DESC
-'What is the difference between pop music and rock and roll ',DESC
-'What country ',LOC
-'What day of the week sees the most fatal car accidents ',NUM
-'What French seaport claims to be The Home of Wines ',LOC
-'What happened on January 15 ',ENTY
-'What does NASDAQ stand for ',ABBR
-'What seven digits follow the area code in the number for long distance information ',NUM
-'What part of your body contains the corpus callosum ',ENTY
-'How many rows of sprocket holes does a roll of 35-millimeter film have ',NUM
-'What letter does Gorbachev s middle name start with ',ENTY
-'When did the last Americans leave Vietnam ',NUM
-'What diamond producer controls about 80\% of the world s diamonds ',HUM
-'What is the plural of gulf ',ENTY
-'What is fellatio ',DESC
-'What does  B.Y.O.B.  mean ',ABBR
-'When did the Bounty mutiny take place ',NUM
-'What condiment do the Dutch dip their French fries in ',ENTY
-'Who is the director and editor of the movie Big starring Tom Hanks ',HUM
-'What Rocky Mountain ridge separates North America s eastward and westward-flowing rivers ',LOC
-'Where can I find a large list of 5 to 6 letter words ',LOC
-'What fossilizes to form coprolite ',ENTY
+ENTY,'What are some colorful flowers that will bloom in the fall in New England '
+HUM,'Who is the most sexy celebrity '
+HUM,'What chocolate company gives you a one-pound kiss '
+ENTY,'What Nevil Shute novel is about the doomed survivors of a nuclear war '
+ENTY,'What do West Indian steel bands use as instruments '
+DESC,'How do you find the area of a circle '
+ENTY,'What does a man suffering from diphallic terata have '
+HUM,'Which major diamond producer is based in South Africa '
+NUM,'How many cables support the main span of the Golden Gate Bridge '
+NUM,'What date is Richard Nixon s birthday '
+HUM,'What does Nicholas Cage do for a living '
+HUM,'What former African leader held his country s boxing title for nine years '
+DESC,'Why do girls have to wear training bras '
+LOC,'Where is the Isle of Man '
+NUM,'What was the U.S. highway death toll in 1969 '
+NUM,'How many islands does Fiji have '
+NUM,'What does an average daycare provider get paid in New England '
+DESC,'Why do nt you guys have some sort of contest where you ask a question and whoever finds the answers wins a prize '
+DESC,'How do microwaves work '
+DESC,'What is a nanometer '
+ENTY,'What game is fatal to anybody over 21 '
+DESC,'What made the Finger Lakes in western New York state '
+DESC,'What is an arab strap '
+ENTY,'What color eyes are most sensitive to light '
+DESC,'How do anti-locking brakes work '
+LOC,'What is the oldest website on the Internet '
+ENTY,'What do river otters eat '
+ENTY,'What was the name of the Crimean meeting of Roosevelt '
+HUM,'Who was the first Holy Roman Emperor '
+ENTY,'What did the crocodile swallow in Peter Pan '
+NUM,'What month s third weekend is the Monterey Jazz Festival held on '
+HUM,'Who lives at 39 Stone Canyon Way '
+DESC,'What do you need to do to marry someone in jail '
+HUM,'Who was considered to be the father of psychology '
+HUM,'What buxom blonde appeared on the cover of more than 5 magazines '
+DESC,'What incident caused the canning of a summit conference between Eisenhower and Khrushchev '
+HUM,'Who was the first Taiwanese President '
+HUM,'Who owns CNN '
+NUM,'How many degrees cooler is the inside of a cucumber than the air outside '
+ENTY,'What is the name of the game that Garry Kasparov plays '
+NUM,'How many milligrams are in a gram '
+ENTY,'What kind of nuts are used in marzipan '
+ENTY,'What is a fear of sinning '
+NUM,'How many major Nazi leaders went on trial after the war at Nuremberg '
+DESC,'What is paracetamol '
+LOC,'What Asian country once thrilled to the sport of cricket fighting '
+DESC,'What is the difference between a board of directors and an advisory board '
+DESC,'What is the difference between molecules and compounds '
+HUM,'Who portrayed Dracula in Hammer Studios  films '
+ENTY,'What was the first English play written exclusively for children '
+ENTY,'What is the belt of low pressure around the equator called '
+ENTY,'What are the seven wonders of the world '
+ENTY,'What tale has the moral :  He who wants everything gets nothing  '
+HUM,'What company produces Spumante '
+LOC,'Where is Los Vegas '
+LOC,'What are the largest deserts in the world '
+ENTY,'What is a fear of color '
+DESC,'What is different about the red and black fox '
+DESC,'What is the Order of the Arrow in Boy Scouts '
+DESC,'What are faults in the earth s crust '
+NUM,'What seven digits follow the area code in the number for long distance information '
+DESC,'Where did the energy for the Big Bang come from '
+NUM,'What s the percentage of children aged two through eleven who watch  The Simpsons  '
+DESC,'What is the difference between a fruit and a vegetable '
+HUM,'What are the names of Jacques Cousteau s two sons '
+LOC,'What country will hit the year 2 first '
+DESC,'What was the claim to fame of Explorer I '
+LOC,'Jackson Pollock is of what nationality '
+DESC,'What personality traits are Capricorns said to have '
+DESC,'What s the last line of Dickens s A Christmas Carol '
+HUM,'Who developed the first polio vaccine '
+LOC,'What was the former residence of Scottish kings in Edinburgh '
+DESC,'How did the months of the year get there name '
+HUM,'What is the present Pope named '
+DESC,'What is a Guild '
+ENTY,'What is the music used in the new VW Beetle commercial where the car spins and changes colors '
+LOC,'What Peruvian city is home to the mummified body of Francisco Pizarro '
+HUM,'Which company that manufactures video-game hardware sells the  super system  '
+NUM,'How long would it take to get from Earth to Mars '
+DESC,'What do the figures represent on the Easter Island '
+ENTY,'What are the most albums sold by one artist or band '
+HUM,'Who manufactures the software '
+NUM,'How many people die from tuberculosis each year '
+LOC,'Where can I read about Abraham Lincoln '
+LOC,'What country offered Albert Einstein its presidency in 1952 '
+DESC,'What will the weather be today '
+NUM,'How many presidents have died on the 4th of July '
+DESC,'Why do magnets attract '
+ENTY,'To what does Microsoft s Windows 3 owe its success '
+DESC,'What s a male  cuckquean  '
+ENTY,'What was the species of Winnie the Pooh '
+LOC,'Where on the Internet can I get information about the Fifth Amendment on the American Bill of Rights '
+ENTY,'What is the name of the Michelangelo painting that shows two hands with fingers touching '
+LOC,'What room did W.C. Fields keep his library in '
+NUM,'What are bottle caps with presidents  pictures inside worth '
+ENTY,'What is the weakest bone in the body '
+ENTY,'What musical instrument did Prewitt play in James Jones s From Here to Eternity '
+LOC,'Where can I find info on research being done on oilseeds thru genetics '
+HUM,'What TV character sired a horse named Thunder '
+NUM,'What year did Hitler die '
+ENTY,'What does an ashen-faced eidologist search out the existence of '
+HUM,'What was Mao s second name '
+HUM,'Who asked you to do the Loco-Motion with her in 1962 '
+NUM,'How many people live in the Falklands '
+LOC,'Where are diamonds mined '
+DESC,'What is the origin of blue for boys and pink for girls '
+ENTY,'What is a fear of being alone '
+DESC,'What makes salt '
+ENTY,'What movie tour of the Roman empire features the admonition :  Row well and live  '
+ENTY,'What are the languages spoken by the natives in Afghanistan '
+DESC,'How do you determine if a computer monitor has an SVGA adapter '
+HUM,'What is Rona Barrett s married name '
+LOC,'What island has a park called The Battery at is southern tip '
+HUM,'What American League baseball team s worst finish between 1926 and 1964 was fourth '
+DESC,'How do you stop junk snail mail '
+DESC,'What is the distinction of Erle Stanley Gardner s The Case of the Terrified Typist '
+HUM,'What actor learned to play the saxophone and speak Russian for a role in a movie '
+NUM,'In what year did Thatcher become prime minister '
+DESC,'What good are mosquitoes '
+LOC,'In what state was the first co-educational college established'
+HUM,'Which police department made the all-time biggest cocaine bust in Ventura County '
+HUM,'What cigarette company urged us '
+ENTY,'Which came first '
+NUM,'How many Grammys did Michael Jackson win in 1983 '
+ENTY,'What kind of books does Fodor s publish '
+LOC,'What Colorado city owns its own glacier '
+DESC,'How do boats float '
+ENTY,'What field sport did dentist William Beers promote and write a standard book of rules for '
+NUM,'How big is the Chappellet vineyard '
+HUM,'What Japanese electronics company was named for a coastal city northeast of Tokyo '
+DESC,'What does  intractable plantar keratoma  mean '
+ENTY,'What famed tennis tournament s men s singles title was Fred Perry the last Englishman to win '
+ENTY,'What is the electronic device used to produce visual displays corresponding to electric signals '
+HUM,'Who invented basketball '
+ENTY,'What credit card features a centurion on its face '
+ENTY,'What is the correct way to mount a roll of toilet paper '
+HUM,'Who was the first black woman to star in the Folies Bergeres '
+NUM,'When will the millennium officially begin '
+DESC,'In Waugh s  A Handful of Dust '
+ENTY,'What beer tells us '
+HUM,'Who was the inventor of the stove '
+HUM,'What s the name of the star of the cooking show '
+ABBR,'What does BUD stand for '
+NUM,'What time does Wee Willie Winkie run through the town '
+DESC,'How do you get dates with the  Hooters  girls '
+LOC,'Where did Bill Gates go to college '
+HUM,'Who is the worst US President ever '
+NUM,'How many species of sharks are there '
+HUM,'Name the scar-faced bounty hunter of The Old West .'
+HUM,'Who wrote  The Pit and the Pendulum  '
+NUM,'When was the last major eruption of Mount St. Helens '
+HUM,'Who is the monarch of the United Kingdom '
+DESC,'What is deconstructionism '
+DESC,'How is bubble wrap made '
+ENTY,'What are some ways to help someone with Chicken Pox '
+LOC,'What state did Helen Keller call home '
+ENTY,'What is a camel hair brush actually made out of '
+DESC,'Why do eyes sometimes look red in photographs '
+DESC,'How is plastic made '
+HUM,'What is the name of the firm that makes Spumante '
+NUM,'How many penny-farthings are there on a Trivial Pursuit game board '
+DESC,'Why doesn t www.answers.com have any answers to my questions '
+LOC,'What city did the Mormons establish as their headquarters in 1847 '
+DESC,'How can I get some free technical information on Electric Vehicle '
+DESC,'What is Srpska Krajina '
+ENTY,'Name an American made motorcycle .'
+HUM,'Who was The Pride of the Yankees '
+ENTY,'What is the celtic symbol for  life  '
+DESC,'What do you do when your mouse is nt working as fast as it s supposed to '
+LOC,'What state is John F. Kennedy buried in '
+HUM,'Who were the five Marx brothers '
+HUM,'What Asian leader was known as The Little Brown Saint '
+DESC,'What is D.B. Cooper known for '
+ENTY,'What is a fear of money '
+HUM,'What 2th-century fictional character attends Pencey Prep School '
+DESC,'What is Olestra '
+HUM,'Who came up with the name '
+DESC,'What is dextropropoxyphen napsylate '
+NUM,'When did the Berlin Wall go up '
+NUM,'How many questions are on this thing '
+HUM,'What famous singing cowboy owns the California Angels baseball team '
+DESC,'What is the history of Valentine s Day cards '
+DESC,'What is the definition of  chancery  file in real estate '
+ENTY,'What kind of mammal is a colt '
+DESC,'What according to the Kinsey Institute '
+DESC,'How can you prevent it '
+NUM,'How many acres in a mile '
+DESC,'What qualifications are there for individuals donating blood '
+ENTY,'What type of betting is used in horse racing '
+HUM,'Who s won the most Oscars for costume design '
+LOC,'What country does Ileana Cotrubas come from '
+NUM,'When was the Battle of Hastings '
+DESC,'What causes pneumonia '
+LOC,'Where do the adventures of  The Swiss Family Robinson  take place '
+LOC,'What country has the most coastline '
+HUM,'Who says '
+HUM,'Who invented the fountain '
+DESC,'What is the difference between terry cloth and French terry '
+ENTY,'What are the diseases that can be cured by black cumin '
+ENTY,'What household facility contains a float ball '
+NUM,'What is the salary of a U.S. Representative '
+NUM,'How many horses are there on a polo team '
+DESC,'What are snowballs to a hot-rodder '
+DESC,'What was the Long March in China '
+ENTY,'What is the name of the disease that actress Hunter Tylo s baby girl has '
+DESC,'What have you not let a tennis ball do if you volley '
+HUM,'Who is the Pope '
+DESC,'How can I trace my family roots '
+HUM,'Who are the top ten richest people in the world '
+HUM,'Who is Colin Powell '
+ENTY,'What was the alternate to VHS '
+LOC,'What North American city boasts the biggest Polish population '
+LOC,'Where are the Austerlitz and Victor Hugo subway stops '
+NUM,'The film  Jaws  was made in what year '
+LOC,'What U.S. state comes last in an alphabetical list '
+HUM,'What company uses the unfamiliar faces of its celebrity spokespeople to promote the use of its product '
+ABBR,'What does NN O  mean when used as a prefix in Irish surnames '
+HUM,'What future deer hunter portrayed Annie Hall s neurotic brother '
+NUM,'How many people die of tuberculosis yearly '
+DESC,'Why was Curious George curious '
+ENTY,'What was the name of the U.S. s first manned space program '
+DESC,'What are Maid-Rites '
+DESC,'What causes the redness in your cheeks when you blush '
+NUM,'How far can a man travel in outer space '
+LOC,'What country has the highest per capita consumption of cheese '
+NUM,'What does each of the utilities cost in Monopoly '
+HUM,'Who portrayed Fatman in the television show '
+ENTY,'What blood sport features a movement called a veronica '
+HUM,'Who is Langston Hughes '
+HUM,'What Cherokee Indian gave his name to a tree '
+ENTY,'What is the chemical composition of a Barbie '
+LOC,'What was the only country in the Western Hemisphere to join the Russian-led boycott of the 1984 Summer Olympics '
+DESC,'What is infomatics '
+NUM,'What is the average cost for four years of medical school '
+ENTY,'Name Li l Abner s favorite Indian drink .'
+ENTY,'What Erica Jong novel deals with Isadora Wing s fear '
+ENTY,'What holidays or observances are celebrated in Italy '
+NUM,'How many people did Randy Steven Craft murder '
+HUM,'Who was Gerald Ford s vice president '
+NUM,'How many years of schooling after highschool does it take to become a neurosurgeon '
+HUM,'Who produces Spumante '
+ENTY,'What Triple Crown-winning horse took the 1973 Belmont Stakes by 31 lengths '
+ENTY,'What product does  Mrs. Olsen  promote '
+LOC,'What country in 1998 had the most suicides regardless of population size '
+NUM,'When was the bar-code invented '
+NUM,'How far is London UK from California '
+LOC,'In which state are the Mark Twain National Forests '
+NUM,'How many home runs did Lou Gehrig have during his career '
+ENTY,'What color is an Arctic fox in winter '
+NUM,'How many of them are in sub-Saharan Africa '
+LOC,'Where did Dylan Thomas die '
+NUM,'What was the target rate for M3 growth in 1992 '
+DESC,'What does the word camaro mean '
+LOC,'What is the fastest growing state in the U.S.A. in 1998 '
+ABBR,'What is the abbreviated expression for the National Bureau of Investigation '
+HUM,'Who wrote the poem that starts  I love your lips when they re wet with wine and red with a warm desire  '
+HUM,'What author did photographer Yousuf Karsh call  the shiest man I ever met  '
+HUM,'What multitalented Academy-award-winning director failed a college course in motion-picture production '
+DESC,'What is  Last Chance for Animals  '
+NUM,'What percentage of the body is muscle '
+DESC,'Why do we ask for the  check  and not the bill at a restaurant '
+ENTY,'What are the 7 principles of learning from the Institute for Research on Learning '
+NUM,'When were camcorders introduced in Malaysia '
+DESC,'How do you clean an LCD monitor screen '
+NUM,'How many real fruit juices are there in a can of Hawaiian Punch '
+ENTY,'What film did Lee Marvin win the 1965 best actor Oscar for '
+HUM,'Who was the Russian ambassador to Hungary during the 1956 uprising '
+NUM,'What is the protection rate of using condoms '
+HUM,'What company named one of its pens  The Banana  '
+NUM,'When was the Brandenburg Gate in Berlin built '
+ENTY,'What musical instrument did Sherlock Holmes play '
+DESC,'How do I register a trade name in North Carolina '
+DESC,'What is a gandy dancer '
+ENTY,'What product did William Horlick discover and produce '
+ENTY,'Which is the best opening move in chess '
+HUM,'What part did Benjamin Franklin play in the development of the newspaper in America '
+DESC,'What are the requirements for becoming a citizen of Australia '
+ENTY,'What invention does the principle of conservation of energy make impossible '
+ENTY,'What famous events have happened on March 27 '
+HUM,'Who did Sonny Liston succeed as world heavyweight boxing champion '
+ENTY,'What is damage to business and government caused by bureaucracy '
+HUM,'Which Japanese car maker had its biggest percentage of sale in the domestic market '
+DESC,'What is the  coppertop  battery '
+LOC,'What s the most common street name in America '
+HUM,'What TV talk-show host lends his name to a line of men s clothing '
+HUM,'What President hit the jogging paths to enhance his athletic image and '
+ENTY,'What does the Statue of Liberty wear on her feet '
+DESC,'How do I contact answers.com '
+ENTY,'What are the ingredients of Coca-Cola '
+ENTY,'What song did Patti Page set people dancing to in 1950 '
+HUM,'Who replies  I know  to Princess Leia s confession  I love you  in The Empire Strikes Back '
+HUM,'What are the names of Jack s original roommates on Three s Company '
+DESC,'Why do you say  God bless you  when people sneeze '
+HUM,'What s the supreme policy-making bureau of the Soviet Communist Party '
+NUM,'How many verses are in the Bible '
+HUM,'What college did Dikembe Mutombo play basketball for '
+HUM,'Who was Lacan '
+HUM,'Who won the Battle of Gettysburg '
+NUM,'How many shillings more than 2 were there in a guinea '
+HUM,'What relative of Leo Tolstoy translated War and Peace eight times '
+ENTY,'What does a dipsomaniac crave '
+LOC,'What constellation is known as The Water Bearer '
+HUM,'Who lives at 24 Sussex Drive '
+HUM,'What crooner joined The Andrews Sisters for Pistol Packin Mama '
+DESC,'What are the limits to  self-defense  '
+HUM,'What Batman character tools around on a Batcycle '
+NUM,'About how many soldiers died in World War II '
+ENTY,'What are the names of the different toes '
+LOC,'What part of Britain comprises the Highlands '
+HUM,'Who is the Greek God of the Sea '
+DESC,'How can I get started in writing for television '
+DESC,'What is deadrise '
+LOC,'What state is known as the Hawkeye State '
+ENTY,'What was the first Lifesaver flavor '
+HUM,'Who created the monster in Mary Shelley s novel Frankenstein '
+HUM,'Whom does Uncle Duke s girl friend '
+DESC,'Why is the universe flat '
+ENTY,'What book is the follow-up to Future Shock '
+NUM,'How many miles of veins are in the circulatory system '
+LOC,'What country did King Gustav V reign over from 197 to 195 '
+DESC,'What is office automation '
+ENTY,'What animal migrates the farthest '
+NUM,'How many inches over six feet is the Venus de Milo '
+HUM,'What contemptible scoundrel stole the cork from my lunch '
+DESC,'What is the meaning of caliente '
+HUM,'Which U.S. President is buried in Washington '
+LOC,'What city does McCarren Airport serve '
+DESC,'What is color '
+ENTY,'What is a fear of everything '
+ENTY,'How do you say  eat the day  in Latin '
+HUM,'The major league baseball team in Pittsburgh is called what '
+DESC,'What causes headaches '
+ENTY,'What s the official language of Algeria '
+LOC,'Where can I find scientific data '
+LOC,'What was known as the Spice Island '
+ENTY,'What are the signs of a country going into a recession '
+LOC,'What s the most powerful country in the world '
+DESC,'What is a pig in a poke '
+DESC,'How can I find a list of celebrities  real names '
+LOC,'What country was Sir Edmund Hillary born in '
+NUM,'In what year did Ireland elect its first woman president '
+NUM,'When did CNN begin broadcasting '
+NUM,'How far away is the moon '
+HUM,'What actor and World War II airman had a $5 '
+DESC,'How can I get my product licensed by the NBA '
+NUM,'How many web servers are there '
+DESC,'What does storm wave mean in Japanese '
+HUM,'Who was the inventor of silly putty '
+LOC,'What is the name of the planet that the Ewoks live on '
+DESC,'How do I tie a tie '
+ABBR,'What is the abbreviation for Original Equipment Manufacturer '
+ENTY,'What is a fear of black people '
+DESC,'What is the definition of low island '
+DESC,'What is a Chinese  spouting  bowl '
+HUM,'What Argentine boxer was shot dead outside a Nevada brothel in May '
+HUM,'Who is Prince Naseem Hamed '
+HUM,'Who is the prophet of the religion of Islam '
+NUM,'How many dots make up the symbol for  because  '
+HUM,'What baseball player was known as Charley Hustle '
+HUM,'Who led the Normans to victory in the Battle of Hastings '
+HUM,'Who wrote The Collector '
+HUM,'What radio '
+HUM,'Who said :  What contemptible scoundrel stole the cork from my lunch  '
+DESC,'What is lung cancer '
+ENTY,'What soft drink would provide me with the biggest intake of caffeine '
+NUM,'How much iron is in your body '
+ENTY,'What are the first six words of Dickens s A Tale of Two Cities '
+DESC,'What were the causes of the Civil War '
+HUM,'Who turned all he touched to gold '
+DESC,'How has TV affected our society '
+LOC,'What is the name of the planet that the Ewoks live on '
+ENTY,'Jude Law was in what movie '
+DESC,'What are  inkhorn terms  '
+NUM,'What is the recomended age to switch a child from a crib to a bed '
+HUM,'What British prime minister and U.S. president were seventh cousins once-removed '
+NUM,'When is Dick Clark s birthday '
+ENTY,'Which thrilled taste buds first - Snickers or 3 Musketeers '
+LOC,'Where can I get cotton textiles importer details '
+ENTY,'What film canine is buried in Pere-Lachaise cemetery in Paris '
+DESC,'What are the Poconos '
+HUM,'Who was with Patricia Hearst the night she was kidnaped '
+NUM,'How much does one ton of cement cost '
+NUM,'How many oceans are there and name them '
+NUM,'How tall was the animated Frankenstein'
+DESC,'What is a meerkat '
+ENTY,'What book did Aaron Hass write '
+NUM,'When was Beethoven born '
+LOC,'What river runs through Colorado '
+HUM,'Whose funeral train traveled from Washington D.C. to Springfield '
+LOC,'What country was the setting of You Only Live Twice '
+LOC,'Where is Romania located '
+NUM,'What was Joe Namath s first contract worth '
+ENTY,'What Shakespearean play featured Shylock '
+NUM,'When was the first stained glass window made '
+ENTY,'Stuart Hamblen is considered to be the first singing cowboy of which medium '
+HUM,'What does Larry King do for a living '
+ENTY,'What are the chemicals used in glowsticks '
+DESC,'What does the name  Anthony  mean '
+HUM,'Name one of the major gods of Hinduism .'
+ENTY,'What was spawned the term  MiG Alley  '
+ENTY,'What 1966 boob tube bomb took astronauts back to prehistoric times '
+DESC,'What is the origin of U.S. Army sergeant s stripes '
+HUM,'What one of the Backstreet Boys are single '
+DESC,'What does Esa-Pekka Salonen look like '
+ENTY,'What hair color can I use to just cover a little gray '
+HUM,'What stereo manufacturer is  Slightly ahead of its time  '
+HUM,'Who advised listeners to  see the U.S.A. in your Chevrolet  '
+NUM,'When did President Kennedy '
+NUM,'How high is the city of Denver '
+DESC,'What does the word affiant mean '
+NUM,'How old was Stevie Wonder when he signed with Motown Records '
+HUM,'Who is the nebbish that is Marvel s official mascot '
+ENTY,'What is one of the languages spoken by the Sioux called '
+HUM,'What hockey team did Wayne Gretzky play for '
+HUM,'Who released the Internet worm in the late 1980s '
+HUM,'What company sells the most greeting cards '
+DESC,'What is the difference between a generator and an alternator '
+ENTY,'What commodity s shortage was the largest single factor in keeping North American cars off the roads during World War II '
+ENTY,'What events happened January 26 '
+ENTY,'What did the Congress of Vienna establish '
+DESC,'How do you handle a hungry man '
+NUM,'The Iraqis launched their attack on Kuwait on what day '
+HUM,'Who invented the game bowling '
+HUM,'Who sued the Dannon yougurt company for using a character named Ron Raider for promotion '
+NUM,'What seven digits follow the area code in the number for long distance information '
+HUM,'Who created Maudie Frickett '
+ENTY,'What is the best-selling television soundtrack of all time '
+HUM,'What President had never held an elected office until he was elected to the White House '
+DESC,'How do you dunk '
+ENTY,'What s another word that means  knows all  '
+LOC,'What two cities usually mark the extremes of English Channel swims '
+LOC,'What country did the Allies invade in World War II s Operation Avalanche '
+NUM,'How many fiddlers did Old King Cole have '
+NUM,'How many tiles did the Space Shuttle Columbia lose on its second flight '
+HUM,'Who is Luke Skywalker s father '
+LOC,'What continent s name appears on the upper left corner of a Budweiser label '
+HUM,'What mayor made so many TV appearances he was asked to join AFTRA in 1984 '
+DESC,'How did names come about '
+NUM,'How long does it take to travel from Tokyo to Niigata '
+ENTY,'What are dinosaur droppings called '
+ENTY,'What did Walter Huston remove to perform in the movie The Treasure of the Sierra Madre '
+ENTY,'What is the name of the vaccine for chicken pox '
+NUM,'About how many Americans are still unaccounted for from the Vietnam war '
+LOC,'What bay divides Maryland s Eastern and Western Shores '
+ENTY,'What Lewis Carroll book introduced Humpty Dumpty to the world '
+DESC,'What is the origin of  Beauty is in the eye of the beholder  '
+NUM,'When did communist control end in Hungary '
+NUM,'How many elephants are left on earth '
+ENTY,'What 1915 film was the first to gross $5 million '
+DESC,'How do you use  farther  as opposed to  further  '
+NUM,'How many South American countries have the letter Z in their names '
+LOC,'What eastern state sprouted the first commercial nuclear power plant in the U.S. '
+NUM,'How many times has Harold Stassen announced a drive for the White House '
+ENTY,'What are all the different types of pizza '
+DESC,'What is Occam s Razor '
+DESC,'What was Suzy Parker doing to earn $1 '
+HUM,'Which of the following did not receive a 1983  Outstanding Mother Award  from the National Mother s Day Committee '
+NUM,'What age is Benny Carter '
+ENTY,'What was the killer whale who died at Sea World of a fungal infection named '
+HUM,'Who killed Lee Harvey Oswald '
+ENTY,'What is a fear of hell '
+DESC,'What is osmosis '
+DESC,'What happened to Phillip Taylor Kramer '
+DESC,'What are the words to the cd Eminem s '
+HUM,'Who is the  Queen Mother  '
+HUM,'Who is King in Alley Oop s home of Moo '
+DESC,'How did water appear on the earth '
+ENTY,'What kind of guitar did Jimi Hendrix play '
+ENTY,'What are the 7 articles of the constitution '
+ENTY,'What color was the hundred billionth crayon made by Crayola '
+ENTY,'At Christmas time '
+HUM,'What actress s autobiography is titled Shelley : Also Known as Shirley '
+DESC,'What is the difference between college and graduate school '
+LOC,'What is New England s highest mountain '
+HUM,'Who portrayed portly criminologist Carl Hyatt on Checkmate '
+LOC,'What Russian seaport has a name meaning  Lord of the East  '
+NUM,'How many events make up the decathlon '
+HUM,'Who served as inspiration for the schoolteacher portrayed by Robin Williams in  Dead Poets Society  '
+NUM,'How many Jews were executed in concentration camps during WWII '
+NUM,'How many calories are in a tomato '
+LOC,'Where was Poe born '
+DESC,'What causes tuberculosis '
+NUM,'What is the Pennsylvania state income tax rate '
+HUM,'Who created Dennis the Menace '
+LOC,'What were the first three cities to have a population of more than a million '
+LOC,'What city is sometimes called Gotham '
+ENTY,'What are the most common elements in the Earth s crust '
+DESC,'What does the word  opera  mean '
+HUM,'Who lived on the shores of the Gitchee Gumee River '
+ENTY,'What did the ancients call the four great elements '
+LOC,'What U.S. city is The Queen of the Pacific '
+NUM,'How many teaspoons make up a tablespoon '
+LOC,'Where is Procter & Gamble based in the U.S. '
+DESC,'What is a swatch '
+ENTY,'Name the 5 words that use all of the letters in the alphabet '
+LOC,'What country received all the Nobel Prizes awarded in 1976 '
+LOC,'Where can I find the schematics to the windshield wiper mechanism '
+ENTY,'What kind of creatures are black '
+LOC,'Where can an individual get a contact lens tested that burned the entire surface of eye when new '
+NUM,'How much did the Iran-Contra investigation cost '
+DESC,'Why are eggs supposed to be stored small end down '
+ENTY,'What is a fear of sourness '
+LOC,'Where can I find up-to-date coastal ocean surface temperature information '
+ENTY,'What do you get by adding Lactobacillus bulgaricus to milk '
+HUM,'Whose singing voice was dubbed in for Natalie Wood in West Side Story and Audrey Hepburn in My Fair Lady '
+DESC,'How did Bob Marley die '
+HUM,'Who killed JFK '
+ENTY,'What soap was touted as being  for people who like people  '
+NUM,'How old is Britney Spears '
+HUM,'What Apollo 11 astronaut minded the store while Armstrong and Aldrin made history '
+LOC,'Where is Windsor Castle '
+HUM,'Who was the only president to serve two nonconsecutive terms '
+HUM,'What singer s hit song inspired the Dolly Parton Stallone movie Rhinestone '
+DESC,'What is Linux '
+LOC,'Where do the Grimace and Mayor McCheese live '
+DESC,'What s the difference between sleet and freezing rain '
+NUM,'When was the Berlin Wall erected '
+ENTY,'What animals can live the longest without food '
+NUM,'What s the score of a forfeited baseball game '
+HUM,'Who were the Yankee s frequent enemies '
+ENTY,'What vehicles are raced in the Tour de France '
+DESC,'What is the root of all evil '
+DESC,'What was the reason for the partition of the Anglican and Vatican churches '
+ABBR,'What do the letters ZIP stand for in the phrase  ZIP code  '
+ENTY,'What did Tristan come back as '
+HUM,'Who did the Seven Mules block for '
+ENTY,'Which is a real berry : blackberry '
+NUM,'How many corners does a spritsail have '
+LOC,'Where is Natchitoches '
+ENTY,'What kind of education do I need to become a flight attendant '
+ENTY,'What are some important events of the 1830 s '
+LOC,'What are all the rivers in Europe '
+NUM,'When did beethoven die '
+HUM,'What occupation has the highest divorce rate '
+ENTY,'What s the second-most-used vowel in English '
+HUM,'What golfer has been called Ohio Fats and Blobbo '
+DESC,'What is a transistor '
+LOC,'Name a country that is developing a magnetic levitation railway system '
+NUM,'When was the first steel mill in the United States built '
+ENTY,'Which mayonnaise refers to itself as  real  mayonnaise '
+DESC,'How was Lawrence'
+ENTY,'In which sport is there a  scrum  '
+NUM,'When was Dubai s first concrete house built '
+ENTY,'What is the softest part of the body '
+HUM,'Who made a boat out of gopher wood '
+NUM,'What year did the United States pass the Copyright law '
+DESC,'Why is hockey so violent '
+LOC,'In what area of the world was the Six Day War fought '
+HUM,'What U.S. President was the first to breed mules '
+DESC,'How does blood clot '
+HUM,'Who was the prophet of the Muslim people '
+NUM,'How hot does the inside of an active volcano get '
+DESC,'What is a urologist '
+DESC,'What is a Jellicle Cat '
+HUM,'Who is the prophet that is most connected to the Dead Sea '
+HUM,'Who portrayed Carl Bernstein in All the President s Men '
+LOC,'What New England state carries the telephone area code 27 '
+LOC,'What landmark Italian restaurant can be found at 239 West 48th Street '
+HUM,'Who was named Admiral of the Ocean Seas and Viceroy and Governor General of all the islands he might discover '
+ENTY,'What is the Scotch  for people who know the difference  '
+HUM,'Who was chairman of the Senate select committee that tried to get to the bottom of Watergate '
+ENTY,'What animal has the best hearing '
+LOC,'What prison is found in Ossining '
+HUM,'What woman pitcher has struck out Ted Williams and Hank Aaron '
+ENTY,'What is a fear of ruin '
+HUM,'Who owns the St. Louis Rams '
+ENTY,'What film dramatized the Scopes monkey trial '
+ENTY,'Name the two mystical ravens Odin has at his command .'
+NUM,'How many URL extensions are there  and what are they '
+HUM,'What police force did Mack Sennett create '
+LOC,'Where can I find lyrics for R&B '
+DESC,'Why is Jane Goodall famous '
+NUM,'How many objects orbit the Earth '
+NUM,'How long does a dog sleep '
+DESC,'What prompted the co-pilot of the Enola Gay to enter only  My God  in his log '
+NUM,'How many people in the USA say their number one source of information is the newspaper '
+HUM,'What suburban housewife and mother of three wrote The Feminine Mystique '
+ENTY,'What deck of cards includes the Wheel of Fortune '
+NUM,'How much waste does an average dairy cow produce in a day '
+ENTY,'What powdered soft drink mix went into space '
+NUM,'How tall is the giraffe '
+ENTY,'What is the Islamic equivalent of the Red Cross '
+NUM,'Hitler came to power in Germany in what year '
+HUM,'Name the lawyer for Randy Craft .'
+NUM,'Approximately how many students are enrolled at the University of Massachusetts '
+LOC,'Which way do you turn your Bic to increase the flame - clockwise or counterclockwise '
+HUM,'What onetime member of Ronald Reagan s cabinet called federal policy toward Indians  an example of the failure of socialism  '
+ENTY,'What sports magazine has the largest circulation '
+ENTY,'What Leon Uris novel dealt with the Russian capture of Berlin '
+NUM,'What is the date of Bastille Day '
+NUM,'Approximately how much does a teaspoon of matter weigh in a black hole '
+HUM,'Who was the first governor of West Virginia '
+DESC,'What are the lyrics to  Smelly Cat  '
+HUM,'Who did Arthur H. Bremer try to assassinate on May 15 '
+DESC,'What is the origin of the rock band Led Zeppelin s name '
+LOC,'What is the name of the gulf between Sweden and Finland '
+NUM,'What is the mean income of the top 10\% '
+HUM,'Who was Jinnah '
+ENTY,'What new year is celebrated on February 16th '
+ENTY,'What s a  Drinker respirator  better known as '
+ENTY,'What does God create in the first sentence of the Bible '
+DESC,'What do insects do through their spiracles '
+HUM,'What comedian was born Allen Stewart Konigsberg '
+HUM,'Who discovered imaginary numbers '
+ENTY,'In which Kevin Costner movie did Sioux Indians play a role '
+NUM,'How many cullions does a male have '
+DESC,'What is the origin of head lice '
+LOC,'What country has the most time zones '
+LOC,'Where is Ocho Rios '
+ABBR,'What is the abbreviation of General Motors '
+DESC,'What s the staff of life mentioned in the Lord s Prayer '
+NUM,'How many thousands of students attend the University of Massachusetts '
+HUM,'What actress holds the record for the most appearances on the cover of Life '
+HUM,'What famous model was married to Billy Joel '
+LOC,'What desert has the highest sand dunes '
+DESC,'What is the origin of the word  sideburns  '
+HUM,'What actor came to dinner in Guess Who s Coming to Dinner '
+DESC,'What is  the only cigarette made with no leftovers  '
+NUM,'How many flavors of ice cream does Howard Johnson s have '
+HUM,'Who s the twin brother of the Greek goddess Artemis '
+ENTY,'What is a fear of cholera '
+NUM,'How many games are played in a five-team round-robin tournament '
+ENTY,'What magazine gives us the cream '
+ENTY,'What is a fear of sleep '
+HUM,'Who was Scrooge s dead partner in Dickens s A Christmas Carol '
+NUM,'When did the vesuvius last erupt '
+LOC,'Where was Pythagoras born '
+ENTY,'What fruit does the ficus produce '
+DESC,'What caused an adjournment of the 25th anniversary session of the United Nations General Assembly '
+HUM,'Who invented the process to make condensed milk '
+ENTY,'What are the 7 Wonders of the World '
+LOC,'What s the tallest building in New York City '
+HUM,'Who declared :  I am down on whores and I shan t stop ripping them  '
+DESC,'What is the definition of cecum '
+ENTY,'What s the official animal of Canada '
+DESC,'What is pasta '
+ENTY,'What is the Islamic counterpart to the Red Cross '
+DESC,'Where did Indian Pudding come from '
+DESC,'How can I get someone s email address '
+LOC,'What Russian seaport has a name meaning  Lord of the East  '
+ENTY,'What line of candy products included Super Skrunch and Peanut Butter Oompas '
+LOC,'What U.S. state boasts Stone Mountain '
+ENTY,'What is a fear of machinery '
+HUM,'Who did Bobby Fischer beat to win the world chess championship '
+ENTY,'Which is heavier - cream or milk '
+NUM,'How many CDs has Garth Brooks sold '
+HUM,'Who is the man behind the pig-the man who pulls the strings and speaks for Miss Piggy '
+HUM,'What information can you tell me about actor James Cromwell '
+NUM,'What was the number of assassinations and attempts to assassinate in the U.S. since 1865 '
+LOC,'Where is there information on the novel  El Cid  '
+DESC,'Why do people shake hands to show friendliness '
+DESC,'What was an  Asiento  '
+HUM,'Who built the first pyramid '
+DESC,'What is  flintknapping  '
+ABBR,'What does the word LASER mean '
+LOC,'Where was the largest concentration camp in World War II '
+NUM,'What is the date of Boxing Day '
+HUM,'In Dana s  Two Years Before the Mast '
+LOC,'Name the highest mountain .'
+HUM,'What college football team did Knute Rockne build into a power '
+NUM,'What chapter of Gone with the Wind has Rhett Butler leaving Scarlett O Hara '
+DESC,'What is Compaq s mission statement '
+NUM,'When was Babe Ruth born '
+HUM,'Who was President of Costa Rica in 1994 '
+DESC,'How did the bikini bathing suite get its name '
+LOC,'What was the first town to be chartered in Vermont '
+ENTY,'In what Olympic Games did Nadia Comaneci become popular '
+NUM,'How hot should the oven be when baking Peachy Oat Muffins '
+DESC,'What is a philanthropist '
+LOC,'What country has been called The Queen of the Antilles '
+ENTY,'What is the fear of frogs '
+LOC,'What constellation represents a hunter with club and shield '
+ENTY,'What sign is The Water Carrier the zodiacal symbol for '
+NUM,'How many three-letter permutations can be made from the four letters : c '
+ENTY,'What language is mostly spoken in Brazil '
+NUM,'How long is human gestation '
+DESC,'What is a bourdon tube '
+DESC,'How do I sing like Elvis Presley '
+ENTY,'What were popular songs and types of songs in the 1920s '
+DESC,'What is commonly considered the fifth sense '
+NUM,'How many cards are dealt to each player in Gin Rummy '
+DESC,'How do you make dumplings '
+DESC,'Why do roosters sing at five o clock in the morning '
+NUM,'The italian artist '
+ENTY,'What incident of 1933 did the German Nazis use to justify emergency decrees '
+ENTY,'What is the brand name of a chemical used to control ripening '
+HUM,'What monarch signed the Magna Carta '
+DESC,'How do you make a paintball '
+DESC,'What are the major differences in the Catholic and Methodist religions '
+ENTY,'What cancer is commonly associated with AIDS '
+DESC,'What is the definition of a cascade '
+HUM,'Who declared :  I think I ll go out and milk the elk  '
+HUM,'Who was Whitcomb Judson '
+HUM,'What kind of company is 7-Eleven '
+NUM,'How many miles are there between Tel Aviv '
+DESC,'Shea and Gould closed their Los Angeles office for what reason '
+DESC,'What did the Confederate Constitution say about slavery '
+ENTY,'What is a fear of touching '
+HUM,'Who invented silly putty '
+DESC,'How does it make its colors '
+NUM,'What is the exchange rate between England and the U.S. '
+HUM,'Who was the lyricist and who was the composer between Gilbert and Sullivan '
+DESC,'How do ants have sex '
+LOC,'In what U.S. state was the first woman governor elected '
+HUM,'Who is Mia Farrow s mother '
+HUM,'Whom did Friz Freleng add to the Warner Bros. cartoon ranks '
+ENTY,'What is  the soft drink for adults  '
+LOC,'What South American city has the world s highest commercial landing field '
+DESC,'How can I find online spelling '
+HUM,'What was the name given the 6 '
+NUM,'What is the acreage of the Chappellet vineyard '
+ENTY,'What anesthetic did Queen Victoria allow to be used for the birth of her seventh child '
+DESC,'How do you write MLA style bibliographies for an Internet source '
+NUM,'How old was George Washington when he died '
+ENTY,'What software offers inventors use of CAD-like design '
+ENTY,'What magazine paid Ernest Hemingway $15 a word to write a bullfighting article '
+DESC,'What is the Kashmir issue '
+ENTY,'The corpus callosum is in what part of the body '
+NUM,'How long does a fly live '
+DESC,'What is hebephrenia '
+LOC,'Where are all European and American eels born '
+NUM,'How big is a normal size penis for a 15-year-old '
+DESC,'Where did the term  86ed  come from '
+HUM,'What professional cricketer s son wrote The War of the Worlds in 1898 '
+HUM,'Who was Red Grange '
+DESC,'What is leukemia '
+LOC,'Where did bocci originate '
+LOC,'What are the four largest mountain ranges in the continental United States '
+HUM,'What poet wrote :  ... I have promises to keep '
+HUM,'What two presidents of the U.S. published books of poetry '
+ENTY,'What star-faring race brought about the Inhumans on Marvel s Earth '
+LOC,'What is the tallest building in Japan '
+ENTY,'What are some translations of the phrase  Thank-you  '
+NUM,'How much do drugs to treat tuberculosis cost '
+LOC,'Where is Mozambique located '
+LOC,'What European country boasts the city of Furth '
+HUM,'Who was the architect of Central Park '
+DESC,'What effect does friction have on perpetual motion '
+ENTY,'What s the largest U.S. agricultural crop by weight '
+HUM,'Which Ventura County police department seized the largest cocaine shipment in it s history '
+LOC,'What famed London criminal court was once a feudal castle '
+ENTY,'What operating system do IBM-compatible machines use '
+DESC,'What is yohimbine '
+ENTY,'What s a male witch called '
+NUM,'When was John D. Rockefeller born '
+DESC,'What are the seven deadly sins '
+ENTY,'What must be exceeded to produce a sonic boom '
+ENTY,'What 1953 film won Frank Sinatra a best supporting actor Oscar '
+LOC,'What country is the origin of the band the Creeps '
+DESC,'What is June s birthstone '
+LOC,'Where can I get information and statistics on countries and nations '
+HUM,'What American actress was the first to be called a  vamp  '
+NUM,'How much would a black-and-white 1-cent stamp be worth '
+ABBR,'What s the abbreviation for trinitrotoluene '
+NUM,'How many people was Randy Craft convicted of murdering '
+HUM,'Who was the first woman in space '
+DESC,'What is idealab ! '
+DESC,'Why did several San Diego schools remove apples from students menus '
+ABBR,'What do the letters D.C. stand for in Washington '
+HUM,'Who played the title role in My Favorite Martian '
+NUM,'How many calories are there in a Big Mac '
+DESC,'What is a Mexican hairless '
+NUM,'What year was the setting for American Graffiti '
+LOC,'What three European countries begin with the letter A '
+LOC,'Where are good science sites on the Internet '
+HUM,'What Asian spiritual and political leader was married at the age of 13 '
+LOC,'What s the second-highest mountain in the world '
+DESC,'What is the English meaning of caliente '
+HUM,'What well-known music personality is the father of an adopted son named Hans Christian Henderson '
+HUM,'Who portrayed The Cowardly Lion in The Wizard of Oz '
+ENTY,'What TV show premiered on January 15 '
+DESC,'What does the Georgetown  Hoya  mean '
+HUM,'What is the name of the company that manufactures the  American Girl  doll collection '
+DESC,'Why are there 12 people on a jury in criminal cases '
+DESC,'How do you get rid on woodpeckers '
+DESC,'What is a First World country '
+NUM,'How many different types of skunks are there '
+ENTY,'What is a golf ball made of '
+LOC,'What London street is the home of British journalism '
+NUM,'What is the per-capita income of Colombia '
+HUM,'Who invented the toothbrush '
+DESC,'What does an emperor do '
+ENTY,'In what deodorant commercial did tenants have adjoining medicine cabinets '
+ENTY,'What drink is formed of tequila '
+HUM,'What s the name of Tom Sawyer s aunt with whom he lives '
+DESC,'How does lightning travel '
+ENTY,'What color is the lipstick on Boy George s wax lips at London s Madame Tussaud s '
+HUM,'What was the name of  The Muppets  creator '
+LOC,'What nationality is Gorbachev '
+NUM,'How much Coca Cola is drunk in one day in the world '
+DESC,'How do you ask questions '
+HUM,'What kind of organization is  Last Chance for Animals  '
+LOC,'What is the nickname for the state of Mississippi '
+DESC,'What does  antidisestablishmentarianism  mean '
+ENTY,'How do you say I love you in Spanish '
+NUM,'How many bytes are in a terabyte '
+DESC,'What is the Golden Rule '
+DESC,'How do I find out what cities are in a certain area code '
+HUM,'Who has more DNA - a man or a woman '
+HUM,'Who played the father on  Charles in Charge  '
+HUM,'Who first broke the sound barrier '
+NUM,'What is the current population for these countries : France '
+ENTY,'What is a common anti-AIDS drug '
+DESC,'What is dry ice '
+DESC,'What is white chocolate '
+ENTY,'What molecules include fluorine '
+ENTY,'What was the name of Sergeant Preston of the Yukon s lead dog '
+DESC,'What kind of greeting is appropriate to send on Yom Kippur '
+DESC,'What happens when lightning strikes a body of water '
+DESC,'What are liver enzymes '
+HUM,'Which of these are authors '
+ENTY,'What is the organizational structure of the New Delhi Indira Gandhi airport '
+ENTY,'What was George Washington afraid of '
+ENTY,'What was the name of the flight that Fawaz Younis hijacked '
+ENTY,'What other name were the  Little Rascals  known as '
+HUM,'What National Basketball Association superstar told his story in Giant Steps '
+NUM,'How many e-commerce companies are started every day '
+NUM,'How long has L.L. Cool J. been married '
+ENTY,'What is Jell-O made from '
+DESC,'What exactly '
+LOC,'What state in the U.S. has the most blacks '
+HUM,'What international organization was founded by Clara Barton '
+ABBR,'What does A&W of root beer fame stand for '
+HUM,'What was the name of the Titanic s captain '
+LOC,'Where did the world come from '
+ENTY,'What kind of puzzle first appeared in the U.S. in the New York World on December 21 '
+ENTY,'What ocean liner burned and sank in Hong Kong harbor '
+HUM,'Who is Shirley MacLaine '
+DESC,'How can I find out what year a Beanie Baby was introduced '
+NUM,'What is the world population as of today '
+ENTY,'What s the colored part of the eye called '
+ENTY,'What can communications satellites offer yachts '
+ENTY,'What does a heliologist study '
+NUM,'How much did the minimum wage amount to in 1991 '
+ENTY,'What does ribavirin consist of '
+ENTY,'What meat complemented sweet potatoes and peas in the first TV dinner '
+ENTY,'What gender is not allowed to vote in Kuwait '
+NUM,'How many people hike '
+HUM,'What comedienne calls her sister-in-law Captain Bligh and her mother-in-law Moby Dick '
+ABBR,'What is AFS '
+ENTY,'What did people use to freshen their breath before toothpaste '
+LOC,'Where is former Pro wrestler Johnny  Rubber Man  Walker '
+DESC,'What are the benefits of a rowing machine '
+ENTY,'What was the name of the ball game played by the mayans '
+ENTY,'What civil war was fought between 1936 and 1939 '
+LOC,'What country are you visiting if you land at President Duvalier Airport '
+HUM,'Who was the first person inducted into the U.S. Swimming Hall of Fame '
+ENTY,'What international amateur sports spectacle was first telecast in 1956 '
+ENTY,'The operating system that runs on IBM-compatible machines is called what '
+DESC,'Why are there letters on the telephone  Why are there no Q or Z '
+ENTY,'What do you call a book of quotes '
+ENTY,'What was John F. Kennedy s 1960 campaign song '
+DESC,'How did Socrates die '
+ENTY,'Name the ship Beany and Cecil sailed .'
+ENTY,'What shampoo prevents eczema '
+DESC,'What is  the computer for the rest of us  '
+DESC,'What was Nine Tailors '
+DESC,'How do you buy stocks '
+NUM,'How long was the OJ Simpson trial '
+HUM,'Who danced into stardom with Fred Astaire in 1941 s You ll Never Get Rich '
+ENTY,'What film marked Robert Redford s directorial debut '
+HUM,'Who won the 1967 Academy Award for Best Actor '
+LOC,'Where is the massive North Korean nuclear complex located '
+ENTY,'What was  America s recessed-filter cigarette  '
+NUM,'How much did the first Barbie doll sell for in 1959 '
+DESC,'What is a leaky heart valve '
+DESC,'How do I stop background noise in a car stereo '
+ENTY,'What do you call a section of your finger from one joint to another '
+DESC,'What do Christian Scientists believe in '
+LOC,'Where s the 19th hole on a golf course '
+DESC,'What is goulash '
+ENTY,'What drug is often used to treat AIDS patients '
+NUM,'What was the 1940 annual salary for a boilermaker '
+LOC,'What is the largest lake in North America '
+NUM,'How many member states are in the UN '
+HUM,'Who s the only president buried in Washington'
+LOC,'Where is the Bulls basketball team based '
+HUM,'Who is the famous sister of actress Olivia De Havilland '
+DESC,'What is the recommended daily requirement for folic acid for pregnant women '
+DESC,'What s the distinction of U.S. Supreme Court Justice Thurgood Marshall '
+LOC,'Where can one find Rider College '
+HUM,'Who wrote the Bible '
+DESC,'How do they raise the cranes when building high-rise buildings '
+NUM,'What day of the week was July 13 '
+DESC,'How do you recognize anorexia '
+DESC,'What are the living conditions in Cuba '
+HUM,'What is the name of the American who was captured when his plane went down over Syrian-held Lebanon '
+HUM,'Which organization is the Security Council a part of '
+LOC,'Where is the Valley of the Kings '
+ENTY,'What food did Marco Polo introduce into Italy from the court of Kubla Khan '
+LOC,'What is the name of the planet that the Ewoks live on '
+LOC,'What country buys 25 percent of the world s tea exports '
+ENTY,'What does a pedometer measure '
+LOC,'Where can I find full written draft of CTBT '
+DESC,'What was the V-8 Juice slogan :  the tastebud  '
+DESC,'How do I know someone is truly in love with me '
+ENTY,'What kind of sport is often associated with hooligans '
+ENTY,'What is a movie that Kevin Costner made about Sioux Indians '
+LOC,'What ocean did the Titanic sink in '
+ENTY,'What were the trials called which followed World War II '
+HUM,'Who is Samuel F. Pickering '
+LOC,'What is the largest island in the Mediterranean Sea '
+ENTY,'What film ends with the line :  This is Mrs. Norman Maine  '
+HUM,'Who sought to create The Great Society '
+LOC,'What state produces the best lobster to eat '
+ENTY,'What is a fear of jealousy '
+NUM,'How many lawyers are there in the state of New Jersey '
+DESC,'Why do we call someone  honey  '
+NUM,'How many dollars a day did Arthur Frommer say you could get by on in Europe in 1968 '
+DESC,'How does ultraviolet light damage the DNA of skin cells '
+HUM,'What s the nickname of oddsmaker Jimmy Snyder '
+NUM,'When was Florida admitted into the Union '
+ABBR,'What does SHIELD stand for '
+HUM,'What are the top 10 colleges in the United States in the field of engineering '
+ENTY,'What is the name of a book written by Aaron Hass '
+HUM,'Who was Israel s first prime minister '
+LOC,'Where can I buy a hat like the kind Jay Kay from Jamiroquai wears '
+HUM,'What kind of business is 7-Eleven '
+LOC,'Where was Christopher Columbus born '
+DESC,'What is  snoogans  '
+ENTY,'What is the mission of Nike '
+HUM,'Who banned Peter Rose from baseball for betting on games '
+DESC,'How does the Nintendo  Zapper  work '
+HUM,'What are the top boy names in the U.S. '
+LOC,'What lake is the source of the White Nile '
+DESC,'What is limbo '
+ENTY,'What s the most commonly-spoken language in Belgium '
+ENTY,'What was the name of the peace agreement imposed on Germany after World War I '
+NUM,'How much did Mercury spend on advertising in 1993 '
+DESC,'What is the purpose of the SysRq key on my computer keyboard '
+ENTY,'What is a fear of trees '
+DESC,'How can I register my website in Yahoo for free '
+LOC,'Name the country which Honecker lived in .'
+HUM,'What college enlivens Hanover '
+HUM,'Who was credited with saying :  I never met a man I did nt like  '
+HUM,'What English physician was born on January 18 '
+ENTY,'What disease did August von Wassermann develop a specific test for in 196 '
+HUM,'Name Dick Tracy s two children .'
+DESC,'What do bee hives do in cranberry bogs '
+NUM,'In what year did Hitler gain power of Germany '
+DESC,'How do I know how much money to save for retirement '
+ENTY,'What s the geographic term for the submerged fringe of a continent '
+HUM,'What is the real name of disc jockey  Wolfman Jack  '
+NUM,'How many pairs of legs does a lobster have '
+DESC,'How can you be happy '
+LOC,'What country is proud to claim Volcano National Park '
+HUM,'Who invented the vacuum cleaner '
+NUM,'What does an average daycare provider get paid in New England '
+DESC,'What is in baby powder and baby lotion that makes it smell the way it does '
+LOC,'Where is Kings Canyon '
+DESC,'What is an auto-commentary '
+ENTY,'What does a tarantula eat '
+HUM,'What Civil War general wreaked havoc on the south by marching through Georgia on his way to the sea '
+NUM,'How tall was the animated King Kong '
+NUM,'What is the starting salary of a radiographer '
+HUM,'What fool is not so wise To lose an oath to win a paradise '
+HUM,'What football coach s story was told in the movie Run to Daylight '
+HUM,'Whose image is alleged to be on The Shroud of Turin '
+ENTY,'What weapon is the mythological character Apollo most proficient with '
+LOC,'Where can I learn about Samuel Gompers '
+NUM,'How many small businesses are there in the United States '
+NUM,'When did Iraqi troops invade Kuwait '
+DESC,'What is the origin and the meaning of the name '
+NUM,'How many children under 18 are victims of some sort of Physical Abuse each year '
+DESC,'What were the three prophecies the witches make to Macbeth '
+ENTY,'What s the name of Jacques Cousteau s research ship '
+HUM,'Who made Stonehenge '
+DESC,'What s the difference between TFT and dual-scan display '
+LOC,'What two South American countries do nt border Brazil '
+NUM,'How many people own pets '
+ENTY,'What is the name of the 1919 occurrence in which British troops killed over 3 unarmed Indian protestors '
+LOC,'Where are there aborigines '
+ENTY,'What was the education system in the 1960 s '
+ENTY,'What Mary Tyler Moore Show regular came into the world as Tadeus Wladyslaw Konopka '
+HUM,'What organization did Mr. Waverly assign agents for '
+ENTY,'What is a fear of punishment '
+NUM,'How many points are there on a Backgammon board '
+NUM,'When was the first railroad from the east coast to the west coast completed '
+HUM,'Who is Pia Zadora s millionaire husband and mentor '
+LOC,'What California bay s largest island is Angel Island '
+ENTY,'What John Steinbeck novel portrays the Joad family '
+NUM,'What is the price for AAA s liability auto insurance '
+DESC,'What function does homeostasis have on the existence of an organism '
+HUM,'Who were the only two bald U.S. Presidents '
+NUM,'When was the Hoover Dam constructed '
+HUM,'What explorer was nicknamed Iberia s Pilot '
+NUM,'In what year did the US Marine Corps adopt the motto  Semper Fidelis  '
+LOC,'What city was John F. Kennedy nominated for president in '
+HUM,'What actor married John F. Kennedy s sister '
+DESC,'How did P.T. Barnum bill the diminutive Charles S. Stratton '
+DESC,'What does the Greek word polis mean '
+DESC,'What is hyperopia '
+LOC,'Which city in China has the largest number of foreign financial companies '
+DESC,'What s the rathaus in Frankfurt '
+HUM,'Name the Ranger who was always after Yogi Bear .'
+ENTY,'What comic strip sometimes features a mailman named Beasley '
+DESC,'What is the origin of the term soda jerk '
+DESC,'What is ethology '
+HUM,'What Russian composer s Prelude in C Sharp Minor brought him fame and fortune '
+HUM,'Which oil company almost picked a word that meant  stalled car  in Japanese as its new international name '
+ENTY,'What meter was invented by C.C. Magee in 1935 '
+NUM,'How much was the minimum wage in 1991 '
+HUM,'Who was Secretary of State during the Nixon administration '
+NUM,'The Shea & Gould law firm had an office in L.A. for how many years '
+HUM,'Whose autobiography is titled Yes I Can '
+HUM,'Who was Sherlock Holmes s archenemy '
+ABBR,'What does the channel ESPN stand for '
+NUM,'How many disks does each player have in a four-handed game of Crokinole '
+DESC,'What is the economic impact of unemployment on the economy '
+HUM,'What presidential press secretary dismissed Watergate as a third-rate burglary attempt '
+HUM,'Which team won the Super Bowl in 1968 '
+NUM,'When was the Triangle Shirtwaist fire '
+ENTY,'What is predicted to topple over between 2010 and 2020 '
+DESC,'What is the difference between the anus and the rectum '
+LOC,'Which country is known as  Big Bear  '
+DESC,'What does verdandi mean '
+ENTY,'What product features a frog that says  dig em  '
+LOC,'What California bridge was Don Brown the first to cross '
+LOC,'In what city is the US Declaration of Independence located '
+DESC,'What did Mighty Mouse always sing as he went into action '
+NUM,'How many feet long is a baseball pitcher s rubber '
+LOC,'What city is terrorized by Dracula in The Night Stalker '
+ENTY,'What were first used by John L. Sullivan and James J. Corbett in 1892 '
+ENTY,'Which breakfast cereal brought you  the best each morning  '
+LOC,'Where do the Blackhawks maintain their operations '
+HUM,'Which of the Seven Dwarfs comes first alphabetically '
+HUM,'What former major-league left-handed baseball pitcher was known as  Space Man  '
+NUM,'What is Columbia Tristar s phone number '
+NUM,'What is the average age of a member of the team that worked on the Manhatten Project '
+DESC,'How do you write a book report '
+DESC,'How can I find out my biorhythm '
+LOC,'What is the largest city on the Great Lakes '
+DESC,'Why is the grass green '
+DESC,'Why are the U.S. presidential elections held in November '
+HUM,'What father and son won the Medal of Honor '
+LOC,'What famed wall supports the Badaling turret '
+DESC,'How can I get a CCT diagram '
+ENTY,'What is 55 times sweeter than cane sugar '
+NUM,'How many hands does Bjorn Borg use when hitting his forehand '
+LOC,'What state has the longest Great Lakes shoreline '
+HUM,'Who shot Lee Harvey Oswald '
+NUM,'How many small businesses are there in the U.S .'
+ENTY,'What sport features snatches and clean jerks '
+HUM,'Who was the 16th President of the United States '
+DESC,'How do they type Chinese characters on a keyboard '
+NUM,'What was the date of Iraq s invasion of Kuwait '
+HUM,'Which company created the Internet browser Mosaic '
+DESC,'How does a scientific calculator work '
+HUM,'What President lived at 219 North Delaware Street '
+NUM,'What is the size of Argentina '
+HUM,'What boxer s life story is titled Raging Bull '
+DESC,'What s the proud claim to fame of the young women who formed Kappa Alpha Theta '
+LOC,'What California desert is dubbed High Desert '
+NUM,'When do you plant winter wheat '
+HUM,'Who was Maria Theresa '
+NUM,'How long does it take for your blood to make one complete trip through the body '
+LOC,'What country are Godiva chocolates from '
+DESC,'Why did the world enter a global depression in 1929 '
+ENTY,'What does the technique called  cold fusion  produce '
+DESC,'How do plants make food '
+ENTY,'What will a kid eat the middle of '
+ENTY,'What was the name of the television show '
+NUM,'How many millimeters are in a mile '
+ENTY,'What colors is magenta made of '
+DESC,'What is e-commerce '
+ENTY,'What was the name of the famous battle between Texas and Mexico '
+LOC,'Where can I find a list of  classic  books 5th and 6th graders should read '
+ENTY,'What s the name of the tiger that advertises for Frosted Flakes cereal '
+ENTY,'What is a fear of thunder '
+ENTY,'What constitutes an adult '
+HUM,'Who has won the most Super Bowls '
+NUM,'How many people lived in Nebraska in the mid 1900s '
+LOC,'What is the snowiest city in the U.S. '
+DESC,'What is witch hazel '
+HUM,'Who thought he d never see a poem lovely as a tree '
+DESC,'What is a dental root canal '
+HUM,'Who is Peter Weir '
+HUM,'Who took the toys donated for the Doodyville Orphans  Fund and kept them for himself '
+HUM,'What was the infamous pseudonym of Peter Sutcliffe '
+NUM,'How many Stradivarius violins were ever made '
+ENTY,'What is the name given to the Islamic counterpart of the Red Cross '
+HUM,'What two New York Yankee pitchers swapped wives and families '
+DESC,'What is the difference between a preface and a foreword '
+NUM,'When does menstruation begin '
+LOC,'What island group is Guadalcanal a part of '
+ENTY,'What kind of creatures are the Canary Islands named for '
+ENTY,'What kind of dog is Scooby Doo '
+LOC,'Where is Glasgow '
+ENTY,'What color is  ash  '
+HUM,'Who was the actor who played Sam in the movie Casablanca '
+HUM,'What terrorist group was headed by Donald DeFreeze '
+HUM,'Name the fast food chain with the golden arches .'
+NUM,'What day is known as the  national day of prayer  '
+HUM,'Who were the Picts '
+DESC,'What is idealab ! '
+HUM,'Who headed Hitler s infamous Gestapo '
+DESC,'What does hazmat stand for '
+ENTY,'What is the second hardest substance '
+ENTY,'What plant is rum made from '
+ENTY,'What were the achievements of Richard Nixon '
+DESC,'What nuclear process takes place in an H-bomb '
+ENTY,'What product did Robert Conrad dare people to knock off his shoulder '
+HUM,'What 1920s cowboy star rode Tony the Wonder Horse '
+HUM,'Who portrayed Etta Place '
+HUM,'What task does the Bouvier breed of dog perform '
+HUM,'Who took over as conductor of the Boston Pops after Arthur Fiedler s long reign '
+ENTY,'Madonna advertises for what soft drink '
+DESC,'What is a biologist '
+NUM,'How many bottles of wine were prisoners in the Bastille allowed per day '
+ENTY,'What was the name of Captain Bligh s ship '
+NUM,'What phone number can I call to have a tree planted '
+NUM,'What is Maurizio Pellegrin s age '
+DESC,'What is the use of a 24-hour clock instead of a 12-hour clock '
+LOC,'Where are zebras most likely found '
+LOC,'Where is the biggest bell '
+ENTY,'What is the formula to calculate pi '
+HUM,'What was the name of the lawyer who represented Randy Craft '
+NUM,'How many people are there in the world '
+NUM,'When was the Big Thompson flood '
+LOC,'What country did the Mau Mau Uprising take place in '
+HUM,'What barroom judge called himself The Law West of the Pecos '
+NUM,'In what year did the Bounty mutiny happen '
+ENTY,'What war was fought by the Spanish as far as the Philippines '
+HUM,'What famous meat company went out of business because it became known that the underworld had been selling them kangaroo meat '
+ENTY,'What product  doubles your pleasure '
+DESC,'What is the origin of the midwest slang '
+HUM,'What NFL team did Vince Lombardi end his coaching career with '
+LOC,'What are the Benelux countries '
+ENTY,'What scale measures earthquakes '
+LOC,'What city is served by Tempelhol Airport '
+HUM,'Who played the original Charlie s Angels '
+NUM,'What is the federal minimum wage '
+NUM,'How many dots make up the symbol for  because  '
+HUM,'What was the backup singing group for Roy Rogers '
+DESC,'Why does it say on children s cough syrup not to drive while using this medication '
+DESC,'What are some fun things to do in Cozumel '
+DESC,'Why can t you taste anything when you have a cold '
+ENTY,'What s the world s most common compound '
+NUM,'When did Rococo painting and architecture flourish '
+LOC,'What s the capital of Iowa '
+LOC,'Where can I find a review of Nightmare on Elm Street in a film journal '
+HUM,'Who is the French literary charcter who is chiefly famous for his enormous nose '
+DESC,'What is saltpeter '
+DESC,'How do you calculate the change in enthalpy of a chemical reaction '
+ENTY,'What disease does Katharine Hepburn have that makes her voice shake '
+LOC,'What U.S. state has the most blondes '
+LOC,'What New England state covers 5.9 square miles '
+LOC,'What South Korean city is served by Kimpo International Airport '
+HUM,'What are names of two old men who appear in the serial tv Muppets Show '
+ENTY,'What was the Bridge of San Luis Rey made of '
+LOC,'What is the state nickname of Mississippi '
+NUM,'How much of the silver production is manufactured by independent silversmiths '
+NUM,'What is the temperature for cooking '
+LOC,'Where is Burma '
+LOC,'Where is the largest dam in the world '
+ENTY,'What is a fear of food '
+LOC,'Where did Luther display his  Ninety-Five Theses  '
+ENTY,'What were the names of the three ships used by Columbus '
+DESC,'How do they find or choose witnesses to an execution '
+HUM,'What apostle is Taylor Caldwell s Great Lion of God '
+NUM,'How many quarts of whole milk is needed to make one pound of butter '
+NUM,'What month did the Edmund Fitzgerald sink '
+NUM,'How many stations do you shoot from in the basketball game  Around the World  '
+ENTY,'What was originally defined as one 1-millionth of the distance from the equator to the Pole '
+LOC,'What country surrounds San Marino '
+HUM,'In what high-risk business venture did Jimmy the Greek bet and lose '
+ENTY,'What were the first frozen foods '
+ENTY,'What British TV series inspired All in the Family '
+DESC,'What does an echidna look like '
+HUM,'What was the player s name who played nose tackle for the Eagles in Super Bowl XV '
+HUM,'What college did Joe Namath play football for '
+NUM,'What time of day did Emperor Hirohito die '
+DESC,'How is the election of a new Pope announced to the world '
+LOC,'What U.S. state has the second-longest coastline '
+ENTY,'What was the worst hurricane '
+ENTY,'What are the rites accompanying the circumcision of a newly born-child in Judaism called '
+HUM,'Who portrayed W.C. Fields in the film W.C. Fields and Me '
+LOC,'Where did the Japanese Imperial Forces surrender to end WWII '
+ABBR,'What does VCR stand for '
+NUM,'What year was the Avery Dennison company founded '
+ENTY,'In Kafka s Metamorphosis '
+DESC,'How do you find oxidation numbers '
+HUM,'What title did Shevardnadze have during the Soviet era '
+LOC,'What city has the two steepest streets in the U.S. '
+NUM,'How much folic acid should an expectant mother get daily '
+HUM,'What was the name of Darth Vader s son '
+NUM,'How many points is a disk in the center hole worth in Crokinole '
+DESC,'What is Greek pita '
+LOC,'What general direction does the journey in Around the World in 80 Days proceed in '
+ENTY,'What is the most famous German word in the English language '
+HUM,'Who invented Astroturf '
+ENTY,'What is the movie Jonathan Livingstone Seagull '
+NUM,'How many blacks served in the Vietnam War'
+DESC,'How can I find out my Moon sign '
+LOC,'What is the largest office block in the world '
+LOC,'Where can I buy movies on videotape online '
+LOC,'On what continent is Mozambique '
+HUM,'What was Darth Vader s son named '
+HUM,'Saddam Hussein was compared to whom by President Bush '
+LOC,'What river flows past the Temple of Karnak '
+LOC,'What country s capital is Tirana '
+NUM,'How many people have died of tuberculosis '
+ENTY,'What is the smallest thing seen under the most powerful microscope '
+ENTY,'What was Hitler s favorite movie '
+LOC,'Where does the weird shape of the dinner fish knife originate from '
+DESC,'What is the difference between optical and digital video '
+DESC,'How did former WWF wrestler Rick Rude die '
+ENTY,'Mississippi is nicknamed what '
+NUM,'How many astronauts manned each Project Mercury flight '
+NUM,'What s the American dollar equivalent for 8 pounds in the U.K. '
+HUM,'What is the name of actor Rex Harrison s son '
+HUM,'What baseball player was walked the most times '
+DESC,'How do hermit crabs reproduce '
+NUM,'In what year did Joe DiMaggio compile his 56-game hitting streak '
+HUM,'What radio station did Paul Harvey work for '
+HUM,'Who discovered electricity '
+HUM,'Who was the oldest U.S. president '
+NUM,'What is the population of Kansas '
+DESC,'What is Australia Day '
+DESC,'Why did the chicken cross the road '
+NUM,'What is the latitude and longitude of El Paso '
+HUM,'What TV detective did Craig Stevens play '
+ENTY,'What was the name of the horse that fell on Queen Elizabeth '
+ENTY,'What program do I need to run a .tbk file '
+LOC,'Where did Honecker rule '
+ENTY,'What is the most efficient way to start a barbeque '
+HUM,'What South African producer had a 1988 profit of $836 million '
+HUM,'Who was the first X-Man to die in battle '
+NUM,'How many people die from snakebite poisoning in the U.S. per year '
+HUM,'What company was the original sponsor of TV s Superman '
+DESC,'What was the Chivington Massacre '
+ENTY,'What playing card symbolizes death '
+HUM,'Who was the first English circumnavigator of the globe '
+ENTY,'Which mammal lives '
+NUM,'What number is at 12 o clock on a dartboard '
+ENTY,'Which infectious disease is the world s deadliest '
+ABBR,'What does INRI stand for when used on Jesus  cross '
+ENTY,'What two major world religions began in India '
+ENTY,'What interesting method was used to run the credits in the early Popeye cartoons '
+LOC,'What country are you in if you woo in the Wu dialect '
+NUM,'When did Aldous Huxley write '
+HUM,'Who was Ezra Taft Benson '
+ENTY,'What layer of the atmosphere contains most of the ozone layer '
+ENTY,'What is a fear of passing high objects '
+NUM,'What is the population of Mexico '
+NUM,'How wide is the Atlantic Ocean '
+ENTY,'What soft drink not only has its own video game '
+LOC,'What strait links the Mediterranean Sea and the Atlantic Ocean '
+DESC,'What is the meaning of the name Kathryn '
+ABBR,'What does the E stand for in the equation E=mc2 '
+LOC,'What canal does the Thatcher Ferry Bridge span '
+DESC,'How does light travel through the void of space if there is no medium for it to  wave  or  pulse  .'
+DESC,'How did Rocky Marciano die '
+DESC,'How is water treated to make it safe to drink '
+NUM,'What was Einstein s IQ '
+NUM,'How many liberty bells have there been '
+HUM,'What actor s autobiography is titled All My Yesterdays '
+LOC,'What city has the world s longest subway system '
+DESC,'What was the outcome of the 1945 Yalta Conference '
+HUM,'What U.S. President showed a fondness for munching on bee pollen bars '
+ENTY,'What are the different types of plastic '
+DESC,'What is Sinn Fein '
+ENTY,'What is the best brand for a laptop computer '
+NUM,'How long is the world s largest ship '
+ENTY,'What TV show did John Sebastian sing the theme for '
+HUM,'Who portrayed the title character in the film The Day of the Jackal '
+DESC,'How can I find online spelling '
+HUM,'What was the name of Humphrey Bogart s club in Casablanca '
+HUM,'Who did Napolean defeat at Jena and Auerstadt '
+DESC,'How does the tail affect the flight of a kite '
+HUM,'Who wrote  Hamlet  '
+DESC,'What is an annotated bibliography '
+ENTY,'What animal causes the biggest threat to humans '
+LOC,'Where does Barney Rubble go to work after he drops Fred off in the  Flintstones  cartoon series '
+LOC,'Where does the tennis star Stefan Edberg come from '
+HUM,'What comedian created a punch-drunk pugilist named Cauliflower McPugg '
+DESC,'How do movie blues screens work '
+ENTY,'What four-legged creature did a Cornell University study say would make man s best companion in space '
+ENTY,'What is the Jewish bible called '
+NUM,'What is the busiest air travel season '
+DESC,'What s the mystery of the Bermuda Triangle '
+HUM,'What President served for five years '
+HUM,'What Polynesian people inhabit New Zealand '
+DESC,'What is the difference between a bachelor and a 1 bedroom apartment '
+HUM,'Who is the President of Pergament '
+HUM,'What President dispatched a cruiser to carry Charles Lindbergh home after his epic flight '
+LOC,'What country contains the highest point in South America '
+ENTY,'What is a fear of disease '
+DESC,'What is a caldera '
+LOC,'Where did Wile E. Coyote always get his devices '
+HUM,'What astronomer-architect designed the present St. Paul s Cathedral in London '
+ENTY,'What is a fear of parasites '
+ENTY,'What s the highest-ranking suit in bridge '
+DESC,'What is the meaning of Jesus '
+ENTY,'What card game can feature dealer s choice '
+ENTY,'What Broadway musical featured the song '
+HUM,'Who was the first person to study the stars '
+HUM,'What TV sitcom character had the maiden name Ethel Potter '
+HUM,'Who made the rotary engine automobile '
+LOC,'What country is the largest diamond producer '
+ENTY,'What English word contains the most letters '
+NUM,'How much stronger is the new vitreous carbon material invented by the Tokyo Institute of Technology compared with the material made from cellulose '
+NUM,'How many types of lemurs are there '
+ENTY,'What World War I battle saw 6 '
+LOC,'What is the oldest website on the Internet '
+ENTY,'Name a technique widely used to detect birth defects '
+HUM,'What jockey won 17 Triple Crown races '
+ENTY,'What crop failure caused the Irish Famine '
+DESC,'What is the origin of the word assassinate '
+NUM,'The Olympic Games in which year allowed Nadia Comaneci to become popular '
+ENTY,'What color flies closest to the staff on Belgium s flag '
+ENTY,'What is the rarest coin '
+HUM,'What actor '
+NUM,'How much pizza do Americans eat in a day '
+ENTY,'For what disease is the drug Sinemet used as a treatment '
+NUM,'Where does the U.S. rank among world countries in area '
+NUM,'When does the average teenager first have intercourse '
+HUM,'The lawyer who represented Randy Craft '
+HUM,'Who is the leading competitor of Trans Union Company '
+HUM,'What company is the largest Japanese ship builder '
+DESC,'How is Answers.com funded '
+NUM,'What is the population of the largest Chilean city'
+ENTY,'What brand of jeans did Calvin Klein admit in a 1984 interview he felt more comfortable wearing '
+HUM,'Who was the first elected mayor of Washington '
+HUM,'Which member of Charlie s Angels sang vocals for Josie and the Pussycats '
+ENTY,'What is the zodiac sign for August 14 '
+DESC,'What are binomial coefficients '
+ENTY,'What songs were popular in 1948 '
+NUM,'How much caffeine is in a 16 oz cup of coffee '
+DESC,'How do storms form '
+LOC,'What U.S. city was named for St. Francis of Assisi '
+DESC,'What is a courier '
+HUM,'Who is Edmund Kemper '
+LOC,'What city or state do the most gay men live in '
+DESC,'What is a phalanx '
+LOC,'What Texas city got its name from the Spanish for  yellow  '
+LOC,'What are the three most populated countries in the world '
+DESC,'How can someone become a federal agent '
+NUM,'How many people in the world speak French '
+NUM,'How many continents are there '
+NUM,'How many American soldiers are stationed in South Korea '
+ENTY,'What is the name of the song that Dracula plays on the organ '
+NUM,'How many miles is it to Ohio from North Carolina '
+HUM,'Who won World War II '
+DESC,'Why were people recruited for the Vietnam War '
+NUM,'How many pins are used in skittles '
+LOC,'What body of water does the Yukon River empty into '
+LOC,'What are the five most expensive cities in the world '
+ENTY,'What Robert Louis Stevenson novel was inspired by Deacon William Brodie '
+ENTY,'What did a 16th-century Aztec athlete get for putting a rubber ball through a ring '
+DESC,'What does seccession mean '
+NUM,'How many endangered species are there in the world '
+HUM,'What was American folk hero John Chapman s nickname '
+DESC,'What is the proof that houseplants metabolize carcinogens '
+DESC,'Why are electric cars less efficient in the northeast than in California '
+LOC,'What South American country won its first World Cup soccer title in 1978 '
+ENTY,'What is Nero Wolfe s favorite drink during office hours '
+HUM,'Who makes chicken  finger lickin  good '
+DESC,'How do birds find their way back to the same place every year '
+LOC,'Which city has the oldest relationship as a sisterðcity with Los Angeles '
+LOC,'What country is the worlds leading supplier of cannabis '
+DESC,'How do I love thee '
+HUM,'Who was Lauren Bacall s first husband '
+ENTY,'What English word has the most letters '
+HUM,'What university football team did O.J. Simpson take to the Rose Bowl '
+HUM,'Who was the president of Vichy France '
+ENTY,'Name a Gaelic language .'
+LOC,'What was the largest city in the world to declare martial law in 1989 '
+HUM,'What first name was Nipsy Russell given at birth '
+ENTY,'What two body parts grow all your life '
+HUM,'Name the Four Horsemen of the Apocalypse .'
+HUM,'Who was the 15th century fire-and-brimstone monk who gained control of Florence but ended burnt at the stake '
+ENTY,'What five-time winner of the Kentucky Derby lost his first 25 races '
+ENTY,'What was the sequel to The Pink Panther '
+ENTY,'What is the procedure called for drilling a hole in your skull to acheive a higher consciousness '
+ENTY,'What household products are there for adult acne '
+HUM,'Who won the 1968 California Democratic primary '
+LOC,'Where did he get the title '
+NUM,'How many species of the Great White shark are there '
+DESC,'What causes rust '
+DESC,'What does Lloyd s Lutine Bell announce '
+HUM,'Name the designer of the shoe that spawned millions of plastic imitations '
+DESC,'What is graduate school '
+ENTY,'What does the Peugeot company manufacture '
+ENTY,'What is a fear of water '
+LOC,'Where does the Santa Fe Trail begin and end '
+ENTY,'What was the name of the computer in  2001 : A Space Odyssey  '
+NUM,'How many seats does the Batmobile sport '
+HUM,'Who is the prime minister of Australia '
+HUM,'What Pope inaugurated Vatican International Radio '
+LOC,'Where do I find information for foreclosure properties on the Internet '
+LOC,'Where did the real St. Nicholas live '
+LOC,'The Orange Bowl is located in what city '
+HUM,'Who was Jane Goodall '
+NUM,'How many freckles does Howdy Doody have on his face '
+LOC,'Where was  I have fallen '
+NUM,'What chapter of the Bible has the most verses '
+ENTY,'What term means a sexual attraction between a male and a female '
+NUM,'How many people live in Chile '
+ENTY,'What does caliente translate to in English '
+LOC,'What is the country of origin for the name Thomas '
+ENTY,'What Don McLean song laments the day Buddy Holly died '
+NUM,'How much did a knight s armor weigh '
+NUM,'How many copies of an album must be sold for it to be a gold album '
+DESC,'What is the origin of  barbeque  '
+ABBR,'What does the abbreviation AIDS stand for '
+DESC,'What is Jane Goodall known for '
+LOC,'What two European countries are joined by the Gran San Bernardo Pass '
+DESC,'What is meant by blood SED rate '
+DESC,'What is porphyria '
+HUM,'Name the U.S. Senate majority leader and the Speaker of the House .'
+NUM,'How many equal sides are there on a scalene triangle '
+NUM,'How old is the sun '
+ENTY,'To get the most caffeine '
+ENTY,'What Dickens novel has David carrying the message  Barkis is willin  to Peggy '
+DESC,'How does an ion drive work '
+DESC,'How can I get someone s phone number if I only have their screen name '
+ENTY,'What does an edentulous smile lack '
+DESC,'What is fiber in food '
+ENTY,'What soft drink tells us to  Go Hawaiian  '
+LOC,'What airport is on the Piccadilly subway line '
+LOC,'What is the city in which Maurizio Pellegrin lives called '
+HUM,'What name does the world know Renaissance artist Kyriakos Theotokopoulos by '
+LOC,'Where did Dikembe Mutombo go to college '
+ENTY,'What do peacocks mate with '
+DESC,'What is proposition 98 about '
+NUM,'When was the San Francisco fire '
+NUM,'How long does it take for Spider-Man s web to evaporate '
+LOC,'What are the largest breweries in the world '
+HUM,'Who is the creator of  The Muppets  '
+ENTY,'What are the shortest and the longest songs ever produced '
+LOC,'What are the largest libraries in the US '
+DESC,'What is a turnkey contract '
+HUM,'What Nazi leader killed himself in jail just before he was to be executed as a war criminal '
+NUM,'What is the weight of air '
+HUM,'Who created private detective Philip Marlowe '
+HUM,'What is her husband s name '
+DESC,'What is cache memory '
+HUM,'Who else was considered for the role of Luke Skywalker when George Lucas was casting for Star Wars '
+NUM,'How many times a day should you take a prescription marked  q.i.d .  '
+DESC,'From what cause does tuberculosis stem '
+NUM,'What is the population of Ohio '
+HUM,'What does Robin Williams do '
+NUM,'How big is a baby bald eagle '
+ENTY,'What colors make up a rainbow '
+HUM,'What is  the airline built for professional travelers  '
+DESC,'What is the origin of the Christmas tree '
+ENTY,'What Aesop s fable has the moral :  The race is not always to the swift. Slow and steady is bound to win  '
+HUM,'Who played for the Chicago Bears '
+NUM,'Of children between the ages of two and eleven '
+HUM,'What mythical figure carries an hourglass and a scythe '
+HUM,'Who is Zebulon Pike '
+ENTY,'What color is most often used to symbolize truth '
+HUM,'Which Bloom County resident wreaks havoc with a computer '
+ENTY,'Name the vessel used by the Atari Force in the DC comics .'
+ENTY,'Ray Charles is best known for playing what instrument '
+HUM,'Who made the most appearances in the center square on Hollywood Squares '
+HUM,'What are the four railways in Monopoly '
+DESC,'What happened in dogtown in 1899 to make that year remembered '
+ENTY,'What was the name of that popular song the Creeps sang '
+NUM,'What was the average life expectancy during the Stone Age '
+DESC,'What is the difference between Neoclassical art and Romanticism art '
+HUM,'Who is the youngest of the Beatles '
+NUM,'How much do tuberculosis combatting drugs cost '
+ENTY,'Name the operating system that runs on IBM-compatible machines .'
+ENTY,'What TV series changed the names to protect the innocent '
+LOC,'Where s the Petrified Forest '
+LOC,'McCarren Airport is located in what city '
+LOC,'What countries have the largest areas of forest '
+ENTY,'What was the food of the Greek gods called '
+HUM,'Who told all in Ball Four '
+DESC,'What is software piracy '
+HUM,'What doctor is synonymous with footwear and foot care '
+NUM,'What time of year is air travel the heaviest '
+LOC,'What U.S. state includes the San Juan Islands '
+NUM,'What year is etched on the Gold Medal of Excellence from the Paris Exposition depicted on a can of Campbell s tomato soup '
+HUM,'Who played Humpty Dumpty in the 1933 film Alice in Wonderland '
+HUM,'What was the name of the first Watergate special prosecutor '
+NUM,'How many four star generals were there and who are they '
+NUM,'When was the USSR dissolved '
+HUM,'Who was the 3rd president of the United States '
+LOC,'What country in Latin America is the largest one '
+NUM,'How many types of cheese are there in France '
+HUM,'What longtime game show host dropped dead while jogging in Central Park in 1984 '
+LOC,'Where can one find information on religion and health '
+DESC,'How does marijuana lead to other drugs '
+HUM,'Who was the king who was forced to agree to the Magna Carta '
+ENTY,'What terror of the sea did Johnny Horton sing about '
+LOC,'Where are the Union Stockyards '
+DESC,'How do I impress a guy '
+LOC,'What island is home to statues called Mauis '
+HUM,'What Scottish poet penned To a Mouse and To a Louse '
+HUM,'Who was the king who signed the Magna Carta '
+HUM,'Who is the Voyager project manager '
+DESC,'How do I find a city if I have the area code '
+DESC,'What is the Amish religion '
+DESC,'What must a Las Vegas blackjack dealer do when he reaches 16 '
+ENTY,'What Morris West novel deals with Russian bishop who becomes Pope '
+NUM,'How many people were executed for Abraham Lincoln s assassination '
+DESC,'What is Shalom '
+ENTY,'What game is Garry Kasparov really good at '
+NUM,'How many colonies did Germany get to keep after World War I '
+HUM,'What comedian was The Perfect Fool '
+LOC,'What sea is Bombay on '
+LOC,'In what state was there an 11 million gallon oil spill '
+HUM,'Who tramped through Florida looking for the Fountain of Youth '
+DESC,'How do you box train a cat '
+DESC,'How is the element strontium purified '
+ENTY,'What dog was dubbed The Mortgage Lifter '
+ENTY,'What is a synonym for aspartame '
+ENTY,'What is the term for the side of the mountain that faces the prevailing winds '
+DESC,'What does Robert mean '
+DESC,'How is Easter Sunday s date determined '
+LOC,'Where could I go to take a ride on a steam locomotive '
+NUM,'When did Mount St. Helen last have a major eruption '
+DESC,'What does the word terrorism mean '
+DESC,'What are the Twin Cities '
+ENTY,'Name the Islamic counterpart to the Red Cross .'
+HUM,'Who said :  Old soldiers never die ; they just fade away  '
+ENTY,'What Irwin Allen bomb has Richard Widmark saying he ll be  the first officer in history to get his butt kicked by a mess of bugs !  '
+LOC,'What is the largest shopping mall in the world '
+ENTY,'What are the different approaches of systems analysis '
+NUM,'What is Martin Luther King Jr. s real birthday '
+ENTY,'What is the lens behind the iris in the eye called '
+LOC,'Where can I find information on the Narragansett Indians and other tribes in Rhode Island '
+NUM,'What is the current unemployment rate in the U.S. '
+DESC,'What is the Milky Way '
+NUM,'How many islands make up Antigua '
+ENTY,'What is the name for clouds that produce rain '
+ENTY,'What were the five opening words on Ben Casey '
+HUM,'What author was appointed U.S. ambassador to Spain in 1842 '
+HUM,'What was the nickname of German flying ace Manfred von Richthofen '
+HUM,'What director made one silent and one sound version of The Ten Commandments '
+HUM,'Name the two actress daughters of John Mills .'
+NUM,'What is Dick Clark s date of birth '
+ENTY,'What s the highest possible bid in Contract Bridge '
+ENTY,'What color are tennis balls '
+HUM,'Who died 1 feet from where John F. Kennedy did '
+HUM,'Who claimed to be the world s most perfectly-developed man '
+LOC,'Where can I get U.S. economic statistics '
+LOC,'What country was A Terrible Beauty to Leon Uris '
+NUM,'How often are quadruplets born '
+DESC,'What is the historical relationship of Catholic Church and bingo '
+ENTY,'What shrubs can be planted that will be safe from deer '
+DESC,'What causes an earthquake '
+DESC,'What was the rallying cry of the early American revolutionaries '
+DESC,'What is object-oriented design '
+ENTY,'What was the name of the 1899 policy forced on China by which all nations had equal trading rights '
+HUM,'Who created the character of Scrooge '
+DESC,'What was the verdict in the trial of Lizzie Borden '
+LOC,'Where is the actress '
+ENTY,'What started in 1849 when gold was discovered at Sutter s Mill '
+ABBR,'What s the abbreviation for limited partnership '
+HUM,'Who wrote  Dubliners  '
+HUM,'Who was America s first Public Enemy No. 1 '
+HUM,'What well-known actor is the father of star Alan Alda '
+DESC,'Why are the ears your center of balance '
+HUM,'Who wrote The Secret Life of Walter Mitty '
+DESC,'What does gringo mean '
+ENTY,'What international sport was originally called hurley '
+HUM,'What are the top ten all-time money making NFL teams '
+ENTY,'What is the largest snake in the world '
+DESC,'What excuse did the NATO people give for hitting the Chinese embassy '
+HUM,'Who is the founder of Scientology '
+NUM,'What s the American dollar equivalent for 8 pounds in the U.K. '
+NUM,'What is the chance of conceiving quadruplets '
+HUM,'What s Japan s largest car manufacturer '
+DESC,'Why is it called  hamburger  if there is no ham in it '
+ENTY,'What is the legal blood alcohol limit for the state of California '
+DESC,'How can a foreigner get a U.S. Social Security card '
+NUM,'How many holes are there in a tenpin bowling ball '
+DESC,'What is the literal meaning of  D-DAY  '
+HUM,'What Dynasty star made her 2th Century-Fox debut in The Virgin Queen '
+DESC,'What is The Gay Science '
+NUM,'When was the first American encyclopedia published '
+HUM,'Name a French fascist party .'
+HUM,'CNN is owned by whom '
+ENTY,'What kind of wine is Spumante '
+HUM,'Who used to make cars with rotary engines '
+DESC,'How do you get to the top of the Eiffel Tower '
+ENTY,'What Vladimir Nabokov novel features Professor Humbert in love with a 12-year-old girl '
+ENTY,'What did Jimmy Stewart invent '
+ENTY,'What book is subtitled The Preservation of Favoured Races in the Struggle for Life '
+LOC,'What Scandinavian country covers 173 '
+HUM,'Who s played the most games for the New York Yankees '
+LOC,'What country did the ancient Romans refer to as Hibernia '
+LOC,'What London museum features a Chamber of Horrors '
+NUM,'What century does Captain Video live in '
+NUM,'What is Dick Clark s birthday '
+HUM,'Who played the title role in I Was a Teenage Werewolf '
+DESC,'What does the double-O indicate in 007 '
+DESC,'How can I find a phone number of someone if I only know their email address '
+NUM,'What was Einstein s IQ '
+HUM,'Who was the tallest U.S. president '
+ENTY,'Who were John F. Kennedy s dogs '
+LOC,'Where did King Francis I hang the  Mona Lisa  when he owned it '
+LOC,'What town was the setting for The Music Man '
+ENTY,'What did Abolitionists try to end '
+HUM,'Who said  What contemptible scoundrel stole the cork from my lunch  '
+DESC,'How do you find out what is allowed to claim as a contibution for income tax purposes '
+ENTY,'What was Jimmy Durante s theme song '
+DESC,'What is the origin of U.S. Army sergeant s stripes '
+NUM,'When was Dick Clark born '
+DESC,'What are the words to the song sung by  Banana in Pajamas  '
+NUM,'How many layers of yellow paint is a Faber Mongol pencil lucky enough to be sprayed with '
+HUM,'What TV character said ;  One of these days '
+ENTY,'What is the fastest commercial automobile that can be bought in the US '
+DESC,'What is an example of an actual case of using the Fourteenth Amendment '
+HUM,'Who founded the modern theory of probability '
+HUM,'Who is William Wordsworth '
+HUM,'Who is Johnny Carson '
+HUM,'Who owns the rights on a TV program '
+HUM,'Which college did Dikembe Mutombo attend '
+HUM,'Name the blind sculptress in love with the Fantastic Four s Thing .'
+DESC,'Why do rooftops give off steam after a big rainstorm '
+DESC,'What is the difference between pop music and rock and roll '
+LOC,'What country '
+NUM,'What day of the week sees the most fatal car accidents '
+LOC,'What French seaport claims to be The Home of Wines '
+ENTY,'What happened on January 15 '
+ABBR,'What does NASDAQ stand for '
+NUM,'What seven digits follow the area code in the number for long distance information '
+ENTY,'What part of your body contains the corpus callosum '
+NUM,'How many rows of sprocket holes does a roll of 35-millimeter film have '
+ENTY,'What letter does Gorbachev s middle name start with '
+NUM,'When did the last Americans leave Vietnam '
+HUM,'What diamond producer controls about 80\% of the world s diamonds '
+ENTY,'What is the plural of gulf '
+DESC,'What is fellatio '
+ABBR,'What does  B.Y.O.B.  mean '
+NUM,'When did the Bounty mutiny take place '
+ENTY,'What condiment do the Dutch dip their French fries in '
+HUM,'Who is the director and editor of the movie Big starring Tom Hanks '
+LOC,'What Rocky Mountain ridge separates North America s eastward and westward-flowing rivers '
+LOC,'Where can I find a large list of 5 to 6 letter words '
+ENTY,'What fossilizes to form coprolite '
