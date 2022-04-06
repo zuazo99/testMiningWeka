@@ -14,14 +14,7 @@ import java.io.FileWriter;
 
 public class Iragarpena {
 
-
     public static void main (String[] args) throws Exception {
-        /*
-            arg 1 modeloa
-            arg 2 .arff fitxategia edo esaldi bat
-            arg 3 = irteera fitxategia
-         */
-
 
         if (args.length== 4){
             RandomForest randomF = (RandomForest) weka.core.SerializationHelper.read(args[0]);

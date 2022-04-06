@@ -35,7 +35,6 @@ public class GetJ48Model {
 
             //##########################################################
             J48 model = new J48();
-            //AQUI PONER LO DEL J48
             model.buildClassifier(train);
             //##########################################################
 
@@ -60,7 +59,6 @@ public class GetJ48Model {
 
             //##########################################################
             model = new J48();
-            //AQUI PONER LO DEL J48
             model.buildClassifier(train);
             //##########################################################
 
@@ -90,7 +88,6 @@ public class GetJ48Model {
 
                 //##########################################################
                 model = new J48();
-                //AQUI PONER LO DEL J48
                 model.buildClassifier(train);
                 //##########################################################
 
