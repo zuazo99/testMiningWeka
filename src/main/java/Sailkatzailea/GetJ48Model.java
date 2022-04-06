@@ -1,5 +1,6 @@
 package Sailkatzailea;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.util.Random;
 
@@ -7,8 +8,11 @@ import weka.classifiers.evaluation.Evaluation;
 import weka.classifiers.trees.J48;
 import weka.classifiers.trees.RandomForest;
 import weka.core.Instances;
+import weka.core.converters.ArffSaver;
 import weka.core.converters.ConverterUtils.DataSource;
 import weka.filters.Filter;
+import weka.filters.unsupervised.attribute.NumericToBinary;
+import weka.filters.unsupervised.attribute.RenameAttribute;
 import weka.filters.unsupervised.instance.Randomize;
 import weka.filters.unsupervised.instance.RemovePercentage;
 
@@ -47,7 +51,29 @@ public class GetJ48Model {
 
             //##########################################################
 
-            //
+           //  NumericToBinary
+            NumericToBinary filterToBinary = new NumericToBinary();
+            filterToBinary.setAttributeIndices("last");
+            filterToBinary.setInvertSelection(true);
+            filterToBinary.setInputFormat(train);
+
+            Instances binary = Filter.useFilter(train, filterToBinary);
+
+            RenameAttribute filterRename = new RenameAttribute();
+            filterRename.setFind("_binarized");
+            filterRename.setReplace("");
+            filterRename.setReplaceAll(true);
+            filterRename.setInputFormat(binary);
+            filterRename.setAttributeIndices("first-last");
+
+            Instances binaryRename = Filter.useFilter(binary, filterRename);
+
+            ArffSaver s = new ArffSaver();
+            s.setInstances(binaryRename);
+            s.setFile(new File("./Datuak/binary"));
+            s.writeBatch();
+
+
 
             J48 model = new J48();
             model.buildClassifier(train);
@@ -62,7 +88,7 @@ public class GetJ48Model {
             //1- Ebaluazioa normala
             Evaluation evalTrainDev = new Evaluation(train);
             evalTrainDev.evaluateModel(model, train);
-
+            System.out.println("kaixoooo");
             fw.write("\n=============================================================\n");
             fw.write("EBALUAZIO EZ ZINTZOA:\n");
             fw.write(evalTrainDev.toSummaryString()+"\n");
@@ -77,7 +103,7 @@ public class GetJ48Model {
             model.buildClassifier(train);
             //##########################################################
 
-            evaluatorCross.crossValidateModel(model, train, 10, new Random(1));
+            evaluatorCross.crossValidateModel(model, train, 2, new Random(1));
 
             fw.write("\n=============================================================\n");
             fw.write("CROSS VALIDATION-EKIN EBALUATUZ (TRAIN MULTZOAN SOILIK):\n");
@@ -89,33 +115,14 @@ public class GetJ48Model {
             //3-HOLD OUT
             Evaluation evaluatorSplit = new Evaluation(train);
 
-            for(int i = 0; i<100; i++){
-                Randomize filter = new Randomize();
-                filter.setRandomSeed(0);
-                filter.setInputFormat(train);
-                train = Filter.useFilter(train, filter);
-
-                RemovePercentage rmpct = new RemovePercentage();
-                rmpct.setInputFormat(train);
-                rmpct.setInvertSelection(false);
-                rmpct.setPercentage(30);
-                Instances train1 = Filter.useFilter(train, rmpct);
 
                 //##########################################################
                 model = new J48();
                 model.buildClassifier(train);
                 //##########################################################
-
-                //test multzoa
-                RemovePercentage rmpct2 = new RemovePercentage();
-                rmpct2.setInputFormat(train);
-                rmpct2.setInvertSelection(true);
-                rmpct2.setPercentage(30);
-                Instances test1 = Filter.useFilter(train, rmpct2);
-
                 //evaluation
                 evaluatorSplit.evaluateModel(model, test1);
-            }
+
 
             //Fitxategian gorde kalitatearen estimazioa
             fw.write("\n=============================================================\n");
