@@ -94,7 +94,6 @@ public class GetJ48Model {
             //1- Ebaluazioa normala
             Evaluation evalTrainDev = new Evaluation(train);
             evalTrainDev.evaluateModel(model, train);
-            System.out.println("kaixoooo");
             fw.write("\n=============================================================\n");
             fw.write("EBALUAZIO EZ ZINTZOA:\n");
             fw.write(evalTrainDev.toSummaryString()+"\n");
@@ -119,14 +118,39 @@ public class GetJ48Model {
 
 
             //3-HOLD OUT
+
+
+
+
+
                 Evaluation evaluatorSplit = new Evaluation(train);
+            for(int i = 0; i<100; i++){
+                Randomize filter = new Randomize();
+                filter.setRandomSeed(0);
+                filter.setInputFormat(train);
+                train = Filter.useFilter(train, filter);
+
+                RemovePercentage rmpct = new RemovePercentage();
+                rmpct.setInputFormat(train);
+                rmpct.setInvertSelection(false);
+                rmpct.setPercentage(30);
+                Instances train1 = Filter.useFilter(train, rmpct);
+
+                //test multzoa
+                RemovePercentage rmpct2 = new RemovePercentage();
+                rmpct2.setInputFormat(train);
+                rmpct2.setInvertSelection(true);
+                rmpct2.setPercentage(30);
+                Instances test1 = Filter.useFilter(train, rmpct2);
 
                 //##########################################################
                 model = new J48();
-                model.buildClassifier(train);
+                model.buildClassifier(train1);
                 //##########################################################
                 //evaluation
-                evaluatorSplit.evaluateModel(model, test);
+                evaluatorSplit.evaluateModel(model, test1);
+            }
+
 
 
             //Fitxategian gorde kalitatearen estimazioa

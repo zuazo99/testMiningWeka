@@ -38,7 +38,7 @@ public class getARFF {
             System.out.println("*Arff bat bueltan");
             System.out.println("Argumentuak: CSV fitxategia bat sartzea, arff-a gordeko den path-a");
             System.out.println("\nErabilera adibidea komando-lerroan:");
-            System.out.println("java -jar GetARFF.jar train.csv train.arff");
+            System.out.println("java -jar GetARFF.jar train.csv/test.csv train.arff");
         }
 
 
@@ -53,6 +53,9 @@ public class getARFF {
             path = path+ "_Egokituta.csv";
             System.out.println(path);
 
+            if (args[0].contains("test")){
+                removeCharactersFromFileTest(args[0], path);
+            }
         // 1. Fitxategia moldatu: Karaktere bereziak edo arazoak eman ditzaketenak kendu.
 
             removeCharactersFromFile(args[0], path);
@@ -102,6 +105,20 @@ public class getARFF {
                 saver.writeBatch();
 
 
+    }
+
+    private static void removeCharactersFromFileTest(String fileName, String fileResult) throws IOException{
+        BufferedReader br = new BufferedReader(new FileReader(fileName));
+        PrintWriter pw = new PrintWriter(fileResult);
+        String line;
+
+        while ((line = br.readLine()) != null) {
+            // line = line.replace(subString, "");
+            line = line.replaceAll("[`'?.]", "").replaceAll("Nan", "");
+            pw.println(line);
+        }
+        br.close();
+        pw.close();
     }
 
     // Karaktere itsusiak garbitzeko metodoa.

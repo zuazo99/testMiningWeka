@@ -76,7 +76,7 @@ public class ParametroEkorketa {
                 randomF.setBagSizePercent(bspb);
                 for (int md = 10; md <= 60; md += 10) { //beste probetan ikusi dugu limitea 60 baino gehiago izanik puntuazioa ez dela aldatzen, beraz, ez da inoiz 100-era iristen
                     randomF.setMaxDepth(md);
-                    for (int nf = 0; nf < data.numAttributes(); nf += 200) { //-1 agian klasea kontuan har dezakelako
+                    for (int nf = 0; nf < data.numAttributes() - 1; nf +=50) { //-1 agian klasea kontuan har dezakelako
                         randomF.setNumFeatures(nf);
                         for (int ni = 1; ni < 50; ni += 5) {
                             long konbinazioHasieraDenbora = System.nanoTime();

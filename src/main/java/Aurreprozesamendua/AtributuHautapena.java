@@ -23,9 +23,20 @@ public class AtributuHautapena {
 
         System.out.println(args.length);
         if(args.length  !=3) {
-            System.out.println("Ez duzu arguments atala behar bezala bete!");
-            System.out.println("Erabilera:");
-            System.out.println("java -jar AtributuHautapena.jar train.arff hiztegia dev/test.arff ");            /*
+            System.out.println("Programaren helburua:");
+            System.out.println("\tEntrenamendu multzoko atributu egokienak hautatu eta dev/test datasete-ra egokitu");
+            System.out.println("\nAurrebaldintzak:");
+            System.out.println("\t1- Lehenengo parametro bezala train.arff fitxategia");
+            System.out.println("\t2- Bigarren parametro bezala sortuko den hiztegi.txt moldatuta atributu berrietara fitxategia.");
+            System.out.println("\t3- Hirugarren parametro bezala test/dev.arff fitxategia.");
+            System.out.println("\nPost baldintzak:");
+            System.out.println("\t1- Parametroa BoW motako train arff fitxategia.");
+            System.out.println("\t2- Parametroa Hiztegia gordetzeko fitxategia.");
+            System.out.println("\t3- Dev/Test .arff fitxategia");
+            System.out.println("\nErabilera adibidea komando-lerroan:");
+            System.out.println("java -jar AtributuHautapena.jar train.arff hiztegia dev/test.arff");
+
+            /*
                 1. Parametroa BoW motako train arff fitxategia
                 2. Parametroa Hiztegia gordetzeko fitxategia
                 3. Dev/Test .arff fitxategia
@@ -80,7 +91,6 @@ public class AtributuHautapena {
             dev.setClassIndex(dev.numAttributes() - 1);
 
 
-
             FixedDictionaryStringToWordVector hiztegia = new FixedDictionaryStringToWordVector();
             hiztegia.setDictionaryFile(new File(args[1]));
             hiztegia.setInputFormat(dev);
@@ -90,21 +100,10 @@ public class AtributuHautapena {
             filterRemoveValues.setInputFormat(train);
             dev = Filter.useFilter(dev, filterRemoveValues);
 
-//            Remove filterRemove = new Remove();
-//            filterRemove.setInputFormat(train);
-//            dev = Filter.useFilter(dev, filterRemove);
 
-            for (int i = 0; i < train.numInstances(); i++) {
-                dev.add(i, train.instance(i));
-            }
-
-
-            // Clasea azken atributu bezala ezarri
-//            Reorder reorder = new Reorder();
-//            reorder.setAttributeIndices("2-" + dev.numAttributes() + ",1");
-//            reorder.setInputFormat(dev);
-//            dev = Filter.useFilter(dev, reorder);
-
+//            for (int i = 0; i < train.numInstances(); i++) {
+//                dev.add(i, devSource.getDataSet().instance(i));
+//            }
 
             arffSaver = new ArffSaver();
             arffSaver.setInstances(dev);
