@@ -9,7 +9,9 @@ import weka.core.converters.ConverterUtils.DataSource;
 import weka.filters.Filter;
 import weka.filters.supervised.attribute.AttributeSelection;
 import weka.filters.unsupervised.attribute.FixedDictionaryStringToWordVector;
+import weka.filters.unsupervised.attribute.Remove;
 import weka.filters.unsupervised.attribute.Reorder;
+import weka.filters.unsupervised.instance.RemoveWithValues;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -43,10 +45,12 @@ public class AtributuHautapena {
             DataSource dataSource = new DataSource(args[0]);
             Instances train = dataSource.getDataSet();
             train.setClassIndex(train.numAttributes() - 1);
+
             AttributeSelection attSelect = new AttributeSelection();
             InfoGainAttributeEval infoGainEval = new InfoGainAttributeEval();
             Ranker search = new Ranker();
             search.setOptions(new String[]{"-T", "0.001"});
+
             attSelect.setInputFormat(train);
             attSelect.setEvaluator(infoGainEval);
             attSelect.setSearch(search);
@@ -54,11 +58,11 @@ public class AtributuHautapena {
 
             ArffSaver arffSaver = new ArffSaver();
             arffSaver.setInstances(train);
-            //arffSaver.setDestination(new File("AtributuHautapena_" + args[0]));
             arffSaver.setFile(new File(pathTRAIN));
             arffSaver.writeBatch();
 
-
+            System.out.println(train.instance(0));
+            // Hiztegi berria
             BufferedWriter bw = new BufferedWriter(new FileWriter(args[1]));
 
             for (int i = 0; i < train.numAttributes() - 1; i++) {
@@ -70,15 +74,30 @@ public class AtributuHautapena {
             bw.close();
 
 
+
             DataSource devSource = new DataSource(args[2]);
             Instances dev = devSource.getDataSet();
             dev.setClassIndex(dev.numAttributes() - 1);
+
 
 
             FixedDictionaryStringToWordVector hiztegia = new FixedDictionaryStringToWordVector();
             hiztegia.setDictionaryFile(new File(args[1]));
             hiztegia.setInputFormat(dev);
             dev = Filter.useFilter(dev, hiztegia);
+
+            RemoveWithValues filterRemoveValues = new RemoveWithValues();
+            filterRemoveValues.setInputFormat(train);
+            dev = Filter.useFilter(dev, filterRemoveValues);
+
+//            Remove filterRemove = new Remove();
+//            filterRemove.setInputFormat(train);
+//            dev = Filter.useFilter(dev, filterRemove);
+
+            for (int i = 0; i < train.numInstances(); i++) {
+                dev.add(i, train.instance(i));
+            }
+
 
             // Clasea azken atributu bezala ezarri
 //            Reorder reorder = new Reorder();
