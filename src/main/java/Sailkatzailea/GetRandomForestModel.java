@@ -29,7 +29,7 @@ public class GetRandomForestModel {
                 System.out.println("train multzoa sortzeko sartu duzun arff-aren helbidea okerra da.");
             }
 
-            Instances train= source.getDataSet();
+            Instances train = source.getDataSet();
             train.setClassIndex(train.numAttributes()-1);
 
             RandomForest randomF= new RandomForest();
@@ -55,6 +55,7 @@ public class GetRandomForestModel {
             fw.write(evalTrainDev.toSummaryString()+"\n");
             fw.write(evalTrainDev.toClassDetailsString()+"\n");
             fw.write(evalTrainDev.toMatrixString()+"\n");
+            System.out.println(evalTrainDev.toSummaryString());
 
             //2- Cross Validation
             Evaluation evaluatorCross = new Evaluation(train);
@@ -75,6 +76,7 @@ public class GetRandomForestModel {
 
 
             //3-HOLD OUT
+
             Evaluation evaluatorSplit = new Evaluation(train);
 
             for(int i = 0; i<100; i++){

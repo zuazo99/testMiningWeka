@@ -32,9 +32,17 @@ public class AtributuHautapena {
         else {
             System.out.println(args[0]);
 
+            String pathTRAIN = args[0].substring(0, args[0].length() - 5);
+            pathTRAIN = pathTRAIN+ "_AtributuHautapena.arff";
+            System.out.println(pathTRAIN);
+
+            String pathDEV = args[2].substring(0, args[2].length() - 5);
+            pathDEV = pathDEV+ "_AtributuHautapena.arff";
+            System.out.println(pathDEV);
+
             DataSource dataSource = new DataSource(args[0]);
             Instances train = dataSource.getDataSet();
-            train.setClassIndex(0);
+            train.setClassIndex(train.numAttributes() - 1);
             AttributeSelection attSelect = new AttributeSelection();
             InfoGainAttributeEval infoGainEval = new InfoGainAttributeEval();
             Ranker search = new Ranker();
@@ -46,8 +54,8 @@ public class AtributuHautapena {
 
             ArffSaver arffSaver = new ArffSaver();
             arffSaver.setInstances(train);
-            arffSaver.setDestination(new File("AtributuHautapena_" + args[0]));
-            arffSaver.setFile(new File("AtributuHautapena_" + args[0]));
+            //arffSaver.setDestination(new File("AtributuHautapena_" + args[0]));
+            arffSaver.setFile(new File(pathTRAIN));
             arffSaver.writeBatch();
 
 
@@ -64,7 +72,8 @@ public class AtributuHautapena {
 
             DataSource devSource = new DataSource(args[2]);
             Instances dev = devSource.getDataSet();
-            dev.setClassIndex(0);
+            dev.setClassIndex(dev.numAttributes() - 1);
+
 
             FixedDictionaryStringToWordVector hiztegia = new FixedDictionaryStringToWordVector();
             hiztegia.setDictionaryFile(new File(args[1]));
@@ -72,16 +81,16 @@ public class AtributuHautapena {
             dev = Filter.useFilter(dev, hiztegia);
 
             // Clasea azken atributu bezala ezarri
-            Reorder reorder = new Reorder();
-            reorder.setAttributeIndices("2-" + dev.numAttributes() + ",1");
-            reorder.setInputFormat(dev);
-            dev = Filter.useFilter(dev, reorder);
+//            Reorder reorder = new Reorder();
+//            reorder.setAttributeIndices("2-" + dev.numAttributes() + ",1");
+//            reorder.setInputFormat(dev);
+//            dev = Filter.useFilter(dev, reorder);
 
 
             arffSaver = new ArffSaver();
             arffSaver.setInstances(dev);
-            arffSaver.setDestination(new File("AtributuHautapena_" + args[2].toString()));
-            arffSaver.setFile(new File("AtributuHautapena_" + args[2].toString()));
+            //arffSaver.setDestination(new File("AtributuHautapena_" + args[2].toString()));
+            arffSaver.setFile(new File(pathDEV));
             arffSaver.writeBatch();
         }
     }

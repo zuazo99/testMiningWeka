@@ -1,7 +1,7 @@
 @@@numDocs=3816@@@
 &,11
 -,4
-1,17
+1,15
 10,9
 11,4
 1899,4
@@ -13,12 +13,12 @@
 1990,4
 1991,4
 1994,4
-2,11
+2,10
 2000,5
-3,9
-5,8
+3,8
+5,7
 8,5
-a,647
+a,639
 aaron,4
 abbreviation,12
 about,37
@@ -52,6 +52,7 @@ allowed,4
 along,4
 alphabet,6
 also,6
+am,4
 america,23
 american,51
 americans,7
@@ -64,7 +65,7 @@ animal,19
 animals,11
 animated,4
 another,10
-answers,6
+answerscom,4
 any,5
 appear,6
 appearance,4
@@ -158,7 +159,7 @@ but,4
 butler,4
 buy,4
 by,89
-c,5
+c,4
 california,15
 call,25
 called,56
@@ -221,7 +222,6 @@ colin,4
 college,16
 color,29
 colors,11
-com,7
 come,31
 comedian,8
 comes,6
@@ -260,12 +260,13 @@ cream,4
 created,12
 cup,4
 current,6
-d,10
+d,6
 daily,4
 date,12
 daughter,5
 day,20
 days,5
+dc,4
 de,6
 death,13
 declared,4
@@ -302,7 +303,6 @@ down,7
 drink,14
 dubbed,7
 during,13
-e,5
 e-mail,7
 each,11
 early,4
@@ -392,7 +392,6 @@ from,111
 fuel,4
 full,7
 function,4
-g,6
 gamble,4
 game,32
 games,12
@@ -490,7 +489,6 @@ it,66
 italian,5
 its,34
 itself,4
-j,5
 jack,8
 jackson,7
 james,13
@@ -514,8 +512,7 @@ king,22
 know,8
 known,32
 korea,6
-l,6
-la,5
+la,8
 lady,5
 lake,8
 lakes,4
@@ -561,7 +558,7 @@ lost,6
 love,6
 lowest,4
 lyrics,4
-m,9
+m,4
 machines,4
 made,41
 madonna,4
@@ -614,7 +611,7 @@ month,6
 months,7
 moon,14
 more,16
-most,92
+most,91
 mother,8
 motto,7
 mount,7
@@ -653,7 +650,7 @@ nickname,11
 night,6
 nine,6
 nixon,11
-no,10
+no,9
 nobel,6
 north,14
 not,23
@@ -662,7 +659,6 @@ now,9
 nuclear,4
 number,22
 numbers,6
-o,4
 oat,4
 occupation,4
 occupy,4
@@ -765,7 +761,6 @@ purpose,4
 put,7
 qigong,5
 queen,11
-r,4
 race,5
 radio,8
 randy,13
@@ -805,7 +800,7 @@ runs,9
 russia,5
 russian,10
 ruth,4
-s,567
+s,480
 said,22
 salt,6
 same,5
@@ -910,7 +905,7 @@ surrounds,4
 swimming,5
 symbol,6
 system,9
-t,17
+t,13
 take,34
 tale,4
 tall,5
@@ -956,12 +951,11 @@ tree,8
 tuberculosis,5
 turn,4
 turned,4
-tv,32
+tv,33
 twins,5
 two,48
 type,13
 typical,4
-u,98
 under,7
 union,5
 united,19
@@ -969,8 +963,8 @@ universe,5
 university,18
 up,31
 upon,5
-us,14
-usa,5
+us,107
+usa,7
 use,21
 used,33
 value,4

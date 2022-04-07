@@ -3,31 +3,31 @@ id,text,label
 1,What films featured the character Popeye Doyle ,ENTY
 2,How can I find a list of celebrities  real names ,DESC
 3,What fowl grabs the spotlight after the Chinese Year of the Monkey ,ENTY
-4,What is the full form of .com ,ABBR
+4,What is the full form of com ,ABBR
 5,What contemptible scoundrel stole the cork from my lunch ,HUM
-6,What team did baseball s St. Louis Browns become ,HUM
+6,What team did baseball s St Louis Browns become ,HUM
 7,What is the oldest profession ,HUM
 8,What are liver enzymes ,DESC
-9,Name the scar-faced bounty hunter of The Old West .,HUM
+9,Name the scar-faced bounty hunter of The Old West ,HUM
 10,When was Ozzy Osbourne born ,NUM
 11,Why do heavier objects travel downhill faster ,DESC
 12,Who was The Pride of the Yankees ,HUM
 13,Who killed Gandhi ,HUM
 14,What is considered the costliest disaster the insurance industry has ever faced ,ENTY
-15,What sprawling U.S. state boasts the most airports ,LOC
-16,What did the only repealed amendment to the U.S. Constitution deal with ,DESC
+15,What sprawling US state boasts the most airports ,LOC
+16,What did the only repealed amendment to the US Constitution deal with ,DESC
 17,How many Jews were executed in concentration camps during WWII ,NUM
 18,What is  Nine Inch Nails  ,DESC
 19,What is an annotated bibliography ,DESC
 20,What is the date of Boxing Day ,NUM
 21,What articles of clothing are tokens in Monopoly ,ENTY
-22,Name 11 famous martyrs .,HUM
+22,Name 11 famous martyrs ,HUM
 23,What s the Olympic motto ,DESC
 24,What is the origin of the name  Scarlett  ,DESC
 25,What s the second-most-used vowel in English ,ENTY
 26,Who was the inventor of silly putty ,HUM
 27,What is the highest waterfall in the United States ,LOC
-28,Name a golf course in Myrtle Beach .,ENTY
+28,Name a golf course in Myrtle Beach ,ENTY
 29,Which two states enclose Chesapeake Bay ,LOC
 30,What does the abbreviation AIDS stand for ,ABBR
 31,What does a spermologer collect ,ENTY
@@ -40,7 +40,7 @@ id,text,label
 38,Where do the adventures of  The Swiss Family Robinson  take place ,LOC
 39,What relative of the racoon is sometimes known as the cat-bear ,ENTY
 40,How can I register my website in Yahoo for free ,DESC
-41,What was cash-conscious Colonel Edwin L. Drake the first to drill ,ENTY
+41,What was cash-conscious Colonel Edwin L Drake the first to drill ,ENTY
 42,How many people in the world speak French ,NUM
 43,How many inches over six feet is the Venus de Milo ,NUM
 44,How do they find or choose witnesses to an execution ,DESC
@@ -57,7 +57,7 @@ id,text,label
 55,What is the nature of learning ,DESC
 56,What s the only color Johnny Cash wears on stage ,ENTY
 57,What s the term for a young fox ,ENTY
-58,What U.S. state lived under six flags ,LOC
+58,What US state lived under six flags ,LOC
 59,What is the Kashmir issue ,DESC
 60,Where is the Loop ,LOC
 61,What does  extended definition  mean and how would one write a paper on it ,DESC
@@ -77,7 +77,7 @@ id,text,label
 75,How do I make fuel bricks from recycled newspaper ,DESC
 76,What 19th-century painter died in the Marquesas Islands ,HUM
 77,The corpus callosum is in what part of the body ,ENTY
-78,How do I log on to home page at Headquarters U.S. European Command ,DESC
+78,How do I log on to home page at Headquarters US European Command ,DESC
 79,What country did the Nazis occupy for 1 ,LOC
 80,What is Nebraska s most valuable resource ,ENTY
 81,How many species of the Great White shark are there ,NUM
@@ -92,7 +92,7 @@ id,text,label
 90,When did CNN begin broadcasting ,NUM
 91,What causes the body to shiver in cold temperatures ,DESC
 92,What are bear and bull markets ,DESC
-93,What J.R.R. Tolkien book features Bilbo Baggins as the central character ,ENTY
+93,What JRR Tolkien book features Bilbo Baggins as the central character ,ENTY
 94,What is  dew point  ,DESC
 95,What is the meaning of Jesus ,DESC
 96,What company s logo is a  W  in a circle ,HUM
@@ -106,7 +106,7 @@ id,text,label
 104,Which of the following was Rhodes Scholar ,HUM
 105,Who comprised the now-defunct comic book team known as the Champions ,HUM
 106,How do you make a paintball ,DESC
-107,What U.S. state is Fort Knox in ,LOC
+107,What US state is Fort Knox in ,LOC
 108,What is a female rabbit called ,ENTY
 109,Where is the highest point in Japan ,LOC
 110,Where do chihuahuas come from ,DESC
@@ -173,7 +173,7 @@ id,text,label
 171,In what year was De Gaulle elected president of France ,NUM
 172,Who sings the themes for  Dawson s Creek  and  Felicity  ,HUM
 173,Who directed  Jaws  ,HUM
-174,On what T.V. show could Tom Terrific be found ,ENTY
+174,On what TV show could Tom Terrific be found ,ENTY
 175,What Indian tribe is F Troop perpetually doing battle with ,HUM
 176,Where did Indian Pudding come from ,DESC
 177,Why do some clothing labels say  Use a nonchlorine bleach  ,DESC
@@ -220,7 +220,7 @@ id,text,label
 218,What shrubs can be planted that will be safe from deer ,ENTY
 219,What organization s offices were broken into at Watergate in 1972 ,HUM
 220,What is the design of the ship Titanic ,DESC
-221,What does S.O.S. stand for ,ABBR
+221,What does SOS stand for ,ABBR
 222,Name a technique widely used to detect birth defects ,ENTY
 223,What is the daily requirement of folic acid for an expectant mother ,DESC
 224,What is the  7-minute cigarette  ,DESC
@@ -259,7 +259,7 @@ id,text,label
 257,What s the meaning of the Latin battle cry : Ad arma ,DESC
 258,What is the mascot for Notre Dame University ,ENTY
 259,What Las Vegas hotel burned in November ,LOC
-260,When did Mount St. Helen last have a significant eruption ,NUM
+260,When did Mount St Helen last have a significant eruption ,NUM
 261,CNN is the abbreviation for what ,ABBR
 262,When did World War I start ,NUM
 263,How many feet are there in a fathom ,NUM
@@ -300,7 +300,7 @@ id,text,label
 298,What city did the Flintstones live in ,LOC
 299,What is Latin for incompetent ,ENTY
 300,What chemicals are used in lethal injection ,ENTY
-301,What toy company is the world s No.1 maker of female apparel ,HUM
+301,What toy company is the world s No1 maker of female apparel ,HUM
 302,What board game does a  wood-pusher  play poorly ,ENTY
 303,Which Doonesbury character was likely to turn into a werewolf ,HUM
 304,What is the abbreviation for micro ,ABBR
@@ -315,9 +315,9 @@ id,text,label
 313,What was Einstein s IQ ,NUM
 314,What day was Pearl Harbor attacked in 1942 ,NUM
 315,What girl s name is  Teddy  an affectionate form of ,HUM
-316,What state is John F. Kennedy buried in ,LOC
+316,What state is John F Kennedy buried in ,LOC
 317,What is the best way to remove wallpaper ,ENTY
-318,What U.S. state has an element named for it ,LOC
+318,What US state has an element named for it ,LOC
 319,What company tabulates the ballots in voting for the Academy Awards ,HUM
 320,How did the tradition of best man start ,DESC
 321,How many years ago did the ship Titanic sink ,NUM
@@ -340,13 +340,13 @@ id,text,label
 338,What are the four elements ,ENTY
 339,Who was the first woman golfer to earn a million ,HUM
 340,What s the tallest piece on a chessboard ,ENTY
-341,What is Answers.com s address ,LOC
+341,What is Answerscom s address ,LOC
 342,Where can I buy movies on videotape online ,LOC
 343,Who does the advertizing for Frito-Lay ,HUM
 344,Who is the leading competitor of Trans Union Company ,HUM
 345,What product did Robert Conrad dare people to knock off his shoulder ,ENTY
 346,Who invented the radio ,HUM
-347,What s the American dollar equivalent for 8 pounds in the U.K. ,NUM
+347,What s the American dollar equivalent for 8 pounds in the UK ,NUM
 348,What are the different approaches of systems analysis ,ENTY
 349,How do doctors diagnose bone cancer ,DESC
 350,Who is the man behind the pig-the man who pulls the strings and speaks for Miss Piggy ,HUM
@@ -387,13 +387,13 @@ id,text,label
 385,What s the closest G2 Spectrum Yellow Dwarf to Earth ,LOC
 386,How many equal angles are there in an isosceles triangle ,NUM
 387,What is the fear of cockroaches called ,ENTY
-388,What CBS soap opera was interrupted by the bulletin of John F. Kennedy s assassination ,ENTY
+388,What CBS soap opera was interrupted by the bulletin of John F Kennedy s assassination ,ENTY
 389,What is the use of a 24-hour clock instead of a 12-hour clock ,DESC
 390,What was the name of the lawyer who represented Randy Craft ,HUM
 391,What United States President had dreamed that he was assassinated ,HUM
 392,What film did Lee Marvin win the 1965 best actor Oscar for ,ENTY
 393,Where is Basque country located ,LOC
-394,What product does  Mrs. Olsen  promote ,ENTY
+394,What product does  Mrs Olsen  promote ,ENTY
 395,What time of day did Emperor Hirohito die ,NUM
 396,What is dry ice ,DESC
 397,What s the most powerful card in Euchre ,ENTY
@@ -419,10 +419,10 @@ id,text,label
 417,What movie tour of the Roman empire features the admonition :  Row well and live  ,ENTY
 418,What Nevada center has been dubbed The Biggest Little City in the World ,LOC
 419,What President lived at 219 North Delaware Street ,HUM
-420,Give a reason for American Indians oftentimes dropping out of school .,DESC
+420,Give a reason for American Indians oftentimes dropping out of school ,DESC
 421,Where must a soccer goalie stand to be permitted to handle the ball ,LOC
 422,What is the difference between classical conditioning and operant conditioning ,DESC
-423,In what U.S. state was the first woman governor elected ,LOC
+423,In what US state was the first woman governor elected ,LOC
 424,What are some interesting facts and information about dogsledding ,DESC
 425,What year did Hitler die ,NUM
 426,What famous model was married to Billy Joel ,HUM
@@ -435,22 +435,22 @@ id,text,label
 433,What does the name Billie mean ,DESC
 434,Who is the fastest swimmer in the world ,HUM
 435,What is the highest peak in Africa ,LOC
-436,Where is Procter & Gamble headquartered in the U.S. ,LOC
+436,Where is Procter & Gamble headquartered in the US ,LOC
 437,What desert has been called The Garden of Allah ,LOC
 438,What do bicornate animals have two of ,ENTY
 439,What function does a community s water tower serve ,DESC
 440,What is a fear of weakness ,ENTY
 441,How many miles is it to Ohio from North Carolina ,NUM
 442,How much snow equals an inch of rain ,NUM
-443,What does G.M.T. stand for ,ABBR
+443,What does GMT stand for ,ABBR
 444,What does Inuit and Eskimo mean ,DESC
 445,What song served as the closing theme of The Johnny Cash Show ,ENTY
 446,What field sport did dentist William Beers promote and write a standard book of rules for ,ENTY
 447,How do I tie dye clothes ,DESC
 448,When does the average teenager first have intercourse ,NUM
-449,Why doesn t www.answers.com have any answers to my questions ,DESC
+449,Why doesn t wwwanswerscom have any answers to my questions ,DESC
 450,What actor s autobiography is titled All My Yesterdays ,HUM
-451,What Russian master spy lived in the U.S. under the name Emil Goldfus ,HUM
+451,What Russian master spy lived in the US under the name Emil Goldfus ,HUM
 452,Where s the 19th hole on a golf course ,LOC
 453,What s nature s purpose for tornadoes ,DESC
 454,Who played the original Charlie s Angels ,HUM
@@ -487,7 +487,7 @@ id,text,label
 485,What type of bridge is the Golden Gate Bridge ,ENTY
 486,What dictator has the nickname  El Maximo  ,HUM
 487,What stereo manufacturer is  Slightly ahead of its time  ,HUM
-488,What U.S. city is The Queen of the Pacific ,LOC
+488,What US city is The Queen of the Pacific ,LOC
 489,What TV sitcom character had the maiden name Ethel Potter ,HUM
 490,What was the first Lifesaver flavor ,ENTY
 491,Who kept the most famous diary in the English language ,HUM
@@ -503,7 +503,7 @@ id,text,label
 501,Who was Randy Steven Craft s lawyer ,HUM
 502,What was known as the Spice Island ,LOC
 503,Who was the first host of Person to Person ,HUM
-504,Name the Ranger who was always after Yogi Bear .,HUM
+504,Name the Ranger who was always after Yogi Bear ,HUM
 505,What deck of cards includes the Wheel of Fortune ,ENTY
 506,What does the Statue of Liberty wear on her feet ,ENTY
 507,Who is the superstar in rent-a-cars ,HUM
@@ -525,7 +525,7 @@ id,text,label
 523,What  magic  does Mandrake employ ,ENTY
 524,Who is the president of Stanford University ,HUM
 525,Whose first presidential order was :  Let s get this goddamn thing airborne  ,HUM
-526,What was introduced commercially by Bayer A.G. of Leverkusen ,ENTY
+526,What was introduced commercially by Bayer AG of Leverkusen ,ENTY
 527,What city is Logan Airport in ,LOC
 528,What is a nanometer ,DESC
 529,How many innings are there in a regulation softball game ,NUM
@@ -539,7 +539,7 @@ id,text,label
 537,What city gained renown for its pea-soup fogs ,LOC
 538,What does  Janelle  mean ,DESC
 539,How do I get another city s newspaper ,DESC
-540,Name a movie about the Sioux Indians starring Kevin Costner .,ENTY
+540,Name a movie about the Sioux Indians starring Kevin Costner ,ENTY
 541,Who was shot in the back during a Poker game in Deadwood ,HUM
 542,What are the distinct physical characterstics of the Arabian horse ,DESC
 543,What is a fear of thunder ,ENTY
@@ -548,7 +548,7 @@ id,text,label
 546,What Russian seaport has a name meaning  Lord of the East  ,LOC
 547,Where can stocks be traded on-line ,LOC
 548,When was the Battle of Hastings ,NUM
-549,What kind of file has the extension .dbf ,ENTY
+549,What kind of file has the extension dbf ,ENTY
 550,When did Muhammad live ,NUM
 551,What then-derogatory term was applied to the painters Monet ,ENTY
 552,What is a wop ,DESC
@@ -560,8 +560,8 @@ id,text,label
 558,What was the name of the sitcom that Alyssa Milano starred in with Tony Danza ,ENTY
 559,What are the Nordic nations ,LOC
 560,Where on the Internet can I get information about the Fifth Amendment on the American Bill of Rights ,LOC
-561,What U.S. state borders Illinois to the north ,LOC
-562,Name a film in which Jude Law acted .,ENTY
+561,What US state borders Illinois to the north ,LOC
+562,Name a film in which Jude Law acted ,ENTY
 563,What is the temperature for baking Peachy Oat Muffins ,NUM
 564,What is a fear of bees ,ENTY
 565,What Vladimir Nabokov novel features Professor Humbert in love with a 12-year-old girl ,ENTY
@@ -571,14 +571,14 @@ id,text,label
 569,What city is served by Logan International Airport ,LOC
 570,What wrestling star became  The Incredible Hulk  ,HUM
 571,What attracts tourists to Reims ,LOC
-572,What game do Steve McQueen and Edward G. Robinson play in The Cincinnati Kid ,ENTY
+572,What game do Steve McQueen and Edward G Robinson play in The Cincinnati Kid ,ENTY
 573,What fastener did Whitcomb Judson patent in 1893 ,ENTY
 574,What s an auberge in France ,DESC
 575,Who was the star of the 1965 Broadway hit Golden Boy ,HUM
-576,Where is Procter & Gamble based in the U.S. ,LOC
+576,Where is Procter & Gamble based in the US ,LOC
 577,What army was founded by William Booth and his wife Catherine ,HUM
 578,What does ribavirin consist of ,ENTY
-579,Name the soft drink that is  number one in the sun . ,ENTY
+579,Name the soft drink that is  number one in the sun  ,ENTY
 580,What is the web address of the list of e-mail addresses of members of the House of Representatives ,LOC
 581,What was her real name ,HUM
 582,Why are the ears your center of balance ,DESC
@@ -601,7 +601,7 @@ id,text,label
 599,In What city or state do the most gay men live in ,LOC
 600,What TV comediennes s characters include former movie star Nora Desmond ,HUM
 601,What is  the bear of beers  ,ENTY
-602,Name the operating system that runs on IBM-compatible machines .,ENTY
+602,Name the operating system that runs on IBM-compatible machines ,ENTY
 603,What does the name  Justin  mean ,DESC
 604,What percentage of the body is muscle ,NUM
 605,What color of dry wine should be served with veal roasts and chops ,ENTY
@@ -610,17 +610,17 @@ id,text,label
 608,What does an average daycare provider get paid in New England ,NUM
 609,What was the name of the 187s Irish terrorist group in Pennsylvania mining areas ,HUM
 610,Who played the Ringo Kid in the 1939 film Stagecoach ,HUM
-611,Who died 1 feet from where John F. Kennedy did ,HUM
+611,Who died 1 feet from where John F Kennedy did ,HUM
 612,What is the  coppertop  battery ,DESC
 613,What sign is The Water Carrier the zodiacal symbol for ,ENTY
 614,What animals do you find in the stock market ,ENTY
 615,What is color ,DESC
-616,When is the site www.questions.com going to open ,NUM
+616,When is the site wwwquestionscom going to open ,NUM
 617,What did Shostakovich write for Rostropovich ,ENTY
 618,What first name was Nipsy Russell given at birth ,HUM
 619,How can I get some free technical information on Electric Vehicle ,DESC
 620,Who is the youngest of the Beatles ,HUM
-621,How did shipyard inspector James J. Kilroy designate equipment as being satisfactory ,DESC
+621,How did shipyard inspector James J Kilroy designate equipment as being satisfactory ,DESC
 622,What is a Jellicle Cat ,DESC
 623,Where can I find the best free evidence for debate about Russia ,LOC
 624,What is Bill Gates of Microsoft E-mail address ,LOC
@@ -643,7 +643,7 @@ id,text,label
 641,What sport do you shag flies in ,ENTY
 642,What is white chocolate ,DESC
 643,Where is Trinidad ,LOC
-644,Name the organization that is presided by a Security Council .,HUM
+644,Name the organization that is presided by a Security Council ,HUM
 645,Who graced the airwaves with such pearls as  Do ya lo-o-ove me  Get naked ,HUM
 646,What kind of wine is Spumante ,ENTY
 647,Who portrayed portly criminologist Carl Hyatt on Checkmate ,HUM
@@ -660,7 +660,7 @@ id,text,label
 658,What is the Motto for the State of Maryland ,DESC
 659,Who is Desmond Tutu ,HUM
 660,Where can I find information on the Narragansett Indians and other tribes in Rhode Island ,LOC
-661,Name a tiger that is extinct .,ENTY
+661,Name a tiger that is extinct ,ENTY
 662,How many quarters equal a pound ,NUM
 663,What kind of books does Fodor s publish ,ENTY
 664,What are the first names of Rowan and Martin ,HUM
@@ -698,9 +698,9 @@ id,text,label
 696,What 2 statues did France give to other countries ,ENTY
 697,What are amphibians ,DESC
 698,How many sperm cells are in an average ejaculation ,NUM
-699,Name the disposable razor that  costs about 19 cents . ,ENTY
+699,Name the disposable razor that  costs about 19 cents  ,ENTY
 700,How far do you have to run if you hit a home run ,NUM
-701,Who was the only U.S. President to wear a Nazi uniform ,HUM
+701,Who was the only US President to wear a Nazi uniform ,HUM
 702,Woodrow Wilson served as president of what university ,HUM
 703,Where are the tropical rain forest distributions ,LOC
 704,What s the nickname of oddsmaker Jimmy Snyder ,HUM
@@ -712,7 +712,7 @@ id,text,label
 710,Where was Lincoln assassinated ,LOC
 711,What type of food makes you fat ,ENTY
 712,What is the name of the chronic neurological autoimmune disease which attacks the protein sheath that surrounds nerve cells causing a gradual loss of movement in the body ,ENTY
-713,What was the U.S. highway death toll in 1969 ,NUM
+713,What was the US highway death toll in 1969 ,NUM
 714,What kind of animals are Dorsets ,ENTY
 715,What are the shortest and the longest songs ever produced ,ENTY
 716,What letter is to the right of K on a typewriter keyboard ,ENTY
@@ -755,12 +755,12 @@ id,text,label
 753,What do you call a group of geese ,ENTY
 754,Who delivered his last newscast on March 6 ,HUM
 755,How many times has  Louie ,NUM
-756,How is Answers.com different from KnowPost.com ,DESC
-757,What is the longest place name in the U.S. ,LOC
+756,How is Answerscom different from KnowPostcom ,DESC
+757,What is the longest place name in the US ,LOC
 758,What percent liked Thatcher after she had been in power for a decade ,NUM
 759,Where does Buzz Aldrin want to build a permanent ,LOC
 760,What was Mel Gibson s first movie ,ENTY
-761,Why was the L.A. office of Shea and Gould closed ,DESC
+761,Why was the LA office of Shea and Gould closed ,DESC
 762,How do I start a bank ,DESC
 763,How do Ouija Boards work ,DESC
 764,What horse did Zorro ride ,ENTY
@@ -777,7 +777,7 @@ id,text,label
 775,What historical event happened in Dogtown in 1899 ,ENTY
 776,What is being done about the millennium bug ,DESC
 777,What was the claim to fame of King Camp Gillette ,DESC
-778,What is the most common kind of skin cancer in the U.S. ,ENTY
+778,What is the most common kind of skin cancer in the US ,ENTY
 779,What is Olestra ,DESC
 780,What Asian country has a bill of rights for cows ,LOC
 781,How many fingers are used to draw a bow ,NUM
@@ -793,7 +793,7 @@ id,text,label
 791,What is prepared mustard ,DESC
 792,What classical Spanish writer warned :  All that glitters is not gold  ,HUM
 793,What does  antidisestablishmentarianism  mean ,DESC
-794,What actor married John F. Kennedy s sister ,HUM
+794,What actor married John F Kennedy s sister ,HUM
 795,What does a topophobic actor suffer from ,ENTY
 796,Who fired Maria Ybarra from her position in San Diego council ,HUM
 797,The italian artist ,NUM
@@ -801,14 +801,14 @@ id,text,label
 799,What is Colin Powell best known for ,DESC
 800,Who was the first black golfer to tee off in the Masters ,HUM
 801,What city is the setting for Puccini s opera La Boheme ,LOC
-802,What U.S. President showed a fondness for munching on bee pollen bars ,HUM
+802,What US President showed a fondness for munching on bee pollen bars ,HUM
 803,What is measured in curies ,DESC
 804,Whose cover is that of an employee of Universal Import and Export ,HUM
 805,What former president s daughter has written a book titled Murder in the White House ,HUM
 806,What fictional character is known as the  melancholy Dane  ,HUM
 807,Italy is the largest producer of what ,ENTY
 808,What longtime game show host dropped dead while jogging in Central Park in 1984 ,HUM
-809,What is the meaning of W.B. Yeat s poem ,DESC
+809,What is the meaning of WB Yeat s poem ,DESC
 810,Who were the  filthiest people alive  ,HUM
 811,What infectious disease is the world s deadliest ,ENTY
 812,What is Spumante ,DESC
@@ -824,7 +824,7 @@ id,text,label
 822,How can your school march in the Macy s Thanksgiving Parade ,DESC
 823,What is the real name of disc jockey  Wolfman Jack  ,HUM
 824,What Italian liner was hijacked in 1985 ,ENTY
-825,What city houses the U.S. headquarters of Procter and Gamble ,LOC
+825,What city houses the US headquarters of Procter and Gamble ,LOC
 826,What soap was touted as being  for people who like people  ,ENTY
 827,How much was the minimum wage in 1991 ,NUM
 828,What does NAFTA stand for ,ABBR
@@ -844,7 +844,7 @@ id,text,label
 842,What is the origin of the expression  tout de suite  ,DESC
 843,What is the longest English word ,ENTY
 844,What is the purpose of a car bra ,DESC
-845,What is D.B. Cooper known for ,DESC
+845,What is DB Cooper known for ,DESC
 846,Who is Colin Powell ,HUM
 847,What species is a colt ,ENTY
 848,What is the full name of the PLO ,ABBR
@@ -852,14 +852,14 @@ id,text,label
 850,Who coined the term NN cyberspace  in his novel NN Neuromancer  ,HUM
 851,What age followed the Bronze Age ,ENTY
 852,What is her profession ,HUM
-853,What is the full name of the man who invented the multicolored game cube that has 42.3 quintillion potential combinations ,HUM
+853,What is the full name of the man who invented the multicolored game cube that has 423 quintillion potential combinations ,HUM
 854,What does the word LASER mean ,ABBR
 855,What does the name  Anthony  mean ,DESC
 856,Who was Lauren Bacall s first husband ,HUM
 857,What is a rhomboideus minor ,DESC
 858,How many hands does Bjorn Borg use when hitting his forehand ,NUM
 859,How many people died on D-Day ,NUM
-860,What U.S. Congressman said :  Keep the faith ,HUM
+860,What US Congressman said :  Keep the faith ,HUM
 861,Who created the character of Scrooge ,HUM
 862,What is the student population at the University of Massachusetts in Amherst ,NUM
 863,Where is Windsor Castle ,LOC
@@ -876,12 +876,12 @@ id,text,label
 874,Where is Tornado Alley ,LOC
 875,Who was the author of  John Brown s Body  ,HUM
 876,What American poet wrote :  Good fences make good neighbors  ,HUM
-877,What state in the U.S. has the most blacks ,LOC
+877,What state in the US has the most blacks ,LOC
 878,Why are electric cars less efficient in the northeast than in California ,DESC
 879,What was the occupation of Mandy Rice-Davies ,HUM
 880,What is the city in which Maurizio Pellegrin lives called ,LOC
 881,Who painted the Sistine Chapel ,HUM
-882,Name the various costumed personas of Dr. Henry Pym .,HUM
+882,Name the various costumed personas of Dr Henry Pym ,HUM
 883,What breed of dog was the  Little Rascals  dog ,ENTY
 884,What are the living conditions in Cuba ,DESC
 885,What color are school buses ,ENTY
@@ -899,7 +899,7 @@ id,text,label
 897,What are the names of Richard Nixon s two daughters ,HUM
 898,What s the word for broken glass or sharp rocks embedded in cement on top of a wall ,ENTY
 899,What is the chromosome number of an elephant ,NUM
-900,What organization was founded by the Rev. Jerry Falwell ,HUM
+900,What organization was founded by the Rev Jerry Falwell ,HUM
 901,What s the longest river in the world ,LOC
 902,Which soft drink does Madonna advertise for ,ENTY
 903,What company is being bought by Yahoo and how much is the deal worth ,HUM
@@ -910,16 +910,16 @@ id,text,label
 908,Why were the American soldiers in WWI called  Doughboys ,DESC
 909,Who was nicknamed The Little Corporal ,HUM
 910,How many CDs has Garth Brooks sold ,NUM
-911,Name the vessel used by the Atari Force in the DC comics .,ENTY
+911,Name the vessel used by the Atari Force in the DC comics ,ENTY
 912,Where are the leading medical groups specializing in lung diseases ,LOC
 913,How can I find online spelling ,DESC
 914,What s the sacred river of India ,LOC
 915,What is Stefan Edberg s native country ,LOC
 916,What is the only gland in humans that can regenerate itself ,ENTY
 917,How many Gutenberg Bibles are there ,NUM
-918,Name the largest country in South America .,LOC
-919,What astronomical phenomenon takes place in Jan. 1999 ,ENTY
-920,What information can you get me on Fairground Park in St. Louis,DESC
+918,Name the largest country in South America ,LOC
+919,What astronomical phenomenon takes place in Jan 1999 ,ENTY
+920,What information can you get me on Fairground Park in St Louis,DESC
 921,What was American folk hero John Chapman s nickname ,HUM
 922,What is the difference between a median and a mean ,DESC
 923,What was the top box office movie in April 1998 ,ENTY
@@ -930,7 +930,7 @@ id,text,label
 928,What country are Godiva chocolates from ,LOC
 929,Name the poet of the poem which begins : I do not know much about gods ; but I think that the river Is a strong brown god-sullen ,HUM
 930,Which condiment was once sold as a patent medicine ,ENTY
-931,What U.S. state records the least rainfall ,LOC
+931,What US state records the least rainfall ,LOC
 932,Why did the world enter a global depression in 1929 ,DESC
 933,What was archy ,DESC
 934,What Texas city got its name from the Spanish for  yellow  ,LOC
@@ -969,10 +969,10 @@ id,text,label
 967,What soft drink would provide me with the biggest intake of caffeine ,ENTY
 968,What s the name of a golf course in Myrtle Beach ,ENTY
 969,What are some of the significant historical events of the 1990s ,ENTY
-970,Name the only extant trilogy of classical Greek plays .,ENTY
+970,Name the only extant trilogy of classical Greek plays ,ENTY
 971,Where is Logan Airport ,LOC
 972,What is the difference between Neoclassical art and Romanticism art ,DESC
-973,Who was the first person inducted into the U.S. Swimming Hall of Fame ,HUM
+973,Who was the first person inducted into the US Swimming Hall of Fame ,HUM
 974,What golfer has been called Ohio Fats and Blobbo ,HUM
 975,Who murdered Leno and Rosemary LaBianca on August 1,HUM
 976,What is the average cost for four years of medical school ,NUM
@@ -992,7 +992,7 @@ id,text,label
 990,What s the name of the temple that is located near the capital city of Laos ,LOC
 991,What is a fear of sleep ,ENTY
 992,What auto race was Wilbur Reed the first to win three times ,ENTY
-993,What are the most common breeding birds in the U.S. ,ENTY
+993,What are the most common breeding birds in the US ,ENTY
 994,What was organized as a Confederate veterans  social club in Pulaski ,ENTY
 995,How do you look up criminal records on the Internet ,DESC
 996,Where is the actress ,LOC
@@ -1028,10 +1028,10 @@ id,text,label
 1026,What London street is the home of British journalism ,LOC
 1027,What tragedy befell the city of Dogtown in 1899 ,ENTY
 1028,What is the Immaculate Conception ,DESC
-1029,What are the names of all the U.S. Navy aircraft carriers ,ENTY
+1029,What are the names of all the US Navy aircraft carriers ,ENTY
 1030,What format was VHS s main competition ,ENTY
 1031,What is Candlemas Day ,DESC
-1032,In what city is the famed St. Mark s Square ,LOC
+1032,In what city is the famed St Mark s Square ,LOC
 1033,What does the Ouarterly Review of Doublespeak call an  inoperative statement  ,ENTY
 1034,How much did the minimum wage amount to in 1991 ,NUM
 1035,Where is Tufts University ,LOC
@@ -1051,8 +1051,8 @@ id,text,label
 1049,How can I find out how much income tax is paid on Social Security income on the 1998 income tax ,DESC
 1050,Who did Sonny Liston succeed as world heavyweight boxing champion ,HUM
 1051,What is California s state bird ,ENTY
-1052,What is Martin Luther King Jr. s real birthday ,NUM
-1053,Name the various super-teams to which the Angel has belonged .,HUM
+1052,What is Martin Luther King Jr s real birthday ,NUM
+1053,Name the various super-teams to which the Angel has belonged ,HUM
 1054,How does Zatanna perform her magic in DC comics ,DESC
 1055,What s the name of Jacques Cousteau s research ship ,ENTY
 1056,What President dispatched a cruiser to carry Charles Lindbergh home after his epic flight ,HUM
@@ -1084,7 +1084,7 @@ id,text,label
 1082,How many syllables are there in a line of hendecasyllabic poetry ,NUM
 1083,What soft drink first appeared in the Old Corner Drug Store in Waco ,ENTY
 1084,What is Britain s possession on the Chinese mainland ,LOC
-1085,Who was America s first Public Enemy No. 1 ,HUM
+1085,Who was America s first Public Enemy No 1 ,HUM
 1086,How many children under 18 are victims of some sort of Physical Abuse each year ,NUM
 1087,What is the origin of thank you notes ,DESC
 1088,What did Jimmy Stewart invent ,ENTY
@@ -1125,7 +1125,7 @@ id,text,label
 1123,Where did guinea pigs originate ,LOC
 1124,What two countries  coastlines border the Bay of Biscay ,LOC
 1125,Why did Egyptians shave their eyebrows ,DESC
-1126,What organization did Mr. Waverly assign agents for ,HUM
+1126,What organization did Mr Waverly assign agents for ,HUM
 1127,When was the slinky invented ,NUM
 1128,What are the characters  names in the Scooby-Doo cartoon ,HUM
 1129,What is a fear of cold ,ENTY
@@ -1176,7 +1176,7 @@ id,text,label
 1174,Who did Bobby Fischer beat to win the world chess championship ,HUM
 1175,How do you exterminate bees that are in the walls of your home  Will bee eggs remain over winter ,DESC
 1176,Where can I get information and statistics on countries and nations ,LOC
-1177,Name a Gaelic language .,ENTY
+1177,Name a Gaelic language ,ENTY
 1178,What day is August 13 ,NUM
 1179,Where can I find a list of all the companies in America that offer a direct stock purchase plan ,LOC
 1180,How do you send a movie transcript to Hollywood so that it can be produced into a film ,DESC
@@ -1194,10 +1194,10 @@ id,text,label
 1192,Where can I buy a hat like the kind Jay Kay from Jamiroquai wears ,LOC
 1193,What are the Twin Cities ,DESC
 1194,What is Beethoven s 9th symphony called ,ENTY
-1195,Name the lawyer for Randy Craft .,HUM
+1195,Name the lawyer for Randy Craft ,HUM
 1196,Which breakfast cereal brought you  the best each morning  ,ENTY
-1197,What does Ms. ,ABBR
-1198,What is the Homelite Inc. home page ,LOC
+1197,What does Ms ,ABBR
+1198,What is the Homelite Inc home page ,LOC
 1199,What explosive do you get by mixing charcoal ,ENTY
 1200,What mountainous region of the world is the Lhasa Apso dog native to ,LOC
 1201,What cancer is commonly associated with AIDS ,ENTY
@@ -1226,17 +1226,17 @@ id,text,label
 1224,What s the difference between sleet and freezing rain ,DESC
 1225,How is the new Ford Econoline van F25 V1 engine ,DESC
 1226,Who was the king who was forced to agree to the Magna Carta ,HUM
-1227,Who was made the first honorary citizen of the U.S. ,HUM
+1227,Who was made the first honorary citizen of the US ,HUM
 1228,What game is Garry Kasparov really good at ,ENTY
 1229,Where was Richard Nixon when Gerald Ford became president ,LOC
-1230,Where does the U.S. rank among world countries in area ,NUM
+1230,Where does the US rank among world countries in area ,NUM
 1231,What novel did Ian Fleming introduce James Bond in ,ENTY
 1232,What was the target rate for M3 growth in 1992 ,NUM
 1233,What baseball team was routinely called  dem bums  by its frustrated fans ,HUM
 1234,Name of scholar on whose literal translations from the Chinese and Japanese Ezra Pound depended ,HUM
 1235,When did Israel begin turning the Gaza Strip and Jericho over to the PLO ,NUM
 1236,What are the major differences in the Catholic and Methodist religions ,DESC
-1237,Name the On Stage character whose face was never seen .,HUM
+1237,Name the On Stage character whose face was never seen ,HUM
 1238,How much energy is released when oxygen and hydrogen mix ,NUM
 1239,What is the best Internet business to go into ,HUM
 1240,What does Venus Retrograde mean ,DESC
@@ -1256,12 +1256,12 @@ id,text,label
 1254,What kind of hat does Bat Masterson wear ,ENTY
 1255,Who was with Patricia Hearst the night she was kidnaped ,HUM
 1256,What is the Viking Prince s first name ,HUM
-1257,What does the abbreviation cwt. ,ABBR
+1257,What does the abbreviation cwt ,ABBR
 1258,In what deodorant commercial did tenants have adjoining medicine cabinets ,ENTY
 1259,Where is Rider College located ,LOC
 1260,What boxer s life story is titled Raging Bull ,HUM
 1261,For what reason did some San Diego schools stop serving apples ,DESC
-1262,Who advised listeners to  see the U.S.A. in your Chevrolet  ,HUM
+1262,Who advised listeners to  see the USA in your Chevrolet  ,HUM
 1263,Where was the first restaurant ,LOC
 1264,Where can I find full written draft of CTBT ,LOC
 1265,How many horses died during the civil war ,NUM
@@ -1285,21 +1285,21 @@ id,text,label
 1283,How do I install a tile floor ,DESC
 1284,What is the quickest and easiest way to get nail polish out of clothes ,ENTY
 1285,Why was the zipper invented ,DESC
-1286,What s the No. 1 killer in industrialized countries ,ENTY
-1287,Name four famous cartoon cats .,ENTY
+1286,What s the No 1 killer in industrialized countries ,ENTY
+1287,Name four famous cartoon cats ,ENTY
 1288,What daughter of Henry VIII and Anne Boleyn became queen of England ,HUM
 1289,How did  stat  come to be used as an expression for quickly ,DESC
-1290,What s the most common nickname of U.S. college football teams ,HUM
-1291,What s the distinction of U.S. Supreme Court Justice Thurgood Marshall ,DESC
+1290,What s the most common nickname of US college football teams ,HUM
+1291,What s the distinction of US Supreme Court Justice Thurgood Marshall ,DESC
 1292,What is the most useful site on the Internet ,LOC
 1293,What is the world s highest peak ,LOC
 1294,What was a Mae West on a World War II battleship ,DESC
-1295,Define cosmology .,DESC
-1296,What comedienne upstaged Dwight D. Eisenhower s first inauguration by giving birth to her first child ,HUM
+1295,Define cosmology ,DESC
+1296,What comedienne upstaged Dwight D Eisenhower s first inauguration by giving birth to her first child ,HUM
 1297,What are amicable numbers ,DESC
 1298,When were the Olympic Games in which Nadia Comaneci became popular played ,NUM
 1299,Where is Hearst Castle ,LOC
-1300,What s the largest U.S. city on the Great Lakes ,LOC
+1300,What s the largest US city on the Great Lakes ,LOC
 1301,Who sang about Desmond and Molly Jones ,HUM
 1302,What magazine gives us the cream ,ENTY
 1303,What does the technique called  cold fusion  produce ,ENTY
@@ -1312,11 +1312,11 @@ id,text,label
 1310,What sea separates Naples and Algiers ,LOC
 1311,How many lawyers are there in the state of New Jersey ,NUM
 1312,What are the most common elements in seawater ,ENTY
-1313,Describe the Finnish music personality Salonen s appearance .,DESC
+1313,Describe the Finnish music personality Salonen s appearance ,DESC
 1314,What is the origin of the ethnic category  caucasian  ,DESC
 1315,What is a stratocaster ,DESC
 1316,What kind of science is cosmology ,ENTY
-1317,Name the blind sculptress in love with the Fantastic Four s Thing .,HUM
+1317,Name the blind sculptress in love with the Fantastic Four s Thing ,HUM
 1318,What s the second-lightest element ,ENTY
 1319,What do you call a  twirl  in ballet ,ENTY
 1320,What is the brand name of daminozide ,ENTY
@@ -1348,7 +1348,7 @@ id,text,label
 1346,What computer operating system is on the most computers ,ENTY
 1347,What is Bill Gross s email address ,LOC
 1348,What is the economic impact of unemployment on the economy ,DESC
-1349,What do the letters D.C. stand for in Washington ,ABBR
+1349,What do the letters DC stand for in Washington ,ABBR
 1350,What animals can live the longest without food ,ENTY
 1351,What English queen had seventeen children ,HUM
 1352,What is the approximate population of Las Vegas ,NUM
@@ -1357,8 +1357,8 @@ id,text,label
 1355,What s the largest letter in Salvador Dali s signature ,ENTY
 1356,What does an irate car owner call iron oxide ,ENTY
 1357,Of children between the ages of two and eleven ,NUM
-1358,What s the northernmost U.S. state apart from Alaska ,LOC
-1359,Name an art gallery in New York .,LOC
+1358,What s the northernmost US state apart from Alaska ,LOC
+1359,Name an art gallery in New York ,LOC
 1360,Who sells Viagra ,HUM
 1361,What musical instrument did Prewitt play in James Jones s From Here to Eternity ,ENTY
 1362,What is the Home Rule Act ,DESC
@@ -1368,60 +1368,60 @@ id,text,label
 1366,What movie told of Anna Anderson s claim to be a Russian czar s daughter ,ENTY
 1367,Who did Dita Beard work for ,HUM
 1368,What kind of creature is a coot ,ENTY
-1369,Name the university of which Woodrow Wilson was president .,HUM
+1369,Name the university of which Woodrow Wilson was president ,HUM
 1370,What country was first to use the airplane as a weapon of war ,LOC
 1371,What university was Woodrow Wilson President of ,HUM
 1372,What is a fear of disease ,ENTY
 1373,What kind of meat is Fray Bentos synonymous with ,ENTY
-1374,What did Mr. Magoo flog on TV for General Electric ,ENTY
+1374,What did Mr Magoo flog on TV for General Electric ,ENTY
 1375,What are the words to the Canadian National anthem ,DESC
 1376,What is the name of the Jewish alphabet ,ENTY
 1377,Who served as inspiration for the schoolteacher portrayed by Robin Williams in  Dead Poets Society  ,HUM
 1378,What is Columbia Tristar s phone number ,NUM
-1379,Name the five positions who are in the line of succession to the presidency .,HUM
+1379,Name the five positions who are in the line of succession to the presidency ,HUM
 1380,Which one of the original seven Mercury program astronauts did not fly on any of the Mercury flights ,HUM
 1381,Who is the best known villain of the 165 Gunpowder Plot ,HUM
 1382,What is the capital of Burkina Faso ,LOC
 1383,What continent is Bolivia on ,LOC
 1384,Why was Muhammad Ali stripped of his title and barred from boxing in 1967 ,DESC
 1385,Who killed more people ,HUM
-1386,What caused Shea & Gould to close their L.A. office ,DESC
+1386,What caused Shea & Gould to close their LA office ,DESC
 1387,What s the only mammal that can t jump ,ENTY
-1388,What U.S. state has the most blondes ,LOC
+1388,What US state has the most blondes ,LOC
 1389,What war saw battles at Parrot s Beak and Black Virgin ,ENTY
-1390,What was the U.S. highway death toll in 1969 ,NUM
+1390,What was the US highway death toll in 1969 ,NUM
 1391,What does the name Kelly mean ,DESC
 1392,What is a phalanx ,DESC
 1393,What mustachioed comedian portrayed Frankie in North to Alaska ,HUM
 1394,What does each of the utilities cost in Monopoly ,NUM
 1395,What actor and World War II airman had a $5 ,HUM
-1396,What does e.g. stand for ,ABBR
+1396,What does eg stand for ,ABBR
 1397,What is the name of the medical condition in which a baby is born without a brain ,ENTY
 1398,How do storms form ,DESC
 1399,Who is Nicolo Paganini ,HUM
 1400,What city is often called The Insurance Capital of the World ,LOC
 1401,What are the three animals in Sheila Burnford s The Incredible Journey ,ENTY
 1402,Who portrayed Dracula in Hammer Studios  films ,HUM
-1403,Name one of the Seven Wonders of the Ancient World .,ENTY
+1403,Name one of the Seven Wonders of the Ancient World ,ENTY
 1404,When were fish first believed to be found on earth ,NUM
 1405,What President s favorite Biblical quotation was :  Come now ,HUM
 1406,How many elevators do you ride to reach the top floor of the Empire State Building ,NUM
-1407,Name the food company that traveled to Soviet Georgia to film a series of ads .,HUM
+1407,Name the food company that traveled to Soviet Georgia to film a series of ads ,HUM
 1408,What country was Sir Edmund Hillary born in ,LOC
 1409,What s an infant seal called ,ENTY
 1410,What was the proper Laugh-In respones to :  Say goodnight ,DESC
-1411,What city was John F. Kennedy nominated for president in ,LOC
+1411,What city was John F Kennedy nominated for president in ,LOC
 1412,How long does a dog sleep ,NUM
-1413,What 1963 Joseph L. Mankiewicz film cost $28 million ,ENTY
+1413,What 1963 Joseph L Mankiewicz film cost $28 million ,ENTY
 1414,What Japanese electronics company was named for a coastal city northeast of Tokyo ,HUM
 1415,What can you be fined for having a dog on a beach ,NUM
 1416,Where did the Battle of the Bulge take place ,LOC
 1417,How much will the California be in the year 2000 ,NUM
-1418,What mystery writer penned  ...the glory that was Greece ,HUM
+1418,What mystery writer penned  the glory that was Greece ,HUM
 1419,What state full of milk and honey was the destination in The Grapes of Wrath ,LOC
 1420,What is the tallest building in Japan ,LOC
 1421,Where is Sinn Fein s headquarters ,LOC
-1422,Name Li l Abner s favorite Indian drink .,ENTY
+1422,Name Li l Abner s favorite Indian drink ,ENTY
 1423,What are some important events of the 1830 s ,ENTY
 1424,The Iraqis launched their attack on Kuwait on what day ,NUM
 1425,What letter adorns the flag of Rwanda ,ENTY
@@ -1434,7 +1434,7 @@ id,text,label
 1432,How many penny-farthings are there on a Trivial Pursuit game board ,NUM
 1433,What s the most abundant element in the sun ,ENTY
 1434,What European country boasts the city of Furth ,LOC
-1435,What U.S. state is Dixville Notch in ,LOC
+1435,What US state is Dixville Notch in ,LOC
 1436,Where was the Cisalpine Republic ,LOC
 1437,What is the largest shopping mall in the world ,LOC
 1438,What is the protagonist s name in Dostoevski s  The Idiot  ,HUM
@@ -1464,13 +1464,13 @@ id,text,label
 1462,Who does Shakespeare s Antonio borrow 3 ,HUM
 1463,Which country is known as  Big Bear  ,LOC
 1464,What  melts in your mouth ,ENTY
-1465,How many times a day should you take a prescription marked  q.i.d .  ,NUM
+1465,How many times a day should you take a prescription marked  qid   ,NUM
 1466,What is the origin of the atom ,DESC
 1467,Who is the Voyager project manager ,HUM
 1468,Which radio stations air the Jim Bohannon Radio Talk Show ,HUM
 1469,What two commanders directed the forces in the Battle of El Alamein ,HUM
-1470,Name the creator of  The Muppets  .,HUM
-1471,How do I e-mail someone at aol.com from yahoo.com ,DESC
+1470,Name the creator of  The Muppets  ,HUM
+1471,How do I e-mail someone at aolcom from yahoocom ,DESC
 1472,Who replies  I know  to Princess Leia s confession  I love you  in The Empire Strikes Back ,HUM
 1473,What is the meaning of the name Ella ,DESC
 1474,What s the home of the Rockettes ,LOC
@@ -1479,7 +1479,7 @@ id,text,label
 1477,What sport is played on the largest field ,ENTY
 1478,Who won the 1967 Academy Award for Best Actor ,HUM
 1479,What is after death ,ENTY
-1480,Name the first private citizen to fly in space .,HUM
+1480,Name the first private citizen to fly in space ,HUM
 1481,What was football star Elroy Hirsch s nickname ,HUM
 1482,What singer sings  Oh Boy  ,HUM
 1483,How much pizza do Americans eat in a day ,NUM
@@ -1489,17 +1489,17 @@ id,text,label
 1487,What are you hearing when you put a seashell to your ear ,DESC
 1488,Why are haunted houses popular ,DESC
 1489,Which gender has bigger thighs ,ENTY
-1490,What U.S. state has the second-longest coastline ,LOC
+1490,What US state has the second-longest coastline ,LOC
 1491,What state s home to the Buffalo Bill Historical Center ,LOC
 1492,How fast do cheetahs run ,NUM
 1493,What is Ray Bradbury s illustrated man illustrated with ,ENTY
 1494,How fast is a 45Mhz processor ,NUM
-1495,What kind of puzzle first appeared in the U.S. in the New York World on December 21 ,ENTY
+1495,What kind of puzzle first appeared in the US in the New York World on December 21 ,ENTY
 1496,What count did Alexandre Dumas write about ,HUM
 1497,What are the odds of giving birth to twins ,NUM
 1498,What is the largest natural lake in Pennsylvania ,LOC
 1499,How far is London UK from California ,NUM
-1500,Name the two mystical ravens Odin has at his command .,ENTY
+1500,Name the two mystical ravens Odin has at his command ,ENTY
 1501,What was the species of Winnie the Pooh ,ENTY
 1502,What is the virus HIV ,DESC
 1503,How many years old is Benny Carter ,NUM
@@ -1566,7 +1566,7 @@ id,text,label
 1564,What is the chance of conceiving quadruplets ,NUM
 1565,Who was the star of Leave It to Beaver ,HUM
 1566,What countries have the largest armed forces in the world ,LOC
-1567,What was William F. Cody s better-known name ,HUM
+1567,What was William F Cody s better-known name ,HUM
 1568,How do I increase my biceps  size ,DESC
 1569,Who did Richard Nixon tender his resignation to ,HUM
 1570,Who was Thucydides ,HUM
@@ -1628,7 +1628,7 @@ id,text,label
 1626,What is a fear of color ,ENTY
 1627,What Nantucket shipwreck killed more divers exploring it than the 52 people it sank with ,ENTY
 1628,What are the two largest birds on earth ,ENTY
-1629,Name the four stories contained in Edith Wharton s  Old New York . ,ENTY
+1629,Name the four stories contained in Edith Wharton s  Old New York  ,ENTY
 1630,What is the largest lake in North America ,LOC
 1631,How many people died because of a smoking problem in 1997 ,NUM
 1632,What is chronic constipation a symptom of ,ENTY
@@ -1641,7 +1641,7 @@ id,text,label
 1639,What did the Yalta Conference lead to ,ENTY
 1640,What dog was dubbed The Mortgage Lifter ,ENTY
 1641,What is saltpeter ,DESC
-1642,What s the difference between J.D. and LL.M. ,DESC
+1642,What s the difference between JD and LLM ,DESC
 1643,What kind of organization is  Last Chance for Animals  ,HUM
 1644,What was the role of the Medieval Guild ,HUM
 1645,Silly putty was invented by whom ,HUM
@@ -1656,10 +1656,10 @@ id,text,label
 1654,How can you be happy ,DESC
 1655,How would someone go about becoming an organ donor ,DESC
 1656,What year did Degas create the bronze sculpture ,NUM
-1657,What composer was awarded the Medal of Honor by Franklin D. Roosevelt ,HUM
+1657,What composer was awarded the Medal of Honor by Franklin D Roosevelt ,HUM
 1658,How many URL extensions are there  and what are they ,NUM
 1659,How long after intercourse does it take to find out if you are pregnant ,NUM
-1660,What does U.S.S.R. stand for ,ABBR
+1660,What does USSR stand for ,ABBR
 1661,Who created the Fantastic Four ,HUM
 1662,What is a fear of gravity ,ENTY
 1663,Who is the composer of  Canon in D Major  ,HUM
@@ -1674,7 +1674,7 @@ id,text,label
 1672,Which sex is twice as likely to contract leprosy ,ENTY
 1673,What was the first town to be chartered in Vermont ,LOC
 1674,What state has the longest Great Lakes shoreline ,LOC
-1675,What U.S. state ends with a G ,LOC
+1675,What US state ends with a G ,LOC
 1676,How many varieties of twins are there ,NUM
 1677,What is a Cartesian Diver ,DESC
 1678,What are the largest libraries in the US ,LOC
@@ -1748,7 +1748,7 @@ id,text,label
 1746,How many people live in Tokyo ,NUM
 1747,What fruit-topped actress was known as The Brazilian Bombshell ,HUM
 1748,What are birds descendents of ,ENTY
-1749,When the Tutankhamun exhibit was on display in the U.S. ,HUM
+1749,When the Tutankhamun exhibit was on display in the US ,HUM
 1750,Which Kevin Costner movie involves the Sioux Indians ,ENTY
 1751,Who played the title role in My Favorite Martian ,HUM
 1752,How does a scientific calculator work ,DESC
@@ -1759,14 +1759,14 @@ id,text,label
 1757,Why do we have to go to school ,DESC
 1758,What is Toulmin logic ,DESC
 1759,A corgi is a kind of what ,ENTY
-1760,What city in the U.S. experienced the most growth recently ,LOC
+1760,What city in the US experienced the most growth recently ,LOC
 1761,What is a dangling participle ,DESC
 1762,What Tokyo street glitters with famed department stores and nightclubs ,LOC
 1763,What was the average life expectancy during the Stone Age ,NUM
 1764,When Mighty Mouse was conceived ,HUM
 1765,What is the origin of the peace symbol ,DESC
 1766,What group starred in the movie Rock Around the Clock ,HUM
-1767,How many U.S. presidents were assassinated during Queen Victoria s reign ,NUM
+1767,How many US presidents were assassinated during Queen Victoria s reign ,NUM
 1768,When was the first flush toilet invented ,NUM
 1769,What is Nathan Hamill s role in the new Star Wars prequel ,HUM
 1770,How many disks does each player have in a four-handed game of Crokinole ,NUM
@@ -1796,9 +1796,9 @@ id,text,label
 1794,What is the best way to overcome a fear ,ENTY
 1795,Name a South African diamond producer ,HUM
 1796,Who made the musical plea Be True to Your School ,HUM
-1797,What French designer declared :  The jean is the destructor ! It is a dictator ! It is destroying creativity. The jean must be stopped !  ,HUM
+1797,What French designer declared :  The jean is the destructor ! It is a dictator ! It is destroying creativity The jean must be stopped !  ,HUM
 1798,What season is the setting for Shakespeare s Midsummer Night s Dream ,NUM
-1799,Name a band which was famous in the 1960 s .,HUM
+1799,Name a band which was famous in the 1960 s ,HUM
 1800,What comedian was banned from the Ed Sullivan Show for allegedly making an obscene gesture at the show s host ,HUM
 1801,What country is the setting for Edgar Allan Poe s The Pit and the Pendulum ,LOC
 1802,What Apollo 11 astronaut minded the store while Armstrong and Aldrin made history ,HUM
@@ -1874,7 +1874,7 @@ id,text,label
 1872,What Australian city became the home of the America s Cup ,LOC
 1873,Aspartame is known by what other name ,ENTY
 1874,What is pasta ,DESC
-1875,Name Randy Craft s lawyer .,HUM
+1875,Name Randy Craft s lawyer ,HUM
 1876,What color is  ash  ,ENTY
 1877,What is the best distance education university or college ,HUM
 1878,What river does the Grand Coulee Dam dam ,LOC
@@ -1902,7 +1902,7 @@ id,text,label
 1900,How do I give a good massage ,DESC
 1901,Who is the father of the computer ,HUM
 1902,What is the origin of  jiggy  as in getting jiggy with it ,DESC
-1903,What is the origin of a.m. and p.m. ,DESC
+1903,What is the origin of am and pm ,DESC
 1904,What is the definition of cosmology ,DESC
 1905,What is the name of the dog on the Cracker Jack box ,ENTY
 1906,What are manifest and latent function theories ,DESC
@@ -1918,7 +1918,7 @@ id,text,label
 1916,Why do men snore ,DESC
 1917,What causes  rolling thunder  ,DESC
 1918,What is the name of Miss India 1994 ,HUM
-1919,What four U.S. states have active volcanoes ,LOC
+1919,What four US states have active volcanoes ,LOC
 1920,What s the setting of John Le Carre s A Small Town in Germany ,DESC
 1921,What does an echidna look like ,DESC
 1922,What is the secret of the universe ,DESC
@@ -1943,7 +1943,7 @@ id,text,label
 1941,What is a fear of being dirty ,ENTY
 1942,What animal occurs in Spielberg s  Jaws  ,ENTY
 1943,What s the Red Planet ,DESC
-1944,The Shea & Gould law firm had an office in L.A. for how many years ,NUM
+1944,The Shea & Gould law firm had an office in LA for how many years ,NUM
 1945,What s the most common surname in America ,HUM
 1946,How long does it take the typical American to eat 23 quarts of ice cream ,NUM
 1947,What is the difference between a fruit and a vegetable ,DESC
@@ -1952,7 +1952,7 @@ id,text,label
 1950,What are the various ways in which one can measure IT User Satisfaction Level ,ENTY
 1951,What city is sometimes called The Athens of Switzerland ,LOC
 1952,Where did bocci originate ,LOC
-1953,How does light travel through the void of space if there is no medium for it to  wave  or  pulse  .,DESC
+1953,How does light travel through the void of space if there is no medium for it to  wave  or  pulse  ,DESC
 1954,What are the Valdez Principles ,DESC
 1955,How can I easily remove red wine stains from t-shirts ,DESC
 1956,How do you write MLA style bibliographies for an Internet source ,DESC
@@ -1982,7 +1982,7 @@ id,text,label
 1980,What was a California prayer book to an Old West gambler ,ENTY
 1981,Who was the first black performer to have his own network TV show ,HUM
 1982,What s another name for aspartame ,ENTY
-1983,What did John F. Kennedy consider his greatest blunder in office ,DESC
+1983,What did John F Kennedy consider his greatest blunder in office ,DESC
 1984,What s the abbreviation for trinitrotoluene ,ABBR
 1985,What creature is the absolute fastest in moving in the world ,ENTY
 1986,What is the date of Bastille Day ,NUM
@@ -2017,9 +2017,9 @@ id,text,label
 2015,How many Leos have been Pope ,NUM
 2016,What state was Herbert Hoover born in ,LOC
 2017,What TV series featured Neal ,ENTY
-2018,What developed a crack in 1835 while tolling the death of U.S. Chief Justice John Marshall ,ENTY
+2018,What developed a crack in 1835 while tolling the death of US Chief Justice John Marshall ,ENTY
 2019,How many fiddlers did Old King Cole have ,NUM
-2020,What poet wrote :  ... I have promises to keep ,HUM
+2020,What poet wrote :   I have promises to keep ,HUM
 2021,What is ethylene ,DESC
 2022,What Irwin Allen bomb has Richard Widmark saying he ll be  the first officer in history to get his butt kicked by a mess of bugs !  ,ENTY
 2023,What is a fear of clouds ,ENTY
@@ -2037,11 +2037,11 @@ id,text,label
 2035,What is deadrise ,DESC
 2036,What s the official language of Algeria ,ENTY
 2037,What took first prize in Omni magazine s contest to find the  ultimate unanswerable question  ,ENTY
-2038,What six words follow the line :  From a jack to a king.. .  ,ENTY
+2038,What six words follow the line :  From a jack to a king   ,ENTY
 2039,How do I find a city if I have the area code ,DESC
 2040,What author of the Days of Our Lives Cookbook signed on in 198 as Liz Chandler in TV s Days of Our Lives ,HUM
 2041,What foods contain the most protein ,ENTY
-2042,What President was assassinated by Charles J. Guiteau ,HUM
+2042,What President was assassinated by Charles J Guiteau ,HUM
 2043,What comic of TV s golden age went by the motto  Anything for a laugh  ,HUM
 2044,How many feet long is a baseball pitcher s rubber ,NUM
 2045,What was the nationality of Jackson Pollock ,LOC
@@ -2051,7 +2051,7 @@ id,text,label
 2049,What is the name of the country which Hitler ruled ,LOC
 2050,What group kidnaped Patricia Hearst ,HUM
 2051,How long does a human live ,NUM
-2052,Where can I get U.S. economic statistics ,LOC
+2052,Where can I get US economic statistics ,LOC
 2053,How many Superbowls have the ers won ,NUM
 2054,What do you do when your mouse is nt working as fast as it s supposed to ,DESC
 2055,What is a gandy dancer ,DESC
@@ -2117,7 +2117,7 @@ id,text,label
 2115,What TV family sometimes buys eclairs from Nelson s Bakery ,HUM
 2116,How can you get rust stains out of clothing ,DESC
 2117,How does a small businessman contact the Good Humor Ice Cream company to do business with them ,DESC
-2118,What enigmatic U.S. vice president was once tried and acquitted for treason in a plot to set up his own independent empire in the West ,HUM
+2118,What enigmatic US vice president was once tried and acquitted for treason in a plot to set up his own independent empire in the West ,HUM
 2119,Who was Charles Lindbergh s wife ,HUM
 2120,Who sings Angel Eyes from the 80 s ,HUM
 2121,When did the Jurassic Period end ,NUM
@@ -2148,13 +2148,13 @@ id,text,label
 2146,What was the nickname of German flying ace Manfred von Richthofen ,HUM
 2147,What does e=mc2 mean ,DESC
 2148,What country other than Germany invaded Poland in September 1939 ,LOC
-2149,How do I contact answers.com ,DESC
+2149,How do I contact answerscom ,DESC
 2150,What are the names of the different toes ,ENTY
 2151,What are different products of petroleum ,ENTY
 2152,What causes asthma ,DESC
 2153,When was the Bill of Rights ratified ,NUM
 2154,What do the number 1 ,DESC
-2155,What is the largest U.S. state east of the Mississippi ,LOC
+2155,What is the largest US state east of the Mississippi ,LOC
 2156,How can I find out how much it costs to raise a baby for six months ,DESC
 2157,What s the population of Biloxi ,NUM
 2158,What vowel do all Esperanto nouns end in ,ENTY
@@ -2174,15 +2174,15 @@ id,text,label
 2172,What is a fear of glass ,ENTY
 2173,In Waugh s  A Handful of Dust ,DESC
 2174,What is the last name of Lucy and Linus from the Peanut s comic strip ,HUM
-2175,What cheery fellow got the ZIP code 9971 from the U.S. Postal Service in 1963 ,HUM
+2175,What cheery fellow got the ZIP code 9971 from the US Postal Service in 1963 ,HUM
 2176,How many layers does a bottle of Yoo-Hoo settle into ,NUM
-2177,Name Pittsburgh s baseball team .,HUM
+2177,Name Pittsburgh s baseball team ,HUM
 2178,What s the nearest star to Earth ,LOC
 2179,Where is Inoco based ,LOC
 2180,What does El Nino mean in spanish ,ENTY
 2181,What does Choo Choo Charlie say ,DESC
 2182,How do I register a trade name in North Carolina ,DESC
-2183,What was the number of assassinations and attempts to assassinate in the U.S. since 1865 ,NUM
+2183,What was the number of assassinations and attempts to assassinate in the US since 1865 ,NUM
 2184,How many stations do you shoot from in the basketball game  Around the World  ,NUM
 2185,What is a Jake brake ,DESC
 2186,What sign is the best love match for a horoscope sign ,ENTY
@@ -2193,7 +2193,7 @@ id,text,label
 2191,What planet would you visit to see Bebrenia ,LOC
 2192,Which language has the most words ,ENTY
 2193,Where is Natick ,LOC
-2194,What J.R.R. Tolkien book features Gimli as a central character ,ENTY
+2194,What JRR Tolkien book features Gimli as a central character ,ENTY
 2195,What brand of white rum is still made in Cuba ,ENTY
 2196,Who is Shirley MacLaine ,HUM
 2197,What business exports the sparkling wine Spumante ,HUM
@@ -2202,7 +2202,7 @@ id,text,label
 2200,What is the origin of the city  Corpus Christi  ,DESC
 2201,Who wrote  The Pines of Rome  ,HUM
 2202,Where is the Valley of the Kings ,LOC
-2203,What was the first U.S.-based team in the NHL ,HUM
+2203,What was the first US-based team in the NHL ,HUM
 2204,Where did the sport of caber-tossing originate ,LOC
 2205,Who played for the Chicago Bears ,HUM
 2206,Where are the Union Stockyards ,LOC
@@ -2215,7 +2215,7 @@ id,text,label
 2213,What animals acted as lapwarmers for American colonists in church ,ENTY
 2214,Who won World War II ,HUM
 2215,Where does  bovine  come from ,DESC
-2216,Where does the U.S. get most of its energy ,LOC
+2216,Where does the US get most of its energy ,LOC
 2217,What country ,LOC
 2218,What is the weakest bone in the body ,ENTY
 2219,What is dew point ,DESC
@@ -2232,7 +2232,7 @@ id,text,label
 2230,What state has the most Indians ,LOC
 2231,What is the difference between terry cloth and French terry ,DESC
 2232,How long is Camptown Racetrack ,NUM
-2233,Name the two blob members of the animated Herculoids .,HUM
+2233,Name the two blob members of the animated Herculoids ,HUM
 2234,Where did Luther display his  Ninety-Five Theses  ,LOC
 2235,What are  inkhorn terms  ,DESC
 2236,What is the difference between pop music and rock and roll ,DESC
@@ -2266,7 +2266,7 @@ id,text,label
 2264,What are Britain s two longest rivers ,LOC
 2265,What country covers 8 ,LOC
 2266,What fuel do airplanes use ,ENTY
-2267,Name a canine cartoon character other than Huckleberry Hound to have a voice by Daws Butler .,HUM
+2267,Name a canine cartoon character other than Huckleberry Hound to have a voice by Daws Butler ,HUM
 2268,What does palindromic mean ,DESC
 2269,What baseball expression came from the nautical term for ships sailing between the Atlantic and Pacific before the Panama Canal ,DESC
 2270,In which state are the Mark Twain National Forests ,LOC
@@ -2291,7 +2291,7 @@ id,text,label
 2289,What is the all-time stock high of Apple Computer ,NUM
 2290,Why are lions called  King of the Jungle  ,DESC
 2291,What non-alcoholic syrup is made from pomegranate juice ,ENTY
-2292,What meter was invented by C.C. Magee in 1935 ,ENTY
+2292,What meter was invented by CC Magee in 1935 ,ENTY
 2293,When was Calypso music invented ,NUM
 2294,What Caribbean island is northeast of Trinidad ,LOC
 2295,What Michelangelo sculpture is in Saint Peter s Cathedral ,ENTY
@@ -2306,16 +2306,16 @@ id,text,label
 2304,What day of the week was July 13 ,NUM
 2305,Whose image is alleged to be on The Shroud of Turin ,HUM
 2306,What does Salk vaccine prevent ,ENTY
-2307,What U.S. general was court-martialled for criticizing American air power ,HUM
+2307,What US general was court-martialled for criticizing American air power ,HUM
 2308,What is a fear of insanity ,ENTY
 2309,How do you convert foot-pounds to foot-inches ,DESC
 2310,Who said :  The victor will never be asked if he told the truth  ,HUM
 2311,Approximately how many students are enrolled at the University of Massachusetts ,NUM
 2312,What do West Indian steel bands use as instruments ,ENTY
 2313,Why did David Koresh ask the FBI for a word processor ,DESC
-2314,What is the fastest growing state in the U.S.A. in 1998 ,LOC
+2314,What is the fastest growing state in the USA in 1998 ,LOC
 2315,How many American soldiers have died for their country to date ,NUM
-2316,What was the name of the U.S. s first manned space program ,ENTY
+2316,What was the name of the US s first manned space program ,ENTY
 2317,Who is Langston Hughes ,HUM
 2318,What were the achievements of Richard Nixon ,ENTY
 2319,Where does the opera singer Ileana Cotrubas come from ,LOC
@@ -2326,7 +2326,7 @@ id,text,label
 2324,Who wrote the book ,HUM
 2325,Where can I learn about Samuel Gompers ,LOC
 2326,What jockey won 17 Triple Crown races ,HUM
-2327,What U.S. state s biggest lake is Lake Sam Rayburn ,LOC
+2327,What US state s biggest lake is Lake Sam Rayburn ,LOC
 2328,What is Greek pita ,DESC
 2329,What do peacocks mate with ,ENTY
 2330,Who seized power from Milton Obote in 1971 ,HUM
@@ -2351,7 +2351,7 @@ id,text,label
 2349,What little boy and dog live in a shoe ,HUM
 2350,What percent of world s fresh water is found in Canada ,NUM
 2351,CNN s first broadcast occurred on what date ,NUM
-2352,Why are the U.S. presidential elections held in November ,DESC
+2352,Why are the US presidential elections held in November ,DESC
 2353,How many grooves are on a dime ,NUM
 2354,What was Marilyn Monroe s real name ,HUM
 2355,What number of American soldiers remain unaccounted from the Vietnam war ,NUM
@@ -2380,7 +2380,7 @@ id,text,label
 2378,In what part of Africa is Mozambique located ,LOC
 2379,What is the abbreviated term used for the National Bureau of Investigation ,ABBR
 2380,What is e-commerce ,DESC
-2381,Whose funeral train traveled from Washington D.C. to Springfield ,HUM
+2381,Whose funeral train traveled from Washington DC to Springfield ,HUM
 2382,How did names come about ,DESC
 2383,What s the better-known identity of John Merrick ,HUM
 2384,What is her husband s name ,HUM
@@ -2394,7 +2394,7 @@ id,text,label
 2392,What first-aid product  Helps the hurt stop hurting  ,ENTY
 2393,How does ultraviolet light damage the DNA of skin cells ,DESC
 2394,What was the verdict in the trial of Lizzie Borden ,DESC
-2395,What U.S. President had brothers-in-law in the Confederate army ,HUM
+2395,What US President had brothers-in-law in the Confederate army ,HUM
 2396,Who is the Queen of Holland ,HUM
 2397,What does the Greek word polis mean ,DESC
 2398,Where can I find detailed information about Manchukuo ,LOC
@@ -2413,7 +2413,7 @@ id,text,label
 2411,What book is subtitled The Preservation of Favoured Races in the Struggle for Life ,ENTY
 2412,Why do the chickenpoxs last so long ,DESC
 2413,What attorneys work for The Center for the Defense of Free Enterprise ,HUM
-2414,How did the U.S. come into the possession of an empire in the wake of the Spanish-American War ,DESC
+2414,How did the US come into the possession of an empire in the wake of the Spanish-American War ,DESC
 2415,What is Dick Clark s date of birth ,NUM
 2416,What does the name  Sheri  mean ,DESC
 2417,What is the only primate to lack pigment in the palms of its hands ,ENTY
@@ -2421,10 +2421,10 @@ id,text,label
 2419,Where did Bill Gates go to college ,LOC
 2420,What constellation is known as The Water Bearer ,LOC
 2421,What tale has the moral :  He who wants everything gets nothing  ,ENTY
-2422,What U.S. university boasts the largest library ,HUM
+2422,What US university boasts the largest library ,HUM
 2423,In which year was the cartoon character Chilly Willy created ,NUM
 2424,What do Japanese school uniforms look like ,DESC
-2425,Name a Salt Lake City newspaper .,ENTY
+2425,Name a Salt Lake City newspaper ,ENTY
 2426,Where can I find the history of the Taiwanese language ,LOC
 2427,What state is Mount McKinley in ,LOC
 2428,How did people respond to the idea of the first millenium ,DESC
@@ -2467,7 +2467,7 @@ id,text,label
 2465,How do windmills work ,DESC
 2466,What ocean liner burned and sank in Hong Kong harbor ,ENTY
 2467,What city is near the mouth of the Amazon ,LOC
-2468,What U.S. vice-president once declared :  If you ve seen one slum ,HUM
+2468,What US vice-president once declared :  If you ve seen one slum ,HUM
 2469,Who wrote The Red Badge of Courage ,HUM
 2470,What money was used by them ,ENTY
 2471,What color ,ENTY
@@ -2475,7 +2475,7 @@ id,text,label
 2473,What is the origin of the word trigonometry ,DESC
 2474,What is Compaq s mission statement ,DESC
 2475,What was the name of the 1899 policy forced on China by which all nations had equal trading rights ,ENTY
-2476,What British monarch s lap did P.T. Barnum s Tom Thumb sit in ,HUM
+2476,What British monarch s lap did PT Barnum s Tom Thumb sit in ,HUM
 2477,How did Rocky Marciano die ,DESC
 2478,Who invented the road traffic cone ,HUM
 2479,What is the name of Joan Jett s band ,HUM
@@ -2493,9 +2493,9 @@ id,text,label
 2491,Where did the Wright brothers make their first flight ,LOC
 2492,Who won the Battle of Gettysburg ,HUM
 2493,What do you get by mixing gin and vermouth ,ENTY
-2494,Name the two youngsters saved by the animated Moby Dick .,HUM
+2494,Name the two youngsters saved by the animated Moby Dick ,HUM
 2495,Who was the captain of the tanker ,HUM
-2496,What is the snowiest city in the U.S. ,LOC
+2496,What is the snowiest city in the US ,LOC
 2497,What is crabgrass ,DESC
 2498,What book opens :  At a certain village in La Mancha ,ENTY
 2499,Who is Stephen Hawking ,HUM
@@ -2507,7 +2507,7 @@ id,text,label
 2505,The name of the actor who played the detective in the film Kindergarden Cop is what ,HUM
 2506,What is main reason for that electric vehicles can t be popular nowadays ,DESC
 2507,What is the difference between optical and digital video ,DESC
-2508,What clause in the U.S. Constitution may not be changed ,DESC
+2508,What clause in the US Constitution may not be changed ,DESC
 2509,What s new in the postal world in 1999 ,DESC
 2510,What actor came to dinner in Guess Who s Coming to Dinner ,HUM
 2511,What is the difference between the anus and the rectum ,DESC
@@ -2518,25 +2518,25 @@ id,text,label
 2516,What engineer invented the pull-tab can ,HUM
 2517,What South American capital is the world s highest ,LOC
 2518,What are the lyrics to the Star Spangled Banner ,DESC
-2519,Name a civil war battlefield .,LOC
+2519,Name a civil war battlefield ,LOC
 2520,When do you plant winter wheat ,NUM
 2521,What will a compass do in outer space ,DESC
 2522,How many counties are in Indiana ,NUM
 2523,Which college did Dikembe Mutombo attend ,HUM
 2524,Who was the first actress to appear on a postage stamp ,HUM
 2525,Who was the first black woman to star in the Folies Bergeres ,HUM
-2526,What Aesop s fable has the moral :  The race is not always to the swift. Slow and steady is bound to win  ,ENTY
+2526,What Aesop s fable has the moral :  The race is not always to the swift Slow and steady is bound to win  ,ENTY
 2527,What famed strip of land is a 15-minute boat trip across the Venetian Lagoon from Venice ,LOC
 2528,How is water treated to make it safe to drink ,DESC
 2529,What is a hydrogen bond ,DESC
-2530,What is the exchange rate between England and the U.S. ,NUM
+2530,What is the exchange rate between England and the US ,NUM
 2531,What does a woman want ,ENTY
 2532,What is the protection rate of using condoms ,NUM
 2533,What s the abbreviation for limited partnership ,ABBR
 2534,Which continent has the most roses ,LOC
 2535,What Russian novel embracing more the 5 characters is set in the Napoleonic Wars ,ENTY
 2536,How do you write a correct critical analysis of a poem ,DESC
-2537,How do I check if my modem is v.9 compatible ,DESC
+2537,How do I check if my modem is v9 compatible ,DESC
 2538,What is your favorite color ,ENTY
 2539,What is the longest chemical name ,ENTY
 2540,How many corners does a spritsail have ,NUM
@@ -2560,7 +2560,7 @@ id,text,label
 2558,What country was Brian Boru an 11th-century king of ,LOC
 2559,What happens when a body part falls asleep ,DESC
 2560,What English word has the most letters ,ENTY
-2561,What film ends with the line :  This is Mrs. Norman Maine  ,ENTY
+2561,What film ends with the line :  This is Mrs Norman Maine  ,ENTY
 2562,Who asked the musical question :  Have you ever been to electric lady land  ,HUM
 2563,Who wrote :  Poems are made by fools like me but only God can make a tree  ,HUM
 2564,What is June s birthstone ,DESC
@@ -2576,7 +2576,7 @@ id,text,label
 2574,What s the main vegetable in vichyssoise ,ENTY
 2575,How long did the Charles Manson murder trial last ,NUM
 2576,How long does it take for your blood to make one complete trip through the body ,NUM
-2577,Who owns the St. Louis Rams ,HUM
+2577,Who owns the St Louis Rams ,HUM
 2578,Where is former Pro wrestler Johnny  Rubber Man  Walker ,LOC
 2579,What beer tells us ,ENTY
 2580,What is the geographical center of the US including Alaska and Hawaii ,LOC
@@ -2600,7 +2600,7 @@ id,text,label
 2598,What is the main ingredient of yogurt ,ENTY
 2599,What is the recipe for Eggs Benedict ,ENTY
 2600,What is the address for the main government office in Rome ,LOC
-2601,What s the largest U.S. agricultural crop by weight ,ENTY
+2601,What s the largest US agricultural crop by weight ,ENTY
 2602,What is the electronic device used to produce visual displays corresponding to electric signals ,ENTY
 2603,What is goldenseal ,DESC
 2604,Who made the most appearances in the center square on Hollywood Squares ,HUM
@@ -2619,7 +2619,7 @@ id,text,label
 2617,Who said  the only thing we have to fear is fear itself  ,HUM
 2618,Where is Romania located ,LOC
 2619,How many films are made by the major studios in a year ,NUM
-2620,How many small businesses are there in the U.S .,NUM
+2620,How many small businesses are there in the US ,NUM
 2621,What age is Benny Carter ,NUM
 2622,How do you clean an LCD monitor screen ,DESC
 2623,What city did the Mormons establish as their headquarters in 1847 ,LOC
@@ -2628,7 +2628,7 @@ id,text,label
 2626,What new games are available for Nintendo 64 ,ENTY
 2627,Mississippi has what name for a state nickname ,LOC
 2628,What is the predominant color of the Tab label ,ENTY
-2629,What U.S. city was named for St. Francis of Assisi ,LOC
+2629,What US city was named for St Francis of Assisi ,LOC
 2630,How many megawatts will the power project in Indonesia ,NUM
 2631,What is the definition of  chancery  file in real estate ,DESC
 2632,Who is the sexiest women in the world ,HUM
@@ -2638,13 +2638,13 @@ id,text,label
 2636,How do you handle a hungry man ,DESC
 2637,Who s played the most games for the New York Yankees ,HUM
 2638,What TV character said ;  One of these days ,HUM
-2639,What is the name of the Indian who became prime minister by beating Mrs. Gandhi in the 1977 election ,HUM
+2639,What is the name of the Indian who became prime minister by beating Mrs Gandhi in the 1977 election ,HUM
 2640,What are the conjugations of wake and woke ,ENTY
 2641,What Chilean president was killed in a 1973 coup d etat ,HUM
 2642,What was Einstein s IQ ,NUM
-2643,Name the first Russian astronaut to do a spacewalk .,HUM
+2643,Name the first Russian astronaut to do a spacewalk ,HUM
 2644,Why do eyes sometimes look red in photographs ,DESC
-2645,What are John C. Calhoun and Henry Clay known as ,ENTY
+2645,What are John C Calhoun and Henry Clay known as ,ENTY
 2646,What are the first names of the famous husband-and-wife acting team of Lunt and Fontanne ,HUM
 2647,What are some good exercises for kids to do ,ENTY
 2648,How many real fruit juices are there in a can of Hawaiian Punch ,NUM
@@ -2666,7 +2666,7 @@ id,text,label
 2664,When did Theo Rousseau paint the  Forest of Fontaine  ,NUM
 2665,How many people have been Captain America ,NUM
 2666,What is meant by the term  yield to maturity  in reference to bonds ,DESC
-2667,What became the biggest cash crop in the U.S. in 1983 ,ENTY
+2667,What became the biggest cash crop in the US in 1983 ,ENTY
 2668,How did the war of 1812 affect Delaware ,DESC
 2669,Where is the human skin least sensitive ,ENTY
 2670,What President was meant for ,HUM
@@ -2677,7 +2677,7 @@ id,text,label
 2675,In what year was Gandhi assassinated ,NUM
 2676,What is the time it takes a typist to type a screenplay that is 100 pages long ,NUM
 2677,What is the full classification of a lady bug ,ENTY
-2678,What Hungarian cardinal was first a state prisoner and then a refugee in the U.S. embassy 1956-1971 ,HUM
+2678,What Hungarian cardinal was first a state prisoner and then a refugee in the US embassy 1956-1971 ,HUM
 2679,How many pairs of wings does a tsetse fly have ,NUM
 2680,What was the name of the peace agreement imposed on Germany after World War I ,ENTY
 2681,What s the fifth-largest country in the world ,LOC
@@ -2737,7 +2737,7 @@ id,text,label
 2735,Who is behind the name of the Harvey Wallbanger drink ,HUM
 2736,What is the origin of  Beauty is in the eye of the beholder  ,DESC
 2737,What soft drink not only has its own video game ,ENTY
-2738,What oldtime kids  fare did TV Guide writer Jeff Greenfield call  one of the most...subversive TV shows in American history  ,ENTY
+2738,What oldtime kids  fare did TV Guide writer Jeff Greenfield call  one of the mostsubversive TV shows in American history  ,ENTY
 2739,Madonna advertises for what soft drink ,ENTY
 2740,What does A&W of root beer fame stand for ,ABBR
 2741,What tennis term is said to come from the French word for egg ,ENTY
@@ -2757,7 +2757,7 @@ id,text,label
 2755,How many trees go into paper making in a year ,NUM
 2756,Where can I find info on research being done on oilseeds thru genetics ,LOC
 2757,How come light bulbs go out ,DESC
-2758,For what reason did the Shea & Gould law firm close their L.A. office ,DESC
+2758,For what reason did the Shea & Gould law firm close their LA office ,DESC
 2759,How far out is the universe ,NUM
 2760,What is the difference between a bottle and a jar ,DESC
 2761,What disease is the second-biggest killer of North Americans ,ENTY
@@ -2765,7 +2765,7 @@ id,text,label
 2763,Where was Poe born ,LOC
 2764,What happens to the female body with lack of sleep and food ,DESC
 2765,What is a fear of crystals or glass ,ENTY
-2766,Name a product that controls the ripening of apples .,ENTY
+2766,Name a product that controls the ripening of apples ,ENTY
 2767,How many warmup pitches does a reliever get coming into a baseball game ,NUM
 2768,Where did Dylan Thomas die ,LOC
 2769,What common livestock have the greatest variety of breeds ,ENTY
@@ -2789,7 +2789,7 @@ id,text,label
 2787,How does a hurricane form ,DESC
 2788,What does the donation process entail ,DESC
 2789,How far is it from Phoenix to Blythe ,NUM
-2790,What New Hampshire hamlet rises early to vote first in U.S. presidential elections ,LOC
+2790,What New Hampshire hamlet rises early to vote first in US presidential elections ,LOC
 2791,How many people watch network television ,NUM
 2792,What garment was named for Bradley ,ENTY
 2793,Who first broke the sound barrier ,HUM
@@ -2853,9 +2853,9 @@ id,text,label
 2851,What is a virtual IP address ,DESC
 2852,What s the name of the tiger that advertises for Frosted Flakes cereal ,ENTY
 2853,Who sent the brief message  I came ,HUM
-2854,What color is Mr. Spock s blood ,ENTY
-2855,What U.S. Air Force general led the first bombing raid over Tokyo ,HUM
-2856,What U.S. vice-president said :  Some newspapers dispose of their garbage by printing it  ,HUM
+2854,What color is Mr Spock s blood ,ENTY
+2855,What US Air Force general led the first bombing raid over Tokyo ,HUM
+2856,What US vice-president said :  Some newspapers dispose of their garbage by printing it  ,HUM
 2857,What was the name of the first Watergate special prosecutor ,HUM
 2858,How do movie blues screens work ,DESC
 2859,How does the speed the magnet spins in a generator affect the output of the generator ,DESC
@@ -2901,7 +2901,7 @@ id,text,label
 2899,Where can I find a lesson plan for teaching the metric system conversion to American standard ,LOC
 2900,What is the name of Kevin Costner s movie about Sioux Indians ,ENTY
 2901,What are Kythnos ,DESC
-2902,Name a female figure skater .,HUM
+2902,Name a female figure skater ,HUM
 2903,Why are there no white lines on pro footballs ,DESC
 2904,How long would it take for a $ savings bond to mature ,NUM
 2905,How is Abigail Arcane related to the villainous opponent of the Swamp Thing ,DESC
@@ -2941,7 +2941,7 @@ id,text,label
 2939,What is the brand name of the chemical daminozide ,ENTY
 2940,How do microwaves work ,DESC
 2941,What magazine paid Ernest Hemingway $15 a word to write a bullfighting article ,ENTY
-2942,What is the estimated total U.S. whitetail deer population ,NUM
+2942,What is the estimated total US whitetail deer population ,NUM
 2943,Who wrote the Farmer s Almanac ,HUM
 2944,What animal received royal assent as an emblem of Canada on March 24 ,ENTY
 2945,What number is at 12 o clock on a dartboard ,NUM
@@ -2970,7 +2970,7 @@ id,text,label
 2968,What is the fine for having a dog on a beach ,NUM
 2969,Who wrote the book ,HUM
 2970,Where can one find information on religion and health ,LOC
-2971,Name the Ranger who was always after Yogi Bear .,HUM
+2971,Name the Ranger who was always after Yogi Bear ,HUM
 2972,What TV show did John Sebastian sing the theme for ,ENTY
 2973,Who is the president of the Spanish government ,HUM
 2974,Who holds the career record for the most major league home runs ,HUM
@@ -2994,7 +2994,7 @@ id,text,label
 2992,What made Jane Goodall famous ,DESC
 2993,At what age did Rossini stop writing opera ,NUM
 2994,What Russian seaport has a name meaning  Lord of the East  ,LOC
-2995,Name the two actress daughters of John Mills .,HUM
+2995,Name the two actress daughters of John Mills ,HUM
 2996,How old was Gene Siskel ,NUM
 2997,What can be done about snoring ,DESC
 2998,What Rocky Mountain ridge separates North America s eastward and westward-flowing rivers ,LOC
@@ -3057,7 +3057,7 @@ id,text,label
 3055,What does the term 3 mean to a newspaper editor ,DESC
 3056,What company makes impulse hardening equipment ,HUM
 3057,What country was Kim Philby really working for ,LOC
-3058,What does Freddy Freeman say to become Captain Marvel Jr. ,DESC
+3058,What does Freddy Freeman say to become Captain Marvel Jr ,DESC
 3059,What country was Hitler the chancellor of ,LOC
 3060,What is Rona Barrett s married name ,HUM
 3061,How many years make up a lustrum ,NUM
@@ -3065,7 +3065,7 @@ id,text,label
 3063,Who is the mathematician that won the Noble Prize for Literature in 1950 ,HUM
 3064,Which glamorous actress is a close friend of Dick Tracy ,HUM
 3065,What 1956 Grace Metalious novel was on the best-seller list for two years ,ENTY
-3066,Name the three races unleashed by the Celestials in Marvel comics .,HUM
+3066,Name the three races unleashed by the Celestials in Marvel comics ,HUM
 3067,How old is the Italian artist Maurizio Pellegrin ,NUM
 3068,What President hit the jogging paths to enhance his athletic image and ,HUM
 3069,What is the distinction of Erle Stanley Gardner s The Case of the Terrified Typist ,DESC
@@ -3073,11 +3073,11 @@ id,text,label
 3071,When was the NFL established ,NUM
 3072,Where can I find an Ask An Expert site ,LOC
 3073,What writer-journalist made his mark describing colorful Broadway and underworld characters ,HUM
-3074,What U.S. state has the lowest highest elevation at 6 feet ,LOC
+3074,What US state has the lowest highest elevation at 6 feet ,LOC
 3075,What are the residents of the island of Lesbos called ,HUM
 3076,What is the organizational structure of the New Delhi Indira Gandhi airport ,ENTY
 3077,At Christmas time ,ENTY
-3078,What baseball great plugged Mr. Coffee ,HUM
+3078,What baseball great plugged Mr Coffee ,HUM
 3079,What international amateur sports spectacle was first telecast in 1956 ,ENTY
 3080,What is the origin of the word  amen  ,DESC
 3081,Who s baby was Sweet Pea on the Popeye cartoon ,HUM
@@ -3088,17 +3088,17 @@ id,text,label
 3086,What interesting method was used to run the credits in the early Popeye cartoons ,ENTY
 3087,What are the stars made of ,ENTY
 3088,What English physician was born on January 18 ,HUM
-3089,Who did Arthur H. Bremer try to assassinate on May 15 ,HUM
+3089,Who did Arthur H Bremer try to assassinate on May 15 ,HUM
 3090,How fast must a spacecraft travel to escape Earth s gravity ,NUM
 3091,What apostle is Taylor Caldwell s Great Lion of God ,HUM
 3092,How many rings are there on a five-zone archery target ,NUM
 3093,What anesthetic did Queen Victoria allow to be used for the birth of her seventh child ,ENTY
 3094,What element ,ENTY
 3095,What is a tonne ,DESC
-3096,Which one of the Great Lakes is entirely within U.S. territory ,LOC
+3096,Which one of the Great Lakes is entirely within US territory ,LOC
 3097,What is DEET ,ABBR
 3098,What company sells the most greeting cards ,HUM
-3099,What U.S. state has sagebrush as its state flower ,LOC
+3099,What US state has sagebrush as its state flower ,LOC
 3100,What is the Bernoulli Principle ,DESC
 3101,What s comic strip photographer Peter Parker s secret identity ,HUM
 3102,What is difference between a poster and a print ,DESC
@@ -3119,7 +3119,7 @@ id,text,label
 3117,When is the Sun closest to the Earth ,NUM
 3118,What are some chemical properties of mendelevium ,DESC
 3119,What is the average hours per months spent online by AOL users ,NUM
-3120,Whom did Friz Freleng add to the Warner Bros. cartoon ranks ,HUM
+3120,Whom did Friz Freleng add to the Warner Bros cartoon ranks ,HUM
 3121,What is the origin of the word  sideburns  ,DESC
 3122,The trials resulting from World War II are known as what ,ENTY
 3123,What started in 1849 when gold was discovered at Sutter s Mill ,ENTY
@@ -3131,7 +3131,7 @@ id,text,label
 3129,What two Japanese cities are spelled with the letters K ,LOC
 3130,What does laser stand for ,DESC
 3131,Who taught Matt Murdock to use his extraordinary abilities in Marvel comics ,HUM
-3132,Where did Wile E. Coyote always get his devices ,LOC
+3132,Where did Wile E Coyote always get his devices ,LOC
 3133,How far away is the moon ,NUM
 3134,What famous film and TV cowboy lent his name to a fast food chain ,HUM
 3135,What is mandibulofacial dysostosis ,DESC
@@ -3148,7 +3148,7 @@ id,text,label
 3146,When did Amtrak begin operations ,NUM
 3147,How many bones are in the human hand ,NUM
 3148,How many chemical elements are there ,NUM
-3149,What eastern state sprouted the first commercial nuclear power plant in the U.S. ,LOC
+3149,What eastern state sprouted the first commercial nuclear power plant in the US ,LOC
 3150,What are the three most populated countries in the world ,LOC
 3151,Who led the opposition when Konrad Adenauer was Chancellor in Germany ,HUM
 3152,What is the current population for these countries : France ,NUM
@@ -3167,7 +3167,7 @@ id,text,label
 3165,What s a male witch called ,ENTY
 3166,How long does cocaine stay in your system ,NUM
 3167,What two countries fought the Hundred Years  War ,LOC
-3168,Who was the last U.S. president to reinstate Selective Service registration ,HUM
+3168,Who was the last US president to reinstate Selective Service registration ,HUM
 3169,On which dates does the running of the bulls occur in Pamplona ,NUM
 3170,What was the name of the lawyer who represented Randy Steven Craft ,HUM
 3171,What happens to used motor oil ,DESC
@@ -3196,8 +3196,8 @@ id,text,label
 3194,What food of the three bears did Goldilocks eat ,ENTY
 3195,What is Boston Kreme ,DESC
 3196,Who should I call to get a tour of the New York Stock Exchange ,HUM
-3197,How many airline schools are there in the U.S. ,NUM
-3198,What U.S. general died December 1 ,HUM
+3197,How many airline schools are there in the US ,NUM
+3198,What US general died December 1 ,HUM
 3199,What is a swatch ,DESC
 3200,What does Ouija mean ,DESC
 3201,How many major Nazi leaders went on trial after the war at Nuremberg ,NUM
@@ -3209,7 +3209,7 @@ id,text,label
 3207,What year is etched on the Gold Medal of Excellence from the Paris Exposition depicted on a can of Campbell s tomato soup ,NUM
 3208,What country s royal house is Bourbon-Parma ,LOC
 3209,What film was Jude Law in ,ENTY
-3210,Who portrayed W.C. Fields in the film W.C. Fields and Me ,HUM
+3210,Who portrayed WC Fields in the film WC Fields and Me ,HUM
 3211,What were the ceremony traditions like during the Elizabethian times ,ENTY
 3212,Which college did Dikembe Mutombo play basketball at ,HUM
 3213,What is a fear of going to bed ,ENTY
@@ -3226,14 +3226,14 @@ id,text,label
 3224,What does the theory of quantum leaps mean in simpler terms ,DESC
 3225,What is a bone marrow transplant ,DESC
 3226,What is the difference between a classical and an acoustic guitar ,DESC
-3227,What African capital is named for a U.S. president ,LOC
+3227,What African capital is named for a US president ,LOC
 3228,What is the name of a language spoken by the Sioux ,ENTY
 3229,What Mediterranean island is home to the first Club Med ,LOC
 3230,What does an edentulous smile lack ,ENTY
 3231,What is a fear of jealousy ,ENTY
 3232,Where can you find the Venus flytrap ,LOC
 3233,What is the largest sculpture in the world ,ENTY
-3234,When was John D. Rockefeller born ,NUM
+3234,When was John D Rockefeller born ,NUM
 3235,What building built in 18 contains 327 miles of book shelves ,LOC
 3236,What is home banking ,DESC
 3237,What William Makepeace Thackeray novel was made into a film by Stanley Kubrick ,ENTY
@@ -3243,7 +3243,7 @@ id,text,label
 3241,How do you stop junk snail mail ,DESC
 3242,What future Soviet dictator was training to be a priest when he got turned on to Marxism ,HUM
 3243,How long does James Bond like his eggs boiled ,NUM
-3244,What U.S. city s skyline boasts the Gateway Arch ,LOC
+3244,What US city s skyline boasts the Gateway Arch ,LOC
 3245,Where is Belize located ,LOC
 3246,What s the common name for a Japanese dwarf tree ,ENTY
 3247,What did Thomas Paine write ,ENTY
@@ -3260,12 +3260,12 @@ id,text,label
 3258,What causes rust ,DESC
 3259,What is the fear of the computer called ,ENTY
 3260,What is a technique popularly used to detect birth defects ,ENTY
-3261,What U.S. state boasts Stone Mountain ,LOC
+3261,What US state boasts Stone Mountain ,LOC
 3262,What British commander surrendered to George Washington at Yorktown in 1781 ,HUM
 3263,What according to the Kinsey Institute ,DESC
 3264,Who created the World Wide Web ,HUM
 3265,What is the procedure called for drilling a hole in your skull to acheive a higher consciousness ,ENTY
-3266,What is the name of the president of Garmat U.S.A ,HUM
+3266,What is the name of the president of Garmat USA ,HUM
 3267,What was the name of the television show ,ENTY
 3268,Who were leaders of the Byzantine empire ,HUM
 3269,Who was the first President to appoint a woman to head a cabinet ,HUM
@@ -3276,8 +3276,8 @@ id,text,label
 3274,What Italian city of 155 were Leonardo da Vinci ,LOC
 3275,What color tennis balls are used at Wimbledon ,ENTY
 3276,What is a 2-sided object called ,ENTY
-3277,Name a French fascist party .,HUM
-3278,Name the French historical period during the reign of Napoleon III .,ENTY
+3277,Name a French fascist party ,HUM
+3278,Name the French historical period during the reign of Napoleon III ,ENTY
 3279,What movie has made the most money ,ENTY
 3280,What is time ,DESC
 3281,How many states have a lottery ,NUM
@@ -3300,7 +3300,7 @@ id,text,label
 3298,What does MSG stand for ,ABBR
 3299,On what avenue is the original Saks department store located ,LOC
 3300,Where does the song Anything Goes take place ,LOC
-3301,Where was the first zoo in the U.S. ,LOC
+3301,Where was the first zoo in the US ,LOC
 3302,How far is Yaroslavl from Moscow ,NUM
 3303,What is April s gemstone ,ENTY
 3304,What is the present Pope named ,HUM
@@ -3316,8 +3316,8 @@ id,text,label
 3314,What sport is known for hooligans ,ENTY
 3315,Who was the Columbia Pictures head who forged actor Cliff Robertson s name on a $1 ,HUM
 3316,Who was Damocles ,HUM
-3317,What sport was the first televised in the U.S. ,ENTY
-3318,Name Dondi s adoptive grandfather .,HUM
+3317,What sport was the first televised in the US ,ENTY
+3318,Name Dondi s adoptive grandfather ,HUM
 3319,When was the Congress of Vienna ,NUM
 3320,What are the lyrics to  Smelly Cat  ,DESC
 3321,How much folic acid should a pregnant woman get each day ,NUM
@@ -3341,8 +3341,8 @@ id,text,label
 3339,Why is the moon different sizes and colors ,DESC
 3340,What college enlivens Hanover ,HUM
 3341,What does VCR stand for ,ABBR
-3342,How close a cousin was Franklin D. to Theodore Roosevelt ,DESC
-3343,Name a novel written by John Steinbeck .,ENTY
+3342,How close a cousin was Franklin D to Theodore Roosevelt ,DESC
+3343,Name a novel written by John Steinbeck ,ENTY
 3344,Who was the first American citizen awarded the Albert Medal of the Society of Arts ,HUM
 3345,What doctor is synonymous with footwear and foot care ,HUM
 3346,How do boats float ,DESC
@@ -3358,7 +3358,7 @@ id,text,label
 3356,Who invented the lawnmower ,HUM
 3357,Where can I find lyrics for R&B ,LOC
 3358,What is the name of David Letterman s dog ,ENTY
-3359,What U.S. senator once played basketball for the New York Knicks ,HUM
+3359,What US senator once played basketball for the New York Knicks ,HUM
 3360,What are the titles of some R-Rated Sony Playstation games ,ENTY
 3361,What playing card symbolizes death ,ENTY
 3362,What is an urban legend ,DESC
@@ -3375,7 +3375,7 @@ id,text,label
 3373,Which thrilled taste buds first - Snickers or 3 Musketeers ,ENTY
 3374,What animal do buffalo wings come from ,ENTY
 3375,What is the purpose of the SysRq key on my computer keyboard ,DESC
-3376,When was Franklin D. Roosevelt stricken with polio ,NUM
+3376,When was Franklin D Roosevelt stricken with polio ,NUM
 3377,How do you find out what is allowed to claim as a contibution for income tax purposes ,DESC
 3378,How do you build a solar car for a high school experiment ,DESC
 3379,Where on the Internet can I get chemicals importers ,LOC
@@ -3461,7 +3461,7 @@ id,text,label
 3459,What is the name of the Family Circus s dog ,ENTY
 3460,What did Martin Luther post on the church door at Wittenberg ,ENTY
 3461,What is the meaning of the name Kathryn ,DESC
-3462,Name one of the major gods of Hinduism .,HUM
+3462,Name one of the major gods of Hinduism ,HUM
 3463,What country borders Denmark to the south ,LOC
 3464,What should you do for an ankle sprain ,DESC
 3465,What dropped 1 ,ENTY
@@ -3476,7 +3476,7 @@ id,text,label
 3474,How many neurons are in the human brain ,NUM
 3475,What is a fear of reptiles ,ENTY
 3476,What does Knight Ridder publish ,ENTY
-3477,What city is . KDGE Radio located in ,LOC
+3477,What city is  KDGE Radio located in ,LOC
 3478,What can one see in Reims ,ENTY
 3479,How is an executioner determined ,DESC
 3480,What city was Bobby Kennedy assassinated in ,LOC
@@ -3528,15 +3528,15 @@ id,text,label
 3526,What is a pig in a poke ,DESC
 3527,Where were the 196 Summer Olympics held ,LOC
 3528,Where is Los Vegas ,LOC
-3529,Name the country which Honecker lived in .,LOC
-3530,What U.S. state are the Finger Lakes in ,LOC
+3529,Name the country which Honecker lived in ,LOC
+3530,What US state are the Finger Lakes in ,LOC
 3531,What is a cullion ,DESC
 3532,What are the ten safest American cities for pedestrians ,LOC
 3533,What TV detective did Craig Stevens play ,HUM
-3534,What are the most common causes of death in the U.S. ,DESC
+3534,What are the most common causes of death in the US ,DESC
 3535,Where can I find a picture of a Blue Meanie ,LOC
 3536,What university fired Angela Davis ,HUM
-3537,What U.S. state does the Continental Divide leave to enter Canada ,LOC
+3537,What US state does the Continental Divide leave to enter Canada ,LOC
 3538,In the past 8 years who have the MVP players for the NHL been ,HUM
 3539,In AD 999 ,ENTY
 3540,Who played Emperor Palpatine in Star Wars ,HUM
@@ -3548,7 +3548,7 @@ id,text,label
 3546,What was the importance of Magellan ,DESC
 3547,When was the Brandenburg Gate in Berlin built ,NUM
 3548,What do I have to do to get good grades in school ,DESC
-3549,Whose husbands have included Conrad Hilton Jr. ,HUM
+3549,Whose husbands have included Conrad Hilton Jr ,HUM
 3550,What does the number  5  stand for on FUBU clothing ,ABBR
 3551,Who is King in Alley Oop s home of Moo ,HUM
 3552,What four tastes can a human distinguish ,ENTY
@@ -3572,7 +3572,7 @@ id,text,label
 3570,What are the  Star Wars  satellites ,DESC
 3571,Who is Henry Butler ,HUM
 3572,What debts did Qintex group leave ,NUM
-3573,Which U.S. President is buried in Washington ,HUM
+3573,Which US President is buried in Washington ,HUM
 3574,What is the term for someone who hates mankind ,ENTY
 3575,What did San Francisco s Milt Harper grow that measured 24 inches from tip to tip in 1974 ,ENTY
 3576,What college did Dikembe Mutombo play basketball for ,HUM
@@ -3615,7 +3615,7 @@ id,text,label
 3613,How many verses are in the Bible ,NUM
 3614,What is endometriosis ,DESC
 3615,What is a geoscientist ,DESC
-3616,What robust U.S. President imported his own instructor after seeing a judo match ,HUM
+3616,What robust US President imported his own instructor after seeing a judo match ,HUM
 3617,What are all the different types of pizza ,ENTY
 3618,From what cause does tuberculosis stem ,DESC
 3619,In what nation is Edessa located nowadays ,LOC
@@ -3639,9 +3639,9 @@ id,text,label
 3637,How can I give myself a French manicure ,DESC
 3638,Who was the first English circumnavigator of the globe ,HUM
 3639,What is the definition of the Scrabble word  syzygy  ,DESC
-3640,What is the salary of a U.S. Representative ,NUM
+3640,What is the salary of a US Representative ,NUM
 3641,Who made the largest cocaine seizure in Ventura County history ,HUM
-3642,What man-made waterways is 1.76 miles long ,LOC
+3642,What man-made waterways is 176 miles long ,LOC
 3643,Who liberated 19th century Sicily and Naples ,HUM
 3644,On what river is Strasbourg built ,LOC
 3645,What s the maximum length ,NUM
@@ -3666,11 +3666,11 @@ id,text,label
 3664,Where can I find up-to-date coastal ocean surface temperature information ,LOC
 3665,What exactly is radiation ,DESC
 3666,What are the two cities in Dicken s  A Tale of Two Cities  ,LOC
-3667,Who is Samuel F. Pickering ,HUM
+3667,Who is Samuel F Pickering ,HUM
 3668,What English queen had six fingers on one hand ,HUM
 3669,What river runs through Liverpool ,LOC
 3670,What kind of nuts are used in marzipan ,ENTY
-3671,When did Mount St. Helens last erupt ,NUM
+3671,When did Mount St Helens last erupt ,NUM
 3672,What does a polyorchid man have at least three of ,ENTY
 3673,What exactly ,DESC
 3674,When was child labor abolished ,NUM
@@ -3688,7 +3688,7 @@ id,text,label
 3686,What color is most often used to symbolize truth ,ENTY
 3687,Stuart Hamblen is considered to be the first singing cowboy of what ,ENTY
 3688,What was the Great Britain population from 1699-172 ,NUM
-3689,How can a foreigner get a U.S. Social Security card ,DESC
+3689,How can a foreigner get a US Social Security card ,DESC
 3690,What is the term for the sum of all genetic material in a given organism ,ENTY
 3691,What is the best-selling television soundtrack of all time ,ENTY
 3692,What mountain range marks the border of France and Spain ,LOC
@@ -3715,7 +3715,7 @@ id,text,label
 3713,What was Thatcher s first name ,HUM
 3714,How do I get my LAN card activated so that it can hook up to another computer without using a HUB ,DESC
 3715,What do insects do through their spiracles ,DESC
-3716,Name the fast food chain with the golden arches .,HUM
+3716,Name the fast food chain with the golden arches ,HUM
 3717,What are the languages spoken by the natives in Afghanistan ,ENTY
 3718,What is the origin of Boxing Day ,DESC
 3719,What Robert Louis Stevenson novel was inspired by Deacon William Brodie ,ENTY
@@ -3772,8 +3772,8 @@ id,text,label
 3770,What is the name of the deranged super-criminal Otto Octavius uses ,HUM
 3771,Whose acceptance speech of more than 3 minutes prompted a time limit on Academy Award thank-yous ,HUM
 3772,How much Coca Cola is drunk in one day in the world ,NUM
-3773,Name the tree growing company .,HUM
-3774,What is Dr. Seuss  most popular book ,ENTY
+3773,Name the tree growing company ,HUM
+3774,What is Dr Seuss  most popular book ,ENTY
 3775,How does food color affect how you think it will taste ,DESC
 3776,Where did the world come from ,LOC
 3777,What does verdandi mean ,DESC
@@ -3790,15 +3790,15 @@ id,text,label
 3788,What is Shirley MacLaine known as ,ENTY
 3789,How is plastic made ,DESC
 3790,What are the 7 principles of learning from the Institute for Research on Learning ,ENTY
-3791,What book was F. Scott Fitzgerald working on when he died in Hollywood in 194 ,ENTY
+3791,What book was F Scott Fitzgerald working on when he died in Hollywood in 194 ,ENTY
 3792,How do ants have sex ,DESC
-3793,Which former Ku Klux Klan member won an elected office in the U.S. ,HUM
+3793,Which former Ku Klux Klan member won an elected office in the US ,HUM
 3794,What is the length of border between the Ukraine and Russia ,NUM
 3795,What is HDLC ,ABBR
 3796,What joins white wine to put the spritz in a Spritzer ,ENTY
 3797,What is a nematode ,DESC
 3798,What is the meaning of  CPR  ,DESC
-3799,What color are seven of every 10 houses in the U.S. ,ENTY
+3799,What color are seven of every 10 houses in the US ,ENTY
 3800,What does a phobophobe fear ,ENTY
 3801,What is capitalism according to Max Weber ,DESC
 3802,What country has the highest arson rate ,LOC
@@ -3811,7 +3811,7 @@ id,text,label
 3809,What task does the Bouvier breed of dog perform ,HUM
 3810,What is the average time to kiss somene ,NUM
 3811,What are the top five oil-producing countries in the world ,LOC
-3812,What New Orleans D.A. claimed :  My staff and I solved the assassination weeks ago  ,HUM
+3812,What New Orleans DA claimed :  My staff and I solved the assassination weeks ago  ,HUM
 3813,Where can one find Rider College ,LOC
 3814,How much caffeine is in a 16 oz cup of coffee ,NUM
 3815,Why do oceans contain salt water instead of fresh water ,DESC
@@ -3908,7 +3908,7 @@ id,text,label
 3906,What was the name of Randy Craft s lawyer ,HUM
 3907,What is  cat scratch fever  ,DESC
 3908,Kosovo is a province of what country ,LOC
-3909,What New England state covers 5.9 square miles ,LOC
+3909,What New England state covers 59 square miles ,LOC
 3910,What is the abbreviation for Original Equipment Manufacturer ,ABBR
 3911,Hitler came to power in Germany in what year ,NUM
 3912,Who markets Spaghetti-o s ,HUM
@@ -3922,7 +3922,7 @@ id,text,label
 3920,What is the horsepower of the shuttle boosters ,NUM
 3921,What is predicted to topple over between 2010 and 2020 ,ENTY
 3922,How do wasps make their nests ,DESC
-3923,When was General Manuel Noriega ousted as the leader of Panama and turned over to U.S. authorities ,NUM
+3923,When was General Manuel Noriega ousted as the leader of Panama and turned over to US authorities ,NUM
 3924,How many years of bad luck follow breaking a mirror ,NUM
 3925,What kind of crystals exist ,ENTY
 3926,Which is the best opening move in chess ,ENTY
@@ -3935,21 +3935,21 @@ id,text,label
 3933,How come a doughnut has a hole in it ,DESC
 3934,What happened to Pompeii ,DESC
 3935,What does a farrier put shoes on ,ENTY
-3936,Name a Sioux language .,ENTY
+3936,Name a Sioux language ,ENTY
 3937,What does saliva consist of ,ENTY
 3938,What is Jimmy Olsen s full name ,HUM
 3939,How many people have died of tuberculosis ,NUM
 3940,What is another name for nearsightedness ,ENTY
 3941,How many days does a typical mayfly live ,NUM
 3942,What famous New York City mayor wrote the hit song ,HUM
-3943,What Russian city used to be called St. Petersburg and Petrograd ,LOC
+3943,What Russian city used to be called St Petersburg and Petrograd ,LOC
 3944,What is the definition of a witch ,DESC
 3945,What are the cookies in Internet ,DESC
 3946,How many votes in Congress dissented from the 1941 declaration of war with Japan ,NUM
 3947,Who is Pia Zadora s millionaire husband and mentor ,HUM
-3948,What U.S. President was the first to breed mules ,HUM
+3948,What US President was the first to breed mules ,HUM
 3949,What is the difference between molecules and compounds ,DESC
-3950,What astronomer-architect designed the present St. Paul s Cathedral in London ,HUM
+3950,What astronomer-architect designed the present St Paul s Cathedral in London ,HUM
 3951,Why are so many umbrellas black ,DESC
 3952,What feminist wrote Sexual Politics and Flying ,HUM
 3953,Who was the first American world chess champion ,HUM
@@ -3957,7 +3957,7 @@ id,text,label
 3955,Who was the last woman executed in England ,HUM
 3956,How many school districts are there in the United States ,NUM
 3957,How long did the Paris Commune hold out for against the rest of France ,NUM
-3958,What university football team did O.J. Simpson take to the Rose Bowl ,HUM
+3958,What university football team did OJ Simpson take to the Rose Bowl ,HUM
 3959,What does snafu stand for ,ABBR
 3960,What color is Chablis ,ENTY
 3961,What NFL team did Vince Lombardi end his coaching career with ,HUM
@@ -3980,7 +3980,7 @@ id,text,label
 3978,Where can I get piano music for the Jamiroquai song Everyday for the midi ,LOC
 3979,Why is Microsoft s Windows 3 such a successful computer program ,DESC
 3980,What country s capital was formed when Pesth and Buda merged ,LOC
-3981,What is the origin of U.S. Army sergeant s stripes ,DESC
+3981,What is the origin of US Army sergeant s stripes ,DESC
 3982,What is proposition 98 about ,DESC
 3983,What town was the setting for The Music Man ,LOC
 3984,What was Simple Simon fishing for in his mother s pail ,ENTY
@@ -3992,11 +3992,11 @@ id,text,label
 3990,What kind of sports did they play in the years 1642-1649 ,ENTY
 3991,Where can I find scientific data ,LOC
 3992,What makes salt ,DESC
-3993,How many people die from snakebite poisoning in the U.S. per year ,NUM
+3993,How many people die from snakebite poisoning in the US per year ,NUM
 3994,How high is the city of Denver ,NUM
 3995,Who was International Olympic Committee chairman at the 1936 Summer Games ,HUM
 3996,When was Florida admitted into the Union ,NUM
-3997,What company has built more than 2.5 billion little green houses since 1935 ,HUM
+3997,What company has built more than 25 billion little green houses since 1935 ,HUM
 3998,How many times a year does the American Gourd Society publish The Gourd ,NUM
 3999,Where can I read about Abraham Lincoln ,LOC
 4000,What will the increase be in the California gas tax by 2000 ,NUM
@@ -4020,7 +4020,7 @@ id,text,label
 4018,What does it take to become a lawyer ,ENTY
 4019,What American sergeant lost both of his hands in combat during World War II and then went on to act in a single movie for which he won two Oscars ,HUM
 4020,Who invented the fountain ,HUM
-4021,What room did W.C. Fields keep his library in ,LOC
+4021,What room did WC Fields keep his library in ,LOC
 4022,What causes an earthquake ,DESC
 4023,What Batman character tools around on a Batcycle ,HUM
 4024,What are the main blood vessels ,ENTY
@@ -4032,18 +4032,18 @@ id,text,label
 4030,How many years of schooling after highschool does it take to become a neurosurgeon ,NUM
 4031,What are the top vegetable crops in the world ,ENTY
 4032,What volcano showers ash on Sicily ,LOC
-4033,Where are the U.S. headquarters for Procter & Gamble ,LOC
+4033,Where are the US headquarters for Procter & Gamble ,LOC
 4034,Why did the Aztecs first think the Spanish were Gods ,DESC
 4035,What are the rules to  snow golf  ,DESC
-4036,What does Warner Bros. call a flightless cuckoo ,ENTY
-4037,When did Mount St. Helen last have a major eruption ,NUM
+4036,What does Warner Bros call a flightless cuckoo ,ENTY
+4037,When did Mount St Helen last have a major eruption ,NUM
 4038,How do you say  eat the day  in Latin ,ENTY
 4039,What are super balls made of ,ENTY
 4040,What s the name of Tom Sawyer s aunt with whom he lives ,HUM
 4041,What is the fastest-growing comic strip of all time ,ENTY
 4042,Which member of the Micronauts spent 1 years traveling the Microverse in the Marvel comics ,HUM
 4043,What doctor claimed in a 1946 book :  There is no such thing as a bad boy  ,HUM
-4044,How long has L.L. Cool J. been married ,NUM
+4044,How long has LL Cool J been married ,NUM
 4045,How much did a knight s armor weigh ,NUM
 4046,What comedian created a punch-drunk pugilist named Cauliflower McPugg ,HUM
 4047,What is the movie Jonathan Livingstone Seagull ,ENTY
@@ -4053,7 +4053,7 @@ id,text,label
 4051,What is ouzo ,DESC
 4052,What race is 1 ,ENTY
 4053,What is the capital of Uruguay ,LOC
-4054,What does the T.S. stand for in T.S. Eliot s name ,ABBR
+4054,What does the TS stand for in TS Eliot s name ,ABBR
 4055,How long is the world s largest ship ,NUM
 4056,Who is William Wordsworth ,HUM
 4057,What is making love ,DESC
@@ -4062,7 +4062,7 @@ id,text,label
 4060,What are the largest deserts in the world ,LOC
 4061,Where is Qatar ,LOC
 4062,Why are peanut butter cookies topped with crisscrosses ,DESC
-4063,What is the richest state in the U.S. ,LOC
+4063,What is the richest state in the US ,LOC
 4064,Who is the prime minister in Norway ,HUM
 4065,What is a urologist ,DESC
 4066,What actress starred in  The Lion in Winter  ,HUM
@@ -4085,10 +4085,10 @@ id,text,label
 4083,Where is the Thomas Edison Museum ,LOC
 4084,What was the first minimum wage ,NUM
 4085,What is the name of the highest mountain in Africa ,LOC
-4086,What mountain range extends from the Gulf of St. Lawrence to Alabama ,LOC
+4086,What mountain range extends from the Gulf of St Lawrence to Alabama ,LOC
 4087,How many types of lemurs are there ,NUM
 4088,What are some colorful flowers that will bloom in the fall in New England ,ENTY
-4089,What s the second-most-used murder weapon in the U.S. ,ENTY
+4089,What s the second-most-used murder weapon in the US ,ENTY
 4090,What businesses or agencies would do an employment verification ,HUM
 4091,What famous coach said  if you can t beat em in the alley ,HUM
 4092,What onetime member of Ronald Reagan s cabinet called federal policy toward Indians  an example of the failure of socialism  ,HUM
@@ -4158,7 +4158,7 @@ id,text,label
 4156,How long was the longest sneezing attack ,NUM
 4157,How can I get rich quick ,DESC
 4158,How is the word  qigong  pronounced ,DESC
-4159,What program do I need to run a .tbk file ,ENTY
+4159,What program do I need to run a tbk file ,ENTY
 4160,What is the seafaring name for the southern tip of South America ,LOC
 4161,What two New York Yankee pitchers swapped wives and families ,HUM
 4162,What are the 10 plagues of Egypt ,ENTY
@@ -4178,9 +4178,9 @@ id,text,label
 4176,How can I get someone s email address ,DESC
 4177,What chapter of the Bible has the most verses ,NUM
 4178,What ocean did the Titanic sink in ,LOC
-4179,How did P.T. Barnum bill the diminutive Charles S. Stratton ,DESC
+4179,How did PT Barnum bill the diminutive Charles S Stratton ,DESC
 4180,In what year was the Wall built ,NUM
-4181,Name one of King Henry VIII s wives .,HUM
+4181,Name one of King Henry VIII s wives ,HUM
 4182,What southwestern state is dubbed The Silver State ,LOC
 4183,What are pomegranates ,DESC
 4184,Why do pharmacists work on raised floors ,DESC
@@ -4194,7 +4194,7 @@ id,text,label
 4192,In order from the top ,ENTY
 4193,What kind of substance is dextropropoxyphen napsylate ,ENTY
 4194,Who is the French literary charcter who is chiefly famous for his enormous nose ,HUM
-4195,What were first used by John L. Sullivan and James J. Corbett in 1892 ,ENTY
+4195,What were first used by John L Sullivan and James J Corbett in 1892 ,ENTY
 4196,What country surrounds San Marino ,LOC
 4197,Who killed Martin Luther King ,HUM
 4198,Who owns the rights on a TV program ,HUM
@@ -4204,7 +4204,7 @@ id,text,label
 4202,What letter does Gorbachev s middle name start with ,ENTY
 4203,Who invented Astroturf ,HUM
 4204,What makes you fat ,DESC
-4205,Name a flying mammal .,ENTY
+4205,Name a flying mammal ,ENTY
 4206,What season does a hiemal activity normally take place in ,NUM
 4207,What direction do the best surfing beaches face ,LOC
 4208,What is the world record for the longest hair ,NUM
@@ -4262,7 +4262,7 @@ id,text,label
 4260,What was the claim to fame of Explorer I ,DESC
 4261,In the song  Yankee Doodle ,DESC
 4262,What do the letters CE stand for on so many products ,ABBR
-4263,Where did the real St. Nicholas live ,LOC
+4263,Where did the real St Nicholas live ,LOC
 4264,Who manufactures the software ,HUM
 4265,How many eyes does a bat have ,NUM
 4266,How do you say 2 in Latin ,ENTY
@@ -4272,7 +4272,7 @@ id,text,label
 4270,Who was the second man to walk on the moon ,HUM
 4271,What is power steering ,DESC
 4272,Where did Dikembe Mutombo go to college ,LOC
-4273,What author was appointed U.S. ambassador to Spain in 1842 ,HUM
+4273,What author was appointed US ambassador to Spain in 1842 ,HUM
 4274,What body of water does the Yukon River empty into ,LOC
 4275,Who is Westview High s band director in Funky Winkerbean ,HUM
 4276,How does a chick breathe inside an egg ,DESC
@@ -4283,7 +4283,7 @@ id,text,label
 4281,What kind of fruit is a Yellow Transparent ,ENTY
 4282,What song put James Taylor in the limelight ,ENTY
 4283,What drink is formed of tequila ,ENTY
-4284,Name four comic strips about pilots .,ENTY
+4284,Name four comic strips about pilots ,ENTY
 4285,What geological time do we live in ,NUM
 4286,How do you dunk ,DESC
 4287,Where is the massive North Korean nuclear complex located ,LOC
@@ -4308,7 +4308,7 @@ id,text,label
 4306,Who is the director of the international group called the Human Genome Organization ,HUM
 4307,What radio station did Paul Harvey work for ,HUM
 4308,What character narrates Treasure Island ,HUM
-4309,What is the correct way to abbreviate cc. at the bottom of a business letter ,ABBR
+4309,What is the correct way to abbreviate cc at the bottom of a business letter ,ABBR
 4310,Who starred with Charlie Chaplin in Modern Times and The Great Dictator ,HUM
 4311,What seven digits follow the area code in the number for long distance information ,NUM
 4312,What Catch-22 character is elected mayor of half a dozen Italian cities ,HUM
@@ -4325,17 +4325,17 @@ id,text,label
 4323,What is InterLata Internet service ,DESC
 4324,Who is the director and editor of the movie Big starring Tom Hanks ,HUM
 4325,What is the  fourth dimension  ,DESC
-4326,What is the Homelite Inc. home page ,LOC
+4326,What is the Homelite Inc home page ,LOC
 4327,How old was Stevie Wonder when he signed with Motown Records ,NUM
 4328,What is  alternative  anymore ,DESC
 4329,Why do they call a hamburger a hamburger when there is no ham ,DESC
 4330,Who won two gold medals in skiing in the Olympic Games in Calgary ,HUM
 4331,What year was the Avery Dennison company founded ,NUM
-4332,Where does the U.S. rank among world countries in area ,NUM
+4332,Where does the US rank among world countries in area ,NUM
 4333,What are the four railways in Monopoly ,HUM
 4334,What are the names of all the seas in the world and what ocean do they drain into ,LOC
 4335,What does BMW stand for ,ABBR
-4336,Name the highest mountain .,LOC
+4336,Name the highest mountain ,LOC
 4337,What is a biologist ,DESC
 4338,What revelation did Alexander Butterfield make to the Senate Watergate committee ,DESC
 4339,What island is home to statues called Mauis ,LOC
@@ -4384,11 +4384,11 @@ id,text,label
 4382,What future deer hunter portrayed Annie Hall s neurotic brother ,HUM
 4383,What drink is the best thirst-quencher ,ENTY
 4384,Where can I get a map of Prussia on the Internet ,LOC
-4385,What was the longest war in U.S. history ,ENTY
+4385,What was the longest war in US history ,ENTY
 4386,What is a  node  in computer terms ,DESC
 4387,What are the five richest countries in the world ,LOC
 4388,Where is McCarren Airport ,LOC
-4389,What are the top boy names in the U.S. ,HUM
+4389,What are the top boy names in the US ,HUM
 4390,How many tiles did the Space Shuttle Columbia lose on its second flight ,NUM
 4391,How many teaspoons make up a tablespoon ,NUM
 4392,Who was the lyricist and who was the composer between Gilbert and Sullivan ,HUM
@@ -4396,7 +4396,7 @@ id,text,label
 4394,What is the origin of the word Marijuana ,DESC
 4395,Who was the 3rd president of the United States ,HUM
 4396,What organ contains the islands of Langerhans ,ENTY
-4397,Name Dick Tracy s two children .,HUM
+4397,Name Dick Tracy s two children ,HUM
 4398,What is a fear of points ,ENTY
 4399,What fraction of a beaver s life is spent swimming ,NUM
 4400,How can SQL queries be improved ,DESC
@@ -4406,7 +4406,7 @@ id,text,label
 4404,Who gave King Arthur the round table ,HUM
 4405,What state in the United States covers the largest area ,LOC
 4406,How do you make a computer chip ,DESC
-4407,Who became president of the U.S. in 1789 ,HUM
+4407,Who became president of the US in 1789 ,HUM
 4408,Who wrote  The Scarlet Letter  ,HUM
 4409,Who did Sara Jane Moore try to assassinate ,HUM
 4410,What is Linux ,DESC
@@ -4418,8 +4418,8 @@ id,text,label
 4416,Which king signed the Magna Carta ,HUM
 4417,What software offers inventors use of CAD-like design ,ENTY
 4418,What is agent orange ,DESC
-4419,Name the child left on a doorstep at the beginning of Gasoline Alley .,HUM
-4420,How many zip codes are there in the U.S. ,NUM
+4419,Name the child left on a doorstep at the beginning of Gasoline Alley ,HUM
+4420,How many zip codes are there in the US ,NUM
 4421,In Beetle Bailey ,ENTY
 4422,Why shouldn t you remove a bee stinger with tweezers ,DESC
 4423,Which college did Dikembe Mutombo play basketball for ,HUM
@@ -4454,12 +4454,12 @@ id,text,label
 4452,Who is Archie Bunker s son-in-law ,HUM
 4453,What company produces Spumante ,HUM
 4454,What is the origin of music ,DESC
-4455,What does  B.Y.O.B.  mean ,ABBR
+4455,What does  BYOB  mean ,ABBR
 4456,What major airline has the best safety record in the world ,HUM
 4457,What President became Chief Justice after his presidency ,HUM
 4458,How many innings constitute an official baseball game ,NUM
 4459,What city has a newspaper called The Plain Dealer ,LOC
-4460,What U.S. state boasts Leif Ericson Park ,LOC
+4460,What US state boasts Leif Ericson Park ,LOC
 4461,How many flavors does Baskin & Robbins offer ,NUM
 4462,Who was chief engineer of the Starship Enterprise ,HUM
 4463,How does crosstalk relate to InSb thickness in infrared detectors ,DESC
@@ -4479,7 +4479,7 @@ id,text,label
 4477,Who is the President of Ghana ,HUM
 4478,Which sex is denied voting rights in Kuwait ,ENTY
 4479,What two countries is Andorra nestled between ,LOC
-4480,How long ago was the Roe vs. Wade decision by the Supreme Court ,NUM
+4480,How long ago was the Roe vs Wade decision by the Supreme Court ,NUM
 4481,What terrorist group was headed by Donald DeFreeze ,HUM
 4482,What are the four largest mountain ranges in the continental United States ,LOC
 4483,What is the size of the student body at the University of Massachusetts in Amherst ,NUM
@@ -4487,7 +4487,7 @@ id,text,label
 4485,Who starred in the movie The War of the Worlds ,HUM
 4486,How many different kinds of ice cream are there ,NUM
 4487,What actor ,HUM
-4488,What is the Homelite Inc. home page ,LOC
+4488,What is the Homelite Inc home page ,LOC
 4489,What is the Golden Rule ,DESC
 4490,What is a movie that Kevin Costner made about Sioux Indians ,ENTY
 4491,What were millions of kids wearing on their heads in 1955 ,ENTY
@@ -4523,10 +4523,10 @@ id,text,label
 4521,What kind of rocket launched the Surveyor spacecraft ,ENTY
 4522,What country contains the westernmost point in South America ,LOC
 4523,What did Abolitionists try to end ,ENTY
-4524,What s the American dollar equivalent for 8 pounds in the U.K. ,NUM
+4524,What s the American dollar equivalent for 8 pounds in the UK ,NUM
 4525,Why should cigarette smoking be banned ,DESC
 4526,What year did Charles Dicken die ,NUM
-4527,What D.H. Lawrence novel was originally titled Tenderness ,ENTY
+4527,What DH Lawrence novel was originally titled Tenderness ,ENTY
 4528,What rock group raised a ruckus at the White House by singing American Woman ,HUM
 4529,What is a fear of night or darkness ,ENTY
 4530,What is the origin of the rock band Led Zeppelin s name ,DESC
@@ -4561,13 +4561,13 @@ id,text,label
 4559,The Jewish alphabet is called what ,ENTY
 4560,What are the Baltic States ,DESC
 4561,How many endangered species are there in the world ,NUM
-4562,Which large U.S. city had the highest murder rate for 1988 ,LOC
+4562,Which large US city had the highest murder rate for 1988 ,LOC
 4563,Who was the bandleader mentor of Ella Fitzgerald with whom she cowrote  A_Tisket ,HUM
 4564,Who invented basketball ,HUM
 4565,How has TV affected our society ,DESC
-4566,When was the last major eruption of Mount St. Helens ,NUM
+4566,When was the last major eruption of Mount St Helens ,NUM
 4567,What was the name of Humphrey Bogart s club in Casablanca ,HUM
-4568,What U.S. Government agency registers trademarks ,HUM
+4568,What US Government agency registers trademarks ,HUM
 4569,What is osmosis ,DESC
 4570,What format was the major competition of VHS ,ENTY
 4571,What hockey player did Ronald Reagan joke he would swap Texas for ,HUM
@@ -4614,7 +4614,7 @@ id,text,label
 4612,What is the first day of the week ,NUM
 4613,What is goulash ,DESC
 4614,What capital is built around Monument Circle which contains soldiers and sailors monument ,LOC
-4615,Name the men s cologne that is associated with the sea .,ENTY
+4615,Name the men s cologne that is associated with the sea ,ENTY
 4616,How does a parachute work ,DESC
 4617,What is the first book of the Old Testament ,ENTY
 4618,How many of them are in sub-Saharan Africa ,NUM
@@ -4624,7 +4624,7 @@ id,text,label
 4622,What is object-oriented design ,DESC
 4623,What does Melissa mean ,DESC
 4624,What is form drag ,DESC
-4625,Who were John F. Kennedy s dogs ,ENTY
+4625,Who were John F Kennedy s dogs ,ENTY
 4626,Where are good science sites on the Internet ,LOC
 4627,What woman was Time s Man of the Year for 1952 ,HUM
 4628,What currents affect the area of the Shetland Islands and Orkney Islands in the North Sea ,DESC
@@ -4634,7 +4634,7 @@ id,text,label
 4632,How many flavors of ice cream does Howard Johnson s have ,NUM
 4633,What weapon did the crossed slits in English castles accommodate ,ENTY
 4634,How can I stop or slow down aging ,DESC
-4635,Where are the busiest Amtrak rail stations in the U.S. ,LOC
+4635,Where are the busiest Amtrak rail stations in the US ,LOC
 4636,How many freckles does Howdy Doody have on his face ,NUM
 4637,How does Cos Cob ,DESC
 4638,Who was considered to be the father of psychology ,HUM
@@ -4642,7 +4642,7 @@ id,text,label
 4640,How tall was the animated King Kong ,NUM
 4641,What are values ,DESC
 4642,What is the population of Japan ,NUM
-4643,Name an American made motorcycle .,ENTY
+4643,Name an American made motorcycle ,ENTY
 4644,Where was the largest concentration camp in World War II ,LOC
 4645,How much did Alaska cost when bought from Russia ,NUM
 4646,How many events make up the decathlon ,NUM
@@ -4653,7 +4653,7 @@ id,text,label
 4651,Name of the lady the Great Gatsby pines for ,HUM
 4652,What does a chef coddle eggs in ,ENTY
 4653,How many bails are there in a cricket wicket ,NUM
-4654,What city was Martin Luther King Jr. assassinated in ,LOC
+4654,What city was Martin Luther King Jr assassinated in ,LOC
 4655,What celebrity couple ,HUM
 4656,Where s the Bernini-Bristol Hotel ,LOC
 4657,Who said  What contemptible scoundrel stole the cork from my lunch  ,HUM
@@ -4675,7 +4675,7 @@ id,text,label
 4673,What is  Last Chance for Animals  ,DESC
 4674,What European country abandoned postage stamps in 1923 because printing them cost more than their face value ,LOC
 4675,What is the weather like on the moon ,DESC
-4676,Who was the 1st U.S. President ,HUM
+4676,Who was the 1st US President ,HUM
 4677,What is the main language of Sao Paulo ,ENTY
 4678,How much did Varian Associates try to sell its vacuum products division to the BOC group for ,NUM
 4679,What is the abbreviation of the International Olympic Committee ,ABBR
@@ -4714,7 +4714,7 @@ id,text,label
 4712,Where is one s corpus callosum found ,LOC
 4713,Who did Napolean defeat at Jena and Auerstadt ,HUM
 4714,What household products are there for adult acne ,ENTY
-4715,What British prime minister and U.S. president were seventh cousins once-removed ,HUM
+4715,What British prime minister and US president were seventh cousins once-removed ,HUM
 4716,What is the most expensive car in the world ,ENTY
 4717,What is an Angelus ,DESC
 4718,How many objects orbit the Earth ,NUM
@@ -4735,7 +4735,7 @@ id,text,label
 4733,What is the origin of the term soda jerk ,DESC
 4734,What is the frequency of VHF ,NUM
 4735,What sport does Chris Jogis play ,ENTY
-4736,What island was the target of the U.S. s Operation Urgent Fury ,LOC
+4736,What island was the target of the US s Operation Urgent Fury ,LOC
 4737,What is a fear of robbers ,ENTY
 4738,What Nevil Shute novel is about the doomed survivors of a nuclear war ,ENTY
 4739,What is the cause of endangered species ,DESC
@@ -4744,7 +4744,7 @@ id,text,label
 4742,What is the softest part of the body ,ENTY
 4743,What six-foot temperance advocate wielded her hatchet on saloons ,HUM
 4744,How many islands does Fiji have ,NUM
-4745,What line divided the North and South in the U.S. Civil War ,ENTY
+4745,What line divided the North and South in the US Civil War ,ENTY
 4746,What is the definition of cecum ,DESC
 4747,Who invented volleyball ,HUM
 4748,What s the most powerful country in the world ,LOC
@@ -4780,10 +4780,10 @@ id,text,label
 4778,What are tannins ,DESC
 4779,How does General Mills manufacture Cheerios ,DESC
 4780,What was Jimmy Durante s theme song ,ENTY
-4781,Name the person who burst through the screen in the Lite beer commercials .,HUM
+4781,Name the person who burst through the screen in the Lite beer commercials ,HUM
 4782,What delicacy is known indelicately as pickled roe ,ENTY
 4783,What after-dinner treat was invented in 1916 at the George Jung noodle factory in Los Angeles ,ENTY
-4784,What U.S. vice-president killed Alexander Hamilton in a duel ,HUM
+4784,What US vice-president killed Alexander Hamilton in a duel ,HUM
 4785,What s the Fahrenheit equivalent of zero degrees centigrade ,NUM
 4786,How many muscles does an oyster have ,NUM
 4787,What card game derived its name from biritch ,ENTY
@@ -4791,7 +4791,7 @@ id,text,label
 4789,What is the collective noun for geese ,ENTY
 4790,What personality traits are Capricorns said to have ,DESC
 4791,Where can I get information concerning child custody files for the State of Utah ,LOC
-4792,What was John F. Kennedy s 1960 campaign song ,ENTY
+4792,What was John F Kennedy s 1960 campaign song ,ENTY
 4793,What Louisiana Senator won a seat that had been held by his father and mother ,HUM
 4794,What hymn did John Steinbeck get his title The Grapes of Wrath from ,ENTY
 4795,What invention does the principle of conservation of energy make impossible ,ENTY
@@ -4810,7 +4810,7 @@ id,text,label
 4808,Who is the richest woman in the world ,HUM
 4809,Where can I take a test that will tell me what I should be when I grow up ,LOC
 4810,What caused the death of Bob Marley ,DESC
-4811,What s Mrs. Bridges s job on TV s Upstairs ,HUM
+4811,What s Mrs Bridges s job on TV s Upstairs ,HUM
 4812,What daily newspaper will  help you see clearer across the USA  ,ENTY
 4813,What lake in Scotland is said to hold one or more monsters ,LOC
 4814,Who were the 1974 Oscar winners ,HUM
@@ -4833,16 +4833,16 @@ id,text,label
 4831,What is state tree of Nebraska ,ENTY
 4832,Where is Glasgow ,LOC
 4833,Why is Chicago named Chicago ,DESC
-4834,What three colors of ink are used to print a U.S. dollar bill ,ENTY
+4834,What three colors of ink are used to print a US dollar bill ,ENTY
 4835,What exactly is the purpose of the anteater ,DESC
-4836,What is the correct way to use  may  vs.  might  ,ENTY
+4836,What is the correct way to use  may  vs  might  ,ENTY
 4837,What North American city boasts the biggest Polish population ,LOC
 4838,What radio ,HUM
 4839,Where is it planned to berth the merchant ship ,LOC
 4840,What does a pedometer measure ,ENTY
 4841,What is Maurizio Pellegrin s age ,NUM
 4842,How many thousands of students attend the University of Massachusetts ,NUM
-4843,Name the U.S. Senate majority leader and the Speaker of the House .,HUM
+4843,Name the US Senate majority leader and the Speaker of the House ,HUM
 4844,What name did football s New York Titans adopt in 1963 ,HUM
 4845,What female suspect in the game of Clue is single ,HUM
 4846,Who owns CNN ,HUM
@@ -4855,7 +4855,7 @@ id,text,label
 4853,What newspaper returned a Pulitzer Prize for the fraudulent story Jimmy s World ,ENTY
 4854,What is a fear of speaking ,ENTY
 4855,What was Hitler s favorite movie ,ENTY
-4856,Why do airliners crash vs. gliding down ,DESC
+4856,Why do airliners crash vs gliding down ,DESC
 4857,What are those little blue reflectors in the middle of the road for ,DESC
 4858,What member of The Little Rascals has an on-again ,HUM
 4859,How is saline used in medicine ,DESC
@@ -4872,7 +4872,7 @@ id,text,label
 4870,When are the Oscars Academy Awards in 1999 ,NUM
 4871,Who was the prophet of the Jewish people ,HUM
 4872,What is the most common name ,HUM
-4873,Who was the oldest U.S. president ,HUM
+4873,Who was the oldest US president ,HUM
 4874,What common plant has a button ,ENTY
 4875,When was Dubai s first concrete house built ,NUM
 4876,What is the Milky Way ,DESC
@@ -4886,11 +4886,11 @@ id,text,label
 4884,What is the best place to live in the world ,LOC
 4885,What is meant by  capital market  ,DESC
 4886,In My Antonia ,DESC
-4887,What ship did Lloyd M. Bucher command ,ENTY
+4887,What ship did Lloyd M Bucher command ,ENTY
 4888,Name a medicine commonly used to combat AIDS ,ENTY
 4889,What is the difference between hair and fur ,DESC
 4890,What is the difference between love and infatuation ,DESC
-4891,Name the cartoon genie conjured by the magic ring shared by Nancy and Chuck .,HUM
+4891,Name the cartoon genie conjured by the magic ring shared by Nancy and Chuck ,HUM
 4892,What foods contain vitamin B12 ,ENTY
 4893,What is the amount of money owed for illegally having a dog on a beach ,NUM
 4894,What are the first and last letters of the Greek alphabet ,ENTY
@@ -4901,7 +4901,7 @@ id,text,label
 4899,When did the original Howdy Doody show go off the air ,NUM
 4900,How many languages are there in the world ,NUM
 4901,Who was Picasso ,HUM
-4902,Who were the only two bald U.S. Presidents ,HUM
+4902,Who were the only two bald US Presidents ,HUM
 4903,Which member of Charlie s Angels sang vocals for Josie and the Pussycats ,HUM
 4904,What river flows past the Temple of Karnak ,LOC
 4905,What comedian was The Perfect Fool ,HUM
@@ -4915,7 +4915,7 @@ id,text,label
 4913,What is tyvek ,DESC
 4914,What do humans catch zoonose diseases from ,ENTY
 4915,How did Asia get its name ,DESC
-4916,What was the name of the U.S. Navy gunboat in the film The Sand Pebbles ,ENTY
+4916,What was the name of the US Navy gunboat in the film The Sand Pebbles ,ENTY
 4917,Where can I get information on the original 13 US colonies ,LOC
 4918,For what disease is the drug Sinemet used as a treatment ,ENTY
 4919,What are three ways in which wind is created on the earth ,ENTY
@@ -4927,7 +4927,7 @@ id,text,label
 4925,Whose singing voice was dubbed in for Natalie Wood in West Side Story and Audrey Hepburn in My Fair Lady ,HUM
 4926,What is the mean income of the top 10% ,NUM
 4927,What North American city sprouts the most parking meters ,LOC
-4928,What is the largest and most expensive freeway construction project in the U.S. right now ,LOC
+4928,What is the largest and most expensive freeway construction project in the US right now ,LOC
 4929,What can I do to get into an Ivy League school ,DESC
 4930,What film did Louise Fletcher win the best actress Oscar for ,ENTY
 4931,Where did Gulliver find a race of tiny people ,LOC
@@ -4936,7 +4936,7 @@ id,text,label
 4934,How much do tuberculosis combatting drugs cost ,NUM
 4935,President Bush compared Saddam Hussein to whom ,HUM
 4936,What s the name of Pittsburgh s baseball team ,HUM
-4937,What Shakespeare play opens with the line :  Now is the winter of our discontent.. .  ,ENTY
+4937,What Shakespeare play opens with the line :  Now is the winter of our discontent   ,ENTY
 4938,What TV comedian worked with White Fang ,HUM
 4939,Who created the character James Bond ,HUM
 4940,What type of exercise burns the most calories ,ENTY
@@ -4945,7 +4945,7 @@ id,text,label
 4943,What is Mikhail Gorbachev s middle initial ,ABBR
 4944,How many rows of whiskers does a cat have ,NUM
 4945,What British general surrendered to the colonial army at Saratoga ,HUM
-4946,How can people from Ireland come to the U.S. ,DESC
+4946,How can people from Ireland come to the US ,DESC
 4947,What product s ads claim that it  eliminates odors ,ENTY
 4948,What is the world population as of today ,NUM
 4949,What is the history of Buffalo chicken wings ,DESC
@@ -4959,7 +4959,7 @@ id,text,label
 4957,What is the chemical formula for napalm ,ENTY
 4958,What is yohimbine ,DESC
 4959,What is  Chicago Hope  ,DESC
-4960,How many members of a family could be drafted in the U.S. military during World War II ,NUM
+4960,How many members of a family could be drafted in the US military during World War II ,NUM
 4961,Who wrote the song ,HUM
 4962,What company is the largest Japanese ship builder ,HUM
 4963,What does the  blue ribbon  stand for ,ABBR
@@ -4980,12 +4980,12 @@ id,text,label
 4978,What are common methods used to regulate monopolies ,ENTY
 4979,What category does the color pink denote in the Trivial Pursuit Baby Boomer Edition ,DESC
 4980,How long does the average domesticated ferret live ,NUM
-4981,Name the Islamic counterpart to the Red Cross .,ENTY
+4981,Name the Islamic counterpart to the Red Cross ,ENTY
 4982,What are the historical trials following World War II called ,ENTY
 4983,What states do not have state income tax ,LOC
-4984,What city has the two steepest streets in the U.S. ,LOC
+4984,What city has the two steepest streets in the US ,LOC
 4985,What is Margaret Thatcher known for ,DESC
-4986,Name the country of giants twelve times the size of man in  Gulliver s Travels . ,LOC
+4986,Name the country of giants twelve times the size of man in  Gulliver s Travels  ,LOC
 4987,What s men s par on a 455-yard golf hole ,NUM
 4988,What four elements make up 90 percent of the human body ,ENTY
 4989,How many countries are there ,NUM
@@ -4994,27 +4994,27 @@ id,text,label
 4992,What is Steve Rogers s profession when he s not Captain America ,HUM
 4993,What is the most common cancer ,ENTY
 4994,Who are the top 10 richest people in the world ,HUM
-4995,How do I contact Answers.com direct ,DESC
+4995,How do I contact Answerscom direct ,DESC
 4996,What causes a person to have constantly sweaty hands and feet ,DESC
-4997,What happened to Answers.com ,DESC
+4997,What happened to Answerscom ,DESC
 4998,What is the spectrum of a sine wave ,DESC
 4999,What ethnic group introduced the idea of potlatch ,HUM
 5000,What is a person s socioeconomic position ,DESC
 5001,What do you say to a friend who ignores you for other friends ,DESC
 5002,How many yards are in 1 mile ,NUM
 5003,What actor was the first man to appear on the cover of McCall s ,HUM
-5004,What does R.E.M. stand for ,ABBR
+5004,What does REM stand for ,ABBR
 5005,What Cruise Line does Kathie Lee Gifford advertise for ,HUM
 5006,What does the name Jenna mean ,DESC
 5007,Why do girls have to wear training bras ,DESC
 5008,When was the first successful heart transplant for a human ,NUM
 5009,How did Edith Bunker die ,DESC
 5010,What country boasts Cawdor Castle ,LOC
-5011,Define Spumante .,DESC
+5011,Define Spumante ,DESC
 5012,What does pH stand for ,ABBR
 5013,What country is Mount Everest in ,LOC
 5014,Which country is the largest country in Latin America ,LOC
-5015,Name the Four Horsemen of the Apocalypse .,HUM
+5015,Name the Four Horsemen of the Apocalypse ,HUM
 5016,What are geckos ,DESC
 5017,What is the name of a book written by Aaron Hass ,ENTY
 5018,What is cosmology ,DESC
@@ -5044,23 +5044,23 @@ id,text,label
 5042,How many American soldiers are stationed in South Korea ,NUM
 5043,What is a fear of failure ,ENTY
 5044,How many feet more than 2 is the average height of the Great Wall of China ,NUM
-5045,What was the verdict in the 1925 trial of John T. Scopes ,DESC
+5045,What was the verdict in the 1925 trial of John T Scopes ,DESC
 5046,What is the best way to travel in Japan ,ENTY
 5047,How long ago did the Anglican church part from the Vatican ,NUM
 5048,How much did Lucy Van Pelt originally charge for psychiatric sessions ,NUM
 5049,Who followed up his first two underwater thrillers with The Girl of the Sea of Cortez ,HUM
 5050,When was the Parthenon built ,NUM
-5051,What 1895 H.G. Wells novel was written under the title The Chronic Argonauts ,ENTY
+5051,What 1895 HG Wells novel was written under the title The Chronic Argonauts ,ENTY
 5052,What is a common dolphin ,DESC
-5053,How is Answers.com funded ,DESC
+5053,How is Answerscom funded ,DESC
 5054,How long does a pig s orgasm last ,NUM
-5055,What U.S. state comes last in an alphabetical list ,LOC
+5055,What US state comes last in an alphabetical list ,LOC
 5056,How many mountains have been named for Presidents in the continental USA ,NUM
 5057,What are the unemployment statistics for the years 1965 and 1990 ,NUM
 5058,What does BUD stand for ,ABBR
 5059,Who is the one Independent Member of Congress ,HUM
 5060,What is a society ruled by elders ,HUM
-5061,What two presidents of the U.S. published books of poetry ,HUM
+5061,What two presidents of the US published books of poetry ,HUM
 5062,Which of the Seven Dwarfs comes first alphabetically ,HUM
 5063,What professional cricketer s son wrote The War of the Worlds in 1898 ,HUM
 5064,What condiment do the Dutch dip their French fries in ,ENTY
@@ -5070,10 +5070,10 @@ id,text,label
 5068,How many inches apart are adjacent pins in tenpin bowling ,NUM
 5069,How many miles of corridors are in The Pentagon ,NUM
 5070,How do you find the area of a circle ,DESC
-5071,What U.S. state includes the San Juan Islands ,LOC
+5071,What US state includes the San Juan Islands ,LOC
 5072,What English playwright penned :  Where the bee sucks ,HUM
 5073,What do the red-and-white stripes on a barbershop pole stand for ,DESC
-5074,Name the ship Beany and Cecil sailed .,ENTY
+5074,Name the ship Beany and Cecil sailed ,ENTY
 5075,How deep is a fathom ,NUM
 5076,What was the  Dead Man s Hand  ,DESC
 5077,What was Fred Astaire s dancing partner s name ,HUM
@@ -5139,18 +5139,18 @@ id,text,label
 5137,Who is the head of the World Bank ,HUM
 5138,Why do some jets have a vapor trail ,DESC
 5139,What is a fear of childbirth ,ENTY
-5140,How many people does Honda employ in the U.S. ,NUM
+5140,How many people does Honda employ in the US ,NUM
 5141,What species was Winnie the Pooh ,ENTY
 5142,How much calcium should an adult female have daily ,NUM
 5143,What is the most popular last name ,HUM
 5144,What does an ashen-faced eidologist search out the existence of ,ENTY
 5145,Who moderated the first Kennedy-Nixon TV debate ,HUM
-5146,Who portrayed George M. Cohan in 1942 s Yankee Doodle Dandy ,HUM
+5146,Who portrayed George M Cohan in 1942 s Yankee Doodle Dandy ,HUM
 5147,What is the S&P 500 used for ,DESC
 5148,What does  Philebus-like  mean ,DESC
 5149,When was Nostradamus born ,NUM
 5150,What are the ingredients of Coca-Cola ,ENTY
-5151,Who s the only U.S. president to have won a Pulitzer Prize ,HUM
+5151,Who s the only US president to have won a Pulitzer Prize ,HUM
 5152,What is nuclear proliferation ,DESC
 5153,Who was Maria Theresa ,HUM
 5154,What is the country of origin for the name Thomas ,LOC
@@ -5170,7 +5170,7 @@ id,text,label
 5168,What does the word  opera  mean ,DESC
 5169,How tall was the animated Frankenstein,NUM
 5170,How do you ask questions ,DESC
-5171,What U.S. city is known as The Rubber Capital of the World ,LOC
+5171,What US city is known as The Rubber Capital of the World ,LOC
 5172,What countries have the highest ratio of university students ,LOC
 5173,How can you become an FBI agent ,DESC
 5174,What is the world s best selling cookie ,ENTY
@@ -5179,7 +5179,7 @@ id,text,label
 5177,How big is the universe actually ,NUM
 5178,What is the difference between the Koran and The Bible ,DESC
 5179,What monarch signed the Magna Carta ,HUM
-5180,What s the U.S. Navy hymn ,ENTY
+5180,What s the US Navy hymn ,ENTY
 5181,How many sides does a heptagon have ,NUM
 5182,What Grand Slam golf tournament wasn t held between 1940 and 1945 ,ENTY
 5183,What is idealab ! ,DESC
@@ -5192,12 +5192,12 @@ id,text,label
 5190,Where were the 1936 Summer Olympics held ,LOC
 5191,What cathedral was Thomas Becket murdered in ,LOC
 5192,Why was Curious George curious ,DESC
-5193,How did U.S.A become involved in the Barbary Wars,DESC
+5193,How did USA become involved in the Barbary Wars,DESC
 5194,The Kentucky Horse Park is close to which American city ,LOC
 5195,What store does Martha Stewart advertise for ,HUM
 5196,What do you know about multicultural and multilingual schools ,DESC
-5197,What is the origin of U.S. Army sergeant s stripes ,DESC
-5198,How old was Sir Edmund Hillary when he climbed Mt. Everest ,NUM
+5197,What is the origin of US Army sergeant s stripes ,DESC
+5198,How old was Sir Edmund Hillary when he climbed Mt Everest ,NUM
 5199,Where in a tree does photosynthesis occur ,LOC
 5200,What are some science fair projects for 8th graders ,ENTY
 5201,What strait links the Mediterranean Sea and the Atlantic Ocean ,LOC
@@ -5215,16 +5215,16 @@ id,text,label
 5213,What shape-shifting menace did Rom come to Earth to fight ,ENTY
 5214,What is the nickname of Pennsylvania ,LOC
 5215,What causes headaches ,DESC
-5216,Names of books by James A. Michener set in the following locations ,ENTY
+5216,Names of books by James A Michener set in the following locations ,ENTY
 5217,When was the first stained glass window made ,NUM
 5218,What company s trademark was His Master s Voice ,HUM
 5219,What Pope inaugurated Vatican International Radio ,HUM
 5220,What director made one silent and one sound version of The Ten Commandments ,HUM
 5221,When did swimming become commonplace ,NUM
 5222,Which presidents of the USA were Masons ,HUM
-5223,Who was the tallest U.S. president ,HUM
+5223,Who was the tallest US president ,HUM
 5224,What is the largest museum in the world ,LOC
-5225,How can I enforce new rules to a group of youngsters who have been allowed to do as they please .,DESC
+5225,How can I enforce new rules to a group of youngsters who have been allowed to do as they please ,DESC
 5226,What character in The Beverly Hillbillies has the given names Daisy Moses ,HUM
 5227,What comedienne calls her sister-in-law Captain Bligh and her mother-in-law Moby Dick ,HUM
 5228,How many gallons of paint does it take to paint the Golden Gate Bridge ,NUM
@@ -5236,7 +5236,7 @@ id,text,label
 5234,What flag flies over Wake Island ,ENTY
 5235,How deep is a fathom ,NUM
 5236,What Kennedy was married to Ethel ,ENTY
-5237,What U.S. state is Mammoth Cave National Park in ,LOC
+5237,What US state is Mammoth Cave National Park in ,LOC
 5238,What is the most famous German word in the English language ,ENTY
 5239,Who was actress June Havoc s legendary sister ,HUM
 5240,What is widely used to detect birth defects ,ENTY
@@ -5246,7 +5246,7 @@ id,text,label
 5244,What is the Order of the Arrow in Boy Scouts ,DESC
 5245,In what country is a stuck-out tongue a friendly greeting ,LOC
 5246,What are the five basic swimming strokes ,ENTY
-5247,Who is the son-in-law of Sen. Everett Dirkson who was also a senator in the 70 s ,HUM
+5247,Who is the son-in-law of Sen Everett Dirkson who was also a senator in the 70 s ,HUM
 5248,Where is Erykah Badu originally from ,LOC
 5249,Where can I buy a pony on the Big Island for my daughter ,LOC
 5250,How old was George Washington when he died ,NUM
@@ -5259,7 +5259,7 @@ id,text,label
 5257,What does a man suffering from diphallic terata have ,ENTY
 5258,Who invented panties ,HUM
 5259,What is Pittsburgh s baseball team called ,HUM
-5260,What is p.m. an abbreviation for ,ABBR
+5260,What is pm an abbreviation for ,ABBR
 5261,What sport can a free-legged pacer compete in ,ENTY
 5262,What does CPR stand for ,ABBR
 5263,What President had never held an elected office until he was elected to the White House ,HUM
@@ -5269,7 +5269,7 @@ id,text,label
 5267,What is an aurora ,DESC
 5268,How much time does the blinking of an eye take ,NUM
 5269,What made the short-lived Star Hawks strip so unique ,DESC
-5270,What s the biggest-selling U.S. magazine aimed at a black audience ,ENTY
+5270,What s the biggest-selling US magazine aimed at a black audience ,ENTY
 5271,How deep is a fathom ,NUM
 5272,What is the primary language of the Philippines ,ENTY
 5273,When did the use of  the syringe  first appear in medicinal history ,NUM
@@ -5283,7 +5283,7 @@ id,text,label
 5281,What George Harrison tune sounded too much like He s So Fine by The Chiffons ,ENTY
 5282,Who is buried in the great pyramid of Giza ,HUM
 5283,What is the most important nation in the world ,LOC
-5284,What is the current unemployment rate in the U.S. ,NUM
+5284,What is the current unemployment rate in the US ,NUM
 5285,When was the first railroad from the east coast to the west coast completed ,NUM
 5286,How fast can a Corvette go ,NUM
 5287,What do a diamond and lump of coal have in common ,DESC
@@ -5332,12 +5332,12 @@ id,text,label
 5330,How many home runs did Babe Ruth hit in his lifetime ,NUM
 5331,Who was in Death of a Salesman original movie ,HUM
 5332,How do I get a complete list of all the people that are living with the last name Kilvington ,DESC
-5333,What is Dr. Ruth s last name ,HUM
+5333,What is Dr Ruth s last name ,HUM
 5334,What s the world s most common compound ,ENTY
 5335,Where was George Washington born ,LOC
 5336,How many colors are there in the spectrum ,NUM
-5337,What s the middle name of movie producer Joseph E. Levine ,HUM
-5338,Define Sinn Fein .,DESC
+5337,What s the middle name of movie producer Joseph E Levine ,HUM
+5338,Define Sinn Fein ,DESC
 5339,What two Caribbean countries share the island of Hispaniola ,LOC
 5340,What is in baby powder and baby lotion that makes it smell the way it does ,DESC
 5341,What is probability theory ,DESC
@@ -5378,23 +5378,23 @@ id,text,label
 5376,What is the poetic meter of blank verse ,DESC
 5377,Rotary engine cars were made by what company ,HUM
 5378,Who was the lawyer who represented Randy Steven Craft ,HUM
-5379,What is the history of the soft drink Mr. Pibb ,DESC
+5379,What is the history of the soft drink Mr Pibb ,DESC
 5380,Which is a real berry : blackberry ,ENTY
 5381,What materials did the three little pigs use to build their houses ,ENTY
 5382,What part did Benjamin Franklin play in the development of the newspaper in America ,HUM
 5383,When was Microsoft established ,NUM
 5384,When did President Kennedy ,NUM
-5385,What is the U.S. location of Procter & Gamble corporate offices ,LOC
+5385,What is the US location of Procter & Gamble corporate offices ,LOC
 5386,What is platinum ,DESC
 5387,What state is known as the Hawkeye State ,LOC
 5388,Who is the prime minister of Australia ,HUM
-5389,What are all the southern states of the U.S. ,LOC
+5389,What are all the southern states of the US ,LOC
 5390,What does the River Seine empty into ,LOC
 5391,What did people use to freshen their breath before toothpaste ,ENTY
 5392,Which airplane was Fawaz Younis convicted of hijacking ,ENTY
 5393,What state did Anita Bryant represent in the 1959 Miss America contest ,LOC
 5394,How many soldiers were involved in the last Panama invasion by the United States of America ,NUM
-5395,Describe the Long March .,DESC
+5395,Describe the Long March ,DESC
 5396,What major league baseball team compiled the best won-lost record between 1957 and 1983 ,HUM
 5397,How many propellers helped power the plane the Wright brothers flew into history ,NUM
 5398,Who died with more than 1 ,HUM
@@ -5402,7 +5402,7 @@ id,text,label
 5400,Who won the first general election for President held in Malawi in May 1994 ,HUM
 5401,Where is South Bend ,LOC
 5402,What country has the most coastline ,LOC
-5403,What two states is Washington D.C. between ,LOC
+5403,What two states is Washington DC between ,LOC
 5404,In what year did Joe DiMaggio compile his 56-game hitting streak ,NUM
 5405,What year was the setting for American Graffiti ,NUM
 5406,When did the art of quilting begin ,NUM
@@ -5424,7 +5424,7 @@ id,text,label
 5422,How do I legally make my own will and testament ,DESC
 5423,How do you make the color purple ,DESC
 5424,What beer s name is translated as  lion brew  ,ENTY
-5425,What has been the most common Christian name of U.S. presidents ,HUM
+5425,What has been the most common Christian name of US presidents ,HUM
 5426,How many cherubs are there on a Trivial Pursuit board ,NUM
 5427,How can I search for a word within my own webpage ,DESC
 5428,How many people live in Chile ,NUM

@@ -121,7 +121,6 @@ public class GetJ48Model {
             //3-HOLD OUT
                 Evaluation evaluatorSplit = new Evaluation(train);
 
-
                 //##########################################################
                 model = new J48();
                 model.buildClassifier(train);
