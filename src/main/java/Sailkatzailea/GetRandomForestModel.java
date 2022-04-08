@@ -14,6 +14,17 @@ import weka.filters.unsupervised.instance.RemovePercentage;
 
 public class GetRandomForestModel {
 
+    /**
+     * 3 Parametro behar ditu programak:
+     *
+     * 	1. datuen arff-a
+     * 	2. Random Forest modeloarekin sortzen den modeloa
+     * 	3. emaitzak gordetzen dituen txt-a
+     *
+     * @param args the arguments
+     * @throws Exception Signals that an exception has occurred
+     */
+
     public static void main(String[] args) throws Exception {
 
         if(args.length != 3) {

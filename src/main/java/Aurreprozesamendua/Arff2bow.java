@@ -17,13 +17,27 @@ import java.util.ArrayList;
 
 public class Arff2bow {
 
+    /**
+     * 5 Parametro behar ditu programak:
+     *
+     * 	1. gure datuak train.arff dokumentuan gorde egiten dira
+     * 	2. bektorea
+     * 	3. atributu zenbakia pasatzeko
+     * 	4. gure train arff-aren errepresentazio bektoriala
+     * 	5. raw file-aren testa hold out-ekin sortua
+     *
+     * @param args the arguments
+     * @throws Exception Signals that an exception has occurred
+     */
+
     public static void main(String[] args) throws Exception {
 
         /*
             args[0] --> train.arff
             args[1] --> hiztegia.txt
-            args[2] --> TrainBOW.arff
-            args[3] --> devRAW.arff
+            args[2] -->
+            args[3] --> TrainBOW.arff
+            args[4] --> devRAW.arff
          */
 
         if (args.length !=5) {
@@ -36,7 +50,7 @@ public class Arff2bow {
             System.out.println("\t4- Laugarren parametro bezala Sparse edo Non-Sparse emaitza fitxategi bezala nahi dugun.");
             System.out.println("\t5- Sortutako .arff fitxategiaren patha-a");
             System.out.println("\nErabilera adibidea komando lerroa-n");
-            System.out.println("\tjava -jar TextToVector.jar <train.arff> BOW/IDF <outputPath hiztegia.txt> Sparse/NonSparse <outputPath BOW.arff>");
+            System.out.println("\tjava -jar TextToVector.jar <train.arff> BOW/IDF <outputPath hiztegia.txt> Sparse/NonSparse <outputPath BOW.arff> <devRAW.arff>");
 
         }else {
             String arffFile = args[0];
@@ -118,6 +132,14 @@ public class Arff2bow {
 
     }
 
+    /**
+     * Datuak kargatzeko.
+     *
+     * @param path daukazun datuen path-a
+     * @param data instantzien datuak
+     * @throws Exception Signals that an exception has occurred
+     */
+
     private static void datuakGorde(String path, Instances data) throws Exception {
 
         //REORDER atributuak
@@ -134,21 +156,34 @@ public class Arff2bow {
     }
 
 
+    /**
+     * String-ak hitzetan bihurtzeko metodoa
+     *
+     * @param data Instantzien datuak
+     * @param bool bool --> TRUE - TF.IDF kontuan hartu nahi dugu.
+     * @param hiztegia atributu zenbakia pasatzeko
+     * @throws Exception Signals that an exception has occurred
+     */
+
+
     private static Instances stringtowordvector(Instances data, boolean bool, File hiztegia) throws Exception{
             StringToWordVector filter = new StringToWordVector(); // RAW-tik bektore formatura
 
             filter.setInputFormat(data);
             filter.setLowerCaseTokens(true); // Letra larria nahiz xehea baliokidetu
-            //filter.setTFTransform(bool); //bool --> TRUE - Term Frequency kontuan hartu nahi dugu.
             filter.setIDFTransform(bool); //bool --> TRUE - TF.IDF kontuan hartu nahi dugu.
             filter.setDictionaryFileToSaveTo(hiztegia);
             Instances train = Filter.useFilter(data, filter);
 
-            //train.setClassIndex(0);
-            //System.out.println("\n\nFiltered data:\n\n" + train);
-
             return train;
     }
+
+    /**
+     * Non sparse aplikatzen du
+     *
+     * @param data Instantzien datuak
+     * @throws Exception Signals that an exception has occurred
+     */
 
     private static Instances nonSparse(Instances data) throws Exception{
         // nonSparsera pasatzeko
@@ -158,6 +193,13 @@ public class Arff2bow {
 
         return nonSparseData;
     }
+
+    /**
+     * Hold out aplikatzen du
+     *
+     * @param data Instantzien datuak
+     * @throws Exception Signals that an exception has occurred
+     */
 
     private static ArrayList<Instances> holdOut(Instances data) throws Exception{
 

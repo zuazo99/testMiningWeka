@@ -13,6 +13,18 @@ import java.io.IOException;
 
 public class MakeCompatible {
 
+    /**
+     * 4 Parametro behar ditu programak:
+     *
+     * 	1. raw file-aren testa hold out-ekin sortua
+     * 	2. gure train arff-aren errepresentazio bektoriala
+     * 	3. atributu zenbakia pasatzeko
+     * 	4. train arff-aren errepresentazio bektorialaren testa hold out-ekin sortua
+     *
+     * @param args the arguments
+     * @throws Exception Signals that an exception has occurred
+     */
+
     public static void main(String[] args) throws Exception {
         if(args.length  !=4) {
             System.out.println("Ez duzu arguments atala behar bezala bete!");
@@ -54,11 +66,28 @@ public class MakeCompatible {
 
     }
 
+
+    /**
+     * Datuak kargatzeko.
+     *
+     * @param path daukazun datuen path-a
+     * @throws Exception Signals that an exception has occurred
+     */
+
+
     private static Instances datuakKargatu(String path) throws Exception{
         ConverterUtils.DataSource source = new ConverterUtils.DataSource(path);
         Instances data = source.getDataSet();
         return data;
     }
+
+    /**
+     * Datuak gordetzeko.
+     *
+     * @param path daukazun datuen path-a
+     * @param data instantzien datuak
+     * @throws Exception Signals that an exception has occurred
+     */
 
     private static void datuakGorde(String path, Instances data) throws Exception {
 

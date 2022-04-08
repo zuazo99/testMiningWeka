@@ -12,17 +12,22 @@ import java.io.*;
 
 
 public class getARFF {
+
+    /**
+     * 2 Parametro behar ditu programak:
+     *
+     * 	1. csv-a dagoen path-a
+     * 	2. sortu nahi dugun train.arff-ren path-a
+     *
+     * @param args the arguments
+     * @throws IOException Signals that an I/O exception has occurred.
+     * @throws Exception Signals that an exception has occurred
+     */
+
     public static void main(String[] args)throws Exception {
 
         //args[0] --> train.csv
         //args[1] --> train.arff
-
-
-        /*
-         * takes 2 arguments:
-         *  CSV input file
-         *  ARFF output file
-         */
 
         // ** -- CSV garbiketa -- ** //
 
@@ -107,13 +112,20 @@ public class getARFF {
 
     }
 
+    /**
+     * Testua Arff formatura pasa.
+     *
+     * @param fileName daukazun csv fitxategiaren izena
+     * @param fileResult sortuko den fitxategiaren izena
+     * @throws IOException Signals that an I/O exception has occurred.
+     */
+
     private static void removeCharactersFromFileTest(String fileName, String fileResult) throws IOException{
         BufferedReader br = new BufferedReader(new FileReader(fileName));
         PrintWriter pw = new PrintWriter(fileResult);
         String line;
 
         while ((line = br.readLine()) != null) {
-            // line = line.replace(subString, "");
             line = line.replaceAll("[`'?.]", "").replaceAll("Nan", "");
             pw.println(line);
         }
