@@ -2,7 +2,9 @@
 
 ##Readme honen bidez gure programa exekutatzeko beharrezko pausuak azalduko ditut:
 
-# textMiningProiektua
+# Text Mining Proiektua
+
+Helburua datu multzo batean datu meatzaritza aplikatzea da.
 
 -Testu gordina csv formatu ulergarrira pasa:
 
@@ -24,5 +26,5 @@
 
 -Iragarpenak
 
--Visualize instances
+1.-Iragarpena: Test multzoa emanda, emandako eredu iragarleak egindako iragarpenak gordetzen ditu fitxategi batean.
 	
