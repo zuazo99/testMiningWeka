@@ -10,10 +10,7 @@ import weka.core.*;
 import weka.core.converters.CSVLoader;
 import weka.core.converters.ConverterUtils;
 import weka.filters.Filter;
-import weka.filters.unsupervised.attribute.FixedDictionaryStringToWordVector;
-import weka.filters.unsupervised.attribute.NominalToString;
-import weka.filters.unsupervised.attribute.Remove;
-import weka.filters.unsupervised.attribute.Reorder;
+import weka.filters.unsupervised.attribute.*;
 
 import java.io.*;
 
@@ -70,7 +67,16 @@ public class Iragarpena {
                 filterToString.setOptions(Utils.splitOptions("-C 1")); // 1. posizion dago 'text' atributua
                 data = Filter.useFilter(data, filterToString);
 
+                NumericToNominal filterToNominal = new NumericToNominal();
+                filterToNominal.setInputFormat(data);
+                filterToNominal.setOptions(Utils.splitOptions("-R 2"));
+                data = Filter.useFilter(data, filterToNominal);
+
+                data = addValues(data);
+
                 System.out.println("Filtered data: " + data);
+
+
                 FixedDictionaryStringToWordVector filtroa = new FixedDictionaryStringToWordVector();
                 filtroa.setDictionaryFile(new File(args[3]));
                 filtroa.setInputFormat(data);
@@ -82,7 +88,7 @@ public class Iragarpena {
                 data = Filter.useFilter(data, reorder);
 
                 data.setClassIndex(data.numAttributes() - 1);
-                System.out.println("Filtered data: " + data);
+               // System.out.println("Filtered data: " + data);
 
                 // 2. Eredua kargatu: getClassifier
 
@@ -218,6 +224,14 @@ public class Iragarpena {
             System.out.println(" Errorea: Sarrerako .csv fitxategiaren helbidea ez da zuzena");
         }
         Instances data = csvLoader.getDataSet();
+        return data;
+    }
+
+    private static Instances addValues(Instances data) throws Exception{
+        AddValues filterAdd = new AddValues();
+        filterAdd.setOptions(Utils.splitOptions("-L DESC,ENTY,ABBR,HUM,NUM,LOC"));
+        filterAdd.setInputFormat(data);
+        data = Filter.useFilter(data, filterAdd);
         return data;
     }
 }
