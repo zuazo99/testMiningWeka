@@ -123,11 +123,13 @@ public class Iragarpena {
                 data = dataSource.getDataSet();
                 data.setClassIndex(0);
                 System.out.println(data.numInstances());
-                Instance algo = new DenseInstance(data.numAttributes());
-                algo.setDataset(data);
-                algo.setValue(1, args[1]);
-                algo.setMissing(0);
-                data.add(algo); //esaldia duen instantzia sortu eta .arff-ra gehitu
+                Instance galdera = new DenseInstance(data.numAttributes());
+                galdera.setDataset(data);
+                galdera.setValue(1, args[1]);
+                galdera.setMissing(0);
+                data.add(galdera); //esaldia duen instantzia sortu eta .arff-ra gehitu
+
+
                 dataClear=data;
                 FixedDictionaryStringToWordVector filtroa = new FixedDictionaryStringToWordVector();
                 filtroa.setDictionaryFile(new File(args[3])); //esto habria que cambiarlo por un argumento
