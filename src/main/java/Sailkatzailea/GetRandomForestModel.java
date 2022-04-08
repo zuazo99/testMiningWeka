@@ -40,7 +40,7 @@ public class GetRandomForestModel {
             randomF.setMaxDepth(50);
             randomF.buildClassifier(train);
 
-            weka.core.SerializationHelper.write(args[1], randomF);
+
 
 
             FileWriter fw = new FileWriter(args[2]);
@@ -118,6 +118,10 @@ public class GetRandomForestModel {
             fw.write(evaluatorSplit.toMatrixString()+"\n");
             fw.flush();
             fw.close();
+
+
+            //Gorde modeloa
+            weka.core.SerializationHelper.write(args[1], randomF);
         }
 
     }

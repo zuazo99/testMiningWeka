@@ -4,15 +4,18 @@ package Iragarpena;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.evaluation.Prediction;
+import weka.classifiers.evaluation.output.prediction.CSV;
 import weka.classifiers.trees.RandomForest;
 import weka.core.*;
+import weka.core.converters.CSVLoader;
 import weka.core.converters.ConverterUtils;
 import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.FixedDictionaryStringToWordVector;
+import weka.filters.unsupervised.attribute.NominalToString;
+import weka.filters.unsupervised.attribute.Remove;
 import weka.filters.unsupervised.attribute.Reorder;
 
-import java.io.File;
-import java.io.FileWriter;
+import java.io.*;
 
 public class Iragarpena {
 
@@ -22,25 +25,64 @@ public class Iragarpena {
             arg 1 modeloa
             arg 2 .arff fitxategia edo esaldi bat
             arg 3 = irteera fitxategia
+            arg 4 = hiztegia
+
+            ./modeloa/modeloaRandomForest.model ./datuak/test.csv ./modeloa/iragarpen.txt ./Dictionary/hiztegia.txt
          */
 
-        if (args.length == 4){
+        if (args.length !=0){
             RandomForest randomF = (RandomForest) weka.core.SerializationHelper.read(args[0]);
             File file;
             FileWriter fw = new FileWriter(new File(args[2]));
             Instances data;
             Instances dataClear;
+            if(args[1].contains(".csv")){
+                String path = args[1].substring(0, args[1].length() - 4);
+                path = path+ "_Egokituta.csv";
+                System.out.println(path);
 
-            if(args[1].contains(".arff")){
+                removeCharactersFromFile(args[1], path);
 
-                data = datuakKargatu(args[1]); // .arff sartu
+               // data = datuakKargatu(args[1]); // .arff sartu
+                data = getCSVLoader(path);
+                data.setClassIndex(data.numAttributes() - 1);
                 dataClear = data;
 
+                // 3. Atributuak egokitu
+
+                // 3.1 Lehenengo atributua, 'id', ez da beharrezkoa, ondorioz ezabatu egingo da Remove filtroa erabilita.
+
+                Remove remove = new Remove();
+                remove.setAttributeIndices("1"); //1.posizioko atributua ezabatu nahi da.
+                remove.setInputFormat(data);
+                remove.setInvertSelection(false); // Zehaztutako atributua nahi da, eta besteak mantendu.
+                data = Filter.useFilter(data, remove);
+
+                /*
+                 3.2. 'text' atributua Nominal bezala kargatzen denez, String motara bihurtu behar dugu horretarako
+                 NominalToString filtroa erabilita.
+                 NominalToString
+                 Atributu nominala String-era pasatu
+                 */
+
+                NominalToString filterToString = new NominalToString();
+                filterToString.setInputFormat(data);
+                filterToString.setOptions(Utils.splitOptions("-C 1")); // 1. posizion dago 'text' atributua
+                data = Filter.useFilter(data, filterToString);
+
+                System.out.println("Filtered data: " + data);
+                FixedDictionaryStringToWordVector filtroa = new FixedDictionaryStringToWordVector();
+                filtroa.setDictionaryFile(new File(args[3]));
+                filtroa.setInputFormat(data);
+                data = Filter.useFilter(data, filtroa);
+
                 Reorder reorder = new Reorder();
-                reorder.setAttributeIndices("2-" + data.numAttributes() + ",1");
+                reorder.setAttributeIndices("2-last,1");
                 reorder.setInputFormat(data);
                 data = Filter.useFilter(data, reorder);
-                data.setClassIndex(data.numAttributes()-1);
+
+                data.setClassIndex(data.numAttributes() - 1);
+                System.out.println("Filtered data: " + data);
 
                 // 2. Eredua kargatu: getClassifier
 
@@ -151,5 +193,31 @@ public class Iragarpena {
     public static Classifier getClassifier(String path) throws Exception{
        Classifier cls =  (Classifier) weka.core.SerializationHelper.read(path);
        return cls;
+    }
+
+    private static void removeCharactersFromFile(String fileName, String fileResult) throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader(fileName));
+        PrintWriter pw = new PrintWriter(fileResult);
+        String line;
+
+        while ((line = br.readLine()) != null) {
+            // line = line.replace(subString, "");
+            line = line.replaceAll("[`'?.]", "");
+            pw.println(line);
+        }
+        br.close();
+        pw.close();
+    }
+
+    private static Instances getCSVLoader(String path) throws IOException {
+        CSVLoader csvLoader = new CSVLoader();
+
+        try {
+            csvLoader.setSource(new File(path));
+        }catch (IOException e){
+            System.out.println(" Errorea: Sarrerako .csv fitxategiaren helbidea ez da zuzena");
+        }
+        Instances data = csvLoader.getDataSet();
+        return data;
     }
 }

@@ -54,30 +54,30 @@ public class AtributuHautapena {
             System.out.println(pathDEV);
 
             DataSource dataSource = new DataSource(args[0]);
-            Instances train = dataSource.getDataSet();
-            train.setClassIndex(train.numAttributes() - 1);
+            Instances trainFSS = dataSource.getDataSet();
+            trainFSS.setClassIndex(trainFSS.numAttributes() - 1);
 
             AttributeSelection attSelect = new AttributeSelection();
             InfoGainAttributeEval infoGainEval = new InfoGainAttributeEval();
             Ranker search = new Ranker();
             search.setOptions(new String[]{"-T", "0.001"});
 
-            attSelect.setInputFormat(train);
+            attSelect.setInputFormat(trainFSS);
             attSelect.setEvaluator(infoGainEval);
             attSelect.setSearch(search);
-            train = Filter.useFilter(train, attSelect);
+            trainFSS = Filter.useFilter(trainFSS, attSelect);
 
             ArffSaver arffSaver = new ArffSaver();
-            arffSaver.setInstances(train);
+            arffSaver.setInstances(trainFSS);
             arffSaver.setFile(new File(pathTRAIN));
             arffSaver.writeBatch();
 
-            System.out.println(train.instance(0));
+            System.out.println(trainFSS.instance(0));
             // Hiztegi berria
             BufferedWriter bw = new BufferedWriter(new FileWriter(args[1]));
 
-            for (int i = 0; i < train.numAttributes() - 1; i++) {
-                Attribute a = train.attribute(i);
+            for (int i = 0; i < trainFSS.numAttributes() - 1; i++) {
+                Attribute a = trainFSS.attribute(i);
                 bw.newLine();
                 bw.write(a.name());
             }
@@ -97,13 +97,13 @@ public class AtributuHautapena {
             dev = Filter.useFilter(dev, hiztegia);
 
             RemoveWithValues filterRemoveValues = new RemoveWithValues();
-            filterRemoveValues.setInputFormat(train);
+            filterRemoveValues.setInputFormat(trainFSS);
             dev = Filter.useFilter(dev, filterRemoveValues);
 
 
-//            for (int i = 0; i < train.numInstances(); i++) {
-//                dev.add(i, devSource.getDataSet().instance(i));
-//            }
+            for (int i = 0; i < devSource.getDataSet().numInstances(); i++) {
+                dev.add(i, devSource.getDataSet().instance(i));
+            }
 
             arffSaver = new ArffSaver();
             arffSaver.setInstances(dev);

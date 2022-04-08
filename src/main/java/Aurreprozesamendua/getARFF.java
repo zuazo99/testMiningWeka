@@ -38,7 +38,7 @@ public class getARFF {
             System.out.println("*Arff bat bueltan");
             System.out.println("Argumentuak: CSV fitxategia bat sartzea, arff-a gordeko den path-a");
             System.out.println("\nErabilera adibidea komando-lerroan:");
-            System.out.println("java -jar GetARFF.jar train.csv/test.csv train.arff");
+            System.out.println("java -jar GetARFF.jar train.csv train.arff");
         }
 
 
