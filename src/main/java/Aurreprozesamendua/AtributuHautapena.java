@@ -101,8 +101,8 @@ public class AtributuHautapena {
             dev = Filter.useFilter(dev, filterRemoveValues);
 
 
-            for (int i = 0; i < devSource.getDataSet().numInstances(); i++) {
-                dev.add(i, devSource.getDataSet().instance(i));
+            for (int i = 0; i < trainFSS.numInstances(); i++) {
+                dev.add(i, trainFSS.instance(i));
             }
 
             arffSaver = new ArffSaver();

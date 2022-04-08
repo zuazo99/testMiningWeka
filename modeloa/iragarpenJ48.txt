@@ -1,0 +1,532 @@
+Exekuzio data: 2022-04-08T20:27:38.774110200
+
+-- Test Set -- 
+Instantzia	Actual	Predicted
+How far is it from Denver to Aspen  ENTY
+What county is Modesto  ENTY
+Who was Galileo  HUM
+What is an atom  ENTY
+When did Hawaii become a state  LOC
+How tall is the Sears Building  ENTY
+George Bush purchased a small interest in which baseball team  ENTY
+What is Australia s national flower  ENTY
+Why does the moon turn orange  HUM
+What is autism  ENTY
+What city had a world fair in 1900  LOC
+What person s head is on a dime  NUM
+What is the average weight of a Yellow Labrador  NUM
+Who was the first man to fly across the Pacific Ocean  HUM
+When did Idaho become a state  LOC
+What is the life expectancy for crickets  ENTY
+What metal has the highest melting point  HUM
+Who developed the vaccination against polio  HUM
+What is epilepsy  ENTY
+What year did the Titanic sink  NUM
+Who was the first American to walk in space  ENTY
+What is a biosphere  ENTY
+What river in the US is known as the Big Muddy  ENTY
+What is bipolar disorder  ENTY
+What is cholesterol  ENTY
+Who developed the Macintosh computer  HUM
+What is caffeine  ENTY
+What imaginary line is halfway between the North and South Poles  ENTY
+Where is John Wayne airport  ENTY
+What hemisphere is the Philippines in  ENTY
+What is the average speed of the horses at the Kentucky Derby  NUM
+Where are the Rocky Mountains  DESC
+What are invertebrates  DESC
+What is the temperature at the center of the earth  HUM
+When did John F Kennedy get elected as President  ENTY
+How old was Elvis Presley when he died  NUM
+Where is the Orinoco River  ENTY
+How far is the service line from the net in tennis  ENTY
+How much fiber should you have per day  NUM
+How many Great Lakes are there  DESC
+Material called linen is made from what plant  ENTY
+What is Teflon  ENTY
+What is amitriptyline  ENTY
+What is a shaman  ENTY
+What is the proper name for a female walrus  HUM
+What is a group of turkeys called  HUM
+How long did Rip Van Winkle sleep  DESC
+What are triglycerides  DESC
+How many liters in a gallon  DESC
+What is the name of the chocolate company in San Francisco  HUM
+What are amphibians  DESC
+Who discovered x-rays  HUM
+Which comedian s signature line is  Can we talk   ENTY
+What is fibromyalgia  ENTY
+What is done with worn or outdated flags  ENTY
+What does cc in engines mean  DESC
+When did Elvis Presley die  HUM
+What is the capital of Yugoslavia  LOC
+Where is Milan  ENTY
+What is the speed hummingbirds fly  ENTY
+What is the oldest city in the United States  LOC
+What was WC Fields  real name  HUM
+What river flows between Fargo  HUM
+What do bats eat  HUM
+What state did the Battle of Bighorn take place in  LOC
+Who was Abraham Lincoln  HUM
+What do you call a newborn kangaroo  HUM
+What are spider veins  DESC
+What day and month did John Lennon die  HUM
+What strait separates North America from Asia  HUM
+What is the population of Seattle  HUM
+How much was a ticket for the Titanic  NUM
+What is the largest city in the world  LOC
+What American composer wrote the music for  West Side Story   HUM
+Where is the Mall of the America  HUM
+What is the pH scale  ENTY
+What type of currency is used in Australia  HUM
+How tall is the Gateway Arch in St Louis  ENTY
+How much does the human adult female brain weigh  NUM
+Who was the first governor of Alaska  HUM
+What is a prism  ENTY
+When was the first liver transplant  HUM
+Who was elected president of South Africa in 1994  HUM
+What is the population of China  HUM
+When was Rosa Parks born  HUM
+Why is a ladybug helpful  ENTY
+What is amoxicillin  ENTY
+Who was the first female United States Representative  HUM
+What are xerophytes  DESC
+What country did Ponce de Leon come from  LOC
+The US Department of Treasury first issued paper currency for the US during which war  ENTY
+What is desktop publishing  ENTY
+What is the temperature of the sun s surface  HUM
+What year did Canada join the United Nations  NUM
+What is the oldest university in the US  ENTY
+Where is Prince Edward Island  ENTY
+Mercury  HUM
+What is cryogenics  ENTY
+What are coral reefs  DESC
+What is the longest major league baseball-winning streak  ENTY
+What is neurology  ENTY
+Who invented the calculator  HUM
+How do you measure earthquakes  HUM
+Who is Duke Ellington  ENTY
+What county is Phoenix  ENTY
+What is a micron  ENTY
+The sun s core  HUM
+What is the Ohio state bird  LOC
+When were William Shakespeare s twins born  HUM
+What is the highest dam in the US  ENTY
+What color is a poison arrow frog  ENTY
+What is acupuncture  ENTY
+What is the length of the coastline of the state of Alaska  LOC
+What is the name of Neil Armstrong s wife  HUM
+What is Hawaii s state flower  LOC
+Who won Ms American in 1989  ENTY
+When did the Hindenberg crash  HUM
+What mineral helps prevent osteoporosis  HUM
+What was the last year that the Chicago Cubs won the World Series  NUM
+Where is Perth  ENTY
+What year did WWII begin  NUM
+What is the diameter of a golf ball  HUM
+What is an eclipse  ENTY
+Who discovered America  HUM
+What is the earth s diameter  ENTY
+Which president was unmarried  HUM
+How wide is the Milky Way galaxy  ENTY
+During which season do most thunderstorms occur  ENTY
+What is Wimbledon  ENTY
+What is the gestation period for a cat  ENTY
+How far is a nautical mile  ENTY
+Who was the abolitionist who led the raid on Harper s Ferry in 1859  HUM
+What does target heart rate mean  DESC
+What was the first satellite to go into space  HUM
+What is foreclosure  ENTY
+What is the major fault line near Kentucky  ENTY
+Where is the Holland Tunnel  ENTY
+Who wrote the hymn  Amazing Grace   HUM
+What position did Willie Davis play in baseball  ENTY
+What are platelets  DESC
+What is severance pay  ENTY
+What is the name of Roy Roger s dog  ENTY
+Where are the National Archives  DESC
+What is a baby turkey called  ENTY
+What is poliomyelitis  ENTY
+What is the longest bone in the human body  ENTY
+Who is a German philosopher  ENTY
+What were Christopher Columbus  three ships  HUM
+What does Phi Beta Kappa mean  DESC
+What is nicotine  ENTY
+What is another name for vitamin B1  ENTY
+Who discovered radium  HUM
+What are sunspots  DESC
+When was Algeria colonized  HUM
+What baseball team was the first to make numbers part of their uniform  HUM
+What continent is Egypt on  NUM
+What is the capital of Mongolia  LOC
+What is nanotechnology  ENTY
+In the late 1700 s British convicts were used to populate which colony  ENTY
+What state is the geographic center of the lower 48 states  LOC
+What is an obtuse angle  ENTY
+What are polymers  DESC
+When is hurricane season in the Caribbean  ENTY
+Where is the volcano Mauna Loa  ENTY
+What is another astronomic term for the Northern Lights  ENTY
+What peninsula is Spain part of  HUM
+When was Lyndon B Johnson born  HUM
+What is acetaminophen  ENTY
+What state has the least amount of rain per year  NUM
+Who founded American Red Cross  HUM
+What year did the Milwaukee Braves become the Atlanta Braves  NUM
+How fast is alcohol absorbed  ENTY
+When is the summer solstice  ENTY
+What is supernova  ENTY
+Where is the Shawnee National Forest  ENTY
+What US state s motto is  Live free or Die   DESC
+Where is the Lourve  ENTY
+When was the first stamp issued  HUM
+What primary colors do you mix to make orange  HUM
+How far is Pluto from the sun  ENTY
+What body of water are the Canary Islands in  ENTY
+What is neuropathy  ENTY
+Where is the Euphrates River  ENTY
+What is cryptography  ENTY
+What is natural gas composed of  HUM
+Who is the Prime Minister of Canada  HUM
+What French ruler was defeated at the battle of Waterloo  HUM
+What is leukemia  ENTY
+Where did Howard Hughes die  HUM
+What is the birthstone for June  ENTY
+What is the sales tax in Minnesota  ENTY
+What is the distance in miles from the earth to the sun  ENTY
+What is the average life span for a chicken  NUM
+When was the first Wal-Mart store opened  HUM
+What is relative humidity  ENTY
+What city has the zip code of 35824  LOC
+What currency is used in Algeria  ENTY
+Who invented the hula hoop  HUM
+What was the most popular toy in 1957  ENTY
+What is pastrami made of  HUM
+What is the name of the satellite that the Soviet Union sent into space in 1957  ENTY
+What city s newspaper is called  The Enquirer   LOC
+Who invented the slinky  HUM
+What are the animals that don t have backbones called  DESC
+What is the melting point of copper  HUM
+Where is the volcano Olympus Mons located  ENTY
+Who was the 23rd president of the United States  HUM
+What is the average body temperature  NUM
+What does a defibrillator do  HUM
+What is the effect of acid rain  HUM
+What year did the United States abolish the draft  NUM
+How fast is the speed of light  HUM
+What province is Montreal in  ENTY
+What New York City structure is also known as the Twin Towers  ENTY
+What is fungus  ENTY
+What is the most frequently spoken language in the Netherlands  ENTY
+What is sodium chloride  ENTY
+What are the spots on dominoes called  ENTY
+How many pounds in a ton  DESC
+What is influenza  ENTY
+What is ozone depletion  ENTY
+What year was the Mona Lisa painted  NUM
+What does  Sitting Shiva  mean  DESC
+What is the electrical output in Madrid  ENTY
+Which mountain range in North America stretches from Maine to Georgia  ENTY
+What is plastic made of  HUM
+What is the population of Nigeria  HUM
+What does your spleen do  HUM
+Where is the Grand Canyon  ENTY
+Who invented the telephone  HUM
+What year did the US buy Alaska  NUM
+What is the name of the leader of Ireland  HUM
+What is phenylalanine  ENTY
+How many gallons of water are there in a cubic foot  ENTY
+What are the two houses of the Legislative branch  ENTY
+What is sonar  ENTY
+In Poland  HUM
+What is phosphorus  ENTY
+What is the location of the Sea of Tranquility  HUM
+How fast is sound  ENTY
+What French province is cognac produced in  ENTY
+What is Valentine s Day  ENTY
+What causes gray hair  HUM
+What is hypertension  ENTY
+What is bandwidth  ENTY
+What is the longest suspension bridge in the US  ENTY
+What is a parasite  ENTY
+What is home equity  ENTY
+What do meteorologists do  HUM
+What is the criterion for being legally blind  ENTY
+Who is the tallest man in the world  ENTY
+What are the twin cities  DESC
+What did Edward Binney and Howard Smith invent in 1903  ENTY
+What is the statue of liberty made of  HUM
+What is pilates  ENTY
+What planet is known as the  red  planet  ENTY
+What is the depth of the Nile river  HUM
+What is the colorful Korean traditional dress called  ENTY
+What is Mardi Gras  ENTY
+Mexican pesos are worth what in US dollars  ENTY
+Who was the first African American to play for the Brooklyn Dodgers  HUM
+Who was the first Prime Minister of Canada  HUM
+How many Admirals are there in the US Navy  DESC
+What instrument did Glenn Miller play  HUM
+How old was Joan of Arc when she died  NUM
+What does the word fortnight mean  DESC
+What is dianetics  ENTY
+What is the capital of Ethiopia  LOC
+For how long is an elephant pregnant  NUM
+How did Janice Joplin die  HUM
+What is the primary language in Iceland  ENTY
+What is the difference between AM radio stations and FM radio stations  ENTY
+What is osteoporosis  ENTY
+Who was the first woman governor in the US  ENTY
+What is peyote  ENTY
+What is the esophagus used for  ENTY
+What is viscosity  ENTY
+What year did Oklahoma become a state  NUM
+What is the abbreviation for Texas  ENTY
+What is a mirror made out of  HUM
+Where on the body is a mortarboard worn  NUM
+What was JFK s wife s name  HUM
+What does IV stand for  ABBR
+What is the chunnel  ENTY
+Where is Hitler buried  ENTY
+What are antacids  DESC
+What is pulmonary fibrosis  ENTY
+What are Quaaludes  DESC
+What is naproxen  ENTY
+What is strep throat  ENTY
+What is the largest city in the US  LOC
+What is foot and mouth disease  ENTY
+What is the life expectancy of a dollar bill  HUM
+What do you call a professional map drawer  HUM
+What are Aborigines  DESC
+What is hybridization  ENTY
+What color is indigo  ENTY
+How old do you have to be in order to rent a car in Italy  DESC
+What does a barometer measure  HUM
+What color is a giraffe s tongue  ENTY
+What does USPS stand for  ABBR
+What year did the NFL go on strike  NUM
+What is solar wind  ENTY
+What date did Neil Armstrong land on the moon  HUM
+When was Hiroshima bombed  HUM
+Where is the Savannah River  ENTY
+Who was the first woman killed in the Vietnam War  ENTY
+What planet has the strongest magnetic field of all the planets  HUM
+Who is the governor of Alaska  HUM
+What year did Mussolini seize power in Italy  NUM
+What is the capital of Persia  LOC
+Where is the Eiffel Tower  ENTY
+How many hearts does an octopus have  DESC
+What is pneumonia  ENTY
+What is the deepest lake in the US  ENTY
+What is a fuel cell  ENTY
+Who was the first US president to appear on TV  HUM
+Where is the Little League Museum  ENTY
+What are the two types of twins  ENTY
+What is the brightest star  ENTY
+What is diabetes  ENTY
+When was President Kennedy shot  HUM
+What is TMJ  ENTY
+What color is yak milk  ENTY
+What date was Dwight D Eisenhower born  HUM
+What does the technical term ISDN mean  DESC
+Why is the sun yellow  ENTY
+What is the conversion rate between dollars and pounds  ENTY
+When was Abraham Lincoln born  HUM
+What is the Milky Way  ENTY
+What is mold  ENTY
+What year was Mozart born  NUM
+What is a group of frogs called  HUM
+What is the name of William Penn s ship  HUM
+What is the melting point of gold  HUM
+What is the street address of the White House  LOC
+What is semolina  ENTY
+What fruit is Melba sauce made from  ENTY
+What is Ursa Major  ENTY
+What is the percentage of water content in the human body  HUM
+How much does water weigh  NUM
+What was President Lyndon Johnson s reform program called  ENTY
+What is the murder rate in Windsor  ENTY
+Who is the only president to serve 2 non-consecutive terms  HUM
+What is the population of Australia  HUM
+Who painted the ceiling of the Sistine Chapel  HUM
+Name a stimulant  HUM
+What is the effect of volcanoes on the climate  NUM
+What year did the Andy Griffith show begin  NUM
+What is acid rain  ENTY
+What is the date of Mexico s independence  HUM
+What is the location of Lake Champlain  HUM
+What is the Illinois state flower  LOC
+What is Maryland s state bird  LOC
+What is quicksilver  ENTY
+Who wrote  The Divine Comedy   HUM
+What is the speed of light  HUM
+What is the width of a football field  HUM
+Why in tennis are zero points called love  ENTY
+What kind of dog was Toto in the Wizard of Oz  ENTY
+What is a thyroid  ENTY
+What does ciao mean  DESC
+What is the only artery that carries blue blood from the heart to the lungs  ENTY
+How often does Old Faithful erupt at Yellowstone National Park  HUM
+What is acetic acid  ENTY
+What is the elevation of St Louis  HUM
+What color does litmus paper turn when it comes into contact with a strong acid  ENTY
+What are the colors of the German flag  ENTY
+What is the Moulin Rouge  ENTY
+What soviet seaport is on the Black Sea  NUM
+What is the atomic weight of silver  HUM
+What currency do they use in Brazil  ENTY
+What are pathogens  DESC
+What is mad cow disease  ENTY
+Name a food high in zinc  ENTY
+When did North Carolina enter the union  HUM
+Where do apple snails live  HUM
+What are ethics  DESC
+What does CPR stand for  ABBR
+What is an annuity  ENTY
+Who killed John F Kennedy  HUM
+Who was the first vice president of the US  HUM
+What birthstone is turquoise  ENTY
+Who was the first US President to ride in an automobile to his inauguration  ENTY
+How old was the youngest president of the United States  HUM
+When was Ulysses S Grant born  HUM
+What is Muscular Dystrophy  ENTY
+Who lived in the Neuschwanstein castle  ENTY
+What is propylene glycol  ENTY
+What is a panic disorder  ENTY
+Who invented the instant Polaroid camera  HUM
+What is a carcinogen  ENTY
+What is a baby lion called  ENTY
+What is the world s population  ENTY
+What is nepotism  ENTY
+What is die-casting  ENTY
+What is myopia  ENTY
+What is the sales tax rate in New York  ENTY
+Developing nations comprise what percentage of the world s population  ENTY
+What is the fourth highest mountain in the world  ENTY
+What is Shakespeare s nickname  ENTY
+What is the heaviest naturally occurring element  ENTY
+When is Father s Day  ENTY
+What does the acronym NASA stand for  ABBR
+How long is the Columbia River in miles  DESC
+What city s newspaper is called  The Star   LOC
+What is carbon dioxide  ENTY
+Where is the Mason/Dixon line  ENTY
+When was the Boston tea party  HUM
+What is metabolism  ENTY
+Which USA president appeared on  Laugh-In   HUM
+What are cigarettes made of  ENTY
+What is the capital of Zimbabwe  LOC
+What does NASA stand for  ABBR
+What is the state flower of Michigan  LOC
+What are semiconductors  DESC
+What is nuclear power  ENTY
+What is a tsunami  ENTY
+Who is the congressman from state of Texas on the armed forces committee  LOC
+Who was president in 1913  HUM
+When was the first kidney transplant  HUM
+What are Canada s two territories  ENTY
+What was the name of the plane Lindbergh flew solo across the Atlantic  HUM
+What is genocide  ENTY
+What continent is Argentina on  NUM
+What monastery was raided by Vikings in the late eighth century  ENTY
+What is an earthquake  ENTY
+Where is the tallest roller coaster located  ENTY
+What are enzymes  DESC
+Who discovered oxygen  HUM
+What is bangers and mash  ENTY
+What is the name given to the Tiger at Louisiana State University  ENTY
+Where are the British crown jewels kept  DESC
+Who was the first person to reach the North Pole  HUM
+What is an ulcer  ENTY
+What is vertigo  ENTY
+What is the spirometer test  ENTY
+When is the official first day of summer  HUM
+What does the abbreviation SOS mean  DESC
+What is the smallest bird in Britain  ENTY
+Who invented Trivial Pursuit  HUM
+What gasses are in the troposphere  ENTY
+Which country has the most water pollution  LOC
+What is the scientific name for elephant  HUM
+Who is the actress known for her role in the movie  Gypsy   ENTY
+What breed of hunting dog did the Beverly Hillbillies own  HUM
+What is the rainiest place on Earth  NUM
+Who was the first African American to win the Nobel Prize in literature  ENTY
+When is St Patrick s Day  ENTY
+What was FDR s dog s name  ENTY
+What colors need to be mixed to get the color pink  HUM
+What is the most popular sport in Japan  ENTY
+What is the active ingredient in baking soda  ENTY
+When was Thomas Jefferson born  HUM
+How cold should a refrigerator be  HUM
+When was the telephone invented  HUM
+What is the most common eye color  ENTY
+Where was the first golf course in the United States  ENTY
+What is schizophrenia  ENTY
+What is angiotensin  ENTY
+What did Jesse Jackson organize  HUM
+What is New York s state bird  LOC
+What is the National Park in Utah  ENTY
+What is Susan B Anthony s birthday  ENTY
+In which state would you find the Catskill Mountains  LOC
+What do you call a word that is spelled the same backwards and forwards  ENTY
+What are pediatricians  DESC
+What chain store is headquartered in Bentonville  ENTY
+What are solar cells  DESC
+What is compounded interest  ENTY
+What are capers  DESC
+What is an antigen  ENTY
+What currency does Luxembourg use  HUM
+What is the population of Venezuela  HUM
+What type of polymer is used for bulletproof vests  HUM
+What currency does Argentina use  HUM
+What is a thermometer  ENTY
+What Canadian city has the largest population  LOC
+What color are crickets  ENTY
+Which country gave New York the Statue of Liberty  LOC
+What was the name of the first US satellite sent into space  HUM
+What precious stone is a form of pure carbon  HUM
+What kind of gas is in a fluorescent bulb  ENTY
+What is rheumatoid arthritis  ENTY
+What river runs through Rowe  HUM
+What is cerebral palsy  ENTY
+What city is also known as  The Gateway to the West   LOC
+How far away is the moon  ENTY
+What is the source of natural gas  HUM
+In what spacecraft did US astronaut Alan Shepard make his historic 1961 flight  ENTY
+What is pectin  ENTY
+What is bio-diversity  ENTY
+What s the easiest way to remove wallpaper  HUM
+What year did the Titanic start on its journey  NUM
+How much of an apple is water  NUM
+Who was the 22nd President of the US  HUM
+What is the money they use in Zambia  ENTY
+How many feet in a mile  DESC
+What is the birthstone of October  HUM
+What is e-coli  ENTY
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 ?        ?        ?          ?        ?          ?        ?         ?         DESC
+                 ?        ?        ?          ?        ?          ?        ?         ?         ENTY
+                 ?        ?        ?          ?        ?          ?        ?         ?         ABBR
+                 ?        ?        ?          ?        ?          ?        ?         ?         HUM
+                 ?        ?        ?          ?        ?          ?        ?         ?         NUM
+                 ?        ?        ?          ?        ?          ?        ?         ?         LOC
+Weighted Avg.    ?        ?        ?          ?        ?          ?        ?         ?         
+
+
+
+Total Number of Instances                0     
+Ignored Class Unknown Instances                500     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f   <-- classified as
+ 0 0 0 0 0 0 | a = DESC
+ 0 0 0 0 0 0 | b = ENTY
+ 0 0 0 0 0 0 | c = ABBR
+ 0 0 0 0 0 0 | d = HUM
+ 0 0 0 0 0 0 | e = NUM
+ 0 0 0 0 0 0 | f = LOC
+

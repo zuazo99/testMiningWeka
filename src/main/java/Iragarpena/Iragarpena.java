@@ -5,6 +5,7 @@ import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.evaluation.Prediction;
 import weka.classifiers.evaluation.output.prediction.CSV;
+import weka.classifiers.trees.J48;
 import weka.classifiers.trees.RandomForest;
 import weka.core.*;
 import weka.core.converters.ArffLoader;
@@ -21,15 +22,17 @@ public class Iragarpena {
 
          /*
             arg 1 modeloa
-            arg 2 .arff fitxategia edo esaldi bat
+            arg 2 .csv fitxategi bat
             arg 3 = irteera fitxategia
             arg 4 = hiztegia
 
             ./modeloa/modeloaRandomForest.model ./datuak/test.csv ./modeloa/iragarpen.txt ./Dictionary/hiztegia.txt
          */
 
-        if (args.length !=0){
+        if (args.length == 4){
+
             RandomForest randomF = (RandomForest) weka.core.SerializationHelper.read(args[0]);
+            //J48 randomF = (J48) getClassifier(args[0]);
             File file;
             FileWriter fw = new FileWriter(new File(args[2]));
             Instances data;
@@ -160,32 +163,6 @@ public class Iragarpena {
 
     }
 
-    public String iragarpenakAtera(String s) throws Exception {
-        String iragarpena = "SPAM";
-        RandomForest randomF = (RandomForest) weka.core.SerializationHelper.read("randomForestUI.model");
-        ConverterUtils.DataSource dataSource = new ConverterUtils.DataSource("spam_clean.arff"); //hutsi dagoen .arff behar dugu
-        Instances data = dataSource.getDataSet();
-        data.setClassIndex(0);
-        System.out.println(data.numInstances());
-        Instance algo = new DenseInstance(data.numAttributes());
-        algo.setDataset(data);
-        algo.setValue(1, s);
-        algo.setMissing(0);
-        data.add(algo); //esaldia duen instantzia sortu eta .arff-ra gehitu
-        Instances dataClear=data;
-        FixedDictionaryStringToWordVector filtroa = new FixedDictionaryStringToWordVector();
-        filtroa.setDictionaryFile(new File("hiztegiaUI.txt")); //esto habria que cambiarlo por un argumento
-        filtroa.setInputFormat(data);
-        data= Filter.useFilter(data, filtroa);
-        Evaluation eval = new Evaluation(data);
-        eval.evaluateModel(randomF, data);
-        for(Prediction p: eval.predictions() ){
-            if(p.predicted() == 1.0){
-                iragarpena = "Ez SPAM";
-            }
-        }
-        return iragarpena;
-    }
 
     public static Instances datuakKargatu(String path) throws Exception{
         ConverterUtils.DataSource source = new ConverterUtils.DataSource(path);

@@ -1,0 +1,102 @@
+
+=============================================================
+EBALUAZIO EZ ZINTZOA:
+
+Correctly Classified Instances        3204               83.9623 %
+Incorrectly Classified Instances       612               16.0377 %
+Kappa statistic                          0.7989
+Mean absolute error                      0.0785
+Root mean squared error                  0.1982
+Relative absolute error                 29.3817 %
+Root relative squared error             54.2065 %
+Total Number of Instances             3816     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,875    0,040    0,855      0,875    0,864      0,827    0,978     0,927     DESC
+                 0,886    0,120    0,689      0,886    0,775      0,707    0,946     0,819     ENTY
+                 0,576    0,000    0,974      0,576    0,724      0,746    0,980     0,712     ABBR
+                 0,790    0,028    0,887      0,790    0,836      0,795    0,969     0,915     HUM
+                 0,854    0,007    0,962      0,854    0,905      0,890    0,986     0,949     NUM
+                 0,807    0,010    0,936      0,807    0,867      0,847    0,977     0,911     LOC
+Weighted Avg.    0,840    0,045    0,856      0,840    0,842      0,804    0,970     0,897     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   <-- classified as
+ 711  79   1   7   3  12 |   a = DESC
+  39 780   0  44   6  11 |   b = ENTY
+  17   7  38   2   2   0 |   c = ABBR
+  18 147   0 662   5   6 |   d = HUM
+  27  50   0   9 528   4 |   e = NUM
+  20  69   0  22   5 485 |   f = LOC
+
+
+=============================================================
+CROSS VALIDATION-EKIN EBALUATUZ (TRAIN MULTZOAN SOILIK):
+
+Correctly Classified Instances        2685               70.3616 %
+Incorrectly Classified Instances      1131               29.6384 %
+Kappa statistic                          0.6278
+Mean absolute error                      0.1188
+Root mean squared error                  0.2712
+Relative absolute error                 44.449  %
+Root relative squared error             74.1817 %
+Total Number of Instances             3816     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,777    0,089    0,702      0,777    0,738      0,664    0,897     0,754     DESC
+                 0,684    0,194    0,514      0,684    0,587      0,448    0,812     0,525     ENTY
+                 0,500    0,000    0,971      0,500    0,660      0,693    0,889     0,556     ABBR
+                 0,630    0,058    0,753      0,630    0,686      0,611    0,885     0,731     HUM
+                 0,743    0,012    0,924      0,743    0,823      0,800    0,921     0,836     NUM
+                 0,717    0,026    0,840      0,717    0,774      0,739    0,892     0,704     LOC
+Weighted Avg.    0,704    0,082    0,732      0,704    0,710      0,637    0,877     0,698     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   <-- classified as
+ 632 131   1  17  12  20 |   a = DESC
+ 118 602   0 123  11  26 |   b = ENTY
+  20   8  33   3   1   1 |   c = ABBR
+  29 251   0 528  10  20 |   d = HUM
+  56  75   0  13 459  15 |   e = NUM
+  45 104   0  17   4 431 |   f = LOC
+
+
+=============================================================
+HOLD OUT-EKIN (%70) EBALUATUZ:
+
+Correctly Classified Instances        8210               71.7031 %
+Incorrectly Classified Instances      3240               28.2969 %
+Kappa statistic                          0.6447
+Mean absolute error                      0.113 
+Root mean squared error                  0.2644
+Relative absolute error                 42.2943 %
+Root relative squared error             72.3378 %
+Total Number of Instances            11450     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,782    0,082    0,718      0,782    0,748      0,678    0,907     0,801     DESC
+                 0,681    0,183    0,528      0,681    0,595      0,459    0,830     0,575     ENTY
+                 0,442    0,001    0,926      0,442    0,598      0,636    0,868     0,468     ABBR
+                 0,661    0,057    0,770      0,661    0,711      0,639    0,889     0,741     HUM
+                 0,787    0,016    0,906      0,787    0,842      0,817    0,936     0,865     NUM
+                 0,722    0,023    0,853      0,722    0,782      0,749    0,904     0,767     LOC
+Weighted Avg.    0,717    0,078    0,741      0,717    0,722      0,652    0,889     0,735     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f   <-- classified as
+ 1889  370    6   56   28   67 |    a = DESC
+  345 1798    0  353   58   86 |    b = ENTY
+   70   32   87    4    3    1 |    c = ABBR
+   95  700    0 1695   39   36 |    d = HUM
+  124  212    0   26 1452   32 |    e = NUM
+  109  296    1   68   23 1289 |    f = LOC
+

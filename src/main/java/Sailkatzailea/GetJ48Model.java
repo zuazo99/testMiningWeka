@@ -57,30 +57,6 @@ public class GetJ48Model {
             test.setClassIndex(test.numAttributes() - 1);
             //##########################################################
 
-//           //  NumericToBinary
-//            NumericToBinary filterToBinary = new NumericToBinary();
-//            filterToBinary.setAttributeIndices("last");
-//            filterToBinary.setInvertSelection(true);
-//            filterToBinary.setInputFormat(train);
-//
-//            Instances binary = Filter.useFilter(train, filterToBinary);
-//
-//            RenameAttribute filterRename = new RenameAttribute();
-//            filterRename.setFind("_binarized");
-//            filterRename.setReplace("");
-//            filterRename.setReplaceAll(true);
-//            filterRename.setInputFormat(binary);
-//            filterRename.setAttributeIndices("first-last");
-//
-//            Instances binaryRename = Filter.useFilter(binary, filterRename);
-//
-//            ArffSaver s = new ArffSaver();
-//            s.setInstances(binaryRename);
-//            s.setFile(new File("./Datuak/binary"));
-//            s.writeBatch();
-
-
-
             J48 model = new J48();
             model.buildClassifier(train);
             //##########################################################
@@ -124,7 +100,7 @@ public class GetJ48Model {
 
 
                 Evaluation evaluatorSplit = new Evaluation(train);
-            for(int i = 0; i<100; i++){
+            for(int i = 0; i<10; i++){
                 Randomize filter = new Randomize();
                 filter.setRandomSeed(0);
                 filter.setInputFormat(train);
