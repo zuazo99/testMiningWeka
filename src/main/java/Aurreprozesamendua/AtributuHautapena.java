@@ -45,7 +45,7 @@ public class AtributuHautapena {
             System.out.println("\nPost baldintzak:");
             System.out.println("\t1- Parametroa BoW motako train arff fitxategia.");
             System.out.println("\t2- Parametroa Hiztegia gordetzeko fitxategia.");
-            System.out.println("\t3- Dev/Test .arff fitxategia");
+            System.out.println("\t3- Dev/Test.arff fitxategia");
             System.out.println("\nErabilera adibidea komando-lerroan:");
             System.out.println("java -jar AtributuHautapena.jar train.arff hiztegia dev/test.arff");
 

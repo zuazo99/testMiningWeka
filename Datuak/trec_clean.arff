@@ -1,0 +1,5 @@
+
+@attribute text string
+@attribute label {DESC,ENTY,ABBR,HUM,NUM,LOC}
+
+@data
