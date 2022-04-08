@@ -7,6 +7,7 @@ import weka.classifiers.evaluation.Prediction;
 import weka.classifiers.evaluation.output.prediction.CSV;
 import weka.classifiers.trees.RandomForest;
 import weka.core.*;
+import weka.core.converters.ArffLoader;
 import weka.core.converters.CSVLoader;
 import weka.core.converters.ConverterUtils;
 import weka.filters.Filter;
@@ -119,16 +120,18 @@ public class Iragarpena {
 
 
             }else{ //esaldi bat kargatu
-                ConverterUtils.DataSource dataSource = new ConverterUtils.DataSource("trec_clean.arff"); //hutsi dagoen .arff behar dugu
+
+                ConverterUtils.DataSource dataSource = new ConverterUtils.DataSource("./Datuak/trec_clean.arff"); //hutsi dagoen .arff behar dugu
                 data = dataSource.getDataSet();
-                data.setClassIndex(0);
+                data.setClassIndex(data.numAttributes() - 1);
                 System.out.println(data.numInstances());
                 Instance galdera = new DenseInstance(data.numAttributes());
                 galdera.setDataset(data);
                 galdera.setValue(1, args[1]);
                 galdera.setMissing(0);
                 data.add(galdera); //esaldia duen instantzia sortu eta .arff-ra gehitu
-
+                System.out.println("Instance: " + galdera);
+                System.exit(0);
 
                 dataClear=data;
                 FixedDictionaryStringToWordVector filtroa = new FixedDictionaryStringToWordVector();
