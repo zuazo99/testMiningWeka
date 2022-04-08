@@ -19,7 +19,7 @@ import java.util.Scanner;
 public class main {
 
     private static Scanner sc = new Scanner(System.in);
-    private static String workspace = System.getProperty("user.home")+"/testMiningWeka";
+    private static String workspace = System.getProperty("user.home")+"/IdeaProjects/testMiningWeka";
 
 
     public static void main (String args[]) throws Exception{
@@ -72,10 +72,7 @@ public class main {
                 case "7": aukera7();
                     pressEnterToContinue();
                     break;
-                case "7": aukera8();
-                    pressEnterToContinue();
-                    break;
-                case "7": aukera9();
+                case "8": aukera8();
                     pressEnterToContinue();
                     break;
                 default: System.out.println("Sartu duzun aukera ez da existitzen");
@@ -90,12 +87,11 @@ public class main {
         System.out.println("1. Fitxategietatik arff gordina atera");
         System.out.println("2. Arff gordina errepresentazio bektorialera pasa");
         System.out.println("3. Atributu hautapena egin");
-        System.out.println("4. Parametro ekorketa egin SMV modeloa eraikitzeko");
+        System.out.println("4. Parametro ekorketa egin RandomForest modeloa eraikitzeko");
         System.out.println("5. J48 modeloa lortzeko");
         System.out.println("6. RandomForest modeloa lortzeko");
         System.out.println("7. Iragarpenak egin");
-        System.out.println("8. Visualizer");
-        System.out.println("9. Exit");
+        System.out.println("8. Exit");
     }
 
 
@@ -128,11 +124,42 @@ public class main {
     }
 
     private static void aukera2() throws Exception {
-        String [] par1 = {workspace+"/Datuak/train.arff",workspace+"/Dictionary/hiztegia.txt",workspace+"/Datuak/trainBOW.arff",workspace+"/Datuak/devRAW.arff"};
+
+        Scanner sc = new Scanner(System.in);
+        String [] par1 = null;
+
+        System.out.println("BOW edo IDF jarri");
+        String mota = sc.next();
+        System.out.println("SPARSE BAI ALA EZ (Y/N)");
+        String sparse = sc.next();
+
+        if (mota.equals("BOW")) {
+            if(sparse.equals("Y")) {
+                par1 = new String[]{workspace + "/Datuak/trainBOW.arff", workspace + "/Dictionary/hiztegia.txt", workspace + "/Datuak/trainBOW.arff", "Sparse", workspace + "/Datuak/devRAW.arff"};
+            }
+            else if(sparse.equals("N")) {
+                par1 = new String[]{workspace + "/Datuak/trainBOW-NonSparse.arff", workspace + "/Dictionary/hiztegia.txt", workspace + "/Datuak/trainBOW.arff", "Sparse", workspace + "/Datuak/devRAW.arff"};
+            }
+            else {
+                aukera2();
+            }
+        }
+        else if(mota.equals("IDF")){
+            if(sparse.equals("Y")){
+                par1 = new String[]{workspace + "/Datuak/trainTFidfSparse.arff", workspace + "/Dictionary/hiztegia.txt", workspace + "/Datuak/trainBOW.arff", "Sparse", workspace + "/Datuak/devRAW.arff"};
+            }else if(sparse.equals("N")){
+                par1 = new String[]{workspace + "/Datuak/trainTFidfNonSparse.arff", workspace + "/Dictionary/hiztegia.txt", workspace + "/Datuak/trainBOW.arff", "Sparse", workspace + "/Datuak/devRAW.arff"};
+            }
+            else{
+                aukera2();
+            }
+        }
+
         Arff2bow.main(par1);
 
         String [] par2 = {workspace+"/Datuak/devRAW.arff",workspace+"/Datuak/trainBOW.arff",workspace+"/Dictionary/hiztegia.txt",workspace+"/Datuak/devBOW.arff"};
         MakeCompatible.main(par2);
+
 
         System.out.println("Arff gordina errepresentazio bektorialera pasatzea lortu egin da");
     }
@@ -162,19 +189,12 @@ public class main {
     }
 
     private static void aukera7() throws Exception {
-        String [] parametroak = {};
+        String [] parametroak = {workspace+"/modeloa/modeloaRandomForest.model",workspace+"/Datuak/test.csv",workspace+"/modeloa/iragarpen.txt",workspace+"/Dictionary/hiztegia.txt"};
         Iragarpena.main(parametroak);
-
         System.out.println("Iragarpena ondo egin da.");
     }
 
     private static void aukera8() throws Exception {
-        String [] parametroak = {workspace+"/fss.arff",workspace+"/logisticRegression.model", workspace+"/TestPredictionsLogReg.txt"};
-
-
-        System.out.println("logisticRegression.model eta TestPredictionsLogReg.txt gorde dira "+workspace+"-n");
-    }
-    private static void aukera9() throws Exception {
         System.exit(0);
     }
 }

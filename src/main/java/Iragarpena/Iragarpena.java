@@ -21,7 +21,7 @@ public class Iragarpena {
      * 4 Parametro behar ditu programak:
      *
      * 	1. modeloa
-     * 	2. arff fitxategia
+     * 	2. csv fitxategia
      * 	3. irteera fitxategia
      * 	4. hiztegia
      *
@@ -33,7 +33,7 @@ public class Iragarpena {
 
          /*
             arg 1 modeloa
-            arg 2 .arff fitxategia edo esaldi bat
+            arg 2 .csv fitxategia edo esaldi bat
             arg 3 = irteera fitxategia
             arg 4 = hiztegia
 

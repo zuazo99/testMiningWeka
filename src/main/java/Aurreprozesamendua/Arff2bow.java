@@ -18,12 +18,13 @@ import java.util.ArrayList;
 public class Arff2bow {
 
     /**
-     * 4 Parametro behar ditu programak:
+     * 5 Parametro behar ditu programak:
      *
      * 	1. gure datuak train.arff dokumentuan gorde egiten dira
-     * 	2. atributu zenbakia pasatzeko
-     * 	3. gure train arff-aren errepresentazio bektoriala
-     * 	4. raw file-aren testa hold out-ekin sortua
+     * 	2. bektorea
+     * 	3. atributu zenbakia pasatzeko
+     * 	4. gure train arff-aren errepresentazio bektoriala
+     * 	5. raw file-aren testa hold out-ekin sortua
      *
      * @param args the arguments
      * @throws Exception Signals that an exception has occurred
@@ -34,8 +35,9 @@ public class Arff2bow {
         /*
             args[0] --> train.arff
             args[1] --> hiztegia.txt
-            args[2] --> TrainBOW.arff
-            args[3] --> devRAW.arff
+            args[2] -->
+            args[3] --> TrainBOW.arff
+            args[4] --> devRAW.arff
          */
 
         if (args.length !=5) {
