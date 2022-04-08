@@ -125,39 +125,12 @@ public class main {
 
     private static void aukera2() throws Exception {
 
-        Scanner sc = new Scanner(System.in);
         String [] par1 = null;
 
-        System.out.println("BOW edo IDF jarri");
-        String mota = sc.next();
-        System.out.println("SPARSE BAI ALA EZ (Y/N)");
-        String sparse = sc.next();
-
-        if (mota.equals("BOW")) {
-            if(sparse.equals("Y")) {
-                par1 = new String[]{workspace + "/Datuak/trainBOW.arff", workspace + "/Dictionary/hiztegia.txt", workspace + "/Datuak/trainBOW.arff", "Sparse", workspace + "/Datuak/devRAW.arff"};
-            }
-            else if(sparse.equals("N")) {
-                par1 = new String[]{workspace + "/Datuak/trainBOW-NonSparse.arff", workspace + "/Dictionary/hiztegia.txt", workspace + "/Datuak/trainBOW.arff", "Sparse", workspace + "/Datuak/devRAW.arff"};
-            }
-            else {
-                aukera2();
-            }
-        }
-        else if(mota.equals("IDF")){
-            if(sparse.equals("Y")){
-                par1 = new String[]{workspace + "/Datuak/trainTFidfSparse.arff", workspace + "/Dictionary/hiztegia.txt", workspace + "/Datuak/trainBOW.arff", "Sparse", workspace + "/Datuak/devRAW.arff"};
-            }else if(sparse.equals("N")){
-                par1 = new String[]{workspace + "/Datuak/trainTFidfNonSparse.arff", workspace + "/Dictionary/hiztegia.txt", workspace + "/Datuak/trainBOW.arff", "Sparse", workspace + "/Datuak/devRAW.arff"};
-            }
-            else{
-                aukera2();
-            }
-        }
-
+        par1 = new String[]{"./Datuak/train.arff","BOW","./Dictionary/hiztegia.txt","Sparse","./Datuak/trainBOW.arff"};
         Arff2bow.main(par1);
 
-        String [] par2 = {workspace+"/Datuak/devRAW.arff",workspace+"/Datuak/trainBOW.arff",workspace+"/Dictionary/hiztegia.txt",workspace+"/Datuak/devBOW.arff"};
+        String [] par2 = {"./Datuak/devRAW.arff","./Datuak/trainBOW.arff","./Dictionary/hiztegia.txt","./Datuak/devBOW.arff"};
         MakeCompatible.main(par2);
 
 
@@ -165,31 +138,31 @@ public class main {
     }
 
     private static void aukera3() throws Exception {
-        String [] parametroak = {workspace+"/Datuak/trainBOW.arff",workspace+"/Dictionary/hiztegiaFSS.txt",workspace+"/AtributuenHautapena/Datuak/devBOW.arff"};
+        String [] parametroak = {"./Datuak/trainBOW.arff","./Dictionary/hiztegiaFSS.txt","./Datuak/devBOW.arff"};
         AtributuHautapena.main(parametroak);
         System.out.println("Atributu hautapena egin da");
     }
 
     private static void aukera4() throws Exception {
-        String [] parametroak = {workspace+"/Datuak/train.arff",workspace+"/Datuak/modeloa/emaitzakParamEkorketa.txt"};
+        String [] parametroak = {"./Datuak/trainBOW.arff","./modeloa/emaitzakParamEkorketa.txt"};
         ParametroEkorketa.main(parametroak);
         System.out.println("ParametroEkorketa egin da");
     }
 
     private static void aukera5() throws Exception {
-        String [] parametroak = {workspace+"/Datuak/train.arff",workspace+"/Datuak/test.arff",workspace+"/modeloa/modeloaJ48.model",workspace+"/modeloa/emaitzakJ48.txt"};
+        String [] parametroak = {"./Datuak/trainBOW.arff","./Datuak/test.arff","./modeloa/modeloaJ48.model","./modeloa/emaitzakJ48.txt"};
         GetJ48Model.main(parametroak);
         System.out.println("Baseline sortu J48 erabiliz, lor daitekeen kalitatearen behe bornea");
     }
 
     private static void aukera6() throws Exception {
-        String [] parametroak = {workspace+"/Datuak/train.arff",workspace+"/modeloa/modeloaRandomForest.model",workspace+"/modeloa/emaitzakRForest.txt"};
+        String [] parametroak = {"./Datuak/trainBOW.arff","./modeloa/modeloaRandomForest.model","./modeloa/emaitzakRForest.txt"};
         GetRandomForestModel.main(parametroak);
         System.out.println("Baseline sortu Random Forest erabiliz, lor daitekeen kalitatearen behe bornea");
     }
 
     private static void aukera7() throws Exception {
-        String [] parametroak = {workspace+"/modeloa/modeloaRandomForest.model",workspace+"/Datuak/test.csv",workspace+"/modeloa/iragarpen.txt",workspace+"/Dictionary/hiztegia.txt"};
+        String [] parametroak = {"./modeloa/modeloaRandomForest.model","./Datuak/test.csv","./modeloa/iragarpen.txt","./Dictionary/hiztegia.txt"};
         Iragarpena.main(parametroak);
         System.out.println("Iragarpena ondo egin da.");
     }
