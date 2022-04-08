@@ -16,8 +16,21 @@ import weka.filters.unsupervised.instance.RemoveWithValues;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
+import java.io.IOException;
 
 public class AtributuHautapena {
+
+
+    /**
+     * 3 Parametro behar ditu programak:
+     *
+     * 	1. Parametroa BoW motako train arff fitxategia
+     * 	2. Parametroa Hiztegia gordetzeko fitxategia
+     * 	3. Dev/Test .arff fitxategia
+     *
+     * @param args the arguments
+     * @throws Exception Signals that an exception has occurred
+     */
 
     public static void main(String[] args) throws Exception {
 
@@ -112,8 +125,4 @@ public class AtributuHautapena {
             arffSaver.writeBatch();
         }
     }
-
-
-
-
 }

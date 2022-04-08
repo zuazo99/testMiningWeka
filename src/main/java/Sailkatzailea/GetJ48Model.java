@@ -2,6 +2,7 @@ package Sailkatzailea;
 
 import java.io.File;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Random;
 
 import weka.classifiers.evaluation.Evaluation;
@@ -18,6 +19,18 @@ import weka.filters.unsupervised.instance.RemovePercentage;
 
 
 public class GetJ48Model {
+
+    /**
+     * 4 Parametro behar ditu programak:
+     *
+     * 	1. datuen arff-a
+     * 	2. hold out-ekin sortutako test-aren arff-a
+     * 	3. J48 modeloarekin sortzen den modeloa
+     * 	4. kalitatearen estimazioa gordetzen duen txt-a
+     *
+     * @param args the arguments
+     * @throws Exception Signals that an exception has occurred
+     */
 
     public static void main(String[] args) throws Exception {
 
@@ -37,7 +50,7 @@ public class GetJ48Model {
             System.out.println("\t2- Irteerako eredu iragarlearen .model fitxategiaren helbidea");
             System.out.println("\t3- Irteerako .txt fitxategiaren helbidea");
             System.out.println("\nErabilera:");
-            System.out.println("java -jar GetJ48Model.jar train.arff test.arff modeloa.model kalitatearenestimazioa.txt ");
+            System.out.println("java -jar GetJ48Model.jar train.arff test.arff modeloa.model emaitzakJ48.txt ");
         }
         else{
             DataSource source=null;

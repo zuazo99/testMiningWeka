@@ -19,6 +19,18 @@ import java.io.*;
 
 public class Iragarpena {
 
+    /**
+     * 4 Parametro behar ditu programak:
+     *
+     * 	1. modeloa
+     * 	2. arff fitxategia
+     * 	3. irteera fitxategia
+     * 	4. hiztegia
+     *
+     * @param args the arguments
+     * @throws Exception Signals that an exception has occurred
+     */
+
     public static void main (String[] args) throws Exception {
 
          /*
@@ -149,6 +161,14 @@ public class Iragarpena {
 
     }
 
+    /**
+     * iragarpenak lortzeko.
+     *
+     * @param s daukazun csv fitxategiaren izena
+     * @throws Exception Signals that an exception has occurred
+     */
+
+
     public String iragarpenakAtera(String s) throws Exception {
         String iragarpena = "SPAM";
         RandomForest randomF = (RandomForest) weka.core.SerializationHelper.read("randomForestUI.model");
@@ -176,12 +196,27 @@ public class Iragarpena {
         return iragarpena;
     }
 
+    /**
+     * Testua datuak kargatzeko.
+     *
+     * @param path datuen path-a
+     * @throws Exception Signals that an exception has occurred
+     */
+
     public static Instances datuakKargatu(String path) throws Exception{
         ConverterUtils.DataSource source = new ConverterUtils.DataSource(path);
         Instances data = source.getDataSet();
         data.setClassIndex(data.numAttributes() - 1);
         return data;
     }
+
+    /**
+     * ebaluatzeko
+     *
+     * @param model modeloa
+     * @param test testa
+     * @throws Exception Signals that an exception has occurred
+     */
 
     public static Evaluation ebaluatu(Classifier model, Instances test) throws Exception{
         // Ebaluatu
@@ -190,10 +225,25 @@ public class Iragarpena {
         return eval;
     }
 
+    /**
+     * classifier lortzeko
+     *
+     * @param path datuen path-a
+     * @throws Exception Signals that an exception has occurred
+     */
+
     public static Classifier getClassifier(String path) throws Exception{
        Classifier cls =  (Classifier) weka.core.SerializationHelper.read(path);
        return cls;
     }
+
+    /**
+     * characters removal
+     *
+     * @param fileName input datuen izena
+     * @param fileResult output datuen izena
+     * @throws Exception Signals that an exception has occurred
+     */
 
     private static void removeCharactersFromFile(String fileName, String fileResult) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(fileName));
@@ -208,6 +258,13 @@ public class Iragarpena {
         br.close();
         pw.close();
     }
+
+    /**
+     * CSV kargatzeko
+     *
+     * @param path datuen path-a
+     * @throws Exception Signals that an exception has occurred
+     */
 
     private static Instances getCSVLoader(String path) throws IOException {
         CSVLoader csvLoader = new CSVLoader();

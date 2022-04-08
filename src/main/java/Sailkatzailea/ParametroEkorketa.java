@@ -11,12 +11,24 @@ import weka.filters.unsupervised.instance.RemovePercentage;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.text.DecimalFormat;
 import java.util.Random;
 
 
 public class ParametroEkorketa {
+
+    /**
+     * 2 Parametro behar ditu programak:
+     *
+     * 	1. datuen arff-a
+     * 	2. emaitzen dokumentua
+     *
+     * @param args the arguments
+     * @throws IOException Signals that an I/O exception has occurred.
+     * @throws Exception Signals that an exception has occurred
+     */
 
     public static void main(String[] args) throws Exception {
         if (args.length != 2) {
@@ -26,7 +38,6 @@ public class ParametroEkorketa {
 
 
         } else {
-
 
             long startTime = System.nanoTime();
 
@@ -107,6 +118,8 @@ public class ParametroEkorketa {
                             //Ebaluazioa egin
                             Evaluation evaluator = new Evaluation(train);
                             evaluator.evaluateModel(randomF, test);
+                            System.out.println(evaluator.toSummaryString("\n=== Results ===\n",false));
+
                             System.out.println(evaluator.toSummaryString("\n=== Results ===\n",false));
 
                             long konbinazioAmaieraDenbora = System.nanoTime();
